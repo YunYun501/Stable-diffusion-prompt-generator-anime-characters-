@@ -1,0 +1,131 @@
+/* ===== Buttons ===== */
+.btn {
+  background: var(--secondary);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 6px 14px;
+  font-size: 13px;
+  font-family: var(--font);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.15s;
+}
+
+.btn:hover { background: var(--secondary-hover); }
+
+.btn-primary {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: #fff;
+  font-weight: 500;
+}
+
+.btn-primary:hover { background: var(--primary-hover); }
+
+.btn-secondary {
+  background: var(--secondary);
+}
+
+.btn-sm {
+  padding: 4px 8px;
+  font-size: 12px;
+}
+
+/* ===== Slot Toggle Buttons ===== */
+.btn-onoff {
+  width: 32px;
+  min-width: 32px;
+  height: 26px;
+  padding: 0;
+  font-size: 11px;
+  font-weight: 600;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+  cursor: pointer;
+  text-align: center;
+  line-height: 26px;
+}
+
+.btn-onoff.on {
+  background: var(--green);
+  color: #fff;
+  border-color: var(--green);
+}
+
+.btn-onoff.off {
+  background: var(--red);
+  color: #fff;
+  border-color: var(--red);
+}
+
+.btn-lock {
+  width: 28px;
+  min-width: 28px;
+  height: 26px;
+  padding: 0;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  cursor: pointer;
+  text-align: center;
+  line-height: 26px;
+}
+
+.btn-lock.locked {
+  background: var(--blue-bg);
+  border-color: var(--blue);
+}
+
+/* ===== Small icon buttons in slot rows ===== */
+.btn-slot-random,
+.btn-color-random {
+  width: 28px;
+  min-width: 28px;
+  height: 26px;
+  padding: 0;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text);
+  cursor: pointer;
+  text-align: center;
+  line-height: 26px;
+}
+
+.btn-slot-random:hover,
+.btn-color-random:hover {
+  background: var(--bg-slot-hover);
+}
+
+.btn-color-random.hidden { display: none; }
+
+/* ===== Section control buttons ===== */
+.section-buttons .btn {
+  padding: 3px 8px;
+  font-size: 11px;
+}
+
+/* ===== Select / Input base ===== */
+select, input[type="text"], input[type="number"] {
+  background: var(--bg);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 5px 8px;
+  font-size: 13px;
+  font-family: var(--font);
+}
+
+select:focus, input:focus, textarea:focus {
+  outline: none;
+  border-color: var(--primary);
+}
+
+/* ===== Checkbox / Radio ===== */
+input[type="checkbox"],
+input[type="radio"] {
+  accent-color: var(--primary);
+}

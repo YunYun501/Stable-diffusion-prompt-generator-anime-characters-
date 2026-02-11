@@ -1,0 +1,157 @@
+/* ===== Base & Page Layout ===== */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: var(--font);
+  background: var(--bg);
+  color: var(--text);
+  padding: 16px 24px;
+  min-height: 100vh;
+}
+
+header h1 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #fff;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 12px 0;
+}
+
+/* ===== Prompt Output Section ===== */
+#prompt-section { margin-bottom: 12px; }
+
+#prompt-output {
+  width: 100%;
+  background: var(--bg-surface);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 10px;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  resize: vertical;
+  margin-bottom: 8px;
+}
+
+#prompt-buttons {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+/* ===== Settings Bar ===== */
+#settings-bar {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 8px 12px;
+  background: var(--bg-surface);
+  border-radius: var(--border-radius);
+  border: 1px solid var(--border);
+  margin-bottom: 12px;
+}
+
+.setting {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+}
+
+.setting-label {
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+/* ===== Sections Container ===== */
+#sections-container {
+  display: flex;
+  gap: var(--section-gap);
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.section {
+  flex: 1;
+  min-width: 340px;
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 10px;
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--border);
+}
+
+.section-title {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.section-buttons {
+  display: flex;
+  gap: 4px;
+}
+
+/* Clothing 2-column sub-layout */
+.section-columns {
+  display: flex;
+  gap: 10px;
+}
+
+.section-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: var(--slot-gap);
+}
+
+/* ===== Save / Load ===== */
+#save-load-section {
+  margin-top: 16px;
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 10px;
+}
+
+#save-load-section summary {
+  cursor: pointer;
+  font-weight: 500;
+  padding: 4px;
+}
+
+#save-load-content {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#save-row, #load-row {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+#config-name, #config-select {
+  flex: 1;
+}
+
+#save-status {
+  font-size: 12px;
+  color: var(--text-muted);
+  min-height: 18px;
+}

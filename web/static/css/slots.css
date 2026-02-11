@@ -1,0 +1,102 @@
+/* ===== Slot Row ===== */
+.slot-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 8px;
+  border-radius: var(--border-radius);
+  border: 1px solid transparent;
+  transition: background 0.15s, border-color 0.15s, opacity 0.15s;
+  background: var(--bg-slot);
+}
+
+.slot-row:hover {
+  background: var(--bg-slot-hover);
+}
+
+/* Enabled state */
+.slot-row.enabled {
+  border-color: var(--green-border);
+  background: var(--green-bg);
+}
+
+/* Disabled state */
+.slot-row.disabled {
+  border-color: var(--red-border);
+  background: var(--red-bg);
+  opacity: 0.45;
+}
+
+.slot-row.disabled .slot-dropdown,
+.slot-row.disabled .slot-color,
+.slot-row.disabled .slot-weight,
+.slot-row.disabled .btn-slot-random,
+.slot-row.disabled .btn-color-random {
+  pointer-events: none;
+  opacity: 0.4;
+}
+
+/* Locked indicator */
+.slot-row.locked {
+  border-color: var(--blue);
+  box-shadow: inset 0 0 0 1px var(--blue-bg);
+}
+
+/* ===== Slot Label ===== */
+.slot-label {
+  width: 90px;
+  min-width: 90px;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text-label);
+  text-transform: capitalize;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.slot-row.disabled .slot-label {
+  color: var(--text-muted);
+}
+
+/* ===== Slot Dropdown ===== */
+.slot-dropdown {
+  flex: 1;
+  min-width: 100px;
+  background: var(--bg);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 4px 6px;
+  font-size: 12px;
+  font-family: var(--font);
+}
+
+/* ===== Slot Color Dropdown ===== */
+.slot-color {
+  width: 90px;
+  min-width: 90px;
+  background: var(--bg);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 4px 4px;
+  font-size: 11px;
+  font-family: var(--font);
+}
+
+.slot-color.hidden { display: none; }
+
+/* ===== Slot Weight ===== */
+.slot-weight {
+  width: 50px;
+  min-width: 50px;
+  background: var(--bg);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 4px;
+  font-size: 12px;
+  text-align: center;
+  font-family: var(--font-mono);
+}

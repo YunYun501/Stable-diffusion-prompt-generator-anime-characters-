@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Character Prompt Generator</title>
+  <link rel="stylesheet" href="/static/css/variables.css">
+  <link rel="stylesheet" href="/static/css/layout.css">
+  <link rel="stylesheet" href="/static/css/slots.css">
+  <link rel="stylesheet" href="/static/css/controls.css">
+</head>
+<body>
+  <header>
+    <h1>Random Anime Character Prompt Generator</h1>
+  </header>
+
+  <!-- Prompt Output -->
+  <section id="prompt-section">
+    <textarea id="prompt-output" rows="3" placeholder="Generated prompt will appear here..."></textarea>
+    <div id="prompt-buttons">
+      <button id="btn-generate" class="btn btn-primary">Generate Prompt</button>
+      <button id="btn-randomize-all" class="btn btn-secondary">Randomize All</button>
+      <button id="btn-copy" class="btn">Copy</button>
+      <button id="btn-reset" class="btn">Reset</button>
+    </div>
+  </section>
+
+  <!-- Settings Bar -->
+  <section id="settings-bar">
+    <label class="setting">
+      <input type="checkbox" id="full-body-mode" checked>
+      <span>Full-body mode</span>
+    </label>
+    <div class="setting">
+      <span class="setting-label">Color Mode:</span>
+      <label><input type="radio" name="color-mode" value="none" checked> None</label>
+      <label><input type="radio" name="color-mode" value="palette"> Palette</label>
+      <label><input type="radio" name="color-mode" value="random"> Random</label>
+    </div>
+    <div class="setting">
+      <label for="palette-select">Palette:</label>
+      <select id="palette-select">
+        <option value="">(None)</option>
+      </select>
+    </div>
+  </section>
+
+  <hr>
+
+  <!-- Slot Sections (built dynamically by JS) -->
+  <div id="sections-container"></div>
+
+  <!-- Save / Load -->
+  <details id="save-load-section">
+    <summary>Save / Load Configuration</summary>
+    <div id="save-load-content">
+      <div id="save-row">
+        <input type="text" id="config-name" placeholder="my_character">
+        <button id="btn-save" class="btn">Save</button>
+      </div>
+      <div id="load-row">
+        <select id="config-select">
+          <option value="">(Select config)</option>
+        </select>
+        <button id="btn-load" class="btn">Load</button>
+        <button id="btn-refresh-configs" class="btn btn-sm">Refresh</button>
+      </div>
+      <div id="save-status"></div>
+    </div>
+  </details>
+
+  <script type="module" src="/static/js/app.js"></script>
+</body>
+</html>

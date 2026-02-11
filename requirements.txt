@@ -1,8 +1,12 @@
 # Random Character Prompt Generator for Stable Diffusion
 # Required dependencies
 
-# Gradio version (run_gradio.py)
+# FastAPI version (run_Fastapi.py) — recommended
+fastapi>=0.100.0
+uvicorn>=0.20.0
+
+# Gradio version (run_gradio.py) — legacy fallback
 gradio>=4.0.0
 
-# Reflex version (run_reflex.py)
+# Reflex version (run_reflex.py) — experimental
 reflex>=0.5.0

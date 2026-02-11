@@ -8,6 +8,7 @@
  * - Changed upper-body mode to a one-shot disable action for `waist`, `lower_body`, `full_body`, `legs`, `feet`.
  * - Added lower-body `covers_legs` constraints and backend/frontend enforcement.
  * - Changed "Always Include" prefix to default empty and added selectable legacy SD preset.
+ * - Added toggleable colorized prompt output (default on) with high-contrast output styling.
  */
 import { state, initSlotState } from "./state.js";
 import * as api from "./api.js";

@@ -66,15 +66,31 @@ hr {
 
 #prompt-output {
   width: 100%;
-  background: var(--bg-surface);
-  color: var(--text);
+  min-height: 86px;
+  background: linear-gradient(135deg, #f4f6f8 0%, #eceff4 100%);
+  color: #101317;
   border: 1px solid var(--border);
   border-radius: var(--border-radius);
   padding: 10px;
   font-family: var(--font-mono);
   font-size: 13px;
-  resize: vertical;
+  line-height: 1.45;
+  white-space: pre-wrap;
+  word-break: break-word;
   margin-bottom: 8px;
+}
+
+#prompt-output:empty::before {
+  content: attr(data-placeholder);
+  color: #6b7280;
+}
+
+.prompt-colored-part {
+  font-weight: 700;
+  text-shadow:
+    0 0 1px rgba(255, 255, 255, 0.95),
+    0 0 1px rgba(0, 0, 0, 0.85);
+  -webkit-text-stroke: 0.2px rgba(0, 0, 0, 0.65);
 }
 
 #prompt-buttons {

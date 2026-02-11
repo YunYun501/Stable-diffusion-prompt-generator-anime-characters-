@@ -38,6 +38,7 @@ Quick-reference for finding the right file for any edit.
 | Slot constraint engine (lower-body leg coverage + upper-body one-shot disable trigger) | `web/static/js/handlers.js` | `applySlotConstraints()`, `applyUpperBodyModeOneShotDisable()` |
 | Save/Load config UI | `web/static/js/handlers.js` | `wireSaveLoadEvents()` |
 | Prompt generation display | `web/static/js/prompt.js` | `generateAndDisplay()` |
+| Colorized prompt output rendering | `web/static/js/prompt.js`, `web/static/index.html` | `setPromptOutput()`, `renderPromptOutput()` |
 | Always-include prefix preset behavior | `web/static/js/prompt.js`, `web/static/index.html` | `wirePromptPrefixPreset()` |
 | All API fetch calls | `web/static/js/api.js` | One function per endpoint |
 | State shape, init, getters | `web/static/js/state.js` | `state` object, `initSlotState()` |

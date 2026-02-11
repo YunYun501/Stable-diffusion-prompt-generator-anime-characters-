@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "title": "Art-Proven Color Palettes for Anime Characters",
-  "generated_utc": "2026-02-11T12:00:00Z",
+  "generated_utc": "2026-02-11T17:10:00Z",
   "palettes": [
     {"id": "complementary_blue_orange", "name": "Blue & Orange Harmony", "type": "harmony", "colors": ["blue", "orange", "white", "cream"], "description": "Classic complementary contrast"},
     {"id": "complementary_red_green", "name": "Red & Green Classic", "type": "harmony", "colors": ["red", "green", "white", "gold"], "description": "Traditional complementary pair"},
@@ -89,7 +89,17 @@
     {"id": "valentine_romantic", "name": "Valentine Romantic", "type": "seasonal", "colors": ["pink", "red", "white", "gold", "light pink"], "description": "Romantic valentine"},
     {"id": "valentine_chocolate", "name": "Valentine Chocolate", "type": "seasonal", "colors": ["brown", "pink", "cream", "red", "gold"], "description": "Chocolate valentine"},
     {"id": "halloween_classic", "name": "Halloween Classic", "type": "seasonal", "colors": ["orange", "black", "purple", "green", "white"], "description": "Classic halloween"},
-    {"id": "halloween_spooky", "name": "Spooky Halloween", "type": "seasonal", "colors": ["black", "purple", "green", "orange", "red"], "description": "Spooky halloween colors"}
+    {"id": "halloween_spooky", "name": "Spooky Halloween", "type": "seasonal", "colors": ["black", "purple", "green", "orange", "red"], "description": "Spooky halloween colors"},
+    {"id": "naruto_sakura_schemecolor", "name": "Sakura (Naruto)", "type": "anime_classic", "colors": ["navy blue", "mint", "white", "light pink", "burgundy"], "description": "Character palette inspired by SchemeColor's Sakura (Naruto)"},
+    {"id": "naruto_akatsuki_schemecolor", "name": "Akatsuki (Naruto)", "type": "anime_classic", "colors": ["crimson", "light grey", "dark grey", "olive"], "description": "Character palette inspired by SchemeColor's Akatsuki (Naruto)"},
+    {"id": "naruto_shikamaru_schemecolor", "name": "Shikamaru (Naruto)", "type": "anime_classic", "colors": ["olive", "peach", "black", "teal", "silver"], "description": "Character palette inspired by SchemeColor's Shikamaru Nara (Naruto)"},
+    {"id": "naruto_uzumaki_schemecolor", "name": "Naruto Uzumaki", "type": "anime_classic", "colors": ["dark grey", "orange", "yellow", "cream", "blue", "dark blue"], "description": "Character palette inspired by SchemeColor's Naruto Uzumaki (Naruto)"},
+    {"id": "jjk_nobara_schemecolor", "name": "Nobara (JJK)", "type": "anime_classic", "colors": ["tan", "brown", "light pink", "indigo", "khaki", "ivory"], "description": "Character palette inspired by SchemeColor's Nobara Kugisaki (Jujutsu Kaisen)"},
+    {"id": "jjk_gojo_schemecolor", "name": "Gojo (JJK)", "type": "anime_classic", "colors": ["dark blue", "purple", "lavender", "white", "cyan", "black"], "description": "Character palette inspired by SchemeColor's Gojo Satori (Jujutsu Kaisen)"},
+    {"id": "jjk_megumi_schemecolor", "name": "Megumi (JJK)", "type": "anime_classic", "colors": ["navy blue", "gold", "peach", "blue", "dark blue"], "description": "Character palette inspired by SchemeColor's Megumi (Jujutsu Kaisen)"},
+    {"id": "triad_orange_blue_colorhex", "name": "Orange Blue Triad", "type": "harmony", "colors": ["orange", "blue", "mint", "purple", "white"], "description": "Triadic/complementary palette derived from Color-Hex schemes for #ff8200"},
+    {"id": "pastel_anime_colorhex", "name": "Pastel Anime", "type": "theme", "colors": ["light green", "light yellow", "light blue", "light purple", "rose"], "description": "Pastel anime palette inspired by Color-Hex"},
+    {"id": "kawaii_anime_pastelcolorpalettes", "name": "Kawaii Anime Pastels", "type": "theme", "colors": ["light blue", "sky blue", "ivory", "light pink", "light yellow"], "description": "Kawaii anime pastel palette inspired by PastelColorPalettes"}
   ],
   "individual_colors": [
     "white", "black", "grey", "light grey", "dark grey", "silver",
@@ -107,7 +117,8 @@
       "complementary_blue_orange", "complementary_red_green", "complementary_purple_yellow",
       "analogous_ocean", "analogous_sunset", "analogous_forest", "analogous_berry",
       "triadic_primary", "triadic_secondary",
-      "monochrome_blue", "monochrome_pink", "monochrome_purple", "monochrome_grey"
+      "monochrome_blue", "monochrome_pink", "monochrome_purple", "monochrome_grey",
+      "triad_orange_blue_colorhex"
     ],
     "mood": [
       "warm_cozy", "warm_passionate", "warm_cheerful", "warm_autumn",
@@ -121,7 +132,8 @@
       "military_green", "military_naval",
       "gothic_lolita_classic", "gothic_lolita_sweet", "lolita_sweet", "lolita_classic",
       "elegant_royal", "elegant_rose", "elegant_black_tie",
-      "nature_forest", "nature_mermaid", "nature_flower"
+      "nature_forest", "nature_mermaid", "nature_flower",
+      "pastel_anime_colorhex", "kawaii_anime_pastelcolorpalettes"
     ],
     "anime_classic": [
       "sailor_navy", "sailor_green", "sailor_white",
@@ -131,7 +143,9 @@
       "shrine_maiden", "kimono_classic", "kimono_elegant", "yukata_summer",
       "knight_silver", "knight_dark", "witch_classic", "witch_cute",
       "elf_forest", "demon_classic", "angel_classic",
-      "idol_pink", "idol_blue", "idol_rainbow"
+      "idol_pink", "idol_blue", "idol_rainbow",
+      "naruto_sakura_schemecolor", "naruto_akatsuki_schemecolor", "naruto_shikamaru_schemecolor", "naruto_uzumaki_schemecolor",
+      "jjk_nobara_schemecolor", "jjk_gojo_schemecolor", "jjk_megumi_schemecolor"
     ],
     "seasonal": [
       "spring_sakura", "spring_fresh",

@@ -4,7 +4,7 @@
 
 import { state, getSlotStateForAPI, getLockedMap } from "./state.js";
 import * as api from "./api.js";
-import { generateAndDisplay, setPromptOutput } from "./prompt.js";
+import { clearPromptOutput, generateAndDisplay, getPromptOutputText, setPromptOutput } from "./prompt.js";
 
 /** Reference to all slot DOM components, keyed by slot name. */
 let allSlotComponents = {};
@@ -172,11 +172,11 @@ export function wireGlobalEvents() {
       c.weightInput.value = "1.0";
     }
     applySlotConstraints();
-    document.getElementById("prompt-output").value = "";
+    clearPromptOutput();
   });
 
   document.getElementById("btn-copy").addEventListener("click", () => {
-    const text = document.getElementById("prompt-output").value;
+    const text = getPromptOutputText();
     navigator.clipboard.writeText(text);
   });
 

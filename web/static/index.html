@@ -27,7 +27,11 @@
       </div>
       <textarea id="prompt-prefix" rows="2" placeholder="Optional text prepended to every generated prompt..."></textarea>
     </div>
-    <textarea id="prompt-output" rows="3" placeholder="Generated prompt will appear here..."></textarea>
+    <label class="setting" for="prompt-colorize-toggle">
+      <input type="checkbox" id="prompt-colorize-toggle" checked>
+      <span>Colorize prompt output</span>
+    </label>
+    <div id="prompt-output" data-placeholder="Generated prompt will appear here..." aria-live="polite"></div>
     <div id="prompt-buttons">
       <button id="btn-generate" class="btn btn-primary">Generate Prompt</button>
       <button id="btn-randomize-all" class="btn btn-secondary">Randomize All</button>

@@ -103,6 +103,7 @@ Each slot row contains these controls in order:
 | **Reset** | Clear all slot values, colors, weights to defaults. Clear prompt output. |
 | **Always Include Prefix** | Free-text optional prefix prepended to generated prompt. Default is empty. |
 | **Prefix Preset** | Selectable preset that fills the previous SD quality string: `(masterpiece),(best quality),(ultra-detailed),(best illustration),(absurdres),(very aesthetic),(newest),detailed eyes, detailed face`. |
+| **Colorize Prompt Output** | Toggle (default: on). Applies colored rendering directly in the single prompt output field. When off, the same field shows plain text. |
 
 ---
 

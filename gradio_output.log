@@ -1,0 +1,2 @@
+C:\Local\Github\Random-character-prompt-for-SD-\generator\app.py:238: UserWarning: The parameters have been moved from the Blocks constructor to the launch() method in Gradio 6.0: css. Please pass these parameters to launch() instead.
+  with gr.Blocks(css=CUSTOM_CSS, title="Character Prompt Generator") as app:

@@ -77,5 +77,14 @@
   "status_saved": "Saved: {name}",
   "status_loaded": "Loaded: {name}",
   "status_enter_name": "Please enter a config name",
-  "status_select_config": "Select a config first"
+  "status_select_config": "Select a config first",
+  "group_uniform_service": "Uniform / Service / Military",
+  "group_japanese_traditional": "Japanese Traditional",
+  "group_modern_everyday": "Modern / Everyday",
+  "group_sports_stage": "Sports / Stage",
+  "group_formal_fashion": "Formal / Fashion",
+  "group_armor_fantasy": "Armor / Fantasy",
+  "group_swimwear": "Swimwear",
+  "group_cute_themed": "Cute / Themed",
+  "group_props_tech": "Props / Tech"
 }

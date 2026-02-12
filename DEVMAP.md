@@ -35,6 +35,7 @@ Quick-reference for finding the right file for any edit.
 | Slot row appearance (sizes, borders) | `web/static/css/slots.css` | `.slot-row`, `.slot-dropdown`, etc. |
 | Button styles, inputs, toggles | `web/static/css/controls.css` | `.btn`, `.btn-onoff`, `.btn-lock` |
 | Slot row DOM creation | `web/static/js/components.js` | `createSlotRow()` |
+| Grouped dropdown rendering (optgroup by catalog group metadata) | `web/static/js/components.js` | `populateSlotDropdown()` |
 | Section DOM creation | `web/static/js/components.js` | `createSection()` |
 | On/Off toggle, Lock toggle | `web/static/js/handlers.js` | `wireSlotEvents()` |
 | Randomize All, Reset, Copy | `web/static/js/handlers.js` | `wireGlobalEvents()` |
@@ -59,6 +60,7 @@ Quick-reference for finding the right file for any edit.
 | Body features | `prompt data/body/body_features.json` |
 | Expressions | `prompt data/expressions/female_expressions.json` |
 | Clothing items | `prompt data/clothing/clothing_list.json` |
+| Clothing style grouping metadata | `prompt data/clothing/clothing_list.json` | item-level `style_group` + catalog-level `style_groups_i18n` |
 | Lower-body leg-coverage flags | `prompt data/clothing/clothing_list.json` | `covers_legs` on `body_part == lower_body` items |
 | Poses | `prompt data/poses/poses.json` |
 | Pose `uses_hands` metadata | `prompt data/poses/poses.json` | item-level flag for pose->hand-actions one-shot disable |

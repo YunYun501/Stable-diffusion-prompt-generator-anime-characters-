@@ -7,9 +7,51 @@ import { t } from "./i18n.js";
 
 const LOCKED_ICON = "\uD83D\uDD12";
 const UNLOCKED_ICON = "\uD83D\uDD13";
+const GROUP_DISPLAY_ORDER = [
+  "uniform_service",
+  "japanese_traditional",
+  "modern_everyday",
+  "formal_fashion",
+  "sports_stage",
+  "armor_fantasy",
+  "swimwear",
+  "cute_themed",
+  "props_tech",
+];
 
 function getSlotLabel(slotName) {
   return t(`slot_label_${slotName}`);
+}
+
+function createSlotOptionElement(opt) {
+  const el = document.createElement("option");
+  el.value = opt.id;
+  el.textContent = localizeFromI18nMap(opt.name_i18n, state.uiLocale, opt.name || opt.id || "");
+  return el;
+}
+
+function getOptionGroupKey(opt) {
+  if (!opt || typeof opt.group !== "string") return "";
+  return opt.group.trim();
+}
+
+function getOptionGroupLabel(opt) {
+  const key = getOptionGroupKey(opt);
+  if (!key) return "";
+
+  // Prefer UI bundle keys so group headers always follow UI language toggle.
+  const i18nKey = `group_${key}`;
+  const fromUiBundle = t(i18nKey);
+  if (fromUiBundle !== i18nKey) {
+    return fromUiBundle;
+  }
+
+  return localizeFromI18nMap(opt.group_i18n, state.uiLocale, key);
+}
+
+function getGroupDisplayRank(groupKey) {
+  const idx = GROUP_DISPLAY_ORDER.indexOf(groupKey);
+  return idx >= 0 ? idx : Number.MAX_SAFE_INTEGER;
 }
 
 function populateSlotDropdown(slotName, dropdown, selectedValueId) {
@@ -21,12 +63,54 @@ function populateSlotDropdown(slotName, dropdown, selectedValueId) {
   dropdown.appendChild(noneOpt);
 
   const slotDef = state.slotDefs[slotName];
-  for (const opt of (slotDef?.options || [])) {
-    const el = document.createElement("option");
-    el.value = opt.id;
-    // Use option's name_i18n directly instead of doing a lookup
-    el.textContent = localizeFromI18nMap(opt.name_i18n, state.uiLocale, opt.name || opt.id || "");
-    dropdown.appendChild(el);
+  const options = slotDef?.options || [];
+  const hasGroups = options.some((opt) => getOptionGroupKey(opt));
+
+  if (!hasGroups) {
+    for (const opt of options) {
+      dropdown.appendChild(createSlotOptionElement(opt));
+    }
+    dropdown.value = selectedValueId || "";
+    return;
+  }
+
+  const grouped = new Map();
+  const ungrouped = [];
+
+  for (const opt of options) {
+    const groupKey = getOptionGroupKey(opt);
+    if (!groupKey) {
+      ungrouped.push(opt);
+      continue;
+    }
+    if (!grouped.has(groupKey)) {
+      grouped.set(groupKey, {
+        label: getOptionGroupLabel(opt),
+        options: [],
+      });
+    }
+    grouped.get(groupKey).options.push(opt);
+  }
+
+  const sortedGroups = Array.from(grouped.entries()).sort((a, b) => {
+    const [aKey, aData] = a;
+    const [bKey, bData] = b;
+    const rankDelta = getGroupDisplayRank(aKey) - getGroupDisplayRank(bKey);
+    if (rankDelta !== 0) return rankDelta;
+    return aData.label.localeCompare(bData.label);
+  });
+
+  for (const [, groupData] of sortedGroups) {
+    const groupEl = document.createElement("optgroup");
+    groupEl.label = groupData.label;
+    for (const opt of groupData.options) {
+      groupEl.appendChild(createSlotOptionElement(opt));
+    }
+    dropdown.appendChild(groupEl);
+  }
+
+  for (const opt of ungrouped) {
+    dropdown.appendChild(createSlotOptionElement(opt));
   }
 
   dropdown.value = selectedValueId || "";

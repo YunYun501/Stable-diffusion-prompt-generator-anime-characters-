@@ -321,16 +321,57 @@ class PromptGenerator:
         """Get options for a slot with localized names embedded."""
         options = self.get_slot_options(slot_name)
         lang = self.normalize_language(language)
+        slot_def = self.SLOT_DEFINITIONS.get(slot_name, {})
+        catalog_name = slot_def.get("catalog")
+        catalog = self.catalogs.get(catalog_name, {})
+        # Optional catalog-level map for grouping labels.
+        catalog_group_i18n = {}
+        for key in ("style_groups_i18n", "ui_groups_i18n", "group_i18n"):
+            maybe_map = catalog.get(key)
+            if isinstance(maybe_map, dict):
+                catalog_group_i18n = maybe_map
+                break
+
         result: List[dict] = []
         for item in options:
             names = item.get("name_i18n", {})
             localized = names.get(lang) if isinstance(names, dict) else None
+            group = item.get("style_group") or item.get("ui_group") or item.get("group")
+            if not isinstance(group, str) or not group.strip():
+                group = None
+
+            group_i18n = {}
+            for key in ("style_group_i18n", "ui_group_i18n", "group_i18n"):
+                maybe_map = item.get(key)
+                if isinstance(maybe_map, dict):
+                    group_i18n = maybe_map
+                    break
+            if not group_i18n and group:
+                maybe_map = catalog_group_i18n.get(group)
+                if isinstance(maybe_map, dict):
+                    group_i18n = maybe_map
+
+            localized_group = None
+            if group:
+                localized_group = (
+                    group_i18n.get(lang)
+                    if isinstance(group_i18n, dict)
+                    else None
+                ) or (
+                    group_i18n.get("en")
+                    if isinstance(group_i18n, dict)
+                    else None
+                ) or group
+
             result.append(
                 {
                     "id": item.get("id", ""),
                     "name": item.get("name", item.get("id", "")),
                     "name_i18n": names if isinstance(names, dict) else {"en": item.get("name", ""), "zh": item.get("name", "")},
                     "localized_name": localized or item.get("name", item.get("id", "")),
+                    "group": group,
+                    "group_i18n": group_i18n,
+                    "localized_group": localized_group,
                 }
             )
         return result

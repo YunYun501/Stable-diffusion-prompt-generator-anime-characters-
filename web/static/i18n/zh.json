@@ -78,5 +78,14 @@
   "lang_option_en": "英文",
   "lang_option_zh": "中文",
   "btn_palette_random": "随机调色板",
-  "btn_palette_random_title": "随机选择调色板"
+  "btn_palette_random_title": "随机选择调色板",
+  "group_uniform_service": "制服 / 职业 / 军警",
+  "group_japanese_traditional": "日式传统",
+  "group_modern_everyday": "现代日常",
+  "group_sports_stage": "运动 / 舞台",
+  "group_formal_fashion": "正式 / 时尚",
+  "group_armor_fantasy": "盔甲 / 奇幻",
+  "group_swimwear": "泳装",
+  "group_cute_themed": "可爱 / 主题",
+  "group_props_tech": "道具 / 科技"
 }

@@ -105,7 +105,7 @@ Each slot row contains these controls in order:
 | **On/Off button** | Toggles `enabled`. Green="On", Red="Off". Disabled slots are dimmed and excluded from prompt. |
 | **Lock button** | Toggles `locked`. Unlocked icon = open lock, Locked icon = closed lock. Locked slots are skipped by Randomize All and Section Random. |
 | **Label** | Localized slot label from UI i18n (`slot_label_*`). `gesture` is represented as localized `hand actions`. |
-| **Dropdown** | Shows localized option names from `name_i18n` in UI language; selected value stored as `value_id`. |
+| **Dropdown** | Shows localized option names from `name_i18n` in UI language; selected value stored as `value_id`. When options include grouping metadata (`group`, `group_i18n`), the dropdown is rendered with localized `optgroup` headers (for example, Uniform/Service/Military or Japanese Traditional). |
 | **Random button** | Randomize just this slot's value (and color if palette coloring is enabled). |
 | **Color dropdown** | Only visible for `has_color` slots. Select a color or "(No Color)". Stored value is canonical color token; label is localized from `individual_colors_i18n`. |
 | **Color Random button** | Only visible for `has_color` slots. Randomize just this slot's color from the active palette (when palette coloring is enabled). |
@@ -281,7 +281,7 @@ background
 ## 9. API Contract
 
 ### GET /api/slots
-Response: `{ slots: { [name]: { category, has_color, options: [{ id, name, name_i18n, localized_name }] } }, sections: { [key]: { label, label_key, icon, slots, columns? } }, lower_body_covers_legs_by_id: { [lower_body_id]: boolean }, pose_uses_hands_by_id: { [pose_id]: boolean } }`
+Response: `{ slots: { [name]: { category, has_color, options: [{ id, name, name_i18n, localized_name, group?, group_i18n?, localized_group? }] } }, sections: { [key]: { label, label_key, icon, slots, columns? } }, lower_body_covers_legs_by_id: { [lower_body_id]: boolean }, pose_uses_hands_by_id: { [pose_id]: boolean } }`
 
 ### GET /api/palettes
 Response: `{ palettes: [{ id, name, name_i18n, description_i18n, colors: string[] }], individual_colors: string[], individual_colors_i18n: { [color_token]: { en, zh } } }`

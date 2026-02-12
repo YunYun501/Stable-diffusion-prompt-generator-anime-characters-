@@ -27,6 +27,10 @@ let generateRequestSeq = 0;
 let generateTimer = null;
 const GENERATE_DEBOUNCE_MS = 150;
 
+/** Set of unmatched tokens from last parse (used for highlighting). */
+let parsedUnmatchedTokens = new Set();
+let isParsedHighlightActive = false;
+
 function getPromptPrefix() {
   const el = document.getElementById("prompt-prefix");
   return (el?.value || "").trim();
@@ -174,6 +178,11 @@ function renderPromptOutput(generatedPromptCore) {
 }
 
 export function getPromptOutputText() {
+  // Read directly from DOM to support user edits/pastes
+  const outputEl = document.getElementById("prompt-output");
+  if (outputEl) {
+    return outputEl.textContent.trim();
+  }
   return combinePrompt(getPromptPrefix(), lastGeneratedPromptCore);
 }
 
@@ -196,8 +205,81 @@ export function commitGeneratedPrompt(generatedPrompt, locale, skipHistory = fal
 
 export function clearPromptOutput() {
   lastGeneratedPromptCore = "";
+  clearParsedPromptHighlight();
   const outputEl = document.getElementById("prompt-output");
   if (outputEl) outputEl.innerHTML = "";
+}
+
+/**
+ * Normalize a token for comparison (lowercase, trim, remove weight syntax).
+ */
+function normalizeTokenForMatch(token) {
+  let t = (token || "").trim().toLowerCase();
+  // Remove weight syntax like (xxx:1.2)
+  const weightMatch = t.match(/^\((.+):[\d.]+\)$/);
+  if (weightMatch) {
+    t = weightMatch[1];
+  }
+  return t;
+}
+
+/**
+ * Render prompt output with parsed token highlighting.
+ * Matched tokens (not in unmatched list) are shown in orange.
+ */
+function renderParsedPromptOutput(promptText, unmatchedList) {
+  const outputEl = document.getElementById("prompt-output");
+  if (!outputEl) return;
+
+  outputEl.innerHTML = "";
+  if (!promptText || !promptText.trim()) return;
+
+  // Build set of normalized unmatched tokens
+  const unmatchedSet = new Set(
+    unmatchedList.map((t) => normalizeTokenForMatch(t))
+  );
+
+  const tokens = promptText
+    .split(",")
+    .map((t) => t.trim())
+    .filter((t) => t.length > 0);
+
+  tokens.forEach((token, index) => {
+    if (index > 0) {
+      outputEl.appendChild(document.createTextNode(", "));
+    }
+
+    const normalized = normalizeTokenForMatch(token);
+    const isMatched = !unmatchedSet.has(normalized);
+
+    if (isMatched) {
+      const span = document.createElement("span");
+      span.className = "prompt-parsed-match";
+      span.style.color = "#f59e0b";
+      span.style.fontWeight = "600";
+      span.textContent = token;
+      outputEl.appendChild(span);
+    } else {
+      outputEl.appendChild(document.createTextNode(token));
+    }
+  });
+}
+
+/**
+ * Activate parsed prompt highlighting with the given unmatched tokens.
+ */
+export function setParsedPromptHighlight(promptText, unmatchedList) {
+  parsedUnmatchedTokens = new Set(unmatchedList || []);
+  isParsedHighlightActive = true;
+  renderParsedPromptOutput(promptText, unmatchedList || []);
+}
+
+/**
+ * Clear parsed prompt highlighting state.
+ */
+export function clearParsedPromptHighlight() {
+  parsedUnmatchedTokens.clear();
+  isParsedHighlightActive = false;
 }
 
 async function generateAndDisplayNow(skipHistory = false) {
@@ -258,6 +340,18 @@ export function wirePromptPrefixPreset() {
   });
 
   colorizeToggle.addEventListener("change", () => {
+    // Preserve user-edited content when toggling colorize
+    const outputEl = document.getElementById("prompt-output");
+    if (outputEl) {
+      const currentText = outputEl.textContent.trim();
+      // Remove prefix from the beginning if present to get just the core prompt
+      const prefix = getPromptPrefix();
+      let coreText = currentText;
+      if (prefix && currentText.startsWith(prefix)) {
+        coreText = currentText.slice(prefix.length).replace(/^,\s*/, "").trim();
+      }
+      lastGeneratedPromptCore = coreText;
+    }
     renderPromptOutput(lastGeneratedPromptCore);
   });
 }

@@ -113,3 +113,11 @@ export function loadConfig(name) {
 export function saveConfig(name, data) {
   return post(`/api/configs/${encodeURIComponent(name)}`, { name, data });
 }
+
+/** Parse a prompt string back to slot settings. */
+export function parsePrompt(prompt, useFuzzy = true) {
+  return post("/api/parse-prompt", {
+    prompt,
+    use_fuzzy: useFuzzy,
+  });
+}

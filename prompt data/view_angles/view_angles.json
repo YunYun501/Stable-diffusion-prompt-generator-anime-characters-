@@ -293,6 +293,20 @@
         "zh": "长焦压缩透视"
       },
       "group": "lens_perspective"
+    },
+    {
+      "id": "dynamic_angle",
+      "name": "dynamic angle",
+      "category": "tilt_style",
+      "aliases": [
+        "dynamic camera angle",
+        "dramatic angle"
+      ],
+      "name_i18n": {
+        "en": "dynamic angle",
+        "zh": "??????"
+      },
+      "group": "tilt_style"
     }
   ],
   "index_by_category": {
@@ -312,7 +326,8 @@
     ],
     "tilt_style": [
       "dutch_angle",
-      "straight_horizon"
+      "straight_horizon",
+      "dynamic_angle"
     ],
     "framing": [
       "close_up_shot",

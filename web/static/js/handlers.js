@@ -11,7 +11,7 @@ import {
   getPaletteLabel,
 } from "./state.js";
 import * as api from "./api.js";
-import { clearPromptOutput, commitGeneratedPrompt, generateAndDisplay, getPromptOutputText, setPromptOutput } from "./prompt.js";
+import { clearPromptOutput, commitGeneratedPrompt, generateAndDisplay, getPromptOutputText, setPromptOutput, setParsedPromptHighlight, clearParsedPromptHighlight } from "./prompt.js";
 import { t } from "./i18n.js";
 
 const LOCKED_ICON = "\uD83D\uDD12";
@@ -34,6 +34,15 @@ const paletteColorCache = new Map();
 /** Store component refs so handlers can update the DOM. */
 export function setSlotComponents(comps) {
   allSlotComponents = comps;
+}
+
+/** Clear "parsed" highlight class from all slot rows. */
+function clearAllParsedHighlights() {
+  for (const comps of Object.values(allSlotComponents)) {
+    if (comps.row) {
+      comps.row.classList.remove("parsed");
+    }
+  }
 }
 
 export function wireSlotEvents(slotName, comps) {
@@ -181,6 +190,8 @@ export function wireGlobalEvents() {
   applySlotConstraints();
 
   document.getElementById("btn-randomize-all").addEventListener("click", async () => {
+    clearAllParsedHighlights();
+    clearParsedPromptHighlight();
     maybeRandomizePaletteForRandomizeAll();
     const data = await api.randomizeAll(
       getLockedMap(),
@@ -205,6 +216,7 @@ export function wireGlobalEvents() {
   });
 
   document.getElementById("btn-reset").addEventListener("click", () => {
+    clearAllParsedHighlights();
     for (const [name, s] of Object.entries(state.slots)) {
       s.value_id = null;
       s.color = null;
@@ -223,6 +235,35 @@ export function wireGlobalEvents() {
   document.getElementById("btn-copy").addEventListener("click", () => {
     const text = getPromptOutputText();
     navigator.clipboard.writeText(text);
+  });
+
+  document.getElementById("btn-parse").addEventListener("click", async () => {
+    const text = getPromptOutputText();
+    if (!text || !text.trim()) {
+      setStatus(t("parse_no_prompt"));
+      return;
+    }
+
+    try {
+      const result = await api.parsePrompt(text);
+      applyParsedSlots(result.slots);
+      // Highlight matched tokens in prompt output (orange for matched, normal for unmatched)
+      setParsedPromptHighlight(text, result.unmatched);
+
+      const msg = t("parse_result", {
+        matched: result.matched_count,
+        total: result.total_tokens,
+        confidence: Math.round(result.confidence * 100),
+      });
+      setStatus(msg);
+
+      if (result.unmatched.length > 0) {
+        console.log("Unmatched tokens:", result.unmatched);
+      }
+    } catch (err) {
+      console.error("Parse error:", err);
+      setStatus(t("parse_error"));
+    }
   });
 
   document.getElementById("full-body-mode").addEventListener("change", (e) => {
@@ -430,6 +471,48 @@ function applyResults(results) {
     maybeDisableLegsForLowerBodyCoverage();
   }
   if (Object.prototype.hasOwnProperty.call(results, "pose")) {
+    maybeDisableHandActionsForPoseUsage();
+  }
+  applySlotConstraints();
+}
+
+/**
+ * Apply parsed slot settings from prompt parser.
+ * Enables matched slots and updates their values/colors/weights.
+ * Highlights matched slots with orange border.
+ */
+function applyParsedSlots(parsedSlots) {
+  // Clear existing parsed highlights before applying new ones
+  clearAllParsedHighlights();
+
+  for (const [slotName, parsed] of Object.entries(parsedSlots)) {
+    if (!state.slots[slotName]) continue;
+
+    const s = state.slots[slotName];
+    const c = allSlotComponents[slotName];
+
+    // Update slot state
+    s.enabled = parsed.enabled !== false;
+    s.value_id = parsed.value_id || null;
+    s.color = parsed.color || null;
+    s.weight = parsed.weight ?? 1.0;
+
+    // Update UI components
+    if (c) {
+      c.dropdown.value = s.value_id || "";
+      c.colorSelect.value = s.color || "";
+      c.weightInput.value = String(s.weight);
+      renderSlotEnabledState(slotName, c);
+      // Add parsed highlight after renderSlotEnabledState sets base classes
+      c.row.classList.add("parsed");
+    }
+  }
+
+  // Apply constraint rules
+  if (Object.prototype.hasOwnProperty.call(parsedSlots, "lower_body")) {
+    maybeDisableLegsForLowerBodyCoverage();
+  }
+  if (Object.prototype.hasOwnProperty.call(parsedSlots, "pose")) {
     maybeDisableHandActionsForPoseUsage();
   }
   applySlotConstraints();

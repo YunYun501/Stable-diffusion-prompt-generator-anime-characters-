@@ -23,6 +23,7 @@ Quick-reference for finding the right file for any edit.
 | Pose `uses_hands` metadata lookup | `generator/prompt_generator.py` | `get_pose_uses_hands_by_id()` |
 | Color palette sampling | `generator/prompt_generator.py` | `sample_color_from_palette()` |
 | Item localization and id/name resolution | `generator/prompt_generator.py` | `get_slot_options_localized()`, `resolve_slot_item()`, `resolve_slot_value_name()` |
+| Prompt parsing (reverse prompt to slots) | `web/routes/parser.py` | `PromptParser` class with cached indices, `parse_prompt()` endpoint |
 
 ## Frontend (HTML/CSS/JS)
 

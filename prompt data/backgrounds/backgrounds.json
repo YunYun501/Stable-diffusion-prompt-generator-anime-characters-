@@ -1705,6 +1705,33 @@
         "en": "midnight",
         "zh": "午夜"
       }
+    },
+    {
+      "id": "cinematic_lighting",
+      "name": "cinematic lighting",
+      "category": "simple",
+      "aliases": [
+        "movie lighting"
+      ],
+      "name_i18n": {
+        "en": "cinematic lighting",
+        "zh": "?????"
+      },
+      "group": "lighting_atmosphere"
+    },
+    {
+      "id": "volumetric_lighting",
+      "name": "volumetric lighting",
+      "category": "simple",
+      "aliases": [
+        "god rays",
+        "volume light"
+      ],
+      "name_i18n": {
+        "en": "volumetric lighting",
+        "zh": "???"
+      },
+      "group": "lighting_atmosphere"
     }
   ],
   "index_by_category": {
@@ -1726,7 +1753,9 @@
       "starry_background",
       "floral_background",
       "heart_background",
-      "abstract_background"
+      "abstract_background",
+      "cinematic_lighting",
+      "volumetric_lighting"
     ],
     "indoor": [
       "bedroom",
@@ -1934,6 +1963,10 @@
     "chinese_traditional": {
       "en": "Chinese Traditional / Chinese-themed",
       "zh": "中式传统 / 中国风"
+    },
+    "lighting_atmosphere": {
+      "en": "Lighting & Atmosphere",
+      "zh": "?????"
     }
   }
 }

@@ -799,6 +799,58 @@
         "zh": "下缘眼镜"
       },
       "group": "style_accessories"
+    },
+    {
+      "id": "looking_at_viewer",
+      "name": "looking at viewer",
+      "category": "style",
+      "aliases": [
+        "direct gaze"
+      ],
+      "name_i18n": {
+        "en": "looking at viewer",
+        "zh": "????"
+      },
+      "group": "style_eye_state"
+    },
+    {
+      "id": "looking_away",
+      "name": "looking away",
+      "category": "style",
+      "aliases": [
+        "averted gaze"
+      ],
+      "name_i18n": {
+        "en": "looking away",
+        "zh": "????"
+      },
+      "group": "style_eye_state"
+    },
+    {
+      "id": "side_glance",
+      "name": "side glance",
+      "category": "style",
+      "aliases": [
+        "side-eye"
+      ],
+      "name_i18n": {
+        "en": "side glance",
+        "zh": "??"
+      },
+      "group": "style_eye_state"
+    },
+    {
+      "id": "downcast_eyes",
+      "name": "downcast eyes",
+      "category": "style",
+      "aliases": [
+        "eyes looking down"
+      ],
+      "name_i18n": {
+        "en": "downcast eyes",
+        "zh": "??"
+      },
+      "group": "style_eye_state"
     }
   ],
   "index_by_category": {
@@ -873,7 +925,11 @@
       "glasses",
       "round_glasses",
       "semi_rimless_glasses",
-      "under_rim_glasses"
+      "under_rim_glasses",
+      "looking_at_viewer",
+      "looking_away",
+      "side_glance",
+      "downcast_eyes"
     ],
     "expression_quality": [
       "sparkling_eyes",
@@ -909,7 +965,11 @@
       "closed_eyes",
       "half_closed_eyes",
       "one_eye_closed",
-      "crying_eyes"
+      "crying_eyes",
+      "looking_at_viewer",
+      "looking_away",
+      "side_glance",
+      "downcast_eyes"
     ],
     "eye_accessories": [
       "eyepatch",

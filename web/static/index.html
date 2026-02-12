@@ -60,13 +60,14 @@
       <span id="colorize-label">Colorize prompt output</span>
     </label>
 
-    <div id="prompt-output" data-placeholder="Generated prompt will appear here..." aria-live="polite"></div>
+    <div id="prompt-output" data-placeholder="Generated prompt will appear here..." aria-live="polite" contenteditable="true"></div>
 
     <div id="prompt-buttons">
       <button id="btn-generate" class="btn btn-primary">Generate Prompt</button>
       <button id="btn-randomize-all" class="btn btn-secondary">Randomize All</button>
       <button id="btn-copy" class="btn">Copy</button>
       <button id="btn-reset" class="btn">Reset</button>
+      <button id="btn-parse" class="btn" title="Parse prompt text back to slot settings">Parse to Slots</button>
     </div>
 
     <details id="history-section">

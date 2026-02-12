@@ -10,7 +10,7 @@ from starlette.middleware import Middleware
 from starlette.middleware.base import BaseHTTPMiddleware
 from pathlib import Path
 
-from .routes import slots, prompt, configs
+from .routes import slots, prompt, configs, parser
 
 STATIC_DIR = Path(__file__).parent / "static"
 
@@ -35,6 +35,7 @@ app.mount("/static", StaticFiles(directory=str(STATIC_DIR)), name="static")
 app.include_router(slots.router, prefix="/api")
 app.include_router(prompt.router, prefix="/api")
 app.include_router(configs.router, prefix="/api")
+app.include_router(parser.router, prefix="/api")
 
 
 @app.get("/")

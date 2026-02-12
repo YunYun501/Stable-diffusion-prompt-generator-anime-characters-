@@ -127,6 +127,7 @@ Each slot row contains these controls in order:
 | **Randomize All** | Randomize every non-locked slot, then auto-generate the prompt. |
 | **Copy** | Copy the prompt text to clipboard. |
 | **Reset** | Clear all slot values, colors, weights to defaults. Clear prompt output. |
+| **Parse to Slots** | Reverse-engineer the current prompt text back to slot settings. Matches tokens to catalog items and fills in slots with detected values, colors, and weights. Shows confidence score. |
 | **Always Include Prefix** | Free-text optional prefix prepended to generated prompt. Default is empty. |
 | **Prefix Preset** | Selectable preset that fills the previous SD quality string: `(masterpiece),(best quality),(ultra-detailed),(best illustration),(absurdres),(very aesthetic),(newest),detailed eyes, detailed face`. |
 | **Colorize Prompt Output** | Toggle (default: on). Applies colored rendering directly in the single prompt output field. When off, the same field shows plain text. |
@@ -213,6 +214,19 @@ Same as Randomize All but only for slots within that section.
   - `gesture` slot (shown as `hand actions`) is toggled Off once
   - user can manually toggle `gesture` back On immediately (no lock)
 - Prompt generation follows the current `gesture.enabled` state only.
+
+### Prompt Parsing (Reverse)
+- User clicks **Parse to Slots** button
+- Current prompt text is sent to `/api/parse-prompt`
+- Parser tokenizes prompt, extracts colors, matches tokens to catalog items
+- Matching uses cached indices for O(1) lookups:
+  1. Exact match (item name)
+  2. Normalized match (ignore spaces/hyphens)
+  3. Word-based partial match
+  4. Fuzzy match (for typos, threshold 85%)
+- Results applied to slots: `value_id`, `color`, `weight`, `enabled`
+- Shows confidence score: `matched_count / total_tokens`
+- Unmatched tokens logged to console
 
 ---
 
@@ -390,6 +404,11 @@ Response: `{ prompt: string }`
 Body: `{ palette_id, slots: { [name]: { enabled, value_id, color, weight } }, full_body_mode, upper_body_mode, output_language }`
 Note: `upper_body_mode` is accepted for compatibility but not used as a backend hard-disable.
 Response: `{ colors: { [name]: string }, prompt: string }`
+
+### POST /api/parse-prompt
+Body: `{ prompt: string, use_fuzzy: boolean }`
+Response: `{ slots: { [name]: { value_id, color, weight, enabled, confidence } }, unmatched: string[], matched_count: number, total_tokens: number, confidence: float }`
+Note: Reverse-engineers a prompt string back to slot settings. Uses cached indices for fast O(1) lookups.
 
 ### GET /api/configs
 Response: `{ configs: string[] }`

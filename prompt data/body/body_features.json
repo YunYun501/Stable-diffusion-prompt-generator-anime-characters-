@@ -1145,6 +1145,18 @@
         "en": "onee-san",
         "zh": "姐姐"
       }
+    },
+    {
+      "id": "bare_shoulders",
+      "name": "bare shoulders",
+      "category": "special_features",
+      "aliases": [
+        "exposed shoulders"
+      ],
+      "name_i18n": {
+        "en": "bare shoulders",
+        "zh": "??"
+      }
     }
   ],
   "index_by_category": {
@@ -1265,7 +1277,8 @@
       "third_eye",
       "forehead_jewel",
       "scales",
-      "pointed_teeth"
+      "pointed_teeth",
+      "bare_shoulders"
     ]
   },
   "categories": [

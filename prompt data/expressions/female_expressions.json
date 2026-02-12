@@ -830,6 +830,15 @@
         "en": "\"Moe panic\" (tiny mouth, big eyes)",
         "zh": "萌系慌张（小嘴大眼）"
       }
+    },
+    {
+      "id": "neutral_baseline__closed_mouth",
+      "name": "Closed mouth",
+      "emotion_family": "neutral_baseline",
+      "name_i18n": {
+        "en": "Closed mouth",
+        "zh": "??"
+      }
     }
   ],
   "index_by_emotion_family": {
@@ -839,7 +848,8 @@
       "neutral_baseline__resting_serious_composed",
       "neutral_baseline__curious_attentive",
       "neutral_baseline__deadpan_unimpressed",
-      "neutral_baseline__thinking_pondering"
+      "neutral_baseline__thinking_pondering",
+      "neutral_baseline__closed_mouth"
     ],
     "happiness_positive": [
       "happiness_positive__smile_closed-mouth",

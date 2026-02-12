@@ -1,0 +1,223 @@
+{
+  "name": "Saber_battle_mage",
+  "created_at": "2026-02-12T23:43:29.996415",
+  "slots": {
+    "hair_style": {
+      "enabled": true,
+      "locked": false,
+      "value_id": "hair_over_one_eye",
+      "color": null,
+      "weight": 1
+    },
+    "hair_length": {
+      "enabled": true,
+      "locked": false,
+      "value_id": "floor_length_hair",
+      "color": null,
+      "weight": 1
+    },
+    "hair_color": {
+      "enabled": true,
+      "locked": true,
+      "value_id": "blonde_hair",
+      "color": null,
+      "weight": 1
+    },
+    "hair_texture": {
+      "enabled": true,
+      "locked": false,
+      "value_id": "voluminous_hair",
+      "color": null,
+      "weight": 1
+    },
+    "eye_color": {
+      "enabled": true,
+      "locked": true,
+      "value_id": "green_eyes",
+      "color": null,
+      "weight": 1
+    },
+    "eye_expression_quality": {
+      "enabled": true,
+      "locked": false,
+      "value_id": "sharp_eyes",
+      "color": null,
+      "weight": 1
+    },
+    "eye_shape": {
+      "enabled": false,
+      "locked": false,
+      "value_id": "round_eyes",
+      "color": null,
+      "weight": 1
+    },
+    "eye_pupil_state": {
+      "enabled": false,
+      "locked": false,
+      "value_id": "heart_shaped_pupils",
+      "color": null,
+      "weight": 1
+    },
+    "eye_state": {
+      "enabled": false,
+      "locked": false,
+      "value_id": "closed_eyes",
+      "color": null,
+      "weight": 1
+    },
+    "eye_accessories": {
+      "enabled": false,
+      "locked": false,
+      "value_id": "eyepatch",
+      "color": null,
+      "weight": 1
+    },
+    "body_type": {
+      "enabled": true,
+      "locked": true,
+      "value_id": "graceful",
+      "color": null,
+      "weight": 1
+    },
+    "height": {
+      "enabled": true,
+      "locked": true,
+      "value_id": "tall",
+      "color": null,
+      "weight": 1
+    },
+    "skin": {
+      "enabled": false,
+      "locked": false,
+      "value_id": "freckles",
+      "color": null,
+      "weight": 1
+    },
+    "age_appearance": {
+      "enabled": true,
+      "locked": true,
+      "value_id": "mature",
+      "color": null,
+      "weight": 1
+    },
+    "special_features": {
+      "enabled": false,
+      "locked": false,
+      "value_id": "fairy_wings",
+      "color": null,
+      "weight": 1
+    },
+    "expression": {
+      "enabled": true,
+      "locked": false,
+      "value_id": "tired_sleepy_bored__sleepy_half-lidded",
+      "color": null,
+      "weight": 1
+    },
+    "head": {
+      "enabled": true,
+      "locked": false,
+      "value_id": "capes",
+      "color": "purple",
+      "weight": 1
+    },
+    "neck": {
+      "enabled": true,
+      "locked": false,
+      "value_id": "neck_ribbon",
+      "color": "purple",
+      "weight": 1
+    },
+    "upper_body": {
+      "enabled": true,
+      "locked": false,
+      "value_id": "magical_barrier_armor",
+      "color": "grey",
+      "weight": 1
+    },
+    "waist": {
+      "enabled": false,
+      "locked": false,
+      "value_id": "obijime",
+      "color": "grey",
+      "weight": 1
+    },
+    "lower_body": {
+      "enabled": false,
+      "locked": false,
+      "value_id": "umanori_hakama",
+      "color": "gold",
+      "weight": 1
+    },
+    "full_body": {
+      "enabled": false,
+      "locked": false,
+      "value_id": "flight_suit",
+      "color": "black",
+      "weight": 1
+    },
+    "outerwear": {
+      "enabled": true,
+      "locked": false,
+      "value_id": "samue_jacket",
+      "color": "gold",
+      "weight": 1
+    },
+    "hands": {
+      "enabled": true,
+      "locked": false,
+      "value_id": "half_gloves",
+      "color": "black",
+      "weight": 1
+    },
+    "legs": {
+      "enabled": false,
+      "locked": false,
+      "value_id": "garter_stockings",
+      "color": "grey",
+      "weight": 1
+    },
+    "feet": {
+      "enabled": false,
+      "locked": false,
+      "value_id": "knee_high_boots",
+      "color": "gold",
+      "weight": 1
+    },
+    "accessory": {
+      "enabled": true,
+      "locked": false,
+      "value_id": "ceremonial_staff",
+      "color": "grey",
+      "weight": 1
+    },
+    "pose": {
+      "enabled": true,
+      "locked": false,
+      "value_id": "fighting_stance",
+      "color": null,
+      "weight": 1
+    },
+    "gesture": {
+      "enabled": false,
+      "locked": false,
+      "value_id": "holding_phone",
+      "color": null,
+      "weight": 1
+    },
+    "view_angle": {
+      "enabled": true,
+      "locked": false,
+      "value_id": "medium_close_up",
+      "color": null,
+      "weight": 1
+    },
+    "background": {
+      "enabled": true,
+      "locked": false,
+      "value_id": "christmas",
+      "color": null,
+      "weight": 1
+    }
+  }
+}

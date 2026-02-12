@@ -1,0 +1,223 @@
+{
+  "name": "Saber_police",
+  "created_at": "2026-02-12T23:56:01.900934",
+  "slots": {
+    "hair_style": {
+      "enabled": true,
+      "locked": false,
+      "value_id": "heart_ahoge",
+      "color": null,
+      "weight": 1
+    },
+    "hair_length": {
+      "enabled": true,
+      "locked": false,
+      "value_id": "short_hair",
+      "color": null,
+      "weight": 1
+    },
+    "hair_color": {
+      "enabled": true,
+      "locked": true,
+      "value_id": "blonde_hair",
+      "color": null,
+      "weight": 1
+    },
+    "hair_texture": {
+      "enabled": true,
+      "locked": false,
+      "value_id": "tousled_hair",
+      "color": null,
+      "weight": 1
+    },
+    "eye_color": {
+      "enabled": true,
+      "locked": true,
+      "value_id": "green_eyes",
+      "color": null,
+      "weight": 1
+    },
+    "eye_expression_quality": {
+      "enabled": true,
+      "locked": false,
+      "value_id": "sparkling_eyes",
+      "color": null,
+      "weight": 1
+    },
+    "eye_shape": {
+      "enabled": true,
+      "locked": false,
+      "value_id": "narrow_eyes",
+      "color": null,
+      "weight": 1
+    },
+    "eye_pupil_state": {
+      "enabled": true,
+      "locked": false,
+      "value_id": "spiral_eyes",
+      "color": null,
+      "weight": 1
+    },
+    "eye_state": {
+      "enabled": true,
+      "locked": false,
+      "value_id": "looking_at_viewer",
+      "color": null,
+      "weight": 1
+    },
+    "eye_accessories": {
+      "enabled": false,
+      "locked": false,
+      "value_id": "eyepatch",
+      "color": null,
+      "weight": 1
+    },
+    "body_type": {
+      "enabled": true,
+      "locked": false,
+      "value_id": "lithe",
+      "color": null,
+      "weight": 1
+    },
+    "height": {
+      "enabled": true,
+      "locked": false,
+      "value_id": "very_tall",
+      "color": null,
+      "weight": 1
+    },
+    "skin": {
+      "enabled": false,
+      "locked": false,
+      "value_id": "shiny_skin",
+      "color": null,
+      "weight": 1
+    },
+    "age_appearance": {
+      "enabled": true,
+      "locked": false,
+      "value_id": "youthful",
+      "color": null,
+      "weight": 1
+    },
+    "special_features": {
+      "enabled": false,
+      "locked": false,
+      "value_id": "black_wings",
+      "color": null,
+      "weight": 1
+    },
+    "expression": {
+      "enabled": true,
+      "locked": false,
+      "value_id": "embarrassment_shyness__embarrassed_smile",
+      "color": null,
+      "weight": 1
+    },
+    "head": {
+      "enabled": true,
+      "locked": false,
+      "value_id": "police_cap",
+      "color": "light pink",
+      "weight": 1
+    },
+    "neck": {
+      "enabled": true,
+      "locked": false,
+      "value_id": "ruff_collar",
+      "color": "light pink",
+      "weight": 1
+    },
+    "upper_body": {
+      "enabled": true,
+      "locked": false,
+      "value_id": "magical_barrier_armor",
+      "color": "silver",
+      "weight": 1
+    },
+    "waist": {
+      "enabled": true,
+      "locked": false,
+      "value_id": "holster_belt",
+      "color": "light pink",
+      "weight": 1
+    },
+    "lower_body": {
+      "enabled": true,
+      "locked": false,
+      "value_id": "police_skirt",
+      "color": "light blue",
+      "weight": 1
+    },
+    "full_body": {
+      "enabled": false,
+      "locked": false,
+      "value_id": "flight_suit",
+      "color": "white",
+      "weight": 1
+    },
+    "outerwear": {
+      "enabled": true,
+      "locked": false,
+      "value_id": "police_uniform_jacket",
+      "color": "light blue",
+      "weight": 1
+    },
+    "hands": {
+      "enabled": true,
+      "locked": false,
+      "value_id": "elbow_length_gloves",
+      "color": "light blue",
+      "weight": 1
+    },
+    "legs": {
+      "enabled": true,
+      "locked": false,
+      "value_id": "torn_stockings",
+      "color": "black",
+      "weight": 1
+    },
+    "feet": {
+      "enabled": true,
+      "locked": false,
+      "value_id": "combat_boots",
+      "color": "silver",
+      "weight": 1
+    },
+    "accessory": {
+      "enabled": true,
+      "locked": false,
+      "value_id": "corsage",
+      "color": "white",
+      "weight": 1
+    },
+    "pose": {
+      "enabled": true,
+      "locked": false,
+      "value_id": "wariza",
+      "color": null,
+      "weight": 1
+    },
+    "gesture": {
+      "enabled": false,
+      "locked": false,
+      "value_id": "holding_cup",
+      "color": null,
+      "weight": 1
+    },
+    "view_angle": {
+      "enabled": true,
+      "locked": false,
+      "value_id": "foreshortened_perspective",
+      "color": null,
+      "weight": 1
+    },
+    "background": {
+      "enabled": false,
+      "locked": false,
+      "value_id": "theater",
+      "color": null,
+      "weight": 1
+    }
+  }
+}

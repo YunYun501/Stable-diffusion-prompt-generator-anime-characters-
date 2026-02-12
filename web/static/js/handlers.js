@@ -256,6 +256,7 @@ export function wireSaveLoadEvents() {
     await api.saveConfig(name, data);
     setStatus(t("status_saved", { name }));
     await refreshConfigList();
+    document.getElementById("config-select").value = name;
   });
 
   document.getElementById("btn-load").addEventListener("click", async () => {
@@ -289,6 +290,7 @@ export function wireSaveLoadEvents() {
     }
 
     setStatus(t("status_loaded", { name }));
+    document.getElementById("config-name").value = name;
     maybeDisableLegsForLowerBodyCoverage();
     maybeDisableHandActionsForPoseUsage();
     applySlotConstraints();
@@ -327,6 +329,62 @@ export function refreshLocalizedDynamicUi() {
 
   const saveStatus = document.getElementById("save-status");
   if (saveStatus) saveStatus.textContent = "";
+}
+
+/**
+ * Restore slot state from a history entry.
+ */
+export function restoreFromHistory(entry) {
+  if (!entry || !entry.slots) return;
+
+  // Restore slot states
+  for (const [slotName, saved] of Object.entries(entry.slots)) {
+    if (!state.slots[slotName]) continue;
+
+    state.slots[slotName].enabled = saved.enabled ?? state.slots[slotName].enabled;
+    state.slots[slotName].locked = !!saved.locked;
+    state.slots[slotName].value_id = saved.value_id || null;
+    state.slots[slotName].color = saved.color || null;
+    state.slots[slotName].weight = saved.weight ?? 1.0;
+
+    const c = allSlotComponents[slotName];
+    if (!c) continue;
+    c.dropdown.value = state.slots[slotName].value_id || "";
+    c.colorSelect.value = state.slots[slotName].color || "";
+    c.weightInput.value = String(state.slots[slotName].weight ?? 1.0);
+    c.lockBtn.textContent = state.slots[slotName].locked ? LOCKED_ICON : UNLOCKED_ICON;
+    c.lockBtn.className = "btn-lock" + (state.slots[slotName].locked ? " locked" : "");
+    renderSlotEnabledState(slotName, c);
+  }
+
+  // Restore modes
+  if (typeof entry.full_body_mode === "boolean") {
+    state.fullBodyMode = entry.full_body_mode;
+    const fbCheckbox = document.getElementById("full-body-mode");
+    if (fbCheckbox) fbCheckbox.checked = state.fullBodyMode;
+  }
+  if (typeof entry.upper_body_mode === "boolean") {
+    state.upperBodyMode = entry.upper_body_mode;
+    const ubCheckbox = document.getElementById("upper-body-mode");
+    if (ubCheckbox) ubCheckbox.checked = state.upperBodyMode;
+  }
+
+  // Restore palette
+  if (entry.palette_id) {
+    setPaletteSelection(entry.palette_id);
+  }
+
+  // Restore prefix if present
+  if (entry.prefix) {
+    const prefixInput = document.getElementById("prompt-prefix");
+    if (prefixInput) prefixInput.value = entry.prefix;
+  }
+
+  // Regenerate prompt (skip adding to history to avoid duplicate)
+  generateAndDisplay(true);
+
+  // Show status
+  setStatus(t("history_restored"));
 }
 
 function setStatus(msg) {

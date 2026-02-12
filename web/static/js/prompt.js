@@ -4,12 +4,14 @@
 
 import { state, getColorLabel, getSlotOptionLabel, getSlotStateForAPI } from "./state.js";
 import * as api from "./api.js";
+import { addToHistory } from "./history.js";
 
 const PREFIX_PRESET_VALUE = "sd_quality_v1";
 const PREFIX_PRESET_TEXT = "(masterpiece),(best quality),(ultra-detailed),(best illustration),(absurdres),(very aesthetic),(newest),detailed eyes, detailed face";
 const PROMPT_SLOT_ORDER = [
   "hair_color", "hair_length", "hair_style", "hair_texture",
-  "eye_color", "eye_style",
+  "eye_color", "eye_expression_quality", "eye_shape", "eye_pupil_state",
+  "eye_state", "eye_accessories",
   "body_type", "height", "skin", "age_appearance", "special_features",
   "expression",
   "full_body", "head", "neck", "upper_body", "waist", "lower_body",
@@ -187,11 +189,12 @@ export function clearPromptOutput() {
   if (outputEl) outputEl.innerHTML = "";
 }
 
-export async function generateAndDisplay() {
+export async function generateAndDisplay(skipHistory = false) {
   const requestSeq = ++generateRequestSeq;
   const slotsForAPI = getSlotStateForAPI();
-  // Capture locale at call time for consistency
+  // Capture locale and prefix at call time for consistency
   const promptLocale = state.promptLocale;
+  const prefix = getPromptPrefix();
   const data = await api.generatePrompt(
     slotsForAPI,
     state.fullBodyMode,
@@ -200,6 +203,11 @@ export async function generateAndDisplay() {
   );
   if (requestSeq !== generateRequestSeq) return;
   setPromptOutput(data.prompt || "", promptLocale);
+
+  // Add to history (skip for restore operations to avoid duplicates)
+  if (!skipHistory && data.prompt) {
+    addToHistory(combinePrompt(prefix, data.prompt), prefix);
+  }
 }
 
 export function wirePromptPrefixPreset() {

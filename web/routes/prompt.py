@@ -14,7 +14,8 @@ gen = PromptGenerator()
 # Canonical slot order for prompt building (matches prompt_generator.py)
 SLOT_ORDER = [
     "hair_color", "hair_length", "hair_style", "hair_texture",
-    "eye_color", "eye_style",
+    "eye_color", "eye_expression_quality", "eye_shape", "eye_pupil_state",
+    "eye_state", "eye_accessories",
     "body_type", "height", "skin", "age_appearance", "special_features",
     "expression",
     "full_body", "head", "neck", "upper_body", "waist", "lower_body",

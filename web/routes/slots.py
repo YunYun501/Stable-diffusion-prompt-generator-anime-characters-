@@ -17,8 +17,16 @@ SECTION_LAYOUT = {
         "label": "Appearance",
         "label_key": "section_appearance",
         "icon": "\U0001f464",
-        "slots": ["hair_style", "hair_length", "hair_color", "hair_texture",
-                  "eye_color", "eye_style"],
+        "slots": [
+            "hair_style", "hair_length", "hair_color", "hair_texture",
+            "eye_color", "eye_expression_quality", "eye_shape", "eye_pupil_state",
+            "eye_state", "eye_accessories",
+        ],
+        "columns": [
+            ["hair_style", "hair_length", "hair_color", "hair_texture"],
+            ["eye_color", "eye_expression_quality", "eye_shape", "eye_pupil_state", "eye_state", "eye_accessories"],
+        ],
+        "column_label_keys": ["section_appearance_hair", "section_appearance_eyes"],
     },
     "body": {
         "label": "Body / Expression / Pose",

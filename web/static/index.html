@@ -20,6 +20,28 @@
     </div>
   </header>
 
+  <details id="save-load-section" open>
+    <summary id="save-load-summary">Save / Load Configuration</summary>
+    <div id="save-load-content">
+      <div id="save-row">
+        <input type="text" id="config-name" placeholder="my_character">
+        <button id="btn-save" class="btn">Save</button>
+      </div>
+      <div id="load-row">
+        <select id="config-select">
+          <option value="">(Select config)</option>
+        </select>
+        <button id="btn-load" class="btn">Load</button>
+        <button id="btn-refresh-configs" class="btn btn-sm">Refresh</button>
+      </div>
+      <div id="export-import-row">
+        <button id="btn-export" class="btn btn-sm">Export Data</button>
+        <button id="btn-import" class="btn btn-sm">Import Data</button>
+      </div>
+      <div id="save-status"></div>
+    </div>
+  </details>
+
   <section id="prompt-section">
     <div id="prompt-prefix-wrap">
       <label for="prompt-prefix" id="prompt-prefix-label">Always Include (Stable Diffusion Prefix)</label>
@@ -46,6 +68,16 @@
       <button id="btn-copy" class="btn">Copy</button>
       <button id="btn-reset" class="btn">Reset</button>
     </div>
+
+    <details id="history-section">
+      <summary id="history-summary">Prompt History (<span id="history-count">0</span>)</summary>
+      <div id="history-content">
+        <div id="history-list"></div>
+        <div id="history-actions">
+          <button id="btn-clear-history" class="btn btn-sm">Clear All History</button>
+        </div>
+      </div>
+    </details>
   </section>
 
   <section id="settings-bar">
@@ -85,24 +117,6 @@
   <hr>
 
   <div id="sections-container"></div>
-
-  <details id="save-load-section">
-    <summary id="save-load-summary">Save / Load Configuration</summary>
-    <div id="save-load-content">
-      <div id="save-row">
-        <input type="text" id="config-name" placeholder="my_character">
-        <button id="btn-save" class="btn">Save</button>
-      </div>
-      <div id="load-row">
-        <select id="config-select">
-          <option value="">(Select config)</option>
-        </select>
-        <button id="btn-load" class="btn">Load</button>
-        <button id="btn-refresh-configs" class="btn btn-sm">Refresh</button>
-      </div>
-      <div id="save-status"></div>
-    </div>
-  </details>
 
   <script type="module" src="/static/js/app.js"></script>
 </body>

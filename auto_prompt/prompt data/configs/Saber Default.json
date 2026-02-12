@@ -1,0 +1,188 @@
+{
+  "name": "Saber Default",
+  "created_at": "2026-02-12T01:08:48.597975",
+  "slots": {
+    "hair_style": {
+      "enabled": true,
+      "locked": false,
+      "value": "loose hair",
+      "color": null,
+      "weight": 1
+    },
+    "hair_length": {
+      "enabled": true,
+      "locked": false,
+      "value": "absurdly long hair",
+      "color": null,
+      "weight": 1
+    },
+    "hair_color": {
+      "enabled": true,
+      "locked": true,
+      "value": "blonde hair",
+      "color": null,
+      "weight": 1
+    },
+    "hair_texture": {
+      "enabled": true,
+      "locked": false,
+      "value": "disheveled hair",
+      "color": null,
+      "weight": 1
+    },
+    "eye_color": {
+      "enabled": true,
+      "locked": true,
+      "value": "green eyes",
+      "color": null,
+      "weight": 1
+    },
+    "eye_style": {
+      "enabled": true,
+      "locked": false,
+      "value": "sanpaku eyes",
+      "color": null,
+      "weight": 1
+    },
+    "body_type": {
+      "enabled": true,
+      "locked": false,
+      "value": "athletic",
+      "color": null,
+      "weight": 1
+    },
+    "height": {
+      "enabled": true,
+      "locked": true,
+      "value": "tall",
+      "color": null,
+      "weight": 1
+    },
+    "skin": {
+      "enabled": false,
+      "locked": false,
+      "value": "white skin",
+      "color": null,
+      "weight": 1
+    },
+    "age_appearance": {
+      "enabled": true,
+      "locked": true,
+      "value": "mature",
+      "color": null,
+      "weight": 1
+    },
+    "special_features": {
+      "enabled": false,
+      "locked": false,
+      "value": "vampire fangs",
+      "color": null,
+      "weight": 1
+    },
+    "expression": {
+      "enabled": true,
+      "locked": false,
+      "value": "Pain (wince)",
+      "color": null,
+      "weight": 1
+    },
+    "head": {
+      "enabled": true,
+      "locked": false,
+      "value": "bunny ears headband",
+      "color": "pink",
+      "weight": 1
+    },
+    "neck": {
+      "enabled": true,
+      "locked": false,
+      "value": "ruff collar",
+      "color": "gold",
+      "weight": 1
+    },
+    "upper_body": {
+      "enabled": true,
+      "locked": false,
+      "value": "sports jersey",
+      "color": "white",
+      "weight": 1
+    },
+    "waist": {
+      "enabled": false,
+      "locked": false,
+      "value": null,
+      "color": null,
+      "weight": 1
+    },
+    "lower_body": {
+      "enabled": false,
+      "locked": false,
+      "value": null,
+      "color": null,
+      "weight": 1
+    },
+    "full_body": {
+      "enabled": false,
+      "locked": false,
+      "value": "bunny leotard",
+      "color": "blue",
+      "weight": 1
+    },
+    "outerwear": {
+      "enabled": true,
+      "locked": false,
+      "value": "bolero",
+      "color": "blue",
+      "weight": 1
+    },
+    "hands": {
+      "enabled": true,
+      "locked": false,
+      "value": "silk gloves",
+      "color": "pink",
+      "weight": 1
+    },
+    "legs": {
+      "enabled": false,
+      "locked": false,
+      "value": null,
+      "color": null,
+      "weight": 1
+    },
+    "feet": {
+      "enabled": false,
+      "locked": false,
+      "value": "setta sandals",
+      "color": "pink",
+      "weight": 1
+    },
+    "accessory": {
+      "enabled": true,
+      "locked": false,
+      "value": "witch",
+      "color": "yellow",
+      "weight": 1
+    },
+    "pose": {
+      "enabled": true,
+      "locked": false,
+      "value": "sitting on bed",
+      "color": null,
+      "weight": 1
+    },
+    "gesture": {
+      "enabled": true,
+      "locked": false,
+      "value": "double peace sign",
+      "color": null,
+      "weight": 1
+    },
+    "background": {
+      "enabled": true,
+      "locked": false,
+      "value": "school gym",
+      "color": null,
+      "weight": 1
+    }
+  }
+}

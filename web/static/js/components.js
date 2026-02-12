@@ -8,7 +8,9 @@ import { t } from "./i18n.js";
 const LOCKED_ICON = "\uD83D\uDD12";
 const UNLOCKED_ICON = "\uD83D\uDD13";
 const GROUP_DISPLAY_ORDER = [
+  // Clothing theme groups.
   "uniform_service",
+  "chinese_traditional",
   "japanese_traditional",
   "modern_everyday",
   "formal_fashion",
@@ -17,6 +19,82 @@ const GROUP_DISPLAY_ORDER = [
   "swimwear",
   "cute_themed",
   "props_tech",
+
+  // Appearance groups (hair / eyes).
+  "tied_ponytails",
+  "braids",
+  "buns_updos",
+  "cuts_layers",
+  "bangs_fringe",
+  "anime_accents",
+  "side_accents",
+  "loose_back",
+  "special_styles",
+  "short_lengths",
+  "medium_lengths",
+  "long_lengths",
+  "extreme_lengths",
+  "spectrum_red_orange",
+  "spectrum_yellow_blonde",
+  "spectrum_yellow_gold",
+  "spectrum_green_cyan",
+  "spectrum_blue",
+  "spectrum_purple_pink",
+  "neutral_natural",
+  "grayscale",
+  "fantasy_multicolor",
+  "texture_straight_smooth",
+  "texture_wavy_curly",
+  "texture_volume_air",
+  "texture_motion_styled",
+  "texture_wet_gloss",
+  "texture_rough_messy",
+  "style_expression_quality",
+  "style_eye_shape",
+  "style_intensity",
+  "style_pupil_special",
+  "style_eye_state",
+  "style_accessories",
+
+  // Pose and hand-action groups.
+  "pose_standing",
+  "pose_sitting",
+  "pose_action",
+  "pose_lying",
+  "pose_special",
+  "gesture_signs",
+  "gesture_pointing_waving",
+  "gesture_formal",
+  "gesture_face_touch",
+  "gesture_power",
+  "gesture_hair_adjust",
+  "gesture_affection",
+  "gesture_object_interaction",
+  "gesture_general",
+
+  // Expression emotion-family groups.
+  "neutral_baseline",
+  "happiness_positive",
+  "affection_romance",
+  "playful_teasing_smug",
+  "embarrassment_shyness",
+  "surprise_shock",
+  "anger_irritation",
+  "sadness_hurt",
+  "fear_anxiety_panic",
+  "disgust_contempt",
+  "determination_resolve",
+  "confusion_skepticism",
+  "tired_sleepy_bored",
+  "pain_strain_sickness",
+  "extreme_anime_stylized",
+
+  // View-angle groups.
+  "camera_height",
+  "view_direction",
+  "tilt_style",
+  "framing",
+  "lens_perspective",
 ];
 
 function getSlotLabel(slotName) {
@@ -243,9 +321,20 @@ export function createSection(sectionKey, sectionDef) {
   if (sectionDef.columns) {
     const columnsDiv = document.createElement("div");
     columnsDiv.className = "section-columns";
-    for (const colSlots of sectionDef.columns) {
+    const columnLabelKeys = Array.isArray(sectionDef.column_label_keys) ? sectionDef.column_label_keys : [];
+    for (let colIndex = 0; colIndex < sectionDef.columns.length; colIndex += 1) {
+      const colSlots = sectionDef.columns[colIndex];
       const col = document.createElement("div");
       col.className = "section-column";
+
+      const labelKey = columnLabelKeys[colIndex];
+      if (labelKey) {
+        const columnLabel = document.createElement("div");
+        columnLabel.className = "section-column-label";
+        columnLabel.textContent = t(labelKey);
+        col.appendChild(columnLabel);
+      }
+
       for (const slotName of colSlots) {
         const def = state.slotDefs[slotName];
         if (!def) continue;

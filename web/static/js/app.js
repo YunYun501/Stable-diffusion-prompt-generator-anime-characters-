@@ -13,6 +13,7 @@ import {
   wireSaveLoadEvents,
   refreshConfigList,
   refreshLocalizedDynamicUi,
+  restoreFromHistory,
 } from "./handlers.js";
 import { wirePromptPrefixPreset, generateAndDisplay } from "./prompt.js";
 import {
@@ -26,6 +27,15 @@ import {
   setUiLocale,
   t,
 } from "./i18n.js";
+import {
+  getHistory,
+  removeFromHistory,
+  clearHistory,
+  onHistoryChange,
+  formatTimestamp,
+  downloadExport,
+  triggerImport,
+} from "./history.js";
 
 function populateLocaleSelector(selectEl, selected) {
   if (!selectEl) return;
@@ -69,6 +79,16 @@ function applyStaticTranslations() {
   setText("btn-save", "btn_save");
   setText("btn-load", "btn_load");
   setText("btn-refresh-configs", "btn_refresh");
+  setText("btn-export", "btn_export");
+  setText("btn-import", "btn_import");
+  setText("btn-clear-history", "history_clear_all");
+
+  // Update history summary with count
+  const historySummary = document.getElementById("history-summary");
+  if (historySummary) {
+    const count = getHistory().length;
+    historySummary.childNodes[0].textContent = t("history_summary") + " (";
+  }
 
   const prefixInput = document.getElementById("prompt-prefix");
   if (prefixInput) prefixInput.placeholder = t("prefix_placeholder");
@@ -127,12 +147,136 @@ function wireLocaleSelectors() {
     applyStaticTranslations();
     buildSections();
     refreshLocalizedDynamicUi();
+    renderHistoryList();
     await refreshConfigList();
   });
 
   onPromptLocaleChange((locale) => {
     state.promptLocale = locale;
     generateAndDisplay();
+  });
+}
+
+function renderHistoryList() {
+  const listEl = document.getElementById("history-list");
+  const countEl = document.getElementById("history-count");
+  if (!listEl) return;
+
+  const history = getHistory();
+  countEl.textContent = history.length;
+
+  listEl.innerHTML = "";
+
+  if (history.length === 0) {
+    const emptyMsg = document.createElement("div");
+    emptyMsg.className = "history-empty";
+    emptyMsg.textContent = t("history_empty");
+    listEl.appendChild(emptyMsg);
+    return;
+  }
+
+  for (const entry of history) {
+    const item = document.createElement("div");
+    item.className = "history-item";
+    item.dataset.id = entry.id;
+
+    const header = document.createElement("div");
+    header.className = "history-item-header";
+
+    const timeSpan = document.createElement("span");
+    timeSpan.className = "history-time";
+    timeSpan.textContent = formatTimestamp(entry.timestamp);
+
+    const promptPreview = document.createElement("span");
+    promptPreview.className = "history-prompt-preview";
+    promptPreview.textContent = entry.prompt.length > 60
+      ? entry.prompt.slice(0, 60) + "..."
+      : entry.prompt;
+
+    const actions = document.createElement("span");
+    actions.className = "history-actions";
+
+    const expandBtn = document.createElement("button");
+    expandBtn.className = "btn btn-xs";
+    expandBtn.textContent = "▼";
+    expandBtn.title = t("history_expand");
+    expandBtn.addEventListener("click", () => {
+      const isExpanded = item.classList.toggle("expanded");
+      expandBtn.textContent = isExpanded ? "▲" : "▼";
+      expandBtn.title = isExpanded ? t("history_collapse") : t("history_expand");
+    });
+
+    const copyBtn = document.createElement("button");
+    copyBtn.className = "btn btn-xs";
+    copyBtn.textContent = t("history_copy");
+    copyBtn.addEventListener("click", () => {
+      navigator.clipboard.writeText(entry.prompt);
+    });
+
+    const restoreBtn = document.createElement("button");
+    restoreBtn.className = "btn btn-xs";
+    restoreBtn.textContent = t("history_restore");
+    restoreBtn.addEventListener("click", () => {
+      restoreFromHistory(entry);
+    });
+
+    const deleteBtn = document.createElement("button");
+    deleteBtn.className = "btn btn-xs btn-danger";
+    deleteBtn.textContent = "×";
+    deleteBtn.title = t("history_delete");
+    deleteBtn.addEventListener("click", () => {
+      removeFromHistory(entry.id);
+    });
+
+    actions.append(expandBtn, copyBtn, restoreBtn, deleteBtn);
+    header.append(timeSpan, promptPreview, actions);
+
+    const fullPrompt = document.createElement("div");
+    fullPrompt.className = "history-prompt-full";
+    fullPrompt.textContent = entry.prompt;
+
+    item.append(header, fullPrompt);
+    listEl.appendChild(item);
+  }
+}
+
+function wireHistoryEvents() {
+  const clearBtn = document.getElementById("btn-clear-history");
+  if (clearBtn) {
+    clearBtn.addEventListener("click", () => {
+      if (confirm(t("history_clear_confirm"))) {
+        clearHistory();
+      }
+    });
+  }
+
+  // Export/Import buttons
+  const exportBtn = document.getElementById("btn-export");
+  const importBtn = document.getElementById("btn-import");
+
+  if (exportBtn) {
+    exportBtn.addEventListener("click", () => {
+      downloadExport();
+    });
+  }
+
+  if (importBtn) {
+    importBtn.addEventListener("click", () => {
+      triggerImport((result) => {
+        const statusEl = document.getElementById("save-status");
+        if (result.success) {
+          if (statusEl) statusEl.textContent = t("import_success", { count: result.count });
+          renderHistoryList();
+        } else {
+          if (statusEl) statusEl.textContent = t("import_failed");
+        }
+      });
+    });
+  }
+
+  // Listen for history changes
+  onHistoryChange(() => {
+    renderHistoryList();
   });
 }
 
@@ -160,8 +304,10 @@ async function init() {
   buildSections();
   wireGlobalEvents();
   wireSaveLoadEvents();
+  wireHistoryEvents();
   wirePromptPrefixPreset();
   refreshLocalizedDynamicUi();
+  renderHistoryList();
   await refreshConfigList();
 }
 

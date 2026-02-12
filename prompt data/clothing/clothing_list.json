@@ -2009,7 +2009,7 @@
         "en": "parasol",
         "zh": "阳伞"
       },
-      "style_group": "modern_everyday"
+      "style_group": "chinese_traditional"
     },
     {
       "id": "lace_parasol",
@@ -2021,7 +2021,7 @@
         "en": "lace parasol",
         "zh": "蕾丝阳伞"
       },
-      "style_group": "formal_fashion"
+      "style_group": "chinese_traditional"
     },
     {
       "id": "folding_fan",
@@ -2035,7 +2035,7 @@
         "en": "folding fan",
         "zh": "折扇"
       },
-      "style_group": "modern_everyday"
+      "style_group": "chinese_traditional"
     },
     {
       "id": "uchiwa_fan",
@@ -3715,7 +3715,7 @@
         "en": "rice hat",
         "zh": "斗笠"
       },
-      "style_group": "modern_everyday"
+      "style_group": "chinese_traditional"
     },
     {
       "id": "nightcap",
@@ -4381,6 +4381,64 @@
         "zh": "高跟鞋"
       },
       "style_group": "formal_fashion"
+    },
+    {
+      "id": "cheongsam_qipao",
+      "name": "Cheongsam / qipao",
+      "body_part": "accessory",
+      "description": "traditional Chinese dress style token",
+      "aliases": [
+        "qipao",
+        "china dress"
+      ],
+      "name_i18n": {
+        "en": "Cheongsam / qipao",
+        "zh": "??"
+      },
+      "style_group": "chinese_traditional"
+    },
+    {
+      "id": "hanfu_top",
+      "name": "hanfu top",
+      "body_part": "upper_body",
+      "description": "traditional hanfu upper garment",
+      "aliases": [
+        "hanfu blouse"
+      ],
+      "name_i18n": {
+        "en": "hanfu top",
+        "zh": "????"
+      },
+      "style_group": "chinese_traditional"
+    },
+    {
+      "id": "hanfu_skirt",
+      "name": "hanfu skirt",
+      "body_part": "lower_body",
+      "description": "traditional hanfu long skirt",
+      "aliases": [
+        "ruqun skirt"
+      ],
+      "covers_legs": false,
+      "name_i18n": {
+        "en": "hanfu skirt",
+        "zh": "????"
+      },
+      "style_group": "chinese_traditional"
+    },
+    {
+      "id": "hanfu_waist_sash",
+      "name": "hanfu waist sash",
+      "body_part": "waist",
+      "description": "decorative sash belt for hanfu styling",
+      "aliases": [
+        "hanfu sash"
+      ],
+      "name_i18n": {
+        "en": "hanfu waist sash",
+        "zh": "????"
+      },
+      "style_group": "chinese_traditional"
     }
   ],
   "index_by_body_part": {
@@ -4422,7 +4480,8 @@
       "t_shirt",
       "vest",
       "vests",
-      "white_kosode"
+      "white_kosode",
+      "hanfu_top"
     ],
     "lower_body": [
       "andon_hakama",
@@ -4453,7 +4512,8 @@
       "tracksuit_pants",
       "tutu_skirt",
       "umanori_hakama",
-      "uniform_skirt"
+      "uniform_skirt",
+      "hanfu_skirt"
     ],
     "feet": [
       "boots",
@@ -4623,7 +4683,8 @@
       "ornate_scepter",
       "sword_sheath",
       "lucky_omamori",
-      "ribbon_charm"
+      "ribbon_charm",
+      "cheongsam_qipao"
     ],
     "waist": [
       "apron",
@@ -4657,7 +4718,8 @@
       "hip_chain",
       "waist_pouch",
       "waist_cape",
-      "ammunition_belt"
+      "ammunition_belt",
+      "hanfu_waist_sash"
     ],
     "hands": [
       "fingerless_gloves",
@@ -4816,6 +4878,10 @@
     "props_tech": {
       "en": "Props / Tech",
       "zh": "道具 / 科技"
+    },
+    "chinese_traditional": {
+      "en": "Chinese Traditional / Chinese-themed",
+      "zh": "中式传统 / 中国风"
     }
   }
 }

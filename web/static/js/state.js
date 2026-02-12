@@ -44,7 +44,7 @@ export const state = {
 const DEFAULT_DISABLED_SLOTS = new Set([
   "special_features",
   "full_body",
-  "eye_style",
+  "eye_accessories",
   "hands",
 ]);
 

@@ -1,0 +1,188 @@
+{
+  "name": "Saber_forward_leaning",
+  "created_at": "2026-02-12T01:05:52.755176",
+  "slots": {
+    "hair_style": {
+      "enabled": true,
+      "locked": false,
+      "value": "heart ahoge",
+      "color": null,
+      "weight": 1
+    },
+    "hair_length": {
+      "enabled": true,
+      "locked": false,
+      "value": "ear-length hair",
+      "color": null,
+      "weight": 1
+    },
+    "hair_color": {
+      "enabled": true,
+      "locked": true,
+      "value": "blonde hair",
+      "color": null,
+      "weight": 1
+    },
+    "hair_texture": {
+      "enabled": true,
+      "locked": false,
+      "value": "wavy hair",
+      "color": null,
+      "weight": 1
+    },
+    "eye_color": {
+      "enabled": true,
+      "locked": true,
+      "value": "green eyes",
+      "color": null,
+      "weight": 1
+    },
+    "eye_style": {
+      "enabled": true,
+      "locked": false,
+      "value": "narrow eyes",
+      "color": null,
+      "weight": 1
+    },
+    "body_type": {
+      "enabled": true,
+      "locked": true,
+      "value": "soft body",
+      "color": null,
+      "weight": 1
+    },
+    "height": {
+      "enabled": true,
+      "locked": true,
+      "value": "tall",
+      "color": null,
+      "weight": 1
+    },
+    "skin": {
+      "enabled": false,
+      "locked": false,
+      "value": "beauty mark",
+      "color": null,
+      "weight": 1
+    },
+    "age_appearance": {
+      "enabled": true,
+      "locked": true,
+      "value": "ojou-sama",
+      "color": null,
+      "weight": 1
+    },
+    "special_features": {
+      "enabled": false,
+      "locked": false,
+      "value": "fairy wings",
+      "color": null,
+      "weight": 1
+    },
+    "expression": {
+      "enabled": true,
+      "locked": false,
+      "value": "Confident resolve",
+      "color": null,
+      "weight": 1
+    },
+    "head": {
+      "enabled": false,
+      "locked": false,
+      "value": "cat ears headband",
+      "color": "light blue",
+      "weight": 1
+    },
+    "neck": {
+      "enabled": true,
+      "locked": false,
+      "value": "gorget",
+      "color": "white",
+      "weight": 1
+    },
+    "upper_body": {
+      "enabled": true,
+      "locked": false,
+      "value": "animal-print top",
+      "color": "light blue",
+      "weight": 1
+    },
+    "waist": {
+      "enabled": false,
+      "locked": false,
+      "value": "ribbon belt",
+      "color": "blue",
+      "weight": 1
+    },
+    "lower_body": {
+      "enabled": false,
+      "locked": false,
+      "value": "Andon Hakama",
+      "color": "blue",
+      "weight": 1
+    },
+    "full_body": {
+      "enabled": false,
+      "locked": false,
+      "value": "tactical bodysuit",
+      "color": "silver",
+      "weight": 1
+    },
+    "outerwear": {
+      "enabled": true,
+      "locked": false,
+      "value": "hanten",
+      "color": "blue",
+      "weight": 1
+    },
+    "hands": {
+      "enabled": false,
+      "locked": false,
+      "value": "frilled wrist cuffs",
+      "color": "white",
+      "weight": 1
+    },
+    "legs": {
+      "enabled": false,
+      "locked": false,
+      "value": "over-knee socks",
+      "color": "white",
+      "weight": 1
+    },
+    "feet": {
+      "enabled": false,
+      "locked": false,
+      "value": "waraji sandals",
+      "color": "blue",
+      "weight": 1
+    },
+    "accessory": {
+      "enabled": true,
+      "locked": false,
+      "value": "keychain charm",
+      "color": "light blue",
+      "weight": 1
+    },
+    "pose": {
+      "enabled": true,
+      "locked": false,
+      "value": "leaning forward",
+      "color": null,
+      "weight": 1
+    },
+    "gesture": {
+      "enabled": false,
+      "locked": false,
+      "value": "hand on cheek",
+      "color": null,
+      "weight": 1
+    },
+    "background": {
+      "enabled": true,
+      "locked": false,
+      "value": "dramatic sky",
+      "color": null,
+      "weight": 1
+    }
+  }
+}

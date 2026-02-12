@@ -7,7 +7,9 @@
       "WebSearch",
       "WebFetch(domain:civitai.com)",
       "WebFetch(domain:gigazine.net)",
-      "Bash(python:*)"
+      "Bash(python:*)",
+      "Bash(xcopy:*)",
+      "Bash(powershell -Command:*)"
     ]
   }
 }

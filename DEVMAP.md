@@ -49,7 +49,11 @@ Quick-reference for finding the right file for any edit.
 | All API fetch calls | `web/static/js/api.js` | One function per endpoint; includes `output_language` for prompt APIs |
 | State shape, init, getters | `web/static/js/state.js` | `state` object, `value_id` model, localization helpers |
 | Init flow, wiring order | `web/static/js/app.js` | `init()` - orchestrator + locale listeners |
-| UI translation bundles | `web/static/i18n/en.json`, `web/static/i18n/zh.json` | UI copy, slot labels, section labels |
+| History UI rendering | `web/static/js/app.js` | `renderHistoryList()`, `wireHistoryEvents()` |
+| History state management | `web/static/js/history.js` | `addToHistory()`, `getHistory()`, `removeFromHistory()`, `clearHistory()` |
+| History export/import | `web/static/js/history.js` | `exportUserData()`, `importUserData()`, `downloadExport()`, `triggerImport()` |
+| History restoration | `web/static/js/handlers.js` | `restoreFromHistory()` - restores full slot state from history entry |
+| UI translation bundles | `web/static/i18n/en.json`, `web/static/i18n/zh.json` | UI copy, slot labels, section labels, history strings |
 
 ## Data (JSON catalogs)
 

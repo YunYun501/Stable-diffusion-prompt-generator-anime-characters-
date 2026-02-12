@@ -1,0 +1,195 @@
+{
+  "name": "Saber_Alter_sitting",
+  "created_at": "2026-02-12T14:51:28.040283",
+  "slots": {
+    "hair_style": {
+      "enabled": true,
+      "locked": false,
+      "value_id": "layered_hair",
+      "color": null,
+      "weight": 1
+    },
+    "hair_length": {
+      "enabled": true,
+      "locked": false,
+      "value_id": "very_long_hair",
+      "color": null,
+      "weight": 1
+    },
+    "hair_color": {
+      "enabled": true,
+      "locked": true,
+      "value_id": "ash_blonde",
+      "color": null,
+      "weight": 1
+    },
+    "hair_texture": {
+      "enabled": true,
+      "locked": false,
+      "value_id": "wavy_hair",
+      "color": null,
+      "weight": 1
+    },
+    "eye_color": {
+      "enabled": true,
+      "locked": true,
+      "value_id": "yellow_eyes",
+      "color": null,
+      "weight": 1
+    },
+    "eye_style": {
+      "enabled": false,
+      "locked": false,
+      "value_id": "round_glasses",
+      "color": null,
+      "weight": 1
+    },
+    "body_type": {
+      "enabled": true,
+      "locked": true,
+      "value_id": "graceful",
+      "color": null,
+      "weight": 1
+    },
+    "height": {
+      "enabled": true,
+      "locked": true,
+      "value_id": "average_height",
+      "color": null,
+      "weight": 1
+    },
+    "skin": {
+      "enabled": false,
+      "locked": false,
+      "value_id": "body_freckles",
+      "color": null,
+      "weight": 1
+    },
+    "age_appearance": {
+      "enabled": true,
+      "locked": false,
+      "value_id": "ojou_sama",
+      "color": null,
+      "weight": 1
+    },
+    "special_features": {
+      "enabled": false,
+      "locked": false,
+      "value_id": "forehead_jewel",
+      "color": null,
+      "weight": 1
+    },
+    "expression": {
+      "enabled": true,
+      "locked": false,
+      "value_id": "determination_resolve__determined_focused_eyes",
+      "color": null,
+      "weight": 1
+    },
+    "head": {
+      "enabled": true,
+      "locked": false,
+      "value_id": "headbow",
+      "color": "red",
+      "weight": 1
+    },
+    "neck": {
+      "enabled": true,
+      "locked": false,
+      "value_id": "chain_necklace",
+      "color": "blue",
+      "weight": 1
+    },
+    "upper_body": {
+      "enabled": true,
+      "locked": false,
+      "value_id": "light_leather_armor",
+      "color": "light blue",
+      "weight": 1
+    },
+    "waist": {
+      "enabled": true,
+      "locked": false,
+      "value_id": "obimakura_obi_pillow",
+      "color": "white",
+      "weight": 1
+    },
+    "lower_body": {
+      "enabled": true,
+      "locked": false,
+      "value_id": "uniform_skirt",
+      "color": "blue",
+      "weight": 1
+    },
+    "full_body": {
+      "enabled": false,
+      "locked": false,
+      "value_id": "interface_suit",
+      "color": "aqua",
+      "weight": 1
+    },
+    "outerwear": {
+      "enabled": true,
+      "locked": false,
+      "value_id": "denim_jacket",
+      "color": "red",
+      "weight": 1
+    },
+    "hands": {
+      "enabled": false,
+      "locked": false,
+      "value_id": "frilled_gloves",
+      "color": "light green",
+      "weight": 1
+    },
+    "legs": {
+      "enabled": true,
+      "locked": false,
+      "value_id": "torn_stockings",
+      "color": "red",
+      "weight": 1
+    },
+    "feet": {
+      "enabled": true,
+      "locked": false,
+      "value_id": "knee_high_boots",
+      "color": "red",
+      "weight": 1
+    },
+    "accessory": {
+      "enabled": true,
+      "locked": false,
+      "value_id": "phone_charm",
+      "color": "white",
+      "weight": 1
+    },
+    "pose": {
+      "enabled": true,
+      "locked": false,
+      "value_id": "selfie_pose",
+      "color": null,
+      "weight": 1
+    },
+    "gesture": {
+      "enabled": false,
+      "locked": false,
+      "value_id": "thumbs_up",
+      "color": null,
+      "weight": 1
+    },
+    "view_angle": {
+      "enabled": true,
+      "locked": false,
+      "value_id": "long_lens_compression",
+      "color": null,
+      "weight": 1
+    },
+    "background": {
+      "enabled": true,
+      "locked": false,
+      "value_id": "white_background",
+      "color": null,
+      "weight": 1
+    }
+  }
+}

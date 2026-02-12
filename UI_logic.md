@@ -28,9 +28,9 @@ A **slot** is one aspect of the character (e.g., hair style, upper body clothing
   - `name_i18n.zh`
 - Slot state stores IDs (`value_id`) so UI language can change without changing the selected value.
 
-### All 26 Slots
+### All 31 Slots
 
-**Appearance** (6 slots):
+**Appearance** (10 slots):
 | Slot | has_color | Data source |
 |---|---|---|
 | hair_style | no | prompt data/hair/hair_catalog.json -> index_by_category.style |
@@ -38,9 +38,13 @@ A **slot** is one aspect of the character (e.g., hair style, upper body clothing
 | hair_color | no | prompt data/hair/hair_catalog.json -> index_by_category.color |
 | hair_texture | no | prompt data/hair/hair_catalog.json -> index_by_category.texture |
 | eye_color | no | prompt data/eyes/eye_catalog.json -> index_by_category.color |
-| eye_style | no | prompt data/eyes/eye_catalog.json -> index_by_category.style |
+| eye_expression_quality | no | prompt data/eyes/eye_catalog.json -> index_by_category.expression_quality |
+| eye_shape | no | prompt data/eyes/eye_catalog.json -> index_by_category.eye_shape |
+| eye_pupil_state | no | prompt data/eyes/eye_catalog.json -> index_by_category.pupil_state |
+| eye_state | no | prompt data/eyes/eye_catalog.json -> index_by_category.eye_state |
+| eye_accessories | no | prompt data/eyes/eye_catalog.json -> index_by_category.eye_accessories |
 
-**Body / Expression / Pose** (8 slots):
+**Body / Expression / Pose** (9 slots):
 | Slot | has_color | Data source |
 |---|---|---|
 | body_type | no | prompt data/body/body_features.json -> index_by_category.body_type |
@@ -49,6 +53,7 @@ A **slot** is one aspect of the character (e.g., hair style, upper body clothing
 | age_appearance | no | prompt data/body/body_features.json -> index_by_category.age_appearance |
 | special_features | no | prompt data/body/body_features.json -> index_by_category.special_features |
 | expression | no | prompt data/expressions/female_expressions.json -> items |
+| view_angle | no | prompt data/view_angles/view_angles.json -> items |
 | pose | no | prompt data/poses/poses.json -> items |
 | gesture (label: hand actions) | no | prompt data/poses/poses.json -> index_by_category.gesture |
 
@@ -78,8 +83,8 @@ Slots are grouped into 3 visual sections. Each section has: Random, All On, All 
 
 | Section | Title | Slots | Layout |
 |---|---|---|---|
-| appearance | Appearance | hair_style through eye_style (6) | Single column |
-| body | Body / Expression / Pose | body_type through gesture (8) | Single column |
+| appearance | Appearance | hair_* and eye_* slots (10) | Two sub-columns: left=Hair fields, right=Eyes fields |
+| body | Body / Expression / Pose | body_type through gesture (9) | Single column |
 | clothing | Clothing & Background | head through background (12) | Two sub-columns: left=[head, neck, upper_body, waist, lower_body, full_body], right=[outerwear, hands, legs, feet, accessory, background] |
 
 The 3 sections are displayed in a horizontal flex row that wraps on smaller screens.
@@ -127,6 +132,8 @@ Each slot row contains these controls in order:
 | **Colorize Prompt Output** | Toggle (default: on). Applies colored rendering directly in the single prompt output field. When off, the same field shows plain text. |
 | **UI Language selector** | Controls all interface language (labels, slot bars, dropdown text, section titles, palette labels). |
 | **Prompt Language selector** | Controls generated prompt output language only (can differ from UI Language). |
+| **Export Data** | Download all history entries + settings as JSON file. |
+| **Import Data** | Upload previously exported JSON file to merge history entries. |
 
 ---
 
@@ -219,7 +226,7 @@ Same as Randomize All but only for slots within that section.
 ### Slot Order in Prompt
 ```
 hair_color, hair_length, hair_style, hair_texture,
-eye_color, eye_style,
+eye_color, eye_expression_quality, eye_shape, eye_pupil_state, eye_state, eye_accessories,
 body_type, height, skin, age_appearance, special_features,
 expression,
 full_body, head, neck, upper_body, waist, lower_body,
@@ -278,7 +285,85 @@ background
 
 ---
 
-## 9. API Contract
+## 9. Prompt History
+
+Automatically records generated prompts for easy retrieval. Stored in browser localStorage (no account required).
+
+### History Entry Structure
+```json
+{
+  "id": "h_1707654321000_abc123",
+  "timestamp": 1707654321000,
+  "prompt": "1girl, black hair, long hair, ...",
+  "prefix": "(masterpiece),(best quality),...",
+  "slots": {
+    "hair_style": {
+      "enabled": true,
+      "locked": false,
+      "value_id": "ponytail",
+      "color": null,
+      "weight": 1.0
+    },
+    ...
+  },
+  "palette_id": "pastel_dream",
+  "full_body_mode": false,
+  "upper_body_mode": false,
+  "prompt_locale": "en"
+}
+```
+
+### History Behaviors
+
+| Action | Behavior |
+|---|---|
+| **Auto-save** | Every `generateAndDisplay()` call (except restore) saves the prompt and full slot state to history |
+| **Max entries** | 50 entries (oldest removed when exceeded) |
+| **Copy** | Copy the stored prompt text to clipboard |
+| **Restore** | Restores all slot states, prefix, palette, modes, then regenerates prompt (does not add duplicate to history) |
+| **Delete** | Removes single entry from history |
+| **Clear All** | Clears entire history (with confirmation dialog) |
+
+### History UI Controls
+
+Located in a collapsible panel below the prompt output:
+
+| Control | Behavior |
+|---|---|
+| **History summary** | Shows "Prompt History (N)" with entry count |
+| **History list** | Scrollable list of entries showing timestamp + truncated prompt |
+| **Copy button** | Per-entry: copy prompt to clipboard |
+| **Restore button** | Per-entry: restore full state and regenerate |
+| **Delete button** | Per-entry: remove from history |
+| **Clear All History** | Remove all history entries |
+
+### Export / Import
+
+For data portability across browsers or devices:
+
+| Action | Behavior |
+|---|---|
+| **Export Data** | Downloads JSON file containing history + current settings |
+| **Import Data** | Uploads JSON file, merges history entries (skips duplicates by ID) |
+
+#### Export JSON Structure
+```json
+{
+  "version": 1,
+  "exported_at": "2026-02-12T10:30:00.000Z",
+  "history": [ /* array of history entries */ ],
+  "settings": {
+    "ui_locale": "en",
+    "prompt_locale": "en",
+    "palette_enabled": true,
+    "active_palette_id": "pastel_dream"
+  }
+}
+```
+
+---
+
+## 10. API Contract
 
 ### GET /api/slots
 Response: `{ slots: { [name]: { category, has_color, options: [{ id, name, name_i18n, localized_name, group?, group_i18n?, localized_group? }] } }, sections: { [key]: { label, label_key, icon, slots, columns? } }, lower_body_covers_legs_by_id: { [lower_body_id]: boolean }, pose_uses_hands_by_id: { [pose_id]: boolean } }`

@@ -1,0 +1,188 @@
+{
+  "name": "Saber_shy",
+  "created_at": "2026-02-12T01:16:31.984868",
+  "slots": {
+    "hair_style": {
+      "enabled": true,
+      "locked": false,
+      "value": "side ponytail",
+      "color": null,
+      "weight": 1
+    },
+    "hair_length": {
+      "enabled": true,
+      "locked": false,
+      "value": "floor-length hair",
+      "color": null,
+      "weight": 1
+    },
+    "hair_color": {
+      "enabled": true,
+      "locked": true,
+      "value": "blonde hair",
+      "color": null,
+      "weight": 1
+    },
+    "hair_texture": {
+      "enabled": true,
+      "locked": false,
+      "value": "fluffy hair",
+      "color": null,
+      "weight": 1
+    },
+    "eye_color": {
+      "enabled": true,
+      "locked": true,
+      "value": "green eyes",
+      "color": null,
+      "weight": 1
+    },
+    "eye_style": {
+      "enabled": true,
+      "locked": false,
+      "value": "tsurime",
+      "color": null,
+      "weight": 1
+    },
+    "body_type": {
+      "enabled": true,
+      "locked": false,
+      "value": "flat chest",
+      "color": null,
+      "weight": 1
+    },
+    "height": {
+      "enabled": true,
+      "locked": true,
+      "value": "tall",
+      "color": null,
+      "weight": 1
+    },
+    "skin": {
+      "enabled": false,
+      "locked": false,
+      "value": "dark skin",
+      "color": null,
+      "weight": 1
+    },
+    "age_appearance": {
+      "enabled": true,
+      "locked": true,
+      "value": "mature",
+      "color": null,
+      "weight": 1
+    },
+    "special_features": {
+      "enabled": false,
+      "locked": false,
+      "value": "small fangs",
+      "color": null,
+      "weight": 1
+    },
+    "expression": {
+      "enabled": true,
+      "locked": false,
+      "value": "Shy (eyes down / hidden)",
+      "color": null,
+      "weight": 1
+    },
+    "head": {
+      "enabled": false,
+      "locked": false,
+      "value": "sun hat",
+      "color": "white",
+      "weight": 1
+    },
+    "neck": {
+      "enabled": true,
+      "locked": false,
+      "value": "gorget",
+      "color": "red",
+      "weight": 1
+    },
+    "upper_body": {
+      "enabled": true,
+      "locked": false,
+      "value": "tank tops",
+      "color": "pink",
+      "weight": 1
+    },
+    "waist": {
+      "enabled": false,
+      "locked": false,
+      "value": "obijime",
+      "color": "red",
+      "weight": 1
+    },
+    "lower_body": {
+      "enabled": false,
+      "locked": false,
+      "value": "red hakama",
+      "color": "red",
+      "weight": 1
+    },
+    "full_body": {
+      "enabled": false,
+      "locked": false,
+      "value": "school swimsuit",
+      "color": "pink",
+      "weight": 1
+    },
+    "outerwear": {
+      "enabled": true,
+      "locked": false,
+      "value": "denim jacket",
+      "color": "light pink",
+      "weight": 1
+    },
+    "hands": {
+      "enabled": true,
+      "locked": false,
+      "value": "single glove",
+      "color": "pink",
+      "weight": 1
+    },
+    "legs": {
+      "enabled": false,
+      "locked": false,
+      "value": "fishnet stockings",
+      "color": "light pink",
+      "weight": 1
+    },
+    "feet": {
+      "enabled": false,
+      "locked": false,
+      "value": "stage heels",
+      "color": "light pink",
+      "weight": 1
+    },
+    "accessory": {
+      "enabled": true,
+      "locked": false,
+      "value": "crossbody bag",
+      "color": "light pink",
+      "weight": 1
+    },
+    "pose": {
+      "enabled": true,
+      "locked": false,
+      "value": "hand on cheek",
+      "color": null,
+      "weight": 1
+    },
+    "gesture": {
+      "enabled": false,
+      "locked": false,
+      "value": "ok sign",
+      "color": null,
+      "weight": 1
+    },
+    "background": {
+      "enabled": true,
+      "locked": false,
+      "value": "bridge",
+      "color": null,
+      "weight": 1
+    }
+  }
+}

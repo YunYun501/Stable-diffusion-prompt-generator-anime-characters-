@@ -92,7 +92,11 @@ class PromptGenerator:
         "hair_color": {"category": "appearance", "catalog": "hair", "index_key": "color", "has_color": False},
         "hair_texture": {"category": "appearance", "catalog": "hair", "index_key": "texture", "has_color": False},
         "eye_color": {"category": "appearance", "catalog": "eyes", "index_key": "color", "has_color": False},
-        "eye_style": {"category": "appearance", "catalog": "eyes", "index_key": "style", "has_color": False},
+        "eye_expression_quality": {"category": "appearance", "catalog": "eyes", "index_key": "expression_quality", "has_color": False},
+        "eye_shape": {"category": "appearance", "catalog": "eyes", "index_key": "eye_shape", "has_color": False},
+        "eye_pupil_state": {"category": "appearance", "catalog": "eyes", "index_key": "pupil_state", "has_color": False},
+        "eye_state": {"category": "appearance", "catalog": "eyes", "index_key": "eye_state", "has_color": False},
+        "eye_accessories": {"category": "appearance", "catalog": "eyes", "index_key": "eye_accessories", "has_color": False},
         
         # Body
         "body_type": {"category": "body", "catalog": "body", "index_key": "body_type", "has_color": False},
@@ -302,7 +306,11 @@ class PromptGenerator:
         
         # Handle poses/backgrounds (may have multiple indices)
         if index_key is None:
-            return catalog.get("items", [])
+            items = catalog.get("items", [])
+            # Keep pose slot focused on body poses; hand actions live in gesture slot.
+            if catalog_name == "poses" and slot_name == "pose":
+                return [item for item in items if item.get("category") != "gesture"]
+            return items
         
         # Handle clothing (uses index_by_body_part)
         if catalog_name == "clothing":
@@ -326,7 +334,7 @@ class PromptGenerator:
         catalog = self.catalogs.get(catalog_name, {})
         # Optional catalog-level map for grouping labels.
         catalog_group_i18n = {}
-        for key in ("style_groups_i18n", "ui_groups_i18n", "group_i18n"):
+        for key in ("style_groups_i18n", "ui_groups_i18n", "emotion_family_i18n", "group_i18n"):
             maybe_map = catalog.get(key)
             if isinstance(maybe_map, dict):
                 catalog_group_i18n = maybe_map
@@ -336,7 +344,13 @@ class PromptGenerator:
         for item in options:
             names = item.get("name_i18n", {})
             localized = names.get(lang) if isinstance(names, dict) else None
-            group = item.get("style_group") or item.get("ui_group") or item.get("group")
+            group = (
+                item.get("style_group")
+                or item.get("ui_group")
+                or item.get("group")
+                or item.get("emotion_family")
+                or item.get("category")
+            )
             if not isinstance(group, str) or not group.strip():
                 group = None
 
@@ -575,7 +589,8 @@ class PromptGenerator:
         slot_order = [
             # Appearance first
             "hair_color", "hair_length", "hair_style", "hair_texture",
-            "eye_color", "eye_style",
+            "eye_color", "eye_expression_quality", "eye_shape", "eye_pupil_state",
+            "eye_state", "eye_accessories",
             # Body features
             "body_type", "height", "skin", "age_appearance", "special_features",
             # Expression

@@ -1,0 +1,188 @@
+{
+  "name": "relaxed saber",
+  "created_at": "2026-02-11T17:37:15.477757",
+  "slots": {
+    "hair_style": {
+      "enabled": true,
+      "locked": false,
+      "value": "ponytail",
+      "color": null,
+      "weight": 1
+    },
+    "hair_length": {
+      "enabled": true,
+      "locked": false,
+      "value": "waist-length hair",
+      "color": null,
+      "weight": 1
+    },
+    "hair_color": {
+      "enabled": true,
+      "locked": true,
+      "value": "blonde hair",
+      "color": null,
+      "weight": 1
+    },
+    "hair_texture": {
+      "enabled": true,
+      "locked": false,
+      "value": "wavy hair",
+      "color": null,
+      "weight": 1
+    },
+    "eye_color": {
+      "enabled": true,
+      "locked": true,
+      "value": "green eyes",
+      "color": null,
+      "weight": 1
+    },
+    "eye_style": {
+      "enabled": true,
+      "locked": false,
+      "value": "detailed eyes",
+      "color": null,
+      "weight": 1
+    },
+    "body_type": {
+      "enabled": true,
+      "locked": false,
+      "value": "hourglass figure",
+      "color": null,
+      "weight": 1
+    },
+    "height": {
+      "enabled": true,
+      "locked": false,
+      "value": "tall",
+      "color": null,
+      "weight": 1
+    },
+    "skin": {
+      "enabled": true,
+      "locked": false,
+      "value": "brown skin",
+      "color": null,
+      "weight": 1
+    },
+    "age_appearance": {
+      "enabled": true,
+      "locked": false,
+      "value": "mature",
+      "color": null,
+      "weight": 1
+    },
+    "special_features": {
+      "enabled": false,
+      "locked": false,
+      "value": "feathered wings",
+      "color": null,
+      "weight": 1
+    },
+    "expression": {
+      "enabled": true,
+      "locked": false,
+      "value": "Bored / uninterested",
+      "color": null,
+      "weight": 1
+    },
+    "head": {
+      "enabled": false,
+      "locked": false,
+      "value": "bobby pins",
+      "color": "light blue",
+      "weight": 1
+    },
+    "neck": {
+      "enabled": true,
+      "locked": false,
+      "value": "tomoeri (extra collar)",
+      "color": "green",
+      "weight": 1
+    },
+    "upper_body": {
+      "enabled": true,
+      "locked": false,
+      "value": "gym shirt",
+      "color": "light purple",
+      "weight": 1
+    },
+    "waist": {
+      "enabled": false,
+      "locked": false,
+      "value": "holster belt",
+      "color": "light purple",
+      "weight": 1
+    },
+    "lower_body": {
+      "enabled": false,
+      "locked": false,
+      "value": "officer skirt",
+      "color": "dark blue",
+      "weight": 1
+    },
+    "full_body": {
+      "enabled": false,
+      "locked": false,
+      "value": "Modern Yukata",
+      "color": "light purple",
+      "weight": 1
+    },
+    "outerwear": {
+      "enabled": true,
+      "locked": false,
+      "value": "leather jacket",
+      "color": "light blue",
+      "weight": 1
+    },
+    "hands": {
+      "enabled": false,
+      "locked": false,
+      "value": "vambrace",
+      "color": "white",
+      "weight": 1
+    },
+    "legs": {
+      "enabled": false,
+      "locked": false,
+      "value": "fishnet stockings",
+      "color": "green",
+      "weight": 1
+    },
+    "feet": {
+      "enabled": false,
+      "locked": false,
+      "value": "sandals",
+      "color": "peach",
+      "weight": 1
+    },
+    "accessory": {
+      "enabled": true,
+      "locked": false,
+      "value": "umbrellas",
+      "color": "dark blue",
+      "weight": 1
+    },
+    "pose": {
+      "enabled": true,
+      "locked": false,
+      "value": "lying down",
+      "color": null,
+      "weight": 1
+    },
+    "gesture": {
+      "enabled": true,
+      "locked": false,
+      "value": "playing with hair",
+      "color": null,
+      "weight": 1
+    },
+    "background": {
+      "enabled": true,
+      "locked": false,
+      "value": "train station",
+      "color": null,
+      "weight": 1
+    }
+  }
+}

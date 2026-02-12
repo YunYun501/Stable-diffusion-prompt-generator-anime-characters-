@@ -1,0 +1,188 @@
+{
+  "name": "Saber_大小姐",
+  "created_at": "2026-02-12T00:36:50.661753",
+  "slots": {
+    "hair_style": {
+      "enabled": true,
+      "locked": false,
+      "value": "hair between eyes",
+      "color": null,
+      "weight": 1
+    },
+    "hair_length": {
+      "enabled": true,
+      "locked": false,
+      "value": "very long hair",
+      "color": null,
+      "weight": 1
+    },
+    "hair_color": {
+      "enabled": true,
+      "locked": true,
+      "value": "blonde hair",
+      "color": null,
+      "weight": 1
+    },
+    "hair_texture": {
+      "enabled": true,
+      "locked": false,
+      "value": "wispy hair",
+      "color": null,
+      "weight": 1
+    },
+    "eye_color": {
+      "enabled": true,
+      "locked": true,
+      "value": "green eyes",
+      "color": null,
+      "weight": 1
+    },
+    "eye_style": {
+      "enabled": true,
+      "locked": false,
+      "value": "narrow eyes",
+      "color": null,
+      "weight": 1
+    },
+    "body_type": {
+      "enabled": true,
+      "locked": true,
+      "value": "soft body",
+      "color": null,
+      "weight": 1
+    },
+    "height": {
+      "enabled": true,
+      "locked": true,
+      "value": "tall",
+      "color": null,
+      "weight": 1
+    },
+    "skin": {
+      "enabled": false,
+      "locked": false,
+      "value": "dimples",
+      "color": null,
+      "weight": 1
+    },
+    "age_appearance": {
+      "enabled": true,
+      "locked": true,
+      "value": "ojou-sama",
+      "color": null,
+      "weight": 1
+    },
+    "special_features": {
+      "enabled": false,
+      "locked": false,
+      "value": "cat ears",
+      "color": null,
+      "weight": 1
+    },
+    "expression": {
+      "enabled": true,
+      "locked": false,
+      "value": "\"Doki doki\" flustered love",
+      "color": null,
+      "weight": 1
+    },
+    "head": {
+      "enabled": false,
+      "locked": false,
+      "value": "kabuto (samurai helmet)",
+      "color": "pink",
+      "weight": 1
+    },
+    "neck": {
+      "enabled": true,
+      "locked": false,
+      "value": "ribbon choker",
+      "color": "white",
+      "weight": 1
+    },
+    "upper_body": {
+      "enabled": true,
+      "locked": false,
+      "value": "club uniform top",
+      "color": "white",
+      "weight": 1
+    },
+    "waist": {
+      "enabled": true,
+      "locked": false,
+      "value": "obijime",
+      "color": "white",
+      "weight": 1
+    },
+    "lower_body": {
+      "enabled": true,
+      "locked": false,
+      "value": "uniform skirt",
+      "color": "black",
+      "weight": 1
+    },
+    "full_body": {
+      "enabled": false,
+      "locked": false,
+      "value": "Mecha pilot suit",
+      "color": "white",
+      "weight": 1
+    },
+    "outerwear": {
+      "enabled": true,
+      "locked": false,
+      "value": "shrug",
+      "color": "purple",
+      "weight": 1
+    },
+    "hands": {
+      "enabled": false,
+      "locked": false,
+      "value": "frilled gloves",
+      "color": "gold",
+      "weight": 1
+    },
+    "legs": {
+      "enabled": false,
+      "locked": false,
+      "value": "over-knee socks",
+      "color": "purple",
+      "weight": 1
+    },
+    "feet": {
+      "enabled": true,
+      "locked": false,
+      "value": "ballet flats",
+      "color": "pink",
+      "weight": 1
+    },
+    "accessory": {
+      "enabled": true,
+      "locked": false,
+      "value": "lace parasol",
+      "color": "pink",
+      "weight": 1
+    },
+    "pose": {
+      "enabled": true,
+      "locked": false,
+      "value": "sitting on bench",
+      "color": null,
+      "weight": 1
+    },
+    "gesture": {
+      "enabled": false,
+      "locked": false,
+      "value": "hand on cheek",
+      "color": null,
+      "weight": 1
+    },
+    "background": {
+      "enabled": true,
+      "locked": false,
+      "value": "theater",
+      "color": null,
+      "weight": 1
+    }
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "name": "Saber_alchemist",
+  "created_at": "2026-02-12T01:32:16.081456",
+  "slots": {
+    "hair_style": {
+      "enabled": true,
+      "locked": false,
+      "value": "ahoge",
+      "color": null,
+      "weight": 1
+    },
+    "hair_length": {
+      "enabled": true,
+      "locked": false,
+      "value": "chest-length hair",
+      "color": null,
+      "weight": 1
+    },
+    "hair_color": {
+      "enabled": true,
+      "locked": true,
+      "value": "blonde hair",
+      "color": null,
+      "weight": 1
+    },
+    "hair_texture": {
+      "enabled": true,
+      "locked": false,
+      "value": "tangled hair",
+      "color": null,
+      "weight": 1
+    },
+    "eye_color": {
+      "enabled": true,
+      "locked": true,
+      "value": "green eyes",
+      "color": null,
+      "weight": 1
+    },
+    "eye_style": {
+      "enabled": true,
+      "locked": false,
+      "value": "heart-shaped pupils",
+      "color": null,
+      "weight": 1
+    },
+    "body_type": {
+      "enabled": true,
+      "locked": false,
+      "value": "hourglass figure",
+      "color": null,
+      "weight": 1
+    },
+    "height": {
+      "enabled": true,
+      "locked": true,
+      "value": "tall",
+      "color": null,
+      "weight": 1
+    },
+    "skin": {
+      "enabled": false,
+      "locked": false,
+      "value": "olive skin",
+      "color": null,
+      "weight": 1
+    },
+    "age_appearance": {
+      "enabled": true,
+      "locked": true,
+      "value": "mature",
+      "color": null,
+      "weight": 1
+    },
+    "special_features": {
+      "enabled": false,
+      "locked": false,
+      "value": "tribal tattoo",
+      "color": null,
+      "weight": 1
+    },
+    "expression": {
+      "enabled": true,
+      "locked": false,
+      "value": "Dreamy / enamored",
+      "color": null,
+      "weight": 1
+    },
+    "head": {
+      "enabled": false,
+      "locked": false,
+      "value": "mengu (armored mask)",
+      "color": "cream",
+      "weight": 1
+    },
+    "neck": {
+      "enabled": true,
+      "locked": false,
+      "value": "bow tie",
+      "color": "mint",
+      "weight": 1
+    },
+    "upper_body": {
+      "enabled": true,
+      "locked": false,
+      "value": "sailor collar",
+      "color": "lavender",
+      "weight": 1
+    },
+    "waist": {
+      "enabled": false,
+      "locked": false,
+      "value": "thigh strap harness",
+      "color": "lavender",
+      "weight": 1
+    },
+    "lower_body": {
+      "enabled": false,
+      "locked": false,
+      "value": "gi pants",
+      "color": "light blue",
+      "weight": 1
+    },
+    "full_body": {
+      "enabled": false,
+      "locked": false,
+      "value": "kigurumi onesie",
+      "color": "light blue",
+      "weight": 1
+    },
+    "outerwear": {
+      "enabled": true,
+      "locked": false,
+      "value": "transparent raincoats",
+      "color": "light pink",
+      "weight": 1
+    },
+    "hands": {
+      "enabled": true,
+      "locked": false,
+      "value": "bridal gauntlets",
+      "color": "light blue",
+      "weight": 1
+    },
+    "legs": {
+      "enabled": false,
+      "locked": false,
+      "value": "striped thigh-highs",
+      "color": "light yellow",
+      "weight": 1
+    },
+    "feet": {
+      "enabled": false,
+      "locked": false,
+      "value": "knee-high boots",
+      "color": "cream",
+      "weight": 1
+    },
+    "accessory": {
+      "enabled": true,
+      "locked": false,
+      "value": "lucky omamori",
+      "color": "light pink",
+      "weight": 1
+    },
+    "pose": {
+      "enabled": true,
+      "locked": false,
+      "value": "finger to lips",
+      "color": null,
+      "weight": 1
+    },
+    "gesture": {
+      "enabled": false,
+      "locked": false,
+      "value": "ok sign",
+      "color": null,
+      "weight": 1
+    },
+    "background": {
+      "enabled": true,
+      "locked": false,
+      "value": "bath",
+      "color": null,
+      "weight": 1
+    }
+  }
+}

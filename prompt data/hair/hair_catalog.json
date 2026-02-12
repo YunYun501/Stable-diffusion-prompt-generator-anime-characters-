@@ -9,19 +9,31 @@
       "category": "style",
       "aliases": [
         "pony tail"
-      ]
+      ],
+      "name_i18n": {
+        "en": "ponytail",
+        "zh": "马尾辫"
+      }
     },
     {
       "id": "high_ponytail",
       "name": "high ponytail",
       "category": "style",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "high ponytail",
+        "zh": "高马尾"
+      }
     },
     {
       "id": "low_ponytail",
       "name": "low ponytail",
       "category": "style",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "low ponytail",
+        "zh": "低马尾"
+      }
     },
     {
       "id": "side_ponytail",
@@ -29,7 +41,11 @@
       "category": "style",
       "aliases": [
         "side tail"
-      ]
+      ],
+      "name_i18n": {
+        "en": "side ponytail",
+        "zh": "侧马尾"
+      }
     },
     {
       "id": "twintails",
@@ -38,19 +54,31 @@
       "aliases": [
         "twin tails",
         "pigtails"
-      ]
+      ],
+      "name_i18n": {
+        "en": "twintails",
+        "zh": "双马尾"
+      }
     },
     {
       "id": "low_twintails",
       "name": "low twintails",
       "category": "style",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "low twintails",
+        "zh": "低双马尾"
+      }
     },
     {
       "id": "short_twintails",
       "name": "short twintails",
       "category": "style",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "short twintails",
+        "zh": "短双马尾"
+      }
     },
     {
       "id": "drill_hair",
@@ -59,13 +87,21 @@
       "aliases": [
         "ringlets",
         "ojou-sama hair"
-      ]
+      ],
+      "name_i18n": {
+        "en": "drill hair",
+        "zh": "公主卷"
+      }
     },
     {
       "id": "twin_drills",
       "name": "twin drills",
       "category": "style",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "twin drills",
+        "zh": "双公主卷"
+      }
     },
     {
       "id": "braid",
@@ -73,13 +109,21 @@
       "category": "style",
       "aliases": [
         "braided hair"
-      ]
+      ],
+      "name_i18n": {
+        "en": "braid",
+        "zh": "辫子"
+      }
     },
     {
       "id": "single_braid",
       "name": "single braid",
       "category": "style",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "single braid",
+        "zh": "单辫"
+      }
     },
     {
       "id": "twin_braids",
@@ -87,31 +131,51 @@
       "category": "style",
       "aliases": [
         "double braids"
-      ]
+      ],
+      "name_i18n": {
+        "en": "twin braids",
+        "zh": "双辫"
+      }
     },
     {
       "id": "side_braid",
       "name": "side braid",
       "category": "style",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "side braid",
+        "zh": "侧辫"
+      }
     },
     {
       "id": "french_braid",
       "name": "french braid",
       "category": "style",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "french braid",
+        "zh": "法式辫"
+      }
     },
     {
       "id": "crown_braid",
       "name": "crown braid",
       "category": "style",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "crown braid",
+        "zh": "环形辫"
+      }
     },
     {
       "id": "fishtail_braid",
       "name": "fishtail braid",
       "category": "style",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "fishtail braid",
+        "zh": "鱼骨辫"
+      }
     },
     {
       "id": "bun",
@@ -119,7 +183,11 @@
       "category": "style",
       "aliases": [
         "bun"
-      ]
+      ],
+      "name_i18n": {
+        "en": "hair bun",
+        "zh": "丸子头"
+      }
     },
     {
       "id": "double_bun",
@@ -128,25 +196,41 @@
       "aliases": [
         "twin buns",
         "odango"
-      ]
+      ],
+      "name_i18n": {
+        "en": "double bun",
+        "zh": "双丸子头"
+      }
     },
     {
       "id": "side_bun",
       "name": "side bun",
       "category": "style",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "side bun",
+        "zh": "侧丸子头"
+      }
     },
     {
       "id": "braided_bun",
       "name": "braided bun",
       "category": "style",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "braided bun",
+        "zh": "编辫丸子头"
+      }
     },
     {
       "id": "messy_bun",
       "name": "messy bun",
       "category": "style",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "messy bun",
+        "zh": "凌乱丸子头"
+      }
     },
     {
       "id": "bob_cut",
@@ -154,19 +238,31 @@
       "category": "style",
       "aliases": [
         "bob"
-      ]
+      ],
+      "name_i18n": {
+        "en": "bob cut",
+        "zh": "波波头"
+      }
     },
     {
       "id": "asymmetrical_bob",
       "name": "asymmetrical bob",
       "category": "style",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "asymmetrical bob",
+        "zh": "不对称波波头"
+      }
     },
     {
       "id": "inverted_bob",
       "name": "inverted bob",
       "category": "style",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "inverted bob",
+        "zh": "倒三角波波头"
+      }
     },
     {
       "id": "hime_cut",
@@ -174,25 +270,41 @@
       "category": "style",
       "aliases": [
         "princess cut"
-      ]
+      ],
+      "name_i18n": {
+        "en": "hime cut",
+        "zh": "公主切"
+      }
     },
     {
       "id": "pixie_cut",
       "name": "pixie cut",
       "category": "style",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "pixie cut",
+        "zh": "精灵短发"
+      }
     },
     {
       "id": "wolf_cut",
       "name": "wolf cut",
       "category": "style",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "wolf cut",
+        "zh": "狼尾头"
+      }
     },
     {
       "id": "layered_hair",
       "name": "layered hair",
       "category": "style",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "layered hair",
+        "zh": "层次发"
+      }
     },
     {
       "id": "blunt_bangs",
@@ -200,43 +312,71 @@
       "category": "style",
       "aliases": [
         "straight bangs"
-      ]
+      ],
+      "name_i18n": {
+        "en": "blunt bangs",
+        "zh": "齐刘海"
+      }
     },
     {
       "id": "side_swept_bangs",
       "name": "side-swept bangs",
       "category": "style",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "side-swept bangs",
+        "zh": "侧刘海"
+      }
     },
     {
       "id": "parted_bangs",
       "name": "parted bangs",
       "category": "style",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "parted bangs",
+        "zh": "分开刘海"
+      }
     },
     {
       "id": "curtain_bangs",
       "name": "curtain bangs",
       "category": "style",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "curtain bangs",
+        "zh": "窗帘刘海"
+      }
     },
     {
       "id": "hair_over_one_eye",
       "name": "hair over one eye",
       "category": "style",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "hair over one eye",
+        "zh": "遮一只眼"
+      }
     },
     {
       "id": "hair_between_eyes",
       "name": "hair between eyes",
       "category": "style",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "hair between eyes",
+        "zh": "眉间发"
+      }
     },
     {
       "id": "crossed_bangs",
       "name": "crossed bangs",
       "category": "style",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "crossed bangs",
+        "zh": "交叉刘海"
+      }
     },
     {
       "id": "ahoge",
@@ -245,19 +385,31 @@
       "aliases": [
         "antenna hair",
         "cowlick"
-      ]
+      ],
+      "name_i18n": {
+        "en": "ahoge",
+        "zh": "呆毛"
+      }
     },
     {
       "id": "double_ahoge",
       "name": "double ahoge",
       "category": "style",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "double ahoge",
+        "zh": "双呆毛"
+      }
     },
     {
       "id": "heart_ahoge",
       "name": "heart ahoge",
       "category": "style",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "heart ahoge",
+        "zh": "心形呆毛"
+      }
     },
     {
       "id": "sidelocks",
@@ -265,19 +417,31 @@
       "category": "style",
       "aliases": [
         "side locks"
-      ]
+      ],
+      "name_i18n": {
+        "en": "sidelocks",
+        "zh": "鬓角发"
+      }
     },
     {
       "id": "hair_flaps",
       "name": "hair flaps",
       "category": "style",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "hair flaps",
+        "zh": "发翼"
+      }
     },
     {
       "id": "hair_wings",
       "name": "hair wings",
       "category": "style",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "hair wings",
+        "zh": "发翅"
+      }
     },
     {
       "id": "half_updo",
@@ -285,13 +449,21 @@
       "category": "style",
       "aliases": [
         "half up half down"
-      ]
+      ],
+      "name_i18n": {
+        "en": "half updo",
+        "zh": "半扎发"
+      }
     },
     {
       "id": "chignon",
       "name": "chignon",
       "category": "style",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "chignon",
+        "zh": "发髻"
+      }
     },
     {
       "id": "updo",
@@ -299,7 +471,11 @@
       "category": "style",
       "aliases": [
         "hair up"
-      ]
+      ],
+      "name_i18n": {
+        "en": "updo",
+        "zh": "盘发"
+      }
     },
     {
       "id": "loose_hair",
@@ -308,61 +484,101 @@
       "aliases": [
         "hair down",
         "free hair"
-      ]
+      ],
+      "name_i18n": {
+        "en": "loose hair",
+        "zh": "散发"
+      }
     },
     {
       "id": "hair_pulled_back",
       "name": "hair pulled back",
       "category": "style",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "hair pulled back",
+        "zh": "后梳发"
+      }
     },
     {
       "id": "swept_back_hair",
       "name": "swept back hair",
       "category": "style",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "swept back hair",
+        "zh": "大背头"
+      }
     },
     {
       "id": "short_hair",
       "name": "short hair",
       "category": "length",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "short hair",
+        "zh": "短发"
+      }
     },
     {
       "id": "medium_hair",
       "name": "medium hair",
       "category": "length",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "medium hair",
+        "zh": "中发"
+      }
     },
     {
       "id": "long_hair",
       "name": "long hair",
       "category": "length",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "long hair",
+        "zh": "长发"
+      }
     },
     {
       "id": "very_long_hair",
       "name": "very long hair",
       "category": "length",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "very long hair",
+        "zh": "超长发"
+      }
     },
     {
       "id": "absurdly_long_hair",
       "name": "absurdly long hair",
       "category": "length",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "absurdly long hair",
+        "zh": "极长发"
+      }
     },
     {
       "id": "shoulder_length_hair",
       "name": "shoulder-length hair",
       "category": "length",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "shoulder-length hair",
+        "zh": "及肩发"
+      }
     },
     {
       "id": "waist_length_hair",
       "name": "waist-length hair",
       "category": "length",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "waist-length hair",
+        "zh": "及腰发"
+      }
     },
     {
       "id": "blonde_hair",
@@ -370,73 +586,121 @@
       "category": "color",
       "aliases": [
         "blond hair"
-      ]
+      ],
+      "name_i18n": {
+        "en": "blonde hair",
+        "zh": "金发"
+      }
     },
     {
       "id": "golden_blonde",
       "name": "golden blonde hair",
       "category": "color",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "golden blonde hair",
+        "zh": "金黄色发"
+      }
     },
     {
       "id": "platinum_blonde",
       "name": "platinum blonde hair",
       "category": "color",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "platinum blonde hair",
+        "zh": "铂金色发"
+      }
     },
     {
       "id": "strawberry_blonde",
       "name": "strawberry blonde hair",
       "category": "color",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "strawberry blonde hair",
+        "zh": "草莓金发"
+      }
     },
     {
       "id": "light_blonde",
       "name": "light blonde hair",
       "category": "color",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "light blonde hair",
+        "zh": "浅金发"
+      }
     },
     {
       "id": "dark_blonde",
       "name": "dark blonde hair",
       "category": "color",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "dark blonde hair",
+        "zh": "深金发"
+      }
     },
     {
       "id": "ash_blonde",
       "name": "ash blonde hair",
       "category": "color",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "ash blonde hair",
+        "zh": "灰金发"
+      }
     },
     {
       "id": "black_hair",
       "name": "black hair",
       "category": "color",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "black hair",
+        "zh": "黑发"
+      }
     },
     {
       "id": "brown_hair",
       "name": "brown hair",
       "category": "color",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "brown hair",
+        "zh": "棕发"
+      }
     },
     {
       "id": "light_brown_hair",
       "name": "light brown hair",
       "category": "color",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "light brown hair",
+        "zh": "浅棕发"
+      }
     },
     {
       "id": "dark_brown_hair",
       "name": "dark brown hair",
       "category": "color",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "dark brown hair",
+        "zh": "深棕发"
+      }
     },
     {
       "id": "chestnut_hair",
       "name": "chestnut hair",
       "category": "color",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "chestnut hair",
+        "zh": "栗色发"
+      }
     },
     {
       "id": "red_hair",
@@ -444,67 +708,111 @@
       "category": "color",
       "aliases": [
         "redhead"
-      ]
+      ],
+      "name_i18n": {
+        "en": "red hair",
+        "zh": "红发"
+      }
     },
     {
       "id": "auburn_hair",
       "name": "auburn hair",
       "category": "color",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "auburn hair",
+        "zh": "赤褐色发"
+      }
     },
     {
       "id": "ginger_hair",
       "name": "ginger hair",
       "category": "color",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "ginger hair",
+        "zh": "姜红发"
+      }
     },
     {
       "id": "orange_hair",
       "name": "orange hair",
       "category": "color",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "orange hair",
+        "zh": "橙发"
+      }
     },
     {
       "id": "pink_hair",
       "name": "pink hair",
       "category": "color",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "pink hair",
+        "zh": "粉发"
+      }
     },
     {
       "id": "light_pink_hair",
       "name": "light pink hair",
       "category": "color",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "light pink hair",
+        "zh": "浅粉发"
+      }
     },
     {
       "id": "hot_pink_hair",
       "name": "hot pink hair",
       "category": "color",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "hot pink hair",
+        "zh": "亮粉发"
+      }
     },
     {
       "id": "magenta_hair",
       "name": "magenta hair",
       "category": "color",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "magenta hair",
+        "zh": "洋红发"
+      }
     },
     {
       "id": "blue_hair",
       "name": "blue hair",
       "category": "color",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "blue hair",
+        "zh": "蓝发"
+      }
     },
     {
       "id": "light_blue_hair",
       "name": "light blue hair",
       "category": "color",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "light blue hair",
+        "zh": "浅蓝发"
+      }
     },
     {
       "id": "dark_blue_hair",
       "name": "dark blue hair",
       "category": "color",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "dark blue hair",
+        "zh": "深蓝发"
+      }
     },
     {
       "id": "aqua_hair",
@@ -512,85 +820,141 @@
       "category": "color",
       "aliases": [
         "cyan hair"
-      ]
+      ],
+      "name_i18n": {
+        "en": "aqua hair",
+        "zh": "水蓝发"
+      }
     },
     {
       "id": "navy_hair",
       "name": "navy hair",
       "category": "color",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "navy hair",
+        "zh": "藏青发"
+      }
     },
     {
       "id": "purple_hair",
       "name": "purple hair",
       "category": "color",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "purple hair",
+        "zh": "紫发"
+      }
     },
     {
       "id": "light_purple_hair",
       "name": "light purple hair",
       "category": "color",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "light purple hair",
+        "zh": "浅紫发"
+      }
     },
     {
       "id": "dark_purple_hair",
       "name": "dark purple hair",
       "category": "color",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "dark purple hair",
+        "zh": "深紫发"
+      }
     },
     {
       "id": "lavender_hair",
       "name": "lavender hair",
       "category": "color",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "lavender hair",
+        "zh": "薰衣草色发"
+      }
     },
     {
       "id": "violet_hair",
       "name": "violet hair",
       "category": "color",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "violet hair",
+        "zh": "紫罗兰色发"
+      }
     },
     {
       "id": "green_hair",
       "name": "green hair",
       "category": "color",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "green hair",
+        "zh": "绿发"
+      }
     },
     {
       "id": "light_green_hair",
       "name": "light green hair",
       "category": "color",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "light green hair",
+        "zh": "浅绿发"
+      }
     },
     {
       "id": "dark_green_hair",
       "name": "dark green hair",
       "category": "color",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "dark green hair",
+        "zh": "深绿发"
+      }
     },
     {
       "id": "mint_hair",
       "name": "mint green hair",
       "category": "color",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "mint green hair",
+        "zh": "薄荷绿发"
+      }
     },
     {
       "id": "teal_hair",
       "name": "teal hair",
       "category": "color",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "teal hair",
+        "zh": "青绿发"
+      }
     },
     {
       "id": "white_hair",
       "name": "white hair",
       "category": "color",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "white hair",
+        "zh": "白发"
+      }
     },
     {
       "id": "silver_hair",
       "name": "silver hair",
       "category": "color",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "silver hair",
+        "zh": "银发"
+      }
     },
     {
       "id": "grey_hair",
@@ -598,25 +962,41 @@
       "category": "color",
       "aliases": [
         "gray hair"
-      ]
+      ],
+      "name_i18n": {
+        "en": "grey hair",
+        "zh": "灰发"
+      }
     },
     {
       "id": "multicolored_hair",
       "name": "multicolored hair",
       "category": "color",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "multicolored hair",
+        "zh": "多色发"
+      }
     },
     {
       "id": "gradient_hair",
       "name": "gradient hair",
       "category": "color",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "gradient hair",
+        "zh": "渐变色发"
+      }
     },
     {
       "id": "two_tone_hair",
       "name": "two-tone hair",
       "category": "color",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "two-tone hair",
+        "zh": "双色发"
+      }
     },
     {
       "id": "streaked_hair",
@@ -624,79 +1004,131 @@
       "category": "color",
       "aliases": [
         "hair highlights"
-      ]
+      ],
+      "name_i18n": {
+        "en": "streaked hair",
+        "zh": "挑染发"
+      }
     },
     {
       "id": "ombre_hair",
       "name": "ombre hair",
       "category": "color",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "ombre hair",
+        "zh": "渐变发"
+      }
     },
     {
       "id": "rainbow_hair",
       "name": "rainbow hair",
       "category": "color",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "rainbow hair",
+        "zh": "彩虹发"
+      }
     },
     {
       "id": "split_color_hair",
       "name": "split-color hair",
       "category": "color",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "split-color hair",
+        "zh": "半半色发"
+      }
     },
     {
       "id": "straight_hair",
       "name": "straight hair",
       "category": "texture",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "straight hair",
+        "zh": "直发"
+      }
     },
     {
       "id": "wavy_hair",
       "name": "wavy hair",
       "category": "texture",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "wavy hair",
+        "zh": "波浪发"
+      }
     },
     {
       "id": "curly_hair",
       "name": "curly hair",
       "category": "texture",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "curly hair",
+        "zh": "卷发"
+      }
     },
     {
       "id": "messy_hair",
       "name": "messy hair",
       "category": "texture",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "messy hair",
+        "zh": "凌乱发"
+      }
     },
     {
       "id": "spiky_hair",
       "name": "spiky hair",
       "category": "texture",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "spiky hair",
+        "zh": "刺猬头"
+      }
     },
     {
       "id": "fluffy_hair",
       "name": "fluffy hair",
       "category": "texture",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "fluffy hair",
+        "zh": "蓬松发"
+      }
     },
     {
       "id": "silky_hair",
       "name": "silky hair",
       "category": "texture",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "silky hair",
+        "zh": "丝滑发"
+      }
     },
     {
       "id": "shiny_hair",
       "name": "shiny hair",
       "category": "texture",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "shiny hair",
+        "zh": "光泽发"
+      }
     },
     {
       "id": "wet_hair",
       "name": "wet hair",
       "category": "texture",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "wet hair",
+        "zh": "湿发"
+      }
     },
     {
       "id": "windswept_hair",
@@ -704,133 +1136,221 @@
       "category": "texture",
       "aliases": [
         "wind-blown hair"
-      ]
+      ],
+      "name_i18n": {
+        "en": "windswept hair",
+        "zh": "风吹发"
+      }
     },
     {
       "id": "floating_hair",
       "name": "floating hair",
       "category": "texture",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "floating hair",
+        "zh": "飘逸发"
+      }
     },
     {
       "id": "disheveled_hair",
       "name": "disheveled hair",
       "category": "texture",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "disheveled hair",
+        "zh": "蓬乱发"
+      }
     },
     {
       "id": "voluminous_hair",
       "name": "voluminous hair",
       "category": "texture",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "voluminous hair",
+        "zh": "丰盈发"
+      }
     },
     {
       "id": "hip_length_hair",
       "name": "hip-length hair",
       "category": "length",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "hip-length hair",
+        "zh": "及臀发"
+      }
     },
     {
       "id": "knee_length_hair",
       "name": "knee-length hair",
       "category": "length",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "knee-length hair",
+        "zh": "及膝发"
+      }
     },
     {
       "id": "floor_length_hair",
       "name": "floor-length hair",
       "category": "length",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "floor-length hair",
+        "zh": "及地发"
+      }
     },
     {
       "id": "chin_length_hair",
       "name": "chin-length hair",
       "category": "length",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "chin-length hair",
+        "zh": "及下巴发"
+      }
     },
     {
       "id": "ear_length_hair",
       "name": "ear-length hair",
       "category": "length",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "ear-length hair",
+        "zh": "及耳发"
+      }
     },
     {
       "id": "chest_length_hair",
       "name": "chest-length hair",
       "category": "length",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "chest-length hair",
+        "zh": "及胸发"
+      }
     },
     {
       "id": "asymmetrical_length_hair",
       "name": "asymmetrical length hair",
       "category": "length",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "asymmetrical length hair",
+        "zh": "不对称长度发"
+      }
     },
     {
       "id": "bob_length_hair",
       "name": "bob-length hair",
       "category": "length",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "bob-length hair",
+        "zh": "波波头长度"
+      }
     },
     {
       "id": "ankle_length_hair",
       "name": "ankle-length hair",
       "category": "length",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "ankle-length hair",
+        "zh": "及踝发"
+      }
     },
     {
       "id": "glossy_hair",
       "name": "glossy hair",
       "category": "texture",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "glossy hair",
+        "zh": "亮泽发"
+      }
     },
     {
       "id": "wispy_hair",
       "name": "wispy hair",
       "category": "texture",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "wispy hair",
+        "zh": "纤细发"
+      }
     },
     {
       "id": "feathered_hair",
       "name": "feathered hair",
       "category": "texture",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "feathered hair",
+        "zh": "羽毛式发"
+      }
     },
     {
       "id": "tousled_hair",
       "name": "tousled hair",
       "category": "texture",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "tousled hair",
+        "zh": "随意蓬松发"
+      }
     },
     {
       "id": "slicked_back_hair",
       "name": "slicked-back hair",
       "category": "texture",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "slicked-back hair",
+        "zh": "后梳油头"
+      }
     },
     {
       "id": "damp_hair",
       "name": "damp hair",
       "category": "texture",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "damp hair",
+        "zh": "微湿发"
+      }
     },
     {
       "id": "frizzy_hair",
       "name": "frizzy hair",
       "category": "texture",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "frizzy hair",
+        "zh": "毛躁发"
+      }
     },
     {
       "id": "flowing_hair",
       "name": "flowing hair",
       "category": "texture",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "flowing hair",
+        "zh": "飘逸长发"
+      }
     },
     {
       "id": "tangled_hair",
       "name": "tangled hair",
       "category": "texture",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "tangled hair",
+        "zh": "打结发"
+      }
     }
   ],
   "index_by_category": {
@@ -1001,5 +1521,9 @@
       "Colors include both natural and anime-specific fantasy colors.",
       "Combine style + length + color + texture for complete hair description."
     ]
-  }
+  },
+  "supported_languages": [
+    "en",
+    "zh"
+  ]
 }

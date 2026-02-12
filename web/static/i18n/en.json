@@ -2,7 +2,10 @@
   "_label": "English",
   "page_title": "Character Prompt Generator",
   "page_heading": "Random Anime Character Prompt Generator",
-
+  "ui_lang_selector_label": "UI Language",
+  "prompt_lang_selector_label": "Prompt Language",
+  "lang_option_en": "English",
+  "lang_option_zh": "Chinese",
   "prefix_label": "Always Include (Stable Diffusion Prefix)",
   "prefix_preset_label": "Preset",
   "prefix_preset_none": "(None)",
@@ -10,12 +13,10 @@
   "prefix_placeholder": "Optional text prepended to every generated prompt...",
   "colorize_label": "Colorize prompt output",
   "prompt_placeholder": "Generated prompt will appear here...",
-
   "btn_generate": "Generate Prompt",
   "btn_randomize_all": "Randomize All",
   "btn_copy": "Copy",
   "btn_reset": "Reset",
-
   "setting_full_body": "Full-body specific outfit",
   "setting_upper_body": "Upper-body mode",
   "setting_palette": "Use Palette Colors",
@@ -23,14 +24,14 @@
   "palette_none": "(None)",
   "palette_lock_title": "Lock palette during Randomize All",
   "palette_locked_title": "Palette locked for Randomize All",
-
+  "btn_palette_random": "Random Palette",
+  "btn_palette_random_title": "Randomize palette",
   "save_load_summary": "Save / Load Configuration",
   "config_name_placeholder": "my_character",
   "btn_save": "Save",
   "config_select_default": "(Select config)",
   "btn_load": "Load",
   "btn_refresh": "Refresh",
-
   "slot_on": "On",
   "slot_off": "Off",
   "slot_toggle_title": "Toggle slot on/off",
@@ -40,15 +41,12 @@
   "slot_no_color": "(No Color)",
   "slot_color_random_title": "Randomize color",
   "slot_weight_title": "Prompt weight",
-
   "section_random": "Random",
   "section_all_on": "All On",
   "section_all_off": "All Off",
-
   "section_appearance": "Appearance",
   "section_body": "Body / Expression / Pose",
   "section_clothing": "Clothing & Background",
-
   "slot_label_hair_style": "hair style",
   "slot_label_hair_length": "hair length",
   "slot_label_hair_color": "hair color",
@@ -76,11 +74,8 @@
   "slot_label_feet": "feet",
   "slot_label_accessory": "accessory",
   "slot_label_background": "background",
-
   "status_saved": "Saved: {name}",
   "status_loaded": "Loaded: {name}",
   "status_enter_name": "Please enter a config name",
-  "status_select_config": "Select a config first",
-
-  "lang_selector_label": "Language"
+  "status_select_config": "Select a config first"
 }

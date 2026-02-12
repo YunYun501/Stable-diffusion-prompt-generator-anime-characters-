@@ -3,102 +3,821 @@
   "title": "Female Anime Eye Colors and Styles",
   "generated_utc": "2026-02-11T12:00:00Z",
   "items": [
-    {"id": "blue_eyes", "name": "blue eyes", "category": "color", "aliases": []},
-    {"id": "light_blue_eyes", "name": "light blue eyes", "category": "color", "aliases": []},
-    {"id": "dark_blue_eyes", "name": "dark blue eyes", "category": "color", "aliases": []},
-    {"id": "aqua_eyes", "name": "aqua eyes", "category": "color", "aliases": ["cyan eyes"]},
-    {"id": "teal_eyes", "name": "teal eyes", "category": "color", "aliases": []},
-    {"id": "turquoise_eyes", "name": "turquoise eyes", "category": "color", "aliases": []},
-    {"id": "green_eyes", "name": "green eyes", "category": "color", "aliases": []},
-    {"id": "light_green_eyes", "name": "light green eyes", "category": "color", "aliases": []},
-    {"id": "dark_green_eyes", "name": "dark green eyes", "category": "color", "aliases": []},
-    {"id": "emerald_eyes", "name": "emerald eyes", "category": "color", "aliases": []},
-    {"id": "brown_eyes", "name": "brown eyes", "category": "color", "aliases": []},
-    {"id": "light_brown_eyes", "name": "light brown eyes", "category": "color", "aliases": []},
-    {"id": "dark_brown_eyes", "name": "dark brown eyes", "category": "color", "aliases": []},
-    {"id": "hazel_eyes", "name": "hazel eyes", "category": "color", "aliases": []},
-    {"id": "amber_eyes", "name": "amber eyes", "category": "color", "aliases": []},
-    {"id": "golden_eyes", "name": "golden eyes", "category": "color", "aliases": ["gold eyes"]},
-    {"id": "yellow_eyes", "name": "yellow eyes", "category": "color", "aliases": []},
-    {"id": "orange_eyes", "name": "orange eyes", "category": "color", "aliases": []},
-    {"id": "red_eyes", "name": "red eyes", "category": "color", "aliases": []},
-    {"id": "crimson_eyes", "name": "crimson eyes", "category": "color", "aliases": []},
-    {"id": "scarlet_eyes", "name": "scarlet eyes", "category": "color", "aliases": []},
-    {"id": "pink_eyes", "name": "pink eyes", "category": "color", "aliases": []},
-    {"id": "magenta_eyes", "name": "magenta eyes", "category": "color", "aliases": []},
-    {"id": "purple_eyes", "name": "purple eyes", "category": "color", "aliases": []},
-    {"id": "violet_eyes", "name": "violet eyes", "category": "color", "aliases": []},
-    {"id": "lavender_eyes", "name": "lavender eyes", "category": "color", "aliases": []},
-    {"id": "grey_eyes", "name": "grey eyes", "category": "color", "aliases": ["gray eyes"]},
-    {"id": "silver_eyes", "name": "silver eyes", "category": "color", "aliases": []},
-    {"id": "white_eyes", "name": "white eyes", "category": "color", "aliases": []},
-    {"id": "black_eyes", "name": "black eyes", "category": "color", "aliases": []},
-    {"id": "heterochromia", "name": "heterochromia", "category": "color", "aliases": ["odd eyes", "different colored eyes"]},
-    {"id": "gradient_eyes", "name": "gradient eyes", "category": "color", "aliases": []},
-    {"id": "multicolored_eyes", "name": "multicolored eyes", "category": "color", "aliases": []},
-    {"id": "sparkling_eyes", "name": "sparkling eyes", "category": "style", "aliases": ["shining eyes"]},
-    {"id": "bright_eyes", "name": "bright eyes", "category": "style", "aliases": []},
-    {"id": "glowing_eyes", "name": "glowing eyes", "category": "style", "aliases": []},
-    {"id": "detailed_eyes", "name": "detailed eyes", "category": "style", "aliases": []},
-    {"id": "beautiful_eyes", "name": "beautiful eyes", "category": "style", "aliases": []},
-    {"id": "expressive_eyes", "name": "expressive eyes", "category": "style", "aliases": []},
-    {"id": "gentle_eyes", "name": "gentle eyes", "category": "style", "aliases": []},
-    {"id": "sharp_eyes", "name": "sharp eyes", "category": "style", "aliases": []},
-    {"id": "soft_eyes", "name": "soft eyes", "category": "style", "aliases": []},
-    {"id": "tareme", "name": "tareme", "category": "style", "aliases": ["drooping eyes", "gentle droopy eyes"]},
-    {"id": "tsurime", "name": "tsurime", "category": "style", "aliases": ["upturned eyes", "sharp upturned eyes"]},
-    {"id": "jitome", "name": "jitome", "category": "style", "aliases": ["half-closed eyes", "sleepy eyes"]},
-    {"id": "sanpaku", "name": "sanpaku eyes", "category": "style", "aliases": ["sanpaku"]},
-    {"id": "big_eyes", "name": "big eyes", "category": "style", "aliases": ["large eyes"]},
-    {"id": "small_eyes", "name": "small eyes", "category": "style", "aliases": []},
-    {"id": "round_eyes", "name": "round eyes", "category": "style", "aliases": []},
-    {"id": "almond_eyes", "name": "almond eyes", "category": "style", "aliases": []},
-    {"id": "narrow_eyes", "name": "narrow eyes", "category": "style", "aliases": []},
-    {"id": "wide_eyes", "name": "wide eyes", "category": "style", "aliases": []},
-    {"id": "empty_eyes", "name": "empty eyes", "category": "style", "aliases": ["hollow eyes"]},
-    {"id": "dead_eyes", "name": "dead eyes", "category": "style", "aliases": []},
-    {"id": "crazy_eyes", "name": "crazy eyes", "category": "style", "aliases": []},
-    {"id": "heart_shaped_pupils", "name": "heart-shaped pupils", "category": "style", "aliases": ["heart eyes"]},
-    {"id": "star_shaped_pupils", "name": "star-shaped pupils", "category": "style", "aliases": ["star eyes"]},
-    {"id": "slit_pupils", "name": "slit pupils", "category": "style", "aliases": ["cat pupils", "snake eyes"]},
-    {"id": "spiral_eyes", "name": "spiral eyes", "category": "style", "aliases": []},
-    {"id": "symbol_shaped_pupils", "name": "symbol-shaped pupils", "category": "style", "aliases": []},
-    {"id": "closed_eyes", "name": "closed eyes", "category": "style", "aliases": []},
-    {"id": "half_closed_eyes", "name": "half-closed eyes", "category": "style", "aliases": []},
-    {"id": "one_eye_closed", "name": "one eye closed", "category": "style", "aliases": ["winking"]},
-    {"id": "crying_eyes", "name": "crying", "category": "style", "aliases": ["teary eyes", "tears"]},
-    {"id": "eyepatch", "name": "eyepatch", "category": "style", "aliases": []},
-    {"id": "glasses", "name": "glasses", "category": "style", "aliases": []},
-    {"id": "round_glasses", "name": "round glasses", "category": "style", "aliases": []},
-    {"id": "semi_rimless_glasses", "name": "semi-rimless glasses", "category": "style", "aliases": []},
-    {"id": "under_rim_glasses", "name": "under-rim glasses", "category": "style", "aliases": []}
+    {
+      "id": "blue_eyes",
+      "name": "blue eyes",
+      "category": "color",
+      "aliases": [],
+      "name_i18n": {
+        "en": "blue eyes",
+        "zh": "蓝色眼睛"
+      }
+    },
+    {
+      "id": "light_blue_eyes",
+      "name": "light blue eyes",
+      "category": "color",
+      "aliases": [],
+      "name_i18n": {
+        "en": "light blue eyes",
+        "zh": "浅蓝色眼睛"
+      }
+    },
+    {
+      "id": "dark_blue_eyes",
+      "name": "dark blue eyes",
+      "category": "color",
+      "aliases": [],
+      "name_i18n": {
+        "en": "dark blue eyes",
+        "zh": "深蓝色眼睛"
+      }
+    },
+    {
+      "id": "aqua_eyes",
+      "name": "aqua eyes",
+      "category": "color",
+      "aliases": [
+        "cyan eyes"
+      ],
+      "name_i18n": {
+        "en": "aqua eyes",
+        "zh": "水蓝色眼睛"
+      }
+    },
+    {
+      "id": "teal_eyes",
+      "name": "teal eyes",
+      "category": "color",
+      "aliases": [],
+      "name_i18n": {
+        "en": "teal eyes",
+        "zh": "青绿色眼睛"
+      }
+    },
+    {
+      "id": "turquoise_eyes",
+      "name": "turquoise eyes",
+      "category": "color",
+      "aliases": [],
+      "name_i18n": {
+        "en": "turquoise eyes",
+        "zh": "绿松石色眼睛"
+      }
+    },
+    {
+      "id": "green_eyes",
+      "name": "green eyes",
+      "category": "color",
+      "aliases": [],
+      "name_i18n": {
+        "en": "green eyes",
+        "zh": "绿色眼睛"
+      }
+    },
+    {
+      "id": "light_green_eyes",
+      "name": "light green eyes",
+      "category": "color",
+      "aliases": [],
+      "name_i18n": {
+        "en": "light green eyes",
+        "zh": "浅绿色眼睛"
+      }
+    },
+    {
+      "id": "dark_green_eyes",
+      "name": "dark green eyes",
+      "category": "color",
+      "aliases": [],
+      "name_i18n": {
+        "en": "dark green eyes",
+        "zh": "深绿色眼睛"
+      }
+    },
+    {
+      "id": "emerald_eyes",
+      "name": "emerald eyes",
+      "category": "color",
+      "aliases": [],
+      "name_i18n": {
+        "en": "emerald eyes",
+        "zh": "翡翠色眼睛"
+      }
+    },
+    {
+      "id": "brown_eyes",
+      "name": "brown eyes",
+      "category": "color",
+      "aliases": [],
+      "name_i18n": {
+        "en": "brown eyes",
+        "zh": "棕色眼睛"
+      }
+    },
+    {
+      "id": "light_brown_eyes",
+      "name": "light brown eyes",
+      "category": "color",
+      "aliases": [],
+      "name_i18n": {
+        "en": "light brown eyes",
+        "zh": "浅棕色眼睛"
+      }
+    },
+    {
+      "id": "dark_brown_eyes",
+      "name": "dark brown eyes",
+      "category": "color",
+      "aliases": [],
+      "name_i18n": {
+        "en": "dark brown eyes",
+        "zh": "深棕色眼睛"
+      }
+    },
+    {
+      "id": "hazel_eyes",
+      "name": "hazel eyes",
+      "category": "color",
+      "aliases": [],
+      "name_i18n": {
+        "en": "hazel eyes",
+        "zh": "榛色眼睛"
+      }
+    },
+    {
+      "id": "amber_eyes",
+      "name": "amber eyes",
+      "category": "color",
+      "aliases": [],
+      "name_i18n": {
+        "en": "amber eyes",
+        "zh": "琥珀色眼睛"
+      }
+    },
+    {
+      "id": "golden_eyes",
+      "name": "golden eyes",
+      "category": "color",
+      "aliases": [
+        "gold eyes"
+      ],
+      "name_i18n": {
+        "en": "golden eyes",
+        "zh": "金色眼睛"
+      }
+    },
+    {
+      "id": "yellow_eyes",
+      "name": "yellow eyes",
+      "category": "color",
+      "aliases": [],
+      "name_i18n": {
+        "en": "yellow eyes",
+        "zh": "黄色眼睛"
+      }
+    },
+    {
+      "id": "orange_eyes",
+      "name": "orange eyes",
+      "category": "color",
+      "aliases": [],
+      "name_i18n": {
+        "en": "orange eyes",
+        "zh": "橙色眼睛"
+      }
+    },
+    {
+      "id": "red_eyes",
+      "name": "red eyes",
+      "category": "color",
+      "aliases": [],
+      "name_i18n": {
+        "en": "red eyes",
+        "zh": "红色眼睛"
+      }
+    },
+    {
+      "id": "crimson_eyes",
+      "name": "crimson eyes",
+      "category": "color",
+      "aliases": [],
+      "name_i18n": {
+        "en": "crimson eyes",
+        "zh": "绯红色眼睛"
+      }
+    },
+    {
+      "id": "scarlet_eyes",
+      "name": "scarlet eyes",
+      "category": "color",
+      "aliases": [],
+      "name_i18n": {
+        "en": "scarlet eyes",
+        "zh": "猩红色眼睛"
+      }
+    },
+    {
+      "id": "pink_eyes",
+      "name": "pink eyes",
+      "category": "color",
+      "aliases": [],
+      "name_i18n": {
+        "en": "pink eyes",
+        "zh": "粉色眼睛"
+      }
+    },
+    {
+      "id": "magenta_eyes",
+      "name": "magenta eyes",
+      "category": "color",
+      "aliases": [],
+      "name_i18n": {
+        "en": "magenta eyes",
+        "zh": "洋红色眼睛"
+      }
+    },
+    {
+      "id": "purple_eyes",
+      "name": "purple eyes",
+      "category": "color",
+      "aliases": [],
+      "name_i18n": {
+        "en": "purple eyes",
+        "zh": "紫色眼睛"
+      }
+    },
+    {
+      "id": "violet_eyes",
+      "name": "violet eyes",
+      "category": "color",
+      "aliases": [],
+      "name_i18n": {
+        "en": "violet eyes",
+        "zh": "紫罗兰色眼睛"
+      }
+    },
+    {
+      "id": "lavender_eyes",
+      "name": "lavender eyes",
+      "category": "color",
+      "aliases": [],
+      "name_i18n": {
+        "en": "lavender eyes",
+        "zh": "薰衣草色眼睛"
+      }
+    },
+    {
+      "id": "grey_eyes",
+      "name": "grey eyes",
+      "category": "color",
+      "aliases": [
+        "gray eyes"
+      ],
+      "name_i18n": {
+        "en": "grey eyes",
+        "zh": "灰色眼睛"
+      }
+    },
+    {
+      "id": "silver_eyes",
+      "name": "silver eyes",
+      "category": "color",
+      "aliases": [],
+      "name_i18n": {
+        "en": "silver eyes",
+        "zh": "银色眼睛"
+      }
+    },
+    {
+      "id": "white_eyes",
+      "name": "white eyes",
+      "category": "color",
+      "aliases": [],
+      "name_i18n": {
+        "en": "white eyes",
+        "zh": "白色眼睛"
+      }
+    },
+    {
+      "id": "black_eyes",
+      "name": "black eyes",
+      "category": "color",
+      "aliases": [],
+      "name_i18n": {
+        "en": "black eyes",
+        "zh": "黑色眼睛"
+      }
+    },
+    {
+      "id": "heterochromia",
+      "name": "heterochromia",
+      "category": "color",
+      "aliases": [
+        "odd eyes",
+        "different colored eyes"
+      ],
+      "name_i18n": {
+        "en": "heterochromia",
+        "zh": "异色瞳"
+      }
+    },
+    {
+      "id": "gradient_eyes",
+      "name": "gradient eyes",
+      "category": "color",
+      "aliases": [],
+      "name_i18n": {
+        "en": "gradient eyes",
+        "zh": "渐变色眼睛"
+      }
+    },
+    {
+      "id": "multicolored_eyes",
+      "name": "multicolored eyes",
+      "category": "color",
+      "aliases": [],
+      "name_i18n": {
+        "en": "multicolored eyes",
+        "zh": "多色眼睛"
+      }
+    },
+    {
+      "id": "sparkling_eyes",
+      "name": "sparkling eyes",
+      "category": "style",
+      "aliases": [
+        "shining eyes"
+      ],
+      "name_i18n": {
+        "en": "sparkling eyes",
+        "zh": "闪闪发光的眼睛"
+      }
+    },
+    {
+      "id": "bright_eyes",
+      "name": "bright eyes",
+      "category": "style",
+      "aliases": [],
+      "name_i18n": {
+        "en": "bright eyes",
+        "zh": "明亮的眼睛"
+      }
+    },
+    {
+      "id": "glowing_eyes",
+      "name": "glowing eyes",
+      "category": "style",
+      "aliases": [],
+      "name_i18n": {
+        "en": "glowing eyes",
+        "zh": "发光的眼睛"
+      }
+    },
+    {
+      "id": "detailed_eyes",
+      "name": "detailed eyes",
+      "category": "style",
+      "aliases": [],
+      "name_i18n": {
+        "en": "detailed eyes",
+        "zh": "精致的眼睛"
+      }
+    },
+    {
+      "id": "beautiful_eyes",
+      "name": "beautiful eyes",
+      "category": "style",
+      "aliases": [],
+      "name_i18n": {
+        "en": "beautiful eyes",
+        "zh": "美丽的眼睛"
+      }
+    },
+    {
+      "id": "expressive_eyes",
+      "name": "expressive eyes",
+      "category": "style",
+      "aliases": [],
+      "name_i18n": {
+        "en": "expressive eyes",
+        "zh": "富有表现力的眼睛"
+      }
+    },
+    {
+      "id": "gentle_eyes",
+      "name": "gentle eyes",
+      "category": "style",
+      "aliases": [],
+      "name_i18n": {
+        "en": "gentle eyes",
+        "zh": "温柔的眼睛"
+      }
+    },
+    {
+      "id": "sharp_eyes",
+      "name": "sharp eyes",
+      "category": "style",
+      "aliases": [],
+      "name_i18n": {
+        "en": "sharp eyes",
+        "zh": "锐利的眼睛"
+      }
+    },
+    {
+      "id": "soft_eyes",
+      "name": "soft eyes",
+      "category": "style",
+      "aliases": [],
+      "name_i18n": {
+        "en": "soft eyes",
+        "zh": "柔和的眼睛"
+      }
+    },
+    {
+      "id": "tareme",
+      "name": "tareme",
+      "category": "style",
+      "aliases": [
+        "drooping eyes",
+        "gentle droopy eyes"
+      ],
+      "name_i18n": {
+        "en": "tareme",
+        "zh": "垂眼"
+      }
+    },
+    {
+      "id": "tsurime",
+      "name": "tsurime",
+      "category": "style",
+      "aliases": [
+        "upturned eyes",
+        "sharp upturned eyes"
+      ],
+      "name_i18n": {
+        "en": "tsurime",
+        "zh": "吊眼"
+      }
+    },
+    {
+      "id": "jitome",
+      "name": "jitome",
+      "category": "style",
+      "aliases": [
+        "half-closed eyes",
+        "sleepy eyes"
+      ],
+      "name_i18n": {
+        "en": "jitome",
+        "zh": "半睁眼"
+      }
+    },
+    {
+      "id": "sanpaku",
+      "name": "sanpaku eyes",
+      "category": "style",
+      "aliases": [
+        "sanpaku"
+      ],
+      "name_i18n": {
+        "en": "sanpaku eyes",
+        "zh": "三白眼"
+      }
+    },
+    {
+      "id": "big_eyes",
+      "name": "big eyes",
+      "category": "style",
+      "aliases": [
+        "large eyes"
+      ],
+      "name_i18n": {
+        "en": "big eyes",
+        "zh": "大眼睛"
+      }
+    },
+    {
+      "id": "small_eyes",
+      "name": "small eyes",
+      "category": "style",
+      "aliases": [],
+      "name_i18n": {
+        "en": "small eyes",
+        "zh": "小眼睛"
+      }
+    },
+    {
+      "id": "round_eyes",
+      "name": "round eyes",
+      "category": "style",
+      "aliases": [],
+      "name_i18n": {
+        "en": "round eyes",
+        "zh": "圆眼"
+      }
+    },
+    {
+      "id": "almond_eyes",
+      "name": "almond eyes",
+      "category": "style",
+      "aliases": [],
+      "name_i18n": {
+        "en": "almond eyes",
+        "zh": "杏仁眼"
+      }
+    },
+    {
+      "id": "narrow_eyes",
+      "name": "narrow eyes",
+      "category": "style",
+      "aliases": [],
+      "name_i18n": {
+        "en": "narrow eyes",
+        "zh": "细长眼"
+      }
+    },
+    {
+      "id": "wide_eyes",
+      "name": "wide eyes",
+      "category": "style",
+      "aliases": [],
+      "name_i18n": {
+        "en": "wide eyes",
+        "zh": "睁大的眼睛"
+      }
+    },
+    {
+      "id": "empty_eyes",
+      "name": "empty eyes",
+      "category": "style",
+      "aliases": [
+        "hollow eyes"
+      ],
+      "name_i18n": {
+        "en": "empty eyes",
+        "zh": "空洞的眼睛"
+      }
+    },
+    {
+      "id": "dead_eyes",
+      "name": "dead eyes",
+      "category": "style",
+      "aliases": [],
+      "name_i18n": {
+        "en": "dead eyes",
+        "zh": "死鱼眼"
+      }
+    },
+    {
+      "id": "crazy_eyes",
+      "name": "crazy eyes",
+      "category": "style",
+      "aliases": [],
+      "name_i18n": {
+        "en": "crazy eyes",
+        "zh": "疯狂的眼睛"
+      }
+    },
+    {
+      "id": "heart_shaped_pupils",
+      "name": "heart-shaped pupils",
+      "category": "style",
+      "aliases": [
+        "heart eyes"
+      ],
+      "name_i18n": {
+        "en": "heart-shaped pupils",
+        "zh": "心形瞳孔"
+      }
+    },
+    {
+      "id": "star_shaped_pupils",
+      "name": "star-shaped pupils",
+      "category": "style",
+      "aliases": [
+        "star eyes"
+      ],
+      "name_i18n": {
+        "en": "star-shaped pupils",
+        "zh": "星形瞳孔"
+      }
+    },
+    {
+      "id": "slit_pupils",
+      "name": "slit pupils",
+      "category": "style",
+      "aliases": [
+        "cat pupils",
+        "snake eyes"
+      ],
+      "name_i18n": {
+        "en": "slit pupils",
+        "zh": "竖瞳"
+      }
+    },
+    {
+      "id": "spiral_eyes",
+      "name": "spiral eyes",
+      "category": "style",
+      "aliases": [],
+      "name_i18n": {
+        "en": "spiral eyes",
+        "zh": "螺旋眼"
+      }
+    },
+    {
+      "id": "symbol_shaped_pupils",
+      "name": "symbol-shaped pupils",
+      "category": "style",
+      "aliases": [],
+      "name_i18n": {
+        "en": "symbol-shaped pupils",
+        "zh": "符号瞳孔"
+      }
+    },
+    {
+      "id": "closed_eyes",
+      "name": "closed eyes",
+      "category": "style",
+      "aliases": [],
+      "name_i18n": {
+        "en": "closed eyes",
+        "zh": "闭眼"
+      }
+    },
+    {
+      "id": "half_closed_eyes",
+      "name": "half-closed eyes",
+      "category": "style",
+      "aliases": [],
+      "name_i18n": {
+        "en": "half-closed eyes",
+        "zh": "半闭眼"
+      }
+    },
+    {
+      "id": "one_eye_closed",
+      "name": "one eye closed",
+      "category": "style",
+      "aliases": [
+        "winking"
+      ],
+      "name_i18n": {
+        "en": "one eye closed",
+        "zh": "单眼闭合"
+      }
+    },
+    {
+      "id": "crying_eyes",
+      "name": "crying",
+      "category": "style",
+      "aliases": [
+        "teary eyes",
+        "tears"
+      ],
+      "name_i18n": {
+        "en": "crying",
+        "zh": "哭泣"
+      }
+    },
+    {
+      "id": "eyepatch",
+      "name": "eyepatch",
+      "category": "style",
+      "aliases": [],
+      "name_i18n": {
+        "en": "eyepatch",
+        "zh": "眼罩"
+      }
+    },
+    {
+      "id": "glasses",
+      "name": "glasses",
+      "category": "style",
+      "aliases": [],
+      "name_i18n": {
+        "en": "glasses",
+        "zh": "眼镜"
+      }
+    },
+    {
+      "id": "round_glasses",
+      "name": "round glasses",
+      "category": "style",
+      "aliases": [],
+      "name_i18n": {
+        "en": "round glasses",
+        "zh": "圆框眼镜"
+      }
+    },
+    {
+      "id": "semi_rimless_glasses",
+      "name": "semi-rimless glasses",
+      "category": "style",
+      "aliases": [],
+      "name_i18n": {
+        "en": "semi-rimless glasses",
+        "zh": "半框眼镜"
+      }
+    },
+    {
+      "id": "under_rim_glasses",
+      "name": "under-rim glasses",
+      "category": "style",
+      "aliases": [],
+      "name_i18n": {
+        "en": "under-rim glasses",
+        "zh": "下缘眼镜"
+      }
+    }
   ],
   "index_by_category": {
     "color": [
-      "blue_eyes", "light_blue_eyes", "dark_blue_eyes", "aqua_eyes", "teal_eyes", "turquoise_eyes",
-      "green_eyes", "light_green_eyes", "dark_green_eyes", "emerald_eyes",
-      "brown_eyes", "light_brown_eyes", "dark_brown_eyes", "hazel_eyes",
-      "amber_eyes", "golden_eyes", "yellow_eyes", "orange_eyes",
-      "red_eyes", "crimson_eyes", "scarlet_eyes",
-      "pink_eyes", "magenta_eyes",
-      "purple_eyes", "violet_eyes", "lavender_eyes",
-      "grey_eyes", "silver_eyes", "white_eyes", "black_eyes",
-      "heterochromia", "gradient_eyes", "multicolored_eyes"
+      "blue_eyes",
+      "light_blue_eyes",
+      "dark_blue_eyes",
+      "aqua_eyes",
+      "teal_eyes",
+      "turquoise_eyes",
+      "green_eyes",
+      "light_green_eyes",
+      "dark_green_eyes",
+      "emerald_eyes",
+      "brown_eyes",
+      "light_brown_eyes",
+      "dark_brown_eyes",
+      "hazel_eyes",
+      "amber_eyes",
+      "golden_eyes",
+      "yellow_eyes",
+      "orange_eyes",
+      "red_eyes",
+      "crimson_eyes",
+      "scarlet_eyes",
+      "pink_eyes",
+      "magenta_eyes",
+      "purple_eyes",
+      "violet_eyes",
+      "lavender_eyes",
+      "grey_eyes",
+      "silver_eyes",
+      "white_eyes",
+      "black_eyes",
+      "heterochromia",
+      "gradient_eyes",
+      "multicolored_eyes"
     ],
     "style": [
-      "sparkling_eyes", "bright_eyes", "glowing_eyes", "detailed_eyes", "beautiful_eyes", "expressive_eyes",
-      "gentle_eyes", "sharp_eyes", "soft_eyes",
-      "tareme", "tsurime", "jitome", "sanpaku",
-      "big_eyes", "small_eyes", "round_eyes", "almond_eyes", "narrow_eyes", "wide_eyes",
-      "empty_eyes", "dead_eyes", "crazy_eyes",
-      "heart_shaped_pupils", "star_shaped_pupils", "slit_pupils", "spiral_eyes", "symbol_shaped_pupils",
-      "closed_eyes", "half_closed_eyes", "one_eye_closed", "crying_eyes",
-      "eyepatch", "glasses", "round_glasses", "semi_rimless_glasses", "under_rim_glasses"
+      "sparkling_eyes",
+      "bright_eyes",
+      "glowing_eyes",
+      "detailed_eyes",
+      "beautiful_eyes",
+      "expressive_eyes",
+      "gentle_eyes",
+      "sharp_eyes",
+      "soft_eyes",
+      "tareme",
+      "tsurime",
+      "jitome",
+      "sanpaku",
+      "big_eyes",
+      "small_eyes",
+      "round_eyes",
+      "almond_eyes",
+      "narrow_eyes",
+      "wide_eyes",
+      "empty_eyes",
+      "dead_eyes",
+      "crazy_eyes",
+      "heart_shaped_pupils",
+      "star_shaped_pupils",
+      "slit_pupils",
+      "spiral_eyes",
+      "symbol_shaped_pupils",
+      "closed_eyes",
+      "half_closed_eyes",
+      "one_eye_closed",
+      "crying_eyes",
+      "eyepatch",
+      "glasses",
+      "round_glasses",
+      "semi_rimless_glasses",
+      "under_rim_glasses"
     ]
   },
   "categories": [
-    {"id": "color", "name": "Eye Color", "description": "The color of the eyes"},
-    {"id": "style", "name": "Eye Style", "description": "Special eye characteristics or styles"}
+    {
+      "id": "color",
+      "name": "Eye Color",
+      "description": "The color of the eyes"
+    },
+    {
+      "id": "style",
+      "name": "Eye Style",
+      "description": "Special eye characteristics or styles"
+    }
   ],
   "meta": {
     "notes": [
@@ -106,5 +825,9 @@
       "Styles include anime-specific terms like tareme, tsurime, and jitome.",
       "Eye colors and styles can be combined."
     ]
-  }
+  },
+  "supported_languages": [
+    "en",
+    "zh"
+  ]
 }

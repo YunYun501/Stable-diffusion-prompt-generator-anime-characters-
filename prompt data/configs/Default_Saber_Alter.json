@@ -1,0 +1,195 @@
+{
+  "name": "Default_Saber_Alter",
+  "created_at": "2026-02-12T13:30:37.179783",
+  "slots": {
+    "hair_style": {
+      "enabled": true,
+      "locked": false,
+      "value": "side braid",
+      "color": null,
+      "weight": 1
+    },
+    "hair_length": {
+      "enabled": true,
+      "locked": false,
+      "value": "ear-length hair",
+      "color": null,
+      "weight": 1
+    },
+    "hair_color": {
+      "enabled": true,
+      "locked": true,
+      "value": "ash blonde hair",
+      "color": null,
+      "weight": 1
+    },
+    "hair_texture": {
+      "enabled": true,
+      "locked": false,
+      "value": "straight hair",
+      "color": null,
+      "weight": 1
+    },
+    "eye_color": {
+      "enabled": true,
+      "locked": true,
+      "value": "yellow eyes",
+      "color": null,
+      "weight": 1
+    },
+    "eye_style": {
+      "enabled": false,
+      "locked": false,
+      "value": "wide eyes",
+      "color": null,
+      "weight": 1
+    },
+    "body_type": {
+      "enabled": true,
+      "locked": true,
+      "value": "graceful",
+      "color": null,
+      "weight": 1
+    },
+    "height": {
+      "enabled": true,
+      "locked": true,
+      "value": "average height",
+      "color": null,
+      "weight": 1
+    },
+    "skin": {
+      "enabled": false,
+      "locked": false,
+      "value": "mole",
+      "color": null,
+      "weight": 1
+    },
+    "age_appearance": {
+      "enabled": true,
+      "locked": false,
+      "value": "child",
+      "color": null,
+      "weight": 1
+    },
+    "special_features": {
+      "enabled": false,
+      "locked": false,
+      "value": "fox tail",
+      "color": null,
+      "weight": 1
+    },
+    "expression": {
+      "enabled": true,
+      "locked": false,
+      "value": "Smile (closed-mouth)",
+      "color": null,
+      "weight": 1
+    },
+    "head": {
+      "enabled": true,
+      "locked": false,
+      "value": "santa hat",
+      "color": "purple",
+      "weight": 1
+    },
+    "neck": {
+      "enabled": true,
+      "locked": false,
+      "value": "bowtie",
+      "color": "silver",
+      "weight": 1
+    },
+    "upper_body": {
+      "enabled": true,
+      "locked": false,
+      "value": "high-collared blouse",
+      "color": "white",
+      "weight": 1
+    },
+    "waist": {
+      "enabled": true,
+      "locked": false,
+      "value": "waist cape",
+      "color": "white",
+      "weight": 1
+    },
+    "lower_body": {
+      "enabled": true,
+      "locked": false,
+      "value": "tutu skirt",
+      "color": "purple",
+      "weight": 1
+    },
+    "full_body": {
+      "enabled": false,
+      "locked": false,
+      "value": "jumpsuit",
+      "color": "pink",
+      "weight": 1
+    },
+    "outerwear": {
+      "enabled": true,
+      "locked": false,
+      "value": "cardigans",
+      "color": "pink",
+      "weight": 1
+    },
+    "hands": {
+      "enabled": false,
+      "locked": false,
+      "value": "satin gloves",
+      "color": "silver",
+      "weight": 1
+    },
+    "legs": {
+      "enabled": true,
+      "locked": false,
+      "value": "thigh-high socks",
+      "color": "pink",
+      "weight": 1
+    },
+    "feet": {
+      "enabled": true,
+      "locked": false,
+      "value": "stage heels",
+      "color": "purple",
+      "weight": 1
+    },
+    "accessory": {
+      "enabled": true,
+      "locked": false,
+      "value": "mini backpack",
+      "color": "purple",
+      "weight": 1
+    },
+    "pose": {
+      "enabled": true,
+      "locked": false,
+      "value": "dancing",
+      "color": null,
+      "weight": 1
+    },
+    "gesture": {
+      "enabled": false,
+      "locked": false,
+      "value": "adjusting glasses",
+      "color": null,
+      "weight": 1
+    },
+    "view_angle": {
+      "enabled": true,
+      "locked": false,
+      "value": "wide shot",
+      "color": null,
+      "weight": 1
+    },
+    "background": {
+      "enabled": true,
+      "locked": false,
+      "value": "halloween",
+      "color": null,
+      "weight": 1
+    }
+  }
+}

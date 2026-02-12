@@ -12,9 +12,21 @@ A **slot** is one aspect of the character (e.g., hair style, upper body clothing
 |---|---|---|---|
 | enabled | bool | true | Whether this slot is included in the prompt |
 | locked | bool | false | If true, Randomize All / Section Random skip this slot |
-| value | string? | null | Currently selected item name (or null for none) |
-| color | string? | null | Color modifier prefix (only for has_color slots) |
+| value_id | string? | null | Currently selected item ID (stable canonical value) |
+| value | string? | null | Legacy compatibility field; display text may be provided by older saved configs |
+| color | string? | null | Color token (canonical value from `individual_colors`) |
 | weight | float | 1.0 | Prompt emphasis weight (range 0.1-2.0) |
+
+### Localization Model
+
+- Two independent language controllers exist:
+  - **UI Language**: controls section labels, slot labels, dropdown option text, palette names, and all interface copy.
+  - **Prompt Language**: controls generated prompt output text only.
+- Catalog items now carry multilingual names in JSON via:
+  - `name` (English canonical display)
+  - `name_i18n.en`
+  - `name_i18n.zh`
+- Slot state stores IDs (`value_id`) so UI language can change without changing the selected value.
 
 ### All 26 Slots
 
@@ -71,6 +83,7 @@ Slots are grouped into 3 visual sections. Each section has: Random, All On, All 
 | clothing | Clothing & Background | head through background (12) | Two sub-columns: left=[head, neck, upper_body, waist, lower_body, full_body], right=[outerwear, hands, legs, feet, accessory, background] |
 
 The 3 sections are displayed in a horizontal flex row that wraps on smaller screens.
+Section titles are localized from UI i18n keys (`section_appearance`, `section_body`, `section_clothing`).
 
 ### Full-Body Catalog Policy
 
@@ -91,10 +104,10 @@ Each slot row contains these controls in order:
 |---|---|
 | **On/Off button** | Toggles `enabled`. Green="On", Red="Off". Disabled slots are dimmed and excluded from prompt. |
 | **Lock button** | Toggles `locked`. Unlocked icon = open lock, Locked icon = closed lock. Locked slots are skipped by Randomize All and Section Random. |
-| **Label** | Display name (slot_name with underscores replaced by spaces, title-cased). `gesture` is shown as `hand actions`. |
-| **Dropdown** | Select from slot options or "(None)". Options come from the JSON data catalogs. |
+| **Label** | Localized slot label from UI i18n (`slot_label_*`). `gesture` is represented as localized `hand actions`. |
+| **Dropdown** | Shows localized option names from `name_i18n` in UI language; selected value stored as `value_id`. |
 | **Random button** | Randomize just this slot's value (and color if palette coloring is enabled). |
-| **Color dropdown** | Only visible for `has_color` slots. Select a color or "(No Color)". Colors from `prompt data/colors/color_palettes.json -> individual_colors`. |
+| **Color dropdown** | Only visible for `has_color` slots. Select a color or "(No Color)". Stored value is canonical color token; label is localized from `individual_colors_i18n`. |
 | **Color Random button** | Only visible for `has_color` slots. Randomize just this slot's color from the active palette (when palette coloring is enabled). |
 | **Weight input** | Number input 0.1-2.0 step 0.1. Default 1.0. Affects prompt weight syntax. |
 
@@ -112,6 +125,8 @@ Each slot row contains these controls in order:
 | **Always Include Prefix** | Free-text optional prefix prepended to generated prompt. Default is empty. |
 | **Prefix Preset** | Selectable preset that fills the previous SD quality string: `(masterpiece),(best quality),(ultra-detailed),(best illustration),(absurdres),(very aesthetic),(newest),detailed eyes, detailed face`. |
 | **Colorize Prompt Output** | Toggle (default: on). Applies colored rendering directly in the single prompt output field. When off, the same field shows plain text. |
+| **UI Language selector** | Controls all interface language (labels, slot bars, dropdown text, section titles, palette labels). |
+| **Prompt Language selector** | Controls generated prompt output language only (can differ from UI Language). |
 
 ---
 
@@ -122,7 +137,7 @@ Each slot row contains these controls in order:
 | **Full-body specific outfit** | Checkbox (default: off) | One-shot helper: when turned on, it toggles `upper_body`, `waist`, `lower_body`, `hands`, `legs` to Off once. When turned off, slots that were auto-disabled by that toggle cycle are turned back On. User can still manually change any slot at any time. Also during randomization: if `full_body` slot has a value, `upper_body` and `lower_body` values are cleared. |
 | **Upper-body mode** | Checkbox (default: off) | One-shot helper: when turned on, it toggles `waist`, `lower_body`, `full_body`, `legs`, and `feet` to Off once. When turned off, slots that were auto-disabled by that toggle cycle are turned back On. User can still manually change any slot at any time. |
 | **Use Palette Colors** | Checkbox (default: on) | When on, randomization assigns colors from the active palette. When off, randomization does not auto-assign colors. |
-| **Palette selector** | Dropdown of palettes from color_palettes.json | Selects the active palette. If **Use Palette Colors** is on, changing palette applies it to current colored slots and regenerates prompt immediately. |
+| **Palette selector** | Dropdown of palettes from color_palettes.json | Selects the active palette. Display text is localized by UI language. If **Use Palette Colors** is on, changing palette applies it to current colored slots and regenerates prompt immediately. |
 
 ---
 
@@ -131,11 +146,12 @@ Each slot row contains these controls in order:
 ### Randomize All
 1. For each slot: skip if `locked`
 2. Sample a random item from the slot's options
-3. If `full_body_mode` is on and `full_body` got a value, clear `upper_body` and `lower_body`
-4. If **Use Palette Colors** is on, sample color from active palette for each `has_color` slot
-5. If **Use Palette Colors** is off, do not auto-assign colors
-6. Update all dropdowns and color selectors
-7. Auto-generate prompt
+3. Save sampled item as `value_id` (plus optional compatibility `value` text)
+4. If `full_body_mode` is on and `full_body` got a value, clear `upper_body` and `lower_body`
+5. If **Use Palette Colors** is on, sample color from active palette for each `has_color` slot
+6. If **Use Palette Colors** is off, do not auto-assign colors
+7. Update all dropdowns and color selectors
+8. Auto-generate prompt
 
 ### Section Random
 Same as Randomize All but only for slots within that section.
@@ -208,16 +224,18 @@ body_type, height, skin, age_appearance, special_features,
 expression,
 full_body, head, neck, upper_body, waist, lower_body,
 outerwear, hands, legs, feet, accessory,
-pose, gesture,
+view_angle, pose, gesture,
 background
 ```
 
 ### Rules
 - Always starts with `1girl`
-- Skip slots where `enabled == false` or `value == null`
+- Skip slots where `enabled == false` or `value_id == null` (or unresolved legacy value)
 - If full-body mode on and `full_body` has a value, skip `upper_body` and `lower_body`
 - `full_body` values are intentionally limited to one-piece/suit-style options; decomposable outfits should come from `upper_body` + `lower_body`
-- Color prefix: if color is set -> `"{color} {value}"` (e.g., "blue skirt")
+- Slot text is localized to **Prompt Language** from `name_i18n`
+- Color prefix text is localized to **Prompt Language** from `individual_colors_i18n`
+- Color prefix format: if color is set -> `"{color} {value}"` (e.g., "blue skirt")
 - Weight syntax: if weight != 1.0 -> `"({part}:{weight})"` (e.g., "(blue skirt:1.3)")
 - Join all parts with `, `
 
@@ -231,7 +249,7 @@ background
 ## 8. Save / Load System
 ### Save
 - User enters a config name
-- All slot states (enabled, locked, value, color, weight) are serialized to JSON
+- All slot states (enabled, locked, value_id, color, weight) are serialized to JSON
 - Saved to `prompt data/configs/{name}.json`
 
 ### Load
@@ -249,7 +267,7 @@ background
     "hair_style": {
       "enabled": true,
       "locked": false,
-      "value": "ponytail",
+      "value_id": "ponytail",
       "color": null,
       "weight": 1.0
     },
@@ -263,28 +281,28 @@ background
 ## 9. API Contract
 
 ### GET /api/slots
-Response: `{ slots: { [name]: { category, has_color, options: string[] } }, sections: { [key]: { label, icon, slots, columns? } }, lower_body_covers_legs_by_name: { [lower_body_name]: boolean }, pose_uses_hands_by_name: { [pose_name]: boolean } }`
+Response: `{ slots: { [name]: { category, has_color, options: [{ id, name, name_i18n, localized_name }] } }, sections: { [key]: { label, label_key, icon, slots, columns? } }, lower_body_covers_legs_by_id: { [lower_body_id]: boolean }, pose_uses_hands_by_id: { [pose_id]: boolean } }`
 
 ### GET /api/palettes
-Response: `{ palettes: [{ id, name, colors: string[] }], individual_colors: string[] }`
+Response: `{ palettes: [{ id, name, name_i18n, description_i18n, colors: string[] }], individual_colors: string[], individual_colors_i18n: { [color_token]: { en, zh } } }`
 
 ### POST /api/randomize
 Body: `{ slot_names, locked, palette_enabled, palette_id, full_body_mode, upper_body_mode, current_values }`
 Note: `upper_body_mode` is accepted for compatibility but not used as a backend hard-disable.
-Response: `{ results: { [name]: { value, color } } }`
+Response: `{ results: { [name]: { value_id, value, color } } }`
 
 ### POST /api/randomize-all
 Body: `{ locked, palette_enabled, palette_id, full_body_mode, upper_body_mode }`
 Note: `upper_body_mode` is accepted for compatibility but not used as a backend hard-disable.
-Response: `{ results: { [name]: { value, color } } }`
+Response: `{ results: { [name]: { value_id, value, color } } }`
 
 ### POST /api/generate-prompt
-Body: `{ slots: { [name]: { enabled, value, color, weight } }, full_body_mode, upper_body_mode }`
+Body: `{ slots: { [name]: { enabled, value_id, color, weight } }, full_body_mode, upper_body_mode, output_language }`
 Note: `upper_body_mode` is accepted for compatibility but prompt output is driven by slot `enabled` state.
 Response: `{ prompt: string }`
 
 ### POST /api/apply-palette
-Body: `{ palette_id, slots: { [name]: { enabled, value, color, weight } }, full_body_mode, upper_body_mode }`
+Body: `{ palette_id, slots: { [name]: { enabled, value_id, color, weight } }, full_body_mode, upper_body_mode, output_language }`
 Note: `upper_body_mode` is accepted for compatibility but not used as a backend hard-disable.
 Response: `{ colors: { [name]: string }, prompt: string }`
 

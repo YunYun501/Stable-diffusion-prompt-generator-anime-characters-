@@ -3,182 +3,2705 @@
   "title": "Art-Proven Color Palettes for Anime Characters",
   "generated_utc": "2026-02-11T17:45:00Z",
   "palettes": [
-    {"id": "complementary_blue_orange", "name": "Blue & Orange Harmony", "type": "harmony", "colors": ["blue", "orange", "white", "cream"], "description": "Classic complementary contrast"},
-    {"id": "complementary_red_green", "name": "Red & Green Classic", "type": "harmony", "colors": ["red", "green", "white", "gold"], "description": "Traditional complementary pair"},
-    {"id": "complementary_purple_yellow", "name": "Purple & Yellow", "type": "harmony", "colors": ["purple", "yellow", "white", "lavender"], "description": "Vibrant complementary duo"},
-    {"id": "analogous_ocean", "name": "Ocean Blues", "type": "harmony", "colors": ["navy blue", "blue", "teal", "cyan", "white"], "description": "Cool water tones"},
-    {"id": "analogous_sunset", "name": "Sunset Warm", "type": "harmony", "colors": ["red", "orange", "yellow", "gold", "cream"], "description": "Warm sunset colors"},
-    {"id": "analogous_forest", "name": "Forest Greens", "type": "harmony", "colors": ["forest green", "green", "teal", "mint", "brown"], "description": "Natural forest palette"},
-    {"id": "analogous_berry", "name": "Berry Tones", "type": "harmony", "colors": ["purple", "magenta", "pink", "lavender", "white"], "description": "Berry and floral tones"},
-    {"id": "triadic_primary", "name": "Primary Triadic", "type": "harmony", "colors": ["red", "blue", "yellow", "white"], "description": "Bold primary colors"},
-    {"id": "triadic_secondary", "name": "Secondary Triadic", "type": "harmony", "colors": ["orange", "green", "purple", "white"], "description": "Secondary color harmony"},
-    {"id": "monochrome_blue", "name": "Blue Monochrome", "type": "harmony", "colors": ["navy blue", "royal blue", "blue", "light blue", "white"], "description": "Shades of blue"},
-    {"id": "monochrome_pink", "name": "Pink Monochrome", "type": "harmony", "colors": ["magenta", "hot pink", "pink", "light pink", "white"], "description": "Shades of pink"},
-    {"id": "monochrome_purple", "name": "Purple Monochrome", "type": "harmony", "colors": ["purple", "violet", "lavender", "light purple", "white"], "description": "Shades of purple"},
-    {"id": "monochrome_grey", "name": "Grey Monochrome", "type": "harmony", "colors": ["black", "dark grey", "grey", "light grey", "white"], "description": "Neutral grayscale"},
-    {"id": "warm_cozy", "name": "Cozy Warm", "type": "mood", "colors": ["cream", "brown", "orange", "gold", "white"], "description": "Warm and comfortable feeling"},
-    {"id": "warm_passionate", "name": "Passionate Red", "type": "mood", "colors": ["red", "crimson", "gold", "black", "white"], "description": "Bold and passionate"},
-    {"id": "warm_cheerful", "name": "Cheerful", "type": "mood", "colors": ["yellow", "orange", "pink", "white", "light blue"], "description": "Bright and happy"},
-    {"id": "warm_autumn", "name": "Warm Autumn", "type": "mood", "colors": ["orange", "brown", "gold", "burgundy", "cream"], "description": "Cozy fall colors"},
-    {"id": "cool_ocean", "name": "Cool Ocean", "type": "mood", "colors": ["blue", "teal", "white", "silver", "light blue"], "description": "Refreshing ocean feel"},
-    {"id": "cool_night", "name": "Mysterious Night", "type": "mood", "colors": ["navy blue", "purple", "silver", "black", "white"], "description": "Mysterious nighttime mood"},
-    {"id": "cool_icy", "name": "Icy Cool", "type": "mood", "colors": ["white", "light blue", "silver", "cyan", "pale blue"], "description": "Cold and icy"},
-    {"id": "cool_mint", "name": "Fresh Mint", "type": "mood", "colors": ["mint", "white", "light green", "silver", "cream"], "description": "Fresh and clean"},
-    {"id": "dark_gothic", "name": "Gothic Dark", "type": "mood", "colors": ["black", "crimson", "purple", "silver", "white"], "description": "Dark gothic atmosphere"},
-    {"id": "dark_elegant", "name": "Elegant Dark", "type": "mood", "colors": ["black", "wine red", "gold", "white"], "description": "Sophisticated darkness"},
-    {"id": "dark_vampire", "name": "Vampire", "type": "mood", "colors": ["black", "red", "white", "gold", "purple"], "description": "Classic vampire aesthetic"},
-    {"id": "soft_dream", "name": "Soft Dream", "type": "mood", "colors": ["lavender", "pink", "white", "cream", "light blue"], "description": "Dreamy and soft"},
-    {"id": "soft_cloud", "name": "Cloud Soft", "type": "mood", "colors": ["white", "light blue", "light pink", "cream", "silver"], "description": "Light and airy"},
-    {"id": "pastel_rainbow", "name": "Pastel Rainbow", "type": "theme", "colors": ["light pink", "light blue", "mint", "lavender", "cream", "light yellow"], "description": "Full pastel spectrum"},
-    {"id": "pastel_warm", "name": "Pastel Warm", "type": "theme", "colors": ["light pink", "peach", "cream", "light yellow", "white"], "description": "Warm pastel tones"},
-    {"id": "pastel_cool", "name": "Pastel Cool", "type": "theme", "colors": ["lavender", "light blue", "mint", "white", "silver"], "description": "Cool pastel tones"},
-    {"id": "pastel_candy", "name": "Candy Pastel", "type": "theme", "colors": ["pink", "light blue", "mint", "light yellow", "white"], "description": "Sweet candy colors"},
-    {"id": "neon_cyberpunk", "name": "Cyberpunk Neon", "type": "theme", "colors": ["hot pink", "cyan", "purple", "black", "blue"], "description": "Cyberpunk aesthetic"},
-    {"id": "neon_arcade", "name": "Arcade Glow", "type": "theme", "colors": ["magenta", "lime", "cyan", "black", "yellow"], "description": "Retro arcade colors"},
-    {"id": "neon_vaporwave", "name": "Vaporwave", "type": "theme", "colors": ["pink", "cyan", "purple", "blue", "black"], "description": "Vaporwave aesthetic"},
-    {"id": "military_green", "name": "Military Green", "type": "theme", "colors": ["olive", "tan", "brown", "black", "khaki"], "description": "Military tactical"},
-    {"id": "military_naval", "name": "Naval", "type": "theme", "colors": ["navy blue", "white", "gold", "red", "grey"], "description": "Naval uniform colors"},
-    {"id": "gothic_lolita_classic", "name": "Classic Gothic Lolita", "type": "theme", "colors": ["black", "white", "red", "silver", "purple"], "description": "Gothic lolita style"},
-    {"id": "gothic_lolita_sweet", "name": "Sweet Gothic", "type": "theme", "colors": ["black", "pink", "white", "purple", "silver"], "description": "Sweet gothic style"},
-    {"id": "lolita_sweet", "name": "Sweet Lolita", "type": "theme", "colors": ["pink", "white", "light blue", "cream", "gold"], "description": "Sweet lolita fashion"},
-    {"id": "lolita_classic", "name": "Classic Lolita", "type": "theme", "colors": ["burgundy", "cream", "brown", "gold", "white"], "description": "Classic lolita style"},
-    {"id": "elegant_royal", "name": "Royal Elegant", "type": "theme", "colors": ["royal blue", "gold", "white", "silver", "cream"], "description": "Royal elegance"},
-    {"id": "elegant_rose", "name": "Rose Elegant", "type": "theme", "colors": ["wine red", "gold", "cream", "black", "white"], "description": "Romantic elegance"},
-    {"id": "elegant_black_tie", "name": "Black Tie", "type": "theme", "colors": ["black", "white", "gold", "silver", "red"], "description": "Formal elegant"},
-    {"id": "nature_forest", "name": "Forest Fairy", "type": "theme", "colors": ["green", "brown", "gold", "cream", "white"], "description": "Forest nature theme"},
-    {"id": "nature_mermaid", "name": "Ocean Mermaid", "type": "theme", "colors": ["teal", "aqua", "purple", "silver", "white"], "description": "Underwater mermaid"},
-    {"id": "nature_flower", "name": "Flower Garden", "type": "theme", "colors": ["pink", "green", "yellow", "white", "lavender"], "description": "Blooming garden"},
-    {"id": "sailor_navy", "name": "Sailor Navy Classic", "type": "anime_classic", "colors": ["navy blue", "white", "red"], "description": "Traditional sailor uniform"},
-    {"id": "sailor_green", "name": "Sailor Green", "type": "anime_classic", "colors": ["forest green", "white", "red", "yellow"], "description": "Green sailor variant"},
-    {"id": "sailor_white", "name": "Summer Sailor", "type": "anime_classic", "colors": ["white", "blue", "light blue", "red"], "description": "Summer sailor uniform"},
-    {"id": "blazer_classic", "name": "Blazer Classic", "type": "anime_classic", "colors": ["navy blue", "white", "red", "grey", "gold"], "description": "Classic school blazer"},
-    {"id": "blazer_brown", "name": "Blazer Brown", "type": "anime_classic", "colors": ["brown", "cream", "red", "white", "gold"], "description": "Brown blazer variant"},
-    {"id": "maid_classic", "name": "Classic Maid", "type": "anime_classic", "colors": ["black", "white", "red"], "description": "Traditional maid colors"},
-    {"id": "maid_victorian", "name": "Victorian Maid", "type": "anime_classic", "colors": ["black", "white", "purple", "gold", "grey"], "description": "Victorian-style maid"},
-    {"id": "maid_pastel", "name": "Pastel Maid", "type": "anime_classic", "colors": ["pink", "white", "light blue", "cream"], "description": "Cute pastel maid"},
-    {"id": "maid_cafe", "name": "Maid Cafe", "type": "anime_classic", "colors": ["pink", "white", "black", "red", "gold"], "description": "Maid cafe style"},
-    {"id": "magical_girl_pink", "name": "Magical Pink", "type": "anime_classic", "colors": ["pink", "white", "gold", "red", "light pink"], "description": "Classic magical girl"},
-    {"id": "magical_girl_blue", "name": "Magical Blue", "type": "anime_classic", "colors": ["blue", "white", "gold", "pink", "light blue"], "description": "Blue magical girl"},
-    {"id": "magical_girl_purple", "name": "Magical Purple", "type": "anime_classic", "colors": ["purple", "white", "silver", "pink", "lavender"], "description": "Purple magical girl"},
-    {"id": "magical_girl_dark", "name": "Dark Magical Girl", "type": "anime_classic", "colors": ["purple", "black", "silver", "pink", "dark blue"], "description": "Dark magical girl"},
-    {"id": "shrine_maiden", "name": "Shrine Maiden", "type": "anime_classic", "colors": ["white", "red"], "description": "Miko colors"},
-    {"id": "kimono_classic", "name": "Kimono Classic", "type": "anime_classic", "colors": ["red", "white", "gold", "black", "pink"], "description": "Traditional kimono"},
-    {"id": "kimono_elegant", "name": "Elegant Kimono", "type": "anime_classic", "colors": ["purple", "gold", "white", "pink", "black"], "description": "Elegant kimono style"},
-    {"id": "yukata_summer", "name": "Summer Yukata", "type": "anime_classic", "colors": ["light blue", "white", "pink", "red", "navy blue"], "description": "Summer yukata colors"},
-    {"id": "knight_silver", "name": "Knight Silver", "type": "anime_classic", "colors": ["silver", "blue", "white", "gold", "red"], "description": "Knight armor colors"},
-    {"id": "knight_dark", "name": "Dark Knight", "type": "anime_classic", "colors": ["black", "silver", "purple", "red", "gold"], "description": "Dark knight style"},
-    {"id": "witch_classic", "name": "Witch Classic", "type": "anime_classic", "colors": ["black", "purple", "gold", "orange", "green"], "description": "Classic witch colors"},
-    {"id": "witch_cute", "name": "Cute Witch", "type": "anime_classic", "colors": ["purple", "pink", "black", "gold", "white"], "description": "Cute witch style"},
-    {"id": "elf_forest", "name": "Forest Elf", "type": "anime_classic", "colors": ["green", "brown", "gold", "silver", "white"], "description": "Forest elf colors"},
-    {"id": "demon_classic", "name": "Demon Classic", "type": "anime_classic", "colors": ["black", "red", "purple", "gold", "silver"], "description": "Classic demon colors"},
-    {"id": "angel_classic", "name": "Angel Classic", "type": "anime_classic", "colors": ["white", "gold", "light blue", "pink", "silver"], "description": "Angel colors"},
-    {"id": "idol_pink", "name": "Idol Pink", "type": "anime_classic", "colors": ["pink", "white", "gold", "light pink", "red"], "description": "Pink idol costume"},
-    {"id": "idol_blue", "name": "Idol Blue", "type": "anime_classic", "colors": ["blue", "white", "silver", "light blue", "gold"], "description": "Blue idol costume"},
-    {"id": "idol_rainbow", "name": "Idol Rainbow", "type": "anime_classic", "colors": ["pink", "blue", "yellow", "white", "gold"], "description": "Colorful idol style"},
-    {"id": "spring_sakura", "name": "Cherry Blossom", "type": "seasonal", "colors": ["pink", "white", "green", "brown", "light pink"], "description": "Spring sakura colors"},
-    {"id": "spring_fresh", "name": "Spring Fresh", "type": "seasonal", "colors": ["light green", "pink", "yellow", "white", "light blue"], "description": "Fresh spring palette"},
-    {"id": "summer_beach", "name": "Summer Beach", "type": "seasonal", "colors": ["light blue", "white", "yellow", "coral", "turquoise"], "description": "Beach summer colors"},
-    {"id": "summer_tropical", "name": "Tropical", "type": "seasonal", "colors": ["cyan", "orange", "pink", "green", "yellow"], "description": "Tropical paradise"},
-    {"id": "summer_festival", "name": "Summer Festival", "type": "seasonal", "colors": ["red", "white", "gold", "blue", "pink"], "description": "Japanese summer festival"},
-    {"id": "autumn_leaves", "name": "Autumn Leaves", "type": "seasonal", "colors": ["orange", "red", "brown", "gold", "yellow"], "description": "Fall foliage colors"},
-    {"id": "autumn_harvest", "name": "Harvest", "type": "seasonal", "colors": ["brown", "orange", "cream", "burgundy", "gold"], "description": "Harvest time palette"},
-    {"id": "winter_snow", "name": "Winter Snow", "type": "seasonal", "colors": ["white", "light blue", "silver", "navy blue", "grey"], "description": "Snowy winter colors"},
-    {"id": "winter_cozy", "name": "Cozy Winter", "type": "seasonal", "colors": ["cream", "brown", "red", "green", "white"], "description": "Warm cozy winter"},
-    {"id": "christmas_classic", "name": "Christmas Classic", "type": "seasonal", "colors": ["red", "green", "gold", "white", "silver"], "description": "Traditional Christmas"},
-    {"id": "christmas_elegant", "name": "Elegant Christmas", "type": "seasonal", "colors": ["gold", "red", "white", "silver", "green"], "description": "Elegant holiday colors"},
-    {"id": "valentine_romantic", "name": "Valentine Romantic", "type": "seasonal", "colors": ["pink", "red", "white", "gold", "light pink"], "description": "Romantic valentine"},
-    {"id": "valentine_chocolate", "name": "Valentine Chocolate", "type": "seasonal", "colors": ["brown", "pink", "cream", "red", "gold"], "description": "Chocolate valentine"},
-    {"id": "halloween_classic", "name": "Halloween Classic", "type": "seasonal", "colors": ["orange", "black", "purple", "green", "white"], "description": "Classic halloween"},
-    {"id": "halloween_spooky", "name": "Spooky Halloween", "type": "seasonal", "colors": ["black", "purple", "green", "orange", "red"], "description": "Spooky halloween colors"},
-    {"id": "naruto_sakura_schemecolor", "name": "Sakura (Naruto)", "type": "anime_classic", "colors": ["navy blue", "mint", "white", "light pink", "burgundy"], "description": "Character palette inspired by SchemeColor's Sakura (Naruto)"},
-    {"id": "naruto_akatsuki_schemecolor", "name": "Akatsuki (Naruto)", "type": "anime_classic", "colors": ["crimson", "light grey", "dark grey", "olive"], "description": "Character palette inspired by SchemeColor's Akatsuki (Naruto)"},
-    {"id": "naruto_shikamaru_schemecolor", "name": "Shikamaru (Naruto)", "type": "anime_classic", "colors": ["olive", "peach", "black", "teal", "silver"], "description": "Character palette inspired by SchemeColor's Shikamaru Nara (Naruto)"},
-    {"id": "naruto_uzumaki_schemecolor", "name": "Naruto Uzumaki", "type": "anime_classic", "colors": ["dark grey", "orange", "yellow", "cream", "blue", "dark blue"], "description": "Character palette inspired by SchemeColor's Naruto Uzumaki (Naruto)"},
-    {"id": "jjk_nobara_schemecolor", "name": "Nobara (JJK)", "type": "anime_classic", "colors": ["tan", "brown", "light pink", "indigo", "khaki", "ivory"], "description": "Character palette inspired by SchemeColor's Nobara Kugisaki (Jujutsu Kaisen)"},
-    {"id": "jjk_gojo_schemecolor", "name": "Gojo (JJK)", "type": "anime_classic", "colors": ["dark blue", "purple", "lavender", "white", "cyan", "black"], "description": "Character palette inspired by SchemeColor's Gojo Satori (Jujutsu Kaisen)"},
-    {"id": "jjk_megumi_schemecolor", "name": "Megumi (JJK)", "type": "anime_classic", "colors": ["navy blue", "gold", "peach", "blue", "dark blue"], "description": "Character palette inspired by SchemeColor's Megumi (Jujutsu Kaisen)"},
-    {"id": "triad_orange_blue_colorhex", "name": "Orange Blue Triad", "type": "harmony", "colors": ["orange", "blue", "mint", "purple", "white"], "description": "Triadic/complementary palette derived from Color-Hex schemes for #ff8200"},
-    {"id": "pastel_anime_colorhex", "name": "Pastel Anime", "type": "theme", "colors": ["light green", "light yellow", "light blue", "light purple", "rose"], "description": "Pastel anime palette inspired by Color-Hex"},
-    {"id": "kawaii_anime_pastelcolorpalettes", "name": "Kawaii Anime Pastels", "type": "theme", "colors": ["light blue", "sky blue", "ivory", "light pink", "light yellow"], "description": "Kawaii anime pastel palette inspired by PastelColorPalettes"},
-    {"id": "fate_saber_animecolors", "name": "Saber (Fate) Classic", "type": "anime_classic", "colors": ["blue", "dark blue", "navy blue", "gold", "light yellow", "peach", "white"], "description": "Female character palette inspired by Anime-Colors' Saber profile"},
-    {"id": "rezero_rem_animecolors", "name": "Rem (Re:Zero)", "type": "anime_classic", "colors": ["sky blue", "blue", "light blue", "purple", "violet", "light pink", "white", "dark grey"], "description": "Female character palette inspired by Anime-Colors' Rem profile"},
-    {"id": "rezero_emilia_animecolors", "name": "Emilia (Re:Zero)", "type": "anime_classic", "colors": ["mint", "light purple", "lavender", "violet", "white", "light grey", "peach"], "description": "Female character palette inspired by Anime-Colors' Emilia profile"},
-    {"id": "rezero_ram_animecolors", "name": "Ram (Re:Zero)", "type": "anime_classic", "colors": ["lavender", "light purple", "purple", "pink", "light pink", "light grey", "dark grey"], "description": "Female character palette inspired by Anime-Colors' Ram profile"},
-    {"id": "akame_esdeath_animecolors", "name": "Esdeath (Akame ga Kill)", "type": "anime_classic", "colors": ["light blue", "sky blue", "blue", "dark blue", "silver", "white", "brown"], "description": "Female character palette inspired by Anime-Colors' Esdeath profile"},
-    {"id": "akame_najenda_animecolors", "name": "Najenda (Akame ga Kill)", "type": "anime_classic", "colors": ["blue", "dark blue", "lavender", "light purple", "light blue", "tan", "peach", "green", "white"], "description": "Female character palette inspired by Anime-Colors' Najenda profile"},
-    {"id": "codegeass_sakuya_sumeragi_animecolors", "name": "Sakuya Sumeragi (Code Geass)", "type": "anime_classic", "colors": ["aqua", "teal", "light green", "gold", "pink", "rose", "yellow", "white", "indigo"], "description": "Female character palette inspired by Anime-Colors' Sakuya Sumeragi profile"},
-    {"id": "akame_akame_animecolors", "name": "Akame (Akame ga Kill)", "type": "anime_classic", "colors": ["dark grey", "dark blue", "crimson", "peach", "light grey", "navy blue", "white"], "description": "Female character palette inspired by Anime-Colors' Akame profile"}
+    {
+      "id": "complementary_blue_orange",
+      "name": "Blue & Orange Harmony",
+      "type": "harmony",
+      "colors": [
+        "blue",
+        "orange",
+        "white",
+        "cream"
+      ],
+      "description": "Classic complementary contrast",
+      "name_i18n": {
+        "en": "Blue & Orange Harmony",
+        "zh": "蓝 & 橙 和谐"
+      },
+      "description_i18n": {
+        "en": "Classic complementary contrast",
+        "zh": "经典互补对比"
+      }
+    },
+    {
+      "id": "complementary_red_green",
+      "name": "Red & Green Classic",
+      "type": "harmony",
+      "colors": [
+        "red",
+        "green",
+        "white",
+        "gold"
+      ],
+      "description": "Traditional complementary pair",
+      "name_i18n": {
+        "en": "Red & Green Classic",
+        "zh": "红 & 绿 经典"
+      },
+      "description_i18n": {
+        "en": "Traditional complementary pair",
+        "zh": "传统互补配色"
+      }
+    },
+    {
+      "id": "complementary_purple_yellow",
+      "name": "Purple & Yellow",
+      "type": "harmony",
+      "colors": [
+        "purple",
+        "yellow",
+        "white",
+        "lavender"
+      ],
+      "description": "Vibrant complementary duo",
+      "name_i18n": {
+        "en": "Purple & Yellow",
+        "zh": "紫 & 黄"
+      },
+      "description_i18n": {
+        "en": "Vibrant complementary duo",
+        "zh": "鲜明互补双配色"
+      }
+    },
+    {
+      "id": "analogous_ocean",
+      "name": "Ocean Blues",
+      "type": "harmony",
+      "colors": [
+        "navy blue",
+        "blue",
+        "teal",
+        "cyan",
+        "white"
+      ],
+      "description": "Cool water tones",
+      "name_i18n": {
+        "en": "Ocean Blues",
+        "zh": "海洋 Blues"
+      },
+      "description_i18n": {
+        "en": "Cool water tones",
+        "zh": "清凉水色调"
+      }
+    },
+    {
+      "id": "analogous_sunset",
+      "name": "Sunset Warm",
+      "type": "harmony",
+      "colors": [
+        "red",
+        "orange",
+        "yellow",
+        "gold",
+        "cream"
+      ],
+      "description": "Warm sunset colors",
+      "name_i18n": {
+        "en": "Sunset Warm",
+        "zh": "日落 暖色"
+      },
+      "description_i18n": {
+        "en": "Warm sunset colors",
+        "zh": "温暖日落色"
+      }
+    },
+    {
+      "id": "analogous_forest",
+      "name": "Forest Greens",
+      "type": "harmony",
+      "colors": [
+        "forest green",
+        "green",
+        "teal",
+        "mint",
+        "brown"
+      ],
+      "description": "Natural forest palette",
+      "name_i18n": {
+        "en": "Forest Greens",
+        "zh": "森林 Greens"
+      },
+      "description_i18n": {
+        "en": "Natural forest palette",
+        "zh": "自然森林配色"
+      }
+    },
+    {
+      "id": "analogous_berry",
+      "name": "Berry Tones",
+      "type": "harmony",
+      "colors": [
+        "purple",
+        "magenta",
+        "pink",
+        "lavender",
+        "white"
+      ],
+      "description": "Berry and floral tones",
+      "name_i18n": {
+        "en": "Berry Tones",
+        "zh": "莓果 Tones"
+      },
+      "description_i18n": {
+        "en": "Berry and floral tones",
+        "zh": "莓果与花卉色调"
+      }
+    },
+    {
+      "id": "triadic_primary",
+      "name": "Primary Triadic",
+      "type": "harmony",
+      "colors": [
+        "red",
+        "blue",
+        "yellow",
+        "white"
+      ],
+      "description": "Bold primary colors",
+      "name_i18n": {
+        "en": "Primary Triadic",
+        "zh": "原色 Triadic"
+      },
+      "description_i18n": {
+        "en": "Bold primary colors",
+        "zh": "鲜明原色"
+      }
+    },
+    {
+      "id": "triadic_secondary",
+      "name": "Secondary Triadic",
+      "type": "harmony",
+      "colors": [
+        "orange",
+        "green",
+        "purple",
+        "white"
+      ],
+      "description": "Secondary color harmony",
+      "name_i18n": {
+        "en": "Secondary Triadic",
+        "zh": "次色 Triadic"
+      },
+      "description_i18n": {
+        "en": "Secondary color harmony",
+        "zh": "次色和谐"
+      }
+    },
+    {
+      "id": "monochrome_blue",
+      "name": "Blue Monochrome",
+      "type": "harmony",
+      "colors": [
+        "navy blue",
+        "royal blue",
+        "blue",
+        "light blue",
+        "white"
+      ],
+      "description": "Shades of blue",
+      "name_i18n": {
+        "en": "Blue Monochrome",
+        "zh": "蓝 单色"
+      },
+      "description_i18n": {
+        "en": "Shades of blue",
+        "zh": "蓝色层次"
+      }
+    },
+    {
+      "id": "monochrome_pink",
+      "name": "Pink Monochrome",
+      "type": "harmony",
+      "colors": [
+        "magenta",
+        "hot pink",
+        "pink",
+        "light pink",
+        "white"
+      ],
+      "description": "Shades of pink",
+      "name_i18n": {
+        "en": "Pink Monochrome",
+        "zh": "粉 单色"
+      },
+      "description_i18n": {
+        "en": "Shades of pink",
+        "zh": "粉色层次"
+      }
+    },
+    {
+      "id": "monochrome_purple",
+      "name": "Purple Monochrome",
+      "type": "harmony",
+      "colors": [
+        "purple",
+        "violet",
+        "lavender",
+        "light purple",
+        "white"
+      ],
+      "description": "Shades of purple",
+      "name_i18n": {
+        "en": "Purple Monochrome",
+        "zh": "紫 单色"
+      },
+      "description_i18n": {
+        "en": "Shades of purple",
+        "zh": "紫色层次"
+      }
+    },
+    {
+      "id": "monochrome_grey",
+      "name": "Grey Monochrome",
+      "type": "harmony",
+      "colors": [
+        "black",
+        "dark grey",
+        "grey",
+        "light grey",
+        "white"
+      ],
+      "description": "Neutral grayscale",
+      "name_i18n": {
+        "en": "Grey Monochrome",
+        "zh": "灰 单色"
+      },
+      "description_i18n": {
+        "en": "Neutral grayscale",
+        "zh": "中性灰阶"
+      }
+    },
+    {
+      "id": "warm_cozy",
+      "name": "Cozy Warm",
+      "type": "mood",
+      "colors": [
+        "cream",
+        "brown",
+        "orange",
+        "gold",
+        "white"
+      ],
+      "description": "Warm and comfortable feeling",
+      "name_i18n": {
+        "en": "Cozy Warm",
+        "zh": "温馨 暖色"
+      },
+      "description_i18n": {
+        "en": "Warm and comfortable feeling",
+        "zh": "暖色 and comfortable feeling"
+      }
+    },
+    {
+      "id": "warm_passionate",
+      "name": "Passionate Red",
+      "type": "mood",
+      "colors": [
+        "red",
+        "crimson",
+        "gold",
+        "black",
+        "white"
+      ],
+      "description": "Bold and passionate",
+      "name_i18n": {
+        "en": "Passionate Red",
+        "zh": "热情 红"
+      },
+      "description_i18n": {
+        "en": "Bold and passionate",
+        "zh": "Bold and 热情"
+      }
+    },
+    {
+      "id": "warm_cheerful",
+      "name": "Cheerful",
+      "type": "mood",
+      "colors": [
+        "yellow",
+        "orange",
+        "pink",
+        "white",
+        "light blue"
+      ],
+      "description": "Bright and happy",
+      "name_i18n": {
+        "en": "Cheerful",
+        "zh": "明快"
+      },
+      "description_i18n": {
+        "en": "Bright and happy",
+        "zh": "Bright and happy"
+      }
+    },
+    {
+      "id": "warm_autumn",
+      "name": "Warm Autumn",
+      "type": "mood",
+      "colors": [
+        "orange",
+        "brown",
+        "gold",
+        "burgundy",
+        "cream"
+      ],
+      "description": "Cozy fall colors",
+      "name_i18n": {
+        "en": "Warm Autumn",
+        "zh": "暖色 秋日"
+      },
+      "description_i18n": {
+        "en": "Cozy fall colors",
+        "zh": "温馨 fall colors"
+      }
+    },
+    {
+      "id": "cool_ocean",
+      "name": "Cool Ocean",
+      "type": "mood",
+      "colors": [
+        "blue",
+        "teal",
+        "white",
+        "silver",
+        "light blue"
+      ],
+      "description": "Refreshing ocean feel",
+      "name_i18n": {
+        "en": "Cool Ocean",
+        "zh": "冷色 海洋"
+      },
+      "description_i18n": {
+        "en": "Refreshing ocean feel",
+        "zh": "Refreshing 海洋 feel"
+      }
+    },
+    {
+      "id": "cool_night",
+      "name": "Mysterious Night",
+      "type": "mood",
+      "colors": [
+        "navy blue",
+        "purple",
+        "silver",
+        "black",
+        "white"
+      ],
+      "description": "Mysterious nighttime mood",
+      "name_i18n": {
+        "en": "Mysterious Night",
+        "zh": "神秘 夜色"
+      },
+      "description_i18n": {
+        "en": "Mysterious nighttime mood",
+        "zh": "神秘 nighttime mood"
+      }
+    },
+    {
+      "id": "cool_icy",
+      "name": "Icy Cool",
+      "type": "mood",
+      "colors": [
+        "white",
+        "light blue",
+        "silver",
+        "cyan",
+        "pale blue"
+      ],
+      "description": "Cold and icy",
+      "name_i18n": {
+        "en": "Icy Cool",
+        "zh": "冰感 冷色"
+      },
+      "description_i18n": {
+        "en": "Cold and icy",
+        "zh": "Cold and 冰感"
+      }
+    },
+    {
+      "id": "cool_mint",
+      "name": "Fresh Mint",
+      "type": "mood",
+      "colors": [
+        "mint",
+        "white",
+        "light green",
+        "silver",
+        "cream"
+      ],
+      "description": "Fresh and clean",
+      "name_i18n": {
+        "en": "Fresh Mint",
+        "zh": "清新 薄荷"
+      },
+      "description_i18n": {
+        "en": "Fresh and clean",
+        "zh": "清新 and clean"
+      }
+    },
+    {
+      "id": "dark_gothic",
+      "name": "Gothic Dark",
+      "type": "mood",
+      "colors": [
+        "black",
+        "crimson",
+        "purple",
+        "silver",
+        "white"
+      ],
+      "description": "Dark gothic atmosphere",
+      "name_i18n": {
+        "en": "Gothic Dark",
+        "zh": "哥特 暗色"
+      },
+      "description_i18n": {
+        "en": "Dark gothic atmosphere",
+        "zh": "暗色 哥特 atmosphere"
+      }
+    },
+    {
+      "id": "dark_elegant",
+      "name": "Elegant Dark",
+      "type": "mood",
+      "colors": [
+        "black",
+        "wine red",
+        "gold",
+        "white"
+      ],
+      "description": "Sophisticated darkness",
+      "name_i18n": {
+        "en": "Elegant Dark",
+        "zh": "优雅 暗色"
+      },
+      "description_i18n": {
+        "en": "Sophisticated darkness",
+        "zh": "Sophisticated darkness"
+      }
+    },
+    {
+      "id": "dark_vampire",
+      "name": "Vampire",
+      "type": "mood",
+      "colors": [
+        "black",
+        "red",
+        "white",
+        "gold",
+        "purple"
+      ],
+      "description": "Classic vampire aesthetic",
+      "name_i18n": {
+        "en": "Vampire",
+        "zh": "吸血鬼"
+      },
+      "description_i18n": {
+        "en": "Classic vampire aesthetic",
+        "zh": "经典 吸血鬼 aesthetic"
+      }
+    },
+    {
+      "id": "soft_dream",
+      "name": "Soft Dream",
+      "type": "mood",
+      "colors": [
+        "lavender",
+        "pink",
+        "white",
+        "cream",
+        "light blue"
+      ],
+      "description": "Dreamy and soft",
+      "name_i18n": {
+        "en": "Soft Dream",
+        "zh": "柔和 梦幻"
+      },
+      "description_i18n": {
+        "en": "Dreamy and soft",
+        "zh": "Dreamy and 柔和"
+      }
+    },
+    {
+      "id": "soft_cloud",
+      "name": "Cloud Soft",
+      "type": "mood",
+      "colors": [
+        "white",
+        "light blue",
+        "light pink",
+        "cream",
+        "silver"
+      ],
+      "description": "Light and airy",
+      "name_i18n": {
+        "en": "Cloud Soft",
+        "zh": "云感 柔和"
+      },
+      "description_i18n": {
+        "en": "Light and airy",
+        "zh": "Light and airy"
+      }
+    },
+    {
+      "id": "pastel_rainbow",
+      "name": "Pastel Rainbow",
+      "type": "theme",
+      "colors": [
+        "light pink",
+        "light blue",
+        "mint",
+        "lavender",
+        "cream",
+        "light yellow"
+      ],
+      "description": "Full pastel spectrum",
+      "name_i18n": {
+        "en": "Pastel Rainbow",
+        "zh": "马卡龙 彩虹"
+      },
+      "description_i18n": {
+        "en": "Full pastel spectrum",
+        "zh": "Full 马卡龙 spectrum"
+      }
+    },
+    {
+      "id": "pastel_warm",
+      "name": "Pastel Warm",
+      "type": "theme",
+      "colors": [
+        "light pink",
+        "peach",
+        "cream",
+        "light yellow",
+        "white"
+      ],
+      "description": "Warm pastel tones",
+      "name_i18n": {
+        "en": "Pastel Warm",
+        "zh": "马卡龙 暖色"
+      },
+      "description_i18n": {
+        "en": "Warm pastel tones",
+        "zh": "暖色 马卡龙 tones"
+      }
+    },
+    {
+      "id": "pastel_cool",
+      "name": "Pastel Cool",
+      "type": "theme",
+      "colors": [
+        "lavender",
+        "light blue",
+        "mint",
+        "white",
+        "silver"
+      ],
+      "description": "Cool pastel tones",
+      "name_i18n": {
+        "en": "Pastel Cool",
+        "zh": "马卡龙 冷色"
+      },
+      "description_i18n": {
+        "en": "Cool pastel tones",
+        "zh": "冷色 马卡龙 tones"
+      }
+    },
+    {
+      "id": "pastel_candy",
+      "name": "Candy Pastel",
+      "type": "theme",
+      "colors": [
+        "pink",
+        "light blue",
+        "mint",
+        "light yellow",
+        "white"
+      ],
+      "description": "Sweet candy colors",
+      "name_i18n": {
+        "en": "Candy Pastel",
+        "zh": "糖果 马卡龙"
+      },
+      "description_i18n": {
+        "en": "Sweet candy colors",
+        "zh": "甜美 糖果 colors"
+      }
+    },
+    {
+      "id": "neon_cyberpunk",
+      "name": "Cyberpunk Neon",
+      "type": "theme",
+      "colors": [
+        "hot pink",
+        "cyan",
+        "purple",
+        "black",
+        "blue"
+      ],
+      "description": "Cyberpunk aesthetic",
+      "name_i18n": {
+        "en": "Cyberpunk Neon",
+        "zh": "赛博朋克 霓虹"
+      },
+      "description_i18n": {
+        "en": "Cyberpunk aesthetic",
+        "zh": "赛博朋克 aesthetic"
+      }
+    },
+    {
+      "id": "neon_arcade",
+      "name": "Arcade Glow",
+      "type": "theme",
+      "colors": [
+        "magenta",
+        "lime",
+        "cyan",
+        "black",
+        "yellow"
+      ],
+      "description": "Retro arcade colors",
+      "name_i18n": {
+        "en": "Arcade Glow",
+        "zh": "街机 Glow"
+      },
+      "description_i18n": {
+        "en": "Retro arcade colors",
+        "zh": "Retro 街机 colors"
+      }
+    },
+    {
+      "id": "neon_vaporwave",
+      "name": "Vaporwave",
+      "type": "theme",
+      "colors": [
+        "pink",
+        "cyan",
+        "purple",
+        "blue",
+        "black"
+      ],
+      "description": "Vaporwave aesthetic",
+      "name_i18n": {
+        "en": "Vaporwave",
+        "zh": "蒸汽波"
+      },
+      "description_i18n": {
+        "en": "Vaporwave aesthetic",
+        "zh": "蒸汽波 aesthetic"
+      }
+    },
+    {
+      "id": "military_green",
+      "name": "Military Green",
+      "type": "theme",
+      "colors": [
+        "olive",
+        "tan",
+        "brown",
+        "black",
+        "khaki"
+      ],
+      "description": "Military tactical",
+      "name_i18n": {
+        "en": "Military Green",
+        "zh": "军事 绿"
+      },
+      "description_i18n": {
+        "en": "Military tactical",
+        "zh": "军事 tactical"
+      }
+    },
+    {
+      "id": "military_naval",
+      "name": "Naval",
+      "type": "theme",
+      "colors": [
+        "navy blue",
+        "white",
+        "gold",
+        "red",
+        "grey"
+      ],
+      "description": "Naval uniform colors",
+      "name_i18n": {
+        "en": "Naval",
+        "zh": "海军"
+      },
+      "description_i18n": {
+        "en": "Naval uniform colors",
+        "zh": "海军 uniform colors"
+      }
+    },
+    {
+      "id": "gothic_lolita_classic",
+      "name": "Classic Gothic Lolita",
+      "type": "theme",
+      "colors": [
+        "black",
+        "white",
+        "red",
+        "silver",
+        "purple"
+      ],
+      "description": "Gothic lolita style",
+      "name_i18n": {
+        "en": "Classic Gothic Lolita",
+        "zh": "经典 哥特 洛丽塔"
+      },
+      "description_i18n": {
+        "en": "Gothic lolita style",
+        "zh": "哥特 洛丽塔 style"
+      }
+    },
+    {
+      "id": "gothic_lolita_sweet",
+      "name": "Sweet Gothic",
+      "type": "theme",
+      "colors": [
+        "black",
+        "pink",
+        "white",
+        "purple",
+        "silver"
+      ],
+      "description": "Sweet gothic style",
+      "name_i18n": {
+        "en": "Sweet Gothic",
+        "zh": "甜美 哥特"
+      },
+      "description_i18n": {
+        "en": "Sweet gothic style",
+        "zh": "甜美 哥特 style"
+      }
+    },
+    {
+      "id": "lolita_sweet",
+      "name": "Sweet Lolita",
+      "type": "theme",
+      "colors": [
+        "pink",
+        "white",
+        "light blue",
+        "cream",
+        "gold"
+      ],
+      "description": "Sweet lolita fashion",
+      "name_i18n": {
+        "en": "Sweet Lolita",
+        "zh": "甜美 洛丽塔"
+      },
+      "description_i18n": {
+        "en": "Sweet lolita fashion",
+        "zh": "甜美 洛丽塔 fashion"
+      }
+    },
+    {
+      "id": "lolita_classic",
+      "name": "Classic Lolita",
+      "type": "theme",
+      "colors": [
+        "burgundy",
+        "cream",
+        "brown",
+        "gold",
+        "white"
+      ],
+      "description": "Classic lolita style",
+      "name_i18n": {
+        "en": "Classic Lolita",
+        "zh": "经典 洛丽塔"
+      },
+      "description_i18n": {
+        "en": "Classic lolita style",
+        "zh": "经典 洛丽塔 style"
+      }
+    },
+    {
+      "id": "elegant_royal",
+      "name": "Royal Elegant",
+      "type": "theme",
+      "colors": [
+        "royal blue",
+        "gold",
+        "white",
+        "silver",
+        "cream"
+      ],
+      "description": "Royal elegance",
+      "name_i18n": {
+        "en": "Royal Elegant",
+        "zh": "皇家 优雅"
+      },
+      "description_i18n": {
+        "en": "Royal elegance",
+        "zh": "皇家 elegance"
+      }
+    },
+    {
+      "id": "elegant_rose",
+      "name": "Rose Elegant",
+      "type": "theme",
+      "colors": [
+        "wine red",
+        "gold",
+        "cream",
+        "black",
+        "white"
+      ],
+      "description": "Romantic elegance",
+      "name_i18n": {
+        "en": "Rose Elegant",
+        "zh": "玫瑰 优雅"
+      },
+      "description_i18n": {
+        "en": "Romantic elegance",
+        "zh": "浪漫 elegance"
+      }
+    },
+    {
+      "id": "elegant_black_tie",
+      "name": "Black Tie",
+      "type": "theme",
+      "colors": [
+        "black",
+        "white",
+        "gold",
+        "silver",
+        "red"
+      ],
+      "description": "Formal elegant",
+      "name_i18n": {
+        "en": "Black Tie",
+        "zh": "黑色 领结"
+      },
+      "description_i18n": {
+        "en": "Formal elegant",
+        "zh": "Formal 优雅"
+      }
+    },
+    {
+      "id": "nature_forest",
+      "name": "Forest Fairy",
+      "type": "theme",
+      "colors": [
+        "green",
+        "brown",
+        "gold",
+        "cream",
+        "white"
+      ],
+      "description": "Forest nature theme",
+      "name_i18n": {
+        "en": "Forest Fairy",
+        "zh": "森林 Fairy"
+      },
+      "description_i18n": {
+        "en": "Forest nature theme",
+        "zh": "森林 自然 theme"
+      }
+    },
+    {
+      "id": "nature_mermaid",
+      "name": "Ocean Mermaid",
+      "type": "theme",
+      "colors": [
+        "teal",
+        "aqua",
+        "purple",
+        "silver",
+        "white"
+      ],
+      "description": "Underwater mermaid",
+      "name_i18n": {
+        "en": "Ocean Mermaid",
+        "zh": "海洋 美人鱼"
+      },
+      "description_i18n": {
+        "en": "Underwater mermaid",
+        "zh": "Underwater 美人鱼"
+      }
+    },
+    {
+      "id": "nature_flower",
+      "name": "Flower Garden",
+      "type": "theme",
+      "colors": [
+        "pink",
+        "green",
+        "yellow",
+        "white",
+        "lavender"
+      ],
+      "description": "Blooming garden",
+      "name_i18n": {
+        "en": "Flower Garden",
+        "zh": "花园 Garden"
+      },
+      "description_i18n": {
+        "en": "Blooming garden",
+        "zh": "Blooming garden"
+      }
+    },
+    {
+      "id": "sailor_navy",
+      "name": "Sailor Navy Classic",
+      "type": "anime_classic",
+      "colors": [
+        "navy blue",
+        "white",
+        "red"
+      ],
+      "description": "Traditional sailor uniform",
+      "name_i18n": {
+        "en": "Sailor Navy Classic",
+        "zh": "水手 Navy 经典"
+      },
+      "description_i18n": {
+        "en": "Traditional sailor uniform",
+        "zh": "Traditional 水手 uniform"
+      }
+    },
+    {
+      "id": "sailor_green",
+      "name": "Sailor Green",
+      "type": "anime_classic",
+      "colors": [
+        "forest green",
+        "white",
+        "red",
+        "yellow"
+      ],
+      "description": "Green sailor variant",
+      "name_i18n": {
+        "en": "Sailor Green",
+        "zh": "水手 绿"
+      },
+      "description_i18n": {
+        "en": "Green sailor variant",
+        "zh": "绿 水手 variant"
+      }
+    },
+    {
+      "id": "sailor_white",
+      "name": "Summer Sailor",
+      "type": "anime_classic",
+      "colors": [
+        "white",
+        "blue",
+        "light blue",
+        "red"
+      ],
+      "description": "Summer sailor uniform",
+      "name_i18n": {
+        "en": "Summer Sailor",
+        "zh": "夏 水手"
+      },
+      "description_i18n": {
+        "en": "Summer sailor uniform",
+        "zh": "夏 水手 uniform"
+      }
+    },
+    {
+      "id": "blazer_classic",
+      "name": "Blazer Classic",
+      "type": "anime_classic",
+      "colors": [
+        "navy blue",
+        "white",
+        "red",
+        "grey",
+        "gold"
+      ],
+      "description": "Classic school blazer",
+      "name_i18n": {
+        "en": "Blazer Classic",
+        "zh": "西装 经典"
+      },
+      "description_i18n": {
+        "en": "Classic school blazer",
+        "zh": "经典 school 西装"
+      }
+    },
+    {
+      "id": "blazer_brown",
+      "name": "Blazer Brown",
+      "type": "anime_classic",
+      "colors": [
+        "brown",
+        "cream",
+        "red",
+        "white",
+        "gold"
+      ],
+      "description": "Brown blazer variant",
+      "name_i18n": {
+        "en": "Blazer Brown",
+        "zh": "西装 Brown"
+      },
+      "description_i18n": {
+        "en": "Brown blazer variant",
+        "zh": "Brown 西装 variant"
+      }
+    },
+    {
+      "id": "maid_classic",
+      "name": "Classic Maid",
+      "type": "anime_classic",
+      "colors": [
+        "black",
+        "white",
+        "red"
+      ],
+      "description": "Traditional maid colors",
+      "name_i18n": {
+        "en": "Classic Maid",
+        "zh": "经典 女仆"
+      },
+      "description_i18n": {
+        "en": "Traditional maid colors",
+        "zh": "Traditional 女仆 colors"
+      }
+    },
+    {
+      "id": "maid_victorian",
+      "name": "Victorian Maid",
+      "type": "anime_classic",
+      "colors": [
+        "black",
+        "white",
+        "purple",
+        "gold",
+        "grey"
+      ],
+      "description": "Victorian-style maid",
+      "name_i18n": {
+        "en": "Victorian Maid",
+        "zh": "维多利亚 女仆"
+      },
+      "description_i18n": {
+        "en": "Victorian-style maid",
+        "zh": "维多利亚-style 女仆"
+      }
+    },
+    {
+      "id": "maid_pastel",
+      "name": "Pastel Maid",
+      "type": "anime_classic",
+      "colors": [
+        "pink",
+        "white",
+        "light blue",
+        "cream"
+      ],
+      "description": "Cute pastel maid",
+      "name_i18n": {
+        "en": "Pastel Maid",
+        "zh": "马卡龙 女仆"
+      },
+      "description_i18n": {
+        "en": "Cute pastel maid",
+        "zh": "Cute 马卡龙 女仆"
+      }
+    },
+    {
+      "id": "maid_cafe",
+      "name": "Maid Cafe",
+      "type": "anime_classic",
+      "colors": [
+        "pink",
+        "white",
+        "black",
+        "red",
+        "gold"
+      ],
+      "description": "Maid cafe style",
+      "name_i18n": {
+        "en": "Maid Cafe",
+        "zh": "女仆 咖啡馆"
+      },
+      "description_i18n": {
+        "en": "Maid cafe style",
+        "zh": "女仆 咖啡馆 style"
+      }
+    },
+    {
+      "id": "magical_girl_pink",
+      "name": "Magical Pink",
+      "type": "anime_classic",
+      "colors": [
+        "pink",
+        "white",
+        "gold",
+        "red",
+        "light pink"
+      ],
+      "description": "Classic magical girl",
+      "name_i18n": {
+        "en": "Magical Pink",
+        "zh": "魔法 粉"
+      },
+      "description_i18n": {
+        "en": "Classic magical girl",
+        "zh": "经典 魔法 少女"
+      }
+    },
+    {
+      "id": "magical_girl_blue",
+      "name": "Magical Blue",
+      "type": "anime_classic",
+      "colors": [
+        "blue",
+        "white",
+        "gold",
+        "pink",
+        "light blue"
+      ],
+      "description": "Blue magical girl",
+      "name_i18n": {
+        "en": "Magical Blue",
+        "zh": "魔法 蓝"
+      },
+      "description_i18n": {
+        "en": "Blue magical girl",
+        "zh": "蓝 魔法 少女"
+      }
+    },
+    {
+      "id": "magical_girl_purple",
+      "name": "Magical Purple",
+      "type": "anime_classic",
+      "colors": [
+        "purple",
+        "white",
+        "silver",
+        "pink",
+        "lavender"
+      ],
+      "description": "Purple magical girl",
+      "name_i18n": {
+        "en": "Magical Purple",
+        "zh": "魔法 紫"
+      },
+      "description_i18n": {
+        "en": "Purple magical girl",
+        "zh": "紫 魔法 少女"
+      }
+    },
+    {
+      "id": "magical_girl_dark",
+      "name": "Dark Magical Girl",
+      "type": "anime_classic",
+      "colors": [
+        "purple",
+        "black",
+        "silver",
+        "pink",
+        "dark blue"
+      ],
+      "description": "Dark magical girl",
+      "name_i18n": {
+        "en": "Dark Magical Girl",
+        "zh": "暗色 魔法 少女"
+      },
+      "description_i18n": {
+        "en": "Dark magical girl",
+        "zh": "暗色 魔法 少女"
+      }
+    },
+    {
+      "id": "shrine_maiden",
+      "name": "Shrine Maiden",
+      "type": "anime_classic",
+      "colors": [
+        "white",
+        "red"
+      ],
+      "description": "Miko colors",
+      "name_i18n": {
+        "en": "Shrine Maiden",
+        "zh": "巫女 巫女"
+      },
+      "description_i18n": {
+        "en": "Miko colors",
+        "zh": "Miko colors"
+      }
+    },
+    {
+      "id": "kimono_classic",
+      "name": "Kimono Classic",
+      "type": "anime_classic",
+      "colors": [
+        "red",
+        "white",
+        "gold",
+        "black",
+        "pink"
+      ],
+      "description": "Traditional kimono",
+      "name_i18n": {
+        "en": "Kimono Classic",
+        "zh": "和服 经典"
+      },
+      "description_i18n": {
+        "en": "Traditional kimono",
+        "zh": "Traditional 和服"
+      }
+    },
+    {
+      "id": "kimono_elegant",
+      "name": "Elegant Kimono",
+      "type": "anime_classic",
+      "colors": [
+        "purple",
+        "gold",
+        "white",
+        "pink",
+        "black"
+      ],
+      "description": "Elegant kimono style",
+      "name_i18n": {
+        "en": "Elegant Kimono",
+        "zh": "优雅 和服"
+      },
+      "description_i18n": {
+        "en": "Elegant kimono style",
+        "zh": "优雅 和服 style"
+      }
+    },
+    {
+      "id": "yukata_summer",
+      "name": "Summer Yukata",
+      "type": "anime_classic",
+      "colors": [
+        "light blue",
+        "white",
+        "pink",
+        "red",
+        "navy blue"
+      ],
+      "description": "Summer yukata colors",
+      "name_i18n": {
+        "en": "Summer Yukata",
+        "zh": "夏 浴衣"
+      },
+      "description_i18n": {
+        "en": "Summer yukata colors",
+        "zh": "夏 浴衣 colors"
+      }
+    },
+    {
+      "id": "knight_silver",
+      "name": "Knight Silver",
+      "type": "anime_classic",
+      "colors": [
+        "silver",
+        "blue",
+        "white",
+        "gold",
+        "red"
+      ],
+      "description": "Knight armor colors",
+      "name_i18n": {
+        "en": "Knight Silver",
+        "zh": "骑士 Silver"
+      },
+      "description_i18n": {
+        "en": "Knight armor colors",
+        "zh": "骑士 armor colors"
+      }
+    },
+    {
+      "id": "knight_dark",
+      "name": "Dark Knight",
+      "type": "anime_classic",
+      "colors": [
+        "black",
+        "silver",
+        "purple",
+        "red",
+        "gold"
+      ],
+      "description": "Dark knight style",
+      "name_i18n": {
+        "en": "Dark Knight",
+        "zh": "暗色 骑士"
+      },
+      "description_i18n": {
+        "en": "Dark knight style",
+        "zh": "暗色 骑士 style"
+      }
+    },
+    {
+      "id": "witch_classic",
+      "name": "Witch Classic",
+      "type": "anime_classic",
+      "colors": [
+        "black",
+        "purple",
+        "gold",
+        "orange",
+        "green"
+      ],
+      "description": "Classic witch colors",
+      "name_i18n": {
+        "en": "Witch Classic",
+        "zh": "女巫 经典"
+      },
+      "description_i18n": {
+        "en": "Classic witch colors",
+        "zh": "经典 女巫 colors"
+      }
+    },
+    {
+      "id": "witch_cute",
+      "name": "Cute Witch",
+      "type": "anime_classic",
+      "colors": [
+        "purple",
+        "pink",
+        "black",
+        "gold",
+        "white"
+      ],
+      "description": "Cute witch style",
+      "name_i18n": {
+        "en": "Cute Witch",
+        "zh": "Cute 女巫"
+      },
+      "description_i18n": {
+        "en": "Cute witch style",
+        "zh": "Cute 女巫 style"
+      }
+    },
+    {
+      "id": "elf_forest",
+      "name": "Forest Elf",
+      "type": "anime_classic",
+      "colors": [
+        "green",
+        "brown",
+        "gold",
+        "silver",
+        "white"
+      ],
+      "description": "Forest elf colors",
+      "name_i18n": {
+        "en": "Forest Elf",
+        "zh": "森林 精灵"
+      },
+      "description_i18n": {
+        "en": "Forest elf colors",
+        "zh": "森林 精灵 colors"
+      }
+    },
+    {
+      "id": "demon_classic",
+      "name": "Demon Classic",
+      "type": "anime_classic",
+      "colors": [
+        "black",
+        "red",
+        "purple",
+        "gold",
+        "silver"
+      ],
+      "description": "Classic demon colors",
+      "name_i18n": {
+        "en": "Demon Classic",
+        "zh": "恶魔 经典"
+      },
+      "description_i18n": {
+        "en": "Classic demon colors",
+        "zh": "经典 恶魔 colors"
+      }
+    },
+    {
+      "id": "angel_classic",
+      "name": "Angel Classic",
+      "type": "anime_classic",
+      "colors": [
+        "white",
+        "gold",
+        "light blue",
+        "pink",
+        "silver"
+      ],
+      "description": "Angel colors",
+      "name_i18n": {
+        "en": "Angel Classic",
+        "zh": "天使 经典"
+      },
+      "description_i18n": {
+        "en": "Angel colors",
+        "zh": "天使 colors"
+      }
+    },
+    {
+      "id": "idol_pink",
+      "name": "Idol Pink",
+      "type": "anime_classic",
+      "colors": [
+        "pink",
+        "white",
+        "gold",
+        "light pink",
+        "red"
+      ],
+      "description": "Pink idol costume",
+      "name_i18n": {
+        "en": "Idol Pink",
+        "zh": "偶像 粉"
+      },
+      "description_i18n": {
+        "en": "Pink idol costume",
+        "zh": "粉 偶像 costume"
+      }
+    },
+    {
+      "id": "idol_blue",
+      "name": "Idol Blue",
+      "type": "anime_classic",
+      "colors": [
+        "blue",
+        "white",
+        "silver",
+        "light blue",
+        "gold"
+      ],
+      "description": "Blue idol costume",
+      "name_i18n": {
+        "en": "Idol Blue",
+        "zh": "偶像 蓝"
+      },
+      "description_i18n": {
+        "en": "Blue idol costume",
+        "zh": "蓝 偶像 costume"
+      }
+    },
+    {
+      "id": "idol_rainbow",
+      "name": "Idol Rainbow",
+      "type": "anime_classic",
+      "colors": [
+        "pink",
+        "blue",
+        "yellow",
+        "white",
+        "gold"
+      ],
+      "description": "Colorful idol style",
+      "name_i18n": {
+        "en": "Idol Rainbow",
+        "zh": "偶像 彩虹"
+      },
+      "description_i18n": {
+        "en": "Colorful idol style",
+        "zh": "Colorful 偶像 style"
+      }
+    },
+    {
+      "id": "spring_sakura",
+      "name": "Cherry Blossom",
+      "type": "seasonal",
+      "colors": [
+        "pink",
+        "white",
+        "green",
+        "brown",
+        "light pink"
+      ],
+      "description": "Spring sakura colors",
+      "name_i18n": {
+        "en": "Cherry Blossom",
+        "zh": "Cherry Blossom"
+      },
+      "description_i18n": {
+        "en": "Spring sakura colors",
+        "zh": "春 樱花 colors"
+      }
+    },
+    {
+      "id": "spring_fresh",
+      "name": "Spring Fresh",
+      "type": "seasonal",
+      "colors": [
+        "light green",
+        "pink",
+        "yellow",
+        "white",
+        "light blue"
+      ],
+      "description": "Fresh spring palette",
+      "name_i18n": {
+        "en": "Spring Fresh",
+        "zh": "春 清新"
+      },
+      "description_i18n": {
+        "en": "Fresh spring palette",
+        "zh": "清新 春 palette"
+      }
+    },
+    {
+      "id": "summer_beach",
+      "name": "Summer Beach",
+      "type": "seasonal",
+      "colors": [
+        "light blue",
+        "white",
+        "yellow",
+        "coral",
+        "turquoise"
+      ],
+      "description": "Beach summer colors",
+      "name_i18n": {
+        "en": "Summer Beach",
+        "zh": "夏 海滩"
+      },
+      "description_i18n": {
+        "en": "Beach summer colors",
+        "zh": "海滩 夏 colors"
+      }
+    },
+    {
+      "id": "summer_tropical",
+      "name": "Tropical",
+      "type": "seasonal",
+      "colors": [
+        "cyan",
+        "orange",
+        "pink",
+        "green",
+        "yellow"
+      ],
+      "description": "Tropical paradise",
+      "name_i18n": {
+        "en": "Tropical",
+        "zh": "热带"
+      },
+      "description_i18n": {
+        "en": "Tropical paradise",
+        "zh": "热带 paradise"
+      }
+    },
+    {
+      "id": "summer_festival",
+      "name": "Summer Festival",
+      "type": "seasonal",
+      "colors": [
+        "red",
+        "white",
+        "gold",
+        "blue",
+        "pink"
+      ],
+      "description": "Japanese summer festival",
+      "name_i18n": {
+        "en": "Summer Festival",
+        "zh": "夏 祭典"
+      },
+      "description_i18n": {
+        "en": "Japanese summer festival",
+        "zh": "Japanese 夏 祭典"
+      }
+    },
+    {
+      "id": "autumn_leaves",
+      "name": "Autumn Leaves",
+      "type": "seasonal",
+      "colors": [
+        "orange",
+        "red",
+        "brown",
+        "gold",
+        "yellow"
+      ],
+      "description": "Fall foliage colors",
+      "name_i18n": {
+        "en": "Autumn Leaves",
+        "zh": "秋日 落叶"
+      },
+      "description_i18n": {
+        "en": "Fall foliage colors",
+        "zh": "Fall foliage colors"
+      }
+    },
+    {
+      "id": "autumn_harvest",
+      "name": "Harvest",
+      "type": "seasonal",
+      "colors": [
+        "brown",
+        "orange",
+        "cream",
+        "burgundy",
+        "gold"
+      ],
+      "description": "Harvest time palette",
+      "name_i18n": {
+        "en": "Harvest",
+        "zh": "丰收"
+      },
+      "description_i18n": {
+        "en": "Harvest time palette",
+        "zh": "丰收 time palette"
+      }
+    },
+    {
+      "id": "winter_snow",
+      "name": "Winter Snow",
+      "type": "seasonal",
+      "colors": [
+        "white",
+        "light blue",
+        "silver",
+        "navy blue",
+        "grey"
+      ],
+      "description": "Snowy winter colors",
+      "name_i18n": {
+        "en": "Winter Snow",
+        "zh": "冬 雪"
+      },
+      "description_i18n": {
+        "en": "Snowy winter colors",
+        "zh": "Snowy 冬 colors"
+      }
+    },
+    {
+      "id": "winter_cozy",
+      "name": "Cozy Winter",
+      "type": "seasonal",
+      "colors": [
+        "cream",
+        "brown",
+        "red",
+        "green",
+        "white"
+      ],
+      "description": "Warm cozy winter",
+      "name_i18n": {
+        "en": "Cozy Winter",
+        "zh": "温馨 冬"
+      },
+      "description_i18n": {
+        "en": "Warm cozy winter",
+        "zh": "暖色 温馨 冬"
+      }
+    },
+    {
+      "id": "christmas_classic",
+      "name": "Christmas Classic",
+      "type": "seasonal",
+      "colors": [
+        "red",
+        "green",
+        "gold",
+        "white",
+        "silver"
+      ],
+      "description": "Traditional Christmas",
+      "name_i18n": {
+        "en": "Christmas Classic",
+        "zh": "圣诞 经典"
+      },
+      "description_i18n": {
+        "en": "Traditional Christmas",
+        "zh": "Traditional 圣诞"
+      }
+    },
+    {
+      "id": "christmas_elegant",
+      "name": "Elegant Christmas",
+      "type": "seasonal",
+      "colors": [
+        "gold",
+        "red",
+        "white",
+        "silver",
+        "green"
+      ],
+      "description": "Elegant holiday colors",
+      "name_i18n": {
+        "en": "Elegant Christmas",
+        "zh": "优雅 圣诞"
+      },
+      "description_i18n": {
+        "en": "Elegant holiday colors",
+        "zh": "优雅 holiday colors"
+      }
+    },
+    {
+      "id": "valentine_romantic",
+      "name": "Valentine Romantic",
+      "type": "seasonal",
+      "colors": [
+        "pink",
+        "red",
+        "white",
+        "gold",
+        "light pink"
+      ],
+      "description": "Romantic valentine",
+      "name_i18n": {
+        "en": "Valentine Romantic",
+        "zh": "情人节 浪漫"
+      },
+      "description_i18n": {
+        "en": "Romantic valentine",
+        "zh": "浪漫 情人节"
+      }
+    },
+    {
+      "id": "valentine_chocolate",
+      "name": "Valentine Chocolate",
+      "type": "seasonal",
+      "colors": [
+        "brown",
+        "pink",
+        "cream",
+        "red",
+        "gold"
+      ],
+      "description": "Chocolate valentine",
+      "name_i18n": {
+        "en": "Valentine Chocolate",
+        "zh": "情人节 巧克力"
+      },
+      "description_i18n": {
+        "en": "Chocolate valentine",
+        "zh": "巧克力 情人节"
+      }
+    },
+    {
+      "id": "halloween_classic",
+      "name": "Halloween Classic",
+      "type": "seasonal",
+      "colors": [
+        "orange",
+        "black",
+        "purple",
+        "green",
+        "white"
+      ],
+      "description": "Classic halloween",
+      "name_i18n": {
+        "en": "Halloween Classic",
+        "zh": "万圣节 经典"
+      },
+      "description_i18n": {
+        "en": "Classic halloween",
+        "zh": "经典 万圣节"
+      }
+    },
+    {
+      "id": "halloween_spooky",
+      "name": "Spooky Halloween",
+      "type": "seasonal",
+      "colors": [
+        "black",
+        "purple",
+        "green",
+        "orange",
+        "red"
+      ],
+      "description": "Spooky halloween colors",
+      "name_i18n": {
+        "en": "Spooky Halloween",
+        "zh": "诡趣 万圣节"
+      },
+      "description_i18n": {
+        "en": "Spooky halloween colors",
+        "zh": "诡趣 万圣节 colors"
+      }
+    },
+    {
+      "id": "naruto_sakura_schemecolor",
+      "name": "Sakura (Naruto)",
+      "type": "anime_classic",
+      "colors": [
+        "navy blue",
+        "mint",
+        "white",
+        "light pink",
+        "burgundy"
+      ],
+      "description": "Character palette inspired by SchemeColor's Sakura (Naruto)",
+      "name_i18n": {
+        "en": "Sakura (Naruto)",
+        "zh": "樱花 (Naruto)"
+      },
+      "description_i18n": {
+        "en": "Character palette inspired by SchemeColor's Sakura (Naruto)",
+        "zh": "Character palette inspired by SchemeColor's 樱花 (Naruto)"
+      }
+    },
+    {
+      "id": "naruto_akatsuki_schemecolor",
+      "name": "Akatsuki (Naruto)",
+      "type": "anime_classic",
+      "colors": [
+        "crimson",
+        "light grey",
+        "dark grey",
+        "olive"
+      ],
+      "description": "Character palette inspired by SchemeColor's Akatsuki (Naruto)",
+      "name_i18n": {
+        "en": "Akatsuki (Naruto)",
+        "zh": "Akatsuki (Naruto)"
+      },
+      "description_i18n": {
+        "en": "Character palette inspired by SchemeColor's Akatsuki (Naruto)",
+        "zh": "Character palette inspired by SchemeColor's Akatsuki (Naruto)"
+      }
+    },
+    {
+      "id": "naruto_shikamaru_schemecolor",
+      "name": "Shikamaru (Naruto)",
+      "type": "anime_classic",
+      "colors": [
+        "olive",
+        "peach",
+        "black",
+        "teal",
+        "silver"
+      ],
+      "description": "Character palette inspired by SchemeColor's Shikamaru Nara (Naruto)",
+      "name_i18n": {
+        "en": "Shikamaru (Naruto)",
+        "zh": "Shikamaru (Naruto)"
+      },
+      "description_i18n": {
+        "en": "Character palette inspired by SchemeColor's Shikamaru Nara (Naruto)",
+        "zh": "Character palette inspired by SchemeColor's Shikamaru Nara (Naruto)"
+      }
+    },
+    {
+      "id": "naruto_uzumaki_schemecolor",
+      "name": "Naruto Uzumaki",
+      "type": "anime_classic",
+      "colors": [
+        "dark grey",
+        "orange",
+        "yellow",
+        "cream",
+        "blue",
+        "dark blue"
+      ],
+      "description": "Character palette inspired by SchemeColor's Naruto Uzumaki (Naruto)",
+      "name_i18n": {
+        "en": "Naruto Uzumaki",
+        "zh": "Naruto Uzumaki"
+      },
+      "description_i18n": {
+        "en": "Character palette inspired by SchemeColor's Naruto Uzumaki (Naruto)",
+        "zh": "Character palette inspired by SchemeColor's Naruto Uzumaki (Naruto)"
+      }
+    },
+    {
+      "id": "jjk_nobara_schemecolor",
+      "name": "Nobara (JJK)",
+      "type": "anime_classic",
+      "colors": [
+        "tan",
+        "brown",
+        "light pink",
+        "indigo",
+        "khaki",
+        "ivory"
+      ],
+      "description": "Character palette inspired by SchemeColor's Nobara Kugisaki (Jujutsu Kaisen)",
+      "name_i18n": {
+        "en": "Nobara (JJK)",
+        "zh": "Nobara (JJK)"
+      },
+      "description_i18n": {
+        "en": "Character palette inspired by SchemeColor's Nobara Kugisaki (Jujutsu Kaisen)",
+        "zh": "Character palette inspired by SchemeColor's Nobara Kugisaki (Jujutsu Kaisen)"
+      }
+    },
+    {
+      "id": "jjk_gojo_schemecolor",
+      "name": "Gojo (JJK)",
+      "type": "anime_classic",
+      "colors": [
+        "dark blue",
+        "purple",
+        "lavender",
+        "white",
+        "cyan",
+        "black"
+      ],
+      "description": "Character palette inspired by SchemeColor's Gojo Satori (Jujutsu Kaisen)",
+      "name_i18n": {
+        "en": "Gojo (JJK)",
+        "zh": "Gojo (JJK)"
+      },
+      "description_i18n": {
+        "en": "Character palette inspired by SchemeColor's Gojo Satori (Jujutsu Kaisen)",
+        "zh": "Character palette inspired by SchemeColor's Gojo Satori (Jujutsu Kaisen)"
+      }
+    },
+    {
+      "id": "jjk_megumi_schemecolor",
+      "name": "Megumi (JJK)",
+      "type": "anime_classic",
+      "colors": [
+        "navy blue",
+        "gold",
+        "peach",
+        "blue",
+        "dark blue"
+      ],
+      "description": "Character palette inspired by SchemeColor's Megumi (Jujutsu Kaisen)",
+      "name_i18n": {
+        "en": "Megumi (JJK)",
+        "zh": "Megumi (JJK)"
+      },
+      "description_i18n": {
+        "en": "Character palette inspired by SchemeColor's Megumi (Jujutsu Kaisen)",
+        "zh": "Character palette inspired by SchemeColor's Megumi (Jujutsu Kaisen)"
+      }
+    },
+    {
+      "id": "triad_orange_blue_colorhex",
+      "name": "Orange Blue Triad",
+      "type": "harmony",
+      "colors": [
+        "orange",
+        "blue",
+        "mint",
+        "purple",
+        "white"
+      ],
+      "description": "Triadic/complementary palette derived from Color-Hex schemes for #ff8200",
+      "name_i18n": {
+        "en": "Orange Blue Triad",
+        "zh": "橙 蓝 Triad"
+      },
+      "description_i18n": {
+        "en": "Triadic/complementary palette derived from Color-Hex schemes for #ff8200",
+        "zh": "Triadic/complementary palette derived from Color-Hex schemes for #ff8200"
+      }
+    },
+    {
+      "id": "pastel_anime_colorhex",
+      "name": "Pastel Anime",
+      "type": "theme",
+      "colors": [
+        "light green",
+        "light yellow",
+        "light blue",
+        "light purple",
+        "rose"
+      ],
+      "description": "Pastel anime palette inspired by Color-Hex",
+      "name_i18n": {
+        "en": "Pastel Anime",
+        "zh": "马卡龙 Anime"
+      },
+      "description_i18n": {
+        "en": "Pastel anime palette inspired by Color-Hex",
+        "zh": "马卡龙 anime palette inspired by Color-Hex"
+      }
+    },
+    {
+      "id": "kawaii_anime_pastelcolorpalettes",
+      "name": "Kawaii Anime Pastels",
+      "type": "theme",
+      "colors": [
+        "light blue",
+        "sky blue",
+        "ivory",
+        "light pink",
+        "light yellow"
+      ],
+      "description": "Kawaii anime pastel palette inspired by PastelColorPalettes",
+      "name_i18n": {
+        "en": "Kawaii Anime Pastels",
+        "zh": "Kawaii Anime Pastels"
+      },
+      "description_i18n": {
+        "en": "Kawaii anime pastel palette inspired by PastelColorPalettes",
+        "zh": "Kawaii anime 马卡龙 palette inspired by PastelColorPalettes"
+      }
+    },
+    {
+      "id": "fate_saber_animecolors",
+      "name": "Saber (Fate) Classic",
+      "type": "anime_classic",
+      "colors": [
+        "blue",
+        "dark blue",
+        "navy blue",
+        "gold",
+        "light yellow",
+        "peach",
+        "white"
+      ],
+      "description": "Female character palette inspired by Anime-Colors' Saber profile",
+      "name_i18n": {
+        "en": "Saber (Fate) Classic",
+        "zh": "Saber (Fate) 经典"
+      },
+      "description_i18n": {
+        "en": "Female character palette inspired by Anime-Colors' Saber profile",
+        "zh": "Female character palette inspired by Anime-Colors' Saber profile"
+      }
+    },
+    {
+      "id": "rezero_rem_animecolors",
+      "name": "Rem (Re:Zero)",
+      "type": "anime_classic",
+      "colors": [
+        "sky blue",
+        "blue",
+        "light blue",
+        "purple",
+        "violet",
+        "light pink",
+        "white",
+        "dark grey"
+      ],
+      "description": "Female character palette inspired by Anime-Colors' Rem profile",
+      "name_i18n": {
+        "en": "Rem (Re:Zero)",
+        "zh": "Rem (Re:Zero)"
+      },
+      "description_i18n": {
+        "en": "Female character palette inspired by Anime-Colors' Rem profile",
+        "zh": "Female character palette inspired by Anime-Colors' Rem profile"
+      }
+    },
+    {
+      "id": "rezero_emilia_animecolors",
+      "name": "Emilia (Re:Zero)",
+      "type": "anime_classic",
+      "colors": [
+        "mint",
+        "light purple",
+        "lavender",
+        "violet",
+        "white",
+        "light grey",
+        "peach"
+      ],
+      "description": "Female character palette inspired by Anime-Colors' Emilia profile",
+      "name_i18n": {
+        "en": "Emilia (Re:Zero)",
+        "zh": "Emilia (Re:Zero)"
+      },
+      "description_i18n": {
+        "en": "Female character palette inspired by Anime-Colors' Emilia profile",
+        "zh": "Female character palette inspired by Anime-Colors' Emilia profile"
+      }
+    },
+    {
+      "id": "rezero_ram_animecolors",
+      "name": "Ram (Re:Zero)",
+      "type": "anime_classic",
+      "colors": [
+        "lavender",
+        "light purple",
+        "purple",
+        "pink",
+        "light pink",
+        "light grey",
+        "dark grey"
+      ],
+      "description": "Female character palette inspired by Anime-Colors' Ram profile",
+      "name_i18n": {
+        "en": "Ram (Re:Zero)",
+        "zh": "Ram (Re:Zero)"
+      },
+      "description_i18n": {
+        "en": "Female character palette inspired by Anime-Colors' Ram profile",
+        "zh": "Female character palette inspired by Anime-Colors' Ram profile"
+      }
+    },
+    {
+      "id": "akame_esdeath_animecolors",
+      "name": "Esdeath (Akame ga Kill)",
+      "type": "anime_classic",
+      "colors": [
+        "light blue",
+        "sky blue",
+        "blue",
+        "dark blue",
+        "silver",
+        "white",
+        "brown"
+      ],
+      "description": "Female character palette inspired by Anime-Colors' Esdeath profile",
+      "name_i18n": {
+        "en": "Esdeath (Akame ga Kill)",
+        "zh": "Esdeath (Akame ga Kill)"
+      },
+      "description_i18n": {
+        "en": "Female character palette inspired by Anime-Colors' Esdeath profile",
+        "zh": "Female character palette inspired by Anime-Colors' Esdeath profile"
+      }
+    },
+    {
+      "id": "akame_najenda_animecolors",
+      "name": "Najenda (Akame ga Kill)",
+      "type": "anime_classic",
+      "colors": [
+        "blue",
+        "dark blue",
+        "lavender",
+        "light purple",
+        "light blue",
+        "tan",
+        "peach",
+        "green",
+        "white"
+      ],
+      "description": "Female character palette inspired by Anime-Colors' Najenda profile",
+      "name_i18n": {
+        "en": "Najenda (Akame ga Kill)",
+        "zh": "Najenda (Akame ga Kill)"
+      },
+      "description_i18n": {
+        "en": "Female character palette inspired by Anime-Colors' Najenda profile",
+        "zh": "Female character palette inspired by Anime-Colors' Najenda profile"
+      }
+    },
+    {
+      "id": "codegeass_sakuya_sumeragi_animecolors",
+      "name": "Sakuya Sumeragi (Code Geass)",
+      "type": "anime_classic",
+      "colors": [
+        "aqua",
+        "teal",
+        "light green",
+        "gold",
+        "pink",
+        "rose",
+        "yellow",
+        "white",
+        "indigo"
+      ],
+      "description": "Female character palette inspired by Anime-Colors' Sakuya Sumeragi profile",
+      "name_i18n": {
+        "en": "Sakuya Sumeragi (Code Geass)",
+        "zh": "Sakuya Sumeragi (Code Geass)"
+      },
+      "description_i18n": {
+        "en": "Female character palette inspired by Anime-Colors' Sakuya Sumeragi profile",
+        "zh": "Female character palette inspired by Anime-Colors' Sakuya Sumeragi profile"
+      }
+    },
+    {
+      "id": "akame_akame_animecolors",
+      "name": "Akame (Akame ga Kill)",
+      "type": "anime_classic",
+      "colors": [
+        "dark grey",
+        "dark blue",
+        "crimson",
+        "peach",
+        "light grey",
+        "navy blue",
+        "white"
+      ],
+      "description": "Female character palette inspired by Anime-Colors' Akame profile",
+      "name_i18n": {
+        "en": "Akame (Akame ga Kill)",
+        "zh": "Akame (Akame ga Kill)"
+      },
+      "description_i18n": {
+        "en": "Female character palette inspired by Anime-Colors' Akame profile",
+        "zh": "Female character palette inspired by Anime-Colors' Akame profile"
+      }
+    }
   ],
   "individual_colors": [
-    "white", "black", "grey", "light grey", "dark grey", "silver",
-    "red", "crimson", "scarlet", "maroon", "burgundy", "wine red", "coral",
-    "pink", "light pink", "hot pink", "magenta", "rose", "peach",
-    "orange", "burnt orange",
-    "yellow", "gold", "cream", "ivory", "beige", "light yellow",
-    "green", "lime", "mint", "forest green", "olive", "teal", "light green", "dark green",
-    "blue", "navy blue", "light blue", "sky blue", "royal blue", "cyan", "aqua", "turquoise", "dark blue", "pale blue",
-    "purple", "violet", "lavender", "plum", "indigo", "light purple", "dark purple",
-    "brown", "tan", "chocolate", "coffee", "khaki"
+    "white",
+    "black",
+    "grey",
+    "light grey",
+    "dark grey",
+    "silver",
+    "red",
+    "crimson",
+    "scarlet",
+    "maroon",
+    "burgundy",
+    "wine red",
+    "coral",
+    "pink",
+    "light pink",
+    "hot pink",
+    "magenta",
+    "rose",
+    "peach",
+    "orange",
+    "burnt orange",
+    "yellow",
+    "gold",
+    "cream",
+    "ivory",
+    "beige",
+    "light yellow",
+    "green",
+    "lime",
+    "mint",
+    "forest green",
+    "olive",
+    "teal",
+    "light green",
+    "dark green",
+    "blue",
+    "navy blue",
+    "light blue",
+    "sky blue",
+    "royal blue",
+    "cyan",
+    "aqua",
+    "turquoise",
+    "dark blue",
+    "pale blue",
+    "purple",
+    "violet",
+    "lavender",
+    "plum",
+    "indigo",
+    "light purple",
+    "dark purple",
+    "brown",
+    "tan",
+    "chocolate",
+    "coffee",
+    "khaki"
   ],
   "index_by_palette_type": {
     "harmony": [
-      "complementary_blue_orange", "complementary_red_green", "complementary_purple_yellow",
-      "analogous_ocean", "analogous_sunset", "analogous_forest", "analogous_berry",
-      "triadic_primary", "triadic_secondary",
-      "monochrome_blue", "monochrome_pink", "monochrome_purple", "monochrome_grey",
+      "complementary_blue_orange",
+      "complementary_red_green",
+      "complementary_purple_yellow",
+      "analogous_ocean",
+      "analogous_sunset",
+      "analogous_forest",
+      "analogous_berry",
+      "triadic_primary",
+      "triadic_secondary",
+      "monochrome_blue",
+      "monochrome_pink",
+      "monochrome_purple",
+      "monochrome_grey",
       "triad_orange_blue_colorhex"
     ],
     "mood": [
-      "warm_cozy", "warm_passionate", "warm_cheerful", "warm_autumn",
-      "cool_ocean", "cool_night", "cool_icy", "cool_mint",
-      "dark_gothic", "dark_elegant", "dark_vampire",
-      "soft_dream", "soft_cloud"
+      "warm_cozy",
+      "warm_passionate",
+      "warm_cheerful",
+      "warm_autumn",
+      "cool_ocean",
+      "cool_night",
+      "cool_icy",
+      "cool_mint",
+      "dark_gothic",
+      "dark_elegant",
+      "dark_vampire",
+      "soft_dream",
+      "soft_cloud"
     ],
     "theme": [
-      "pastel_rainbow", "pastel_warm", "pastel_cool", "pastel_candy",
-      "neon_cyberpunk", "neon_arcade", "neon_vaporwave",
-      "military_green", "military_naval",
-      "gothic_lolita_classic", "gothic_lolita_sweet", "lolita_sweet", "lolita_classic",
-      "elegant_royal", "elegant_rose", "elegant_black_tie",
-      "nature_forest", "nature_mermaid", "nature_flower",
-      "pastel_anime_colorhex", "kawaii_anime_pastelcolorpalettes"
+      "pastel_rainbow",
+      "pastel_warm",
+      "pastel_cool",
+      "pastel_candy",
+      "neon_cyberpunk",
+      "neon_arcade",
+      "neon_vaporwave",
+      "military_green",
+      "military_naval",
+      "gothic_lolita_classic",
+      "gothic_lolita_sweet",
+      "lolita_sweet",
+      "lolita_classic",
+      "elegant_royal",
+      "elegant_rose",
+      "elegant_black_tie",
+      "nature_forest",
+      "nature_mermaid",
+      "nature_flower",
+      "pastel_anime_colorhex",
+      "kawaii_anime_pastelcolorpalettes"
     ],
     "anime_classic": [
-      "sailor_navy", "sailor_green", "sailor_white",
-      "blazer_classic", "blazer_brown",
-      "maid_classic", "maid_victorian", "maid_pastel", "maid_cafe",
-      "magical_girl_pink", "magical_girl_blue", "magical_girl_purple", "magical_girl_dark",
-      "shrine_maiden", "kimono_classic", "kimono_elegant", "yukata_summer",
-      "knight_silver", "knight_dark", "witch_classic", "witch_cute",
-      "elf_forest", "demon_classic", "angel_classic",
-      "idol_pink", "idol_blue", "idol_rainbow",
-      "naruto_sakura_schemecolor", "naruto_akatsuki_schemecolor", "naruto_shikamaru_schemecolor", "naruto_uzumaki_schemecolor",
-      "jjk_nobara_schemecolor", "jjk_gojo_schemecolor", "jjk_megumi_schemecolor",
-      "fate_saber_animecolors", "rezero_rem_animecolors", "rezero_emilia_animecolors", "rezero_ram_animecolors",
-      "akame_esdeath_animecolors", "akame_najenda_animecolors", "codegeass_sakuya_sumeragi_animecolors", "akame_akame_animecolors"
+      "sailor_navy",
+      "sailor_green",
+      "sailor_white",
+      "blazer_classic",
+      "blazer_brown",
+      "maid_classic",
+      "maid_victorian",
+      "maid_pastel",
+      "maid_cafe",
+      "magical_girl_pink",
+      "magical_girl_blue",
+      "magical_girl_purple",
+      "magical_girl_dark",
+      "shrine_maiden",
+      "kimono_classic",
+      "kimono_elegant",
+      "yukata_summer",
+      "knight_silver",
+      "knight_dark",
+      "witch_classic",
+      "witch_cute",
+      "elf_forest",
+      "demon_classic",
+      "angel_classic",
+      "idol_pink",
+      "idol_blue",
+      "idol_rainbow",
+      "naruto_sakura_schemecolor",
+      "naruto_akatsuki_schemecolor",
+      "naruto_shikamaru_schemecolor",
+      "naruto_uzumaki_schemecolor",
+      "jjk_nobara_schemecolor",
+      "jjk_gojo_schemecolor",
+      "jjk_megumi_schemecolor",
+      "fate_saber_animecolors",
+      "rezero_rem_animecolors",
+      "rezero_emilia_animecolors",
+      "rezero_ram_animecolors",
+      "akame_esdeath_animecolors",
+      "akame_najenda_animecolors",
+      "codegeass_sakuya_sumeragi_animecolors",
+      "akame_akame_animecolors"
     ],
     "seasonal": [
-      "spring_sakura", "spring_fresh",
-      "summer_beach", "summer_tropical", "summer_festival",
-      "autumn_leaves", "autumn_harvest",
-      "winter_snow", "winter_cozy",
-      "christmas_classic", "christmas_elegant",
-      "valentine_romantic", "valentine_chocolate",
-      "halloween_classic", "halloween_spooky"
+      "spring_sakura",
+      "spring_fresh",
+      "summer_beach",
+      "summer_tropical",
+      "summer_festival",
+      "autumn_leaves",
+      "autumn_harvest",
+      "winter_snow",
+      "winter_cozy",
+      "christmas_classic",
+      "christmas_elegant",
+      "valentine_romantic",
+      "valentine_chocolate",
+      "halloween_classic",
+      "halloween_spooky"
     ]
   },
   "palette_types": [
-    {"id": "harmony", "name": "Color Harmony", "description": "Based on color theory"},
-    {"id": "mood", "name": "Mood/Atmosphere", "description": "Colors that evoke specific feelings"},
-    {"id": "theme", "name": "Theme/Aesthetic", "description": "Based on visual themes"},
-    {"id": "anime_classic", "name": "Anime Classics", "description": "Common anime color combinations"},
-    {"id": "seasonal", "name": "Seasonal", "description": "Colors associated with seasons and holidays"}
+    {
+      "id": "harmony",
+      "name": "Color Harmony",
+      "description": "Based on color theory",
+      "name_i18n": {
+        "en": "Color Harmony",
+        "zh": "Color 和谐"
+      },
+      "description_i18n": {
+        "en": "Based on color theory",
+        "zh": "Based on color theory"
+      }
+    },
+    {
+      "id": "mood",
+      "name": "Mood/Atmosphere",
+      "description": "Colors that evoke specific feelings",
+      "name_i18n": {
+        "en": "Mood/Atmosphere",
+        "zh": "Mood/Atmosphere"
+      },
+      "description_i18n": {
+        "en": "Colors that evoke specific feelings",
+        "zh": "Colors that evoke specific feelings"
+      }
+    },
+    {
+      "id": "theme",
+      "name": "Theme/Aesthetic",
+      "description": "Based on visual themes",
+      "name_i18n": {
+        "en": "Theme/Aesthetic",
+        "zh": "Theme/Aesthetic"
+      },
+      "description_i18n": {
+        "en": "Based on visual themes",
+        "zh": "Based on visual themes"
+      }
+    },
+    {
+      "id": "anime_classic",
+      "name": "Anime Classics",
+      "description": "Common anime color combinations",
+      "name_i18n": {
+        "en": "Anime Classics",
+        "zh": "Anime Classics"
+      },
+      "description_i18n": {
+        "en": "Common anime color combinations",
+        "zh": "Common anime color combinations"
+      }
+    },
+    {
+      "id": "seasonal",
+      "name": "Seasonal",
+      "description": "Colors associated with seasons and holidays",
+      "name_i18n": {
+        "en": "Seasonal",
+        "zh": "Seasonal"
+      },
+      "description_i18n": {
+        "en": "Colors associated with seasons and holidays",
+        "zh": "Colors associated with seasons and holidays"
+      }
+    }
   ],
   "meta": {
     "notes": [
       "Each palette contains 3-6 colors that work well together.",
       "Colors are listed in order of dominance - first colors are primary, later are accent.",
       "Anime classic palettes are based on common anime character archetypes."
+    ],
+    "i18n_notes": [
+      "Localized names are provided for en/zh. Unknown tokens fall back to English."
     ]
+  },
+  "supported_languages": [
+    "en",
+    "zh"
+  ],
+  "individual_colors_i18n": {
+    "white": {
+      "en": "white",
+      "zh": "白色"
+    },
+    "black": {
+      "en": "black",
+      "zh": "黑色"
+    },
+    "grey": {
+      "en": "grey",
+      "zh": "灰色"
+    },
+    "light grey": {
+      "en": "light grey",
+      "zh": "浅灰色"
+    },
+    "dark grey": {
+      "en": "dark grey",
+      "zh": "深灰色"
+    },
+    "silver": {
+      "en": "silver",
+      "zh": "银色"
+    },
+    "red": {
+      "en": "red",
+      "zh": "红色"
+    },
+    "crimson": {
+      "en": "crimson",
+      "zh": "深红色"
+    },
+    "scarlet": {
+      "en": "scarlet",
+      "zh": "猝红色"
+    },
+    "maroon": {
+      "en": "maroon",
+      "zh": "栗色"
+    },
+    "burgundy": {
+      "en": "burgundy",
+      "zh": "酒红色"
+    },
+    "wine red": {
+      "en": "wine red",
+      "zh": "葡萄酒红"
+    },
+    "coral": {
+      "en": "coral",
+      "zh": "珊瑚色"
+    },
+    "pink": {
+      "en": "pink",
+      "zh": "粉色"
+    },
+    "light pink": {
+      "en": "light pink",
+      "zh": "浅粉色"
+    },
+    "hot pink": {
+      "en": "hot pink",
+      "zh": "亮粉色"
+    },
+    "magenta": {
+      "en": "magenta",
+      "zh": "洋红色"
+    },
+    "rose": {
+      "en": "rose",
+      "zh": "玫瑰色"
+    },
+    "peach": {
+      "en": "peach",
+      "zh": "桃色"
+    },
+    "orange": {
+      "en": "orange",
+      "zh": "橙色"
+    },
+    "burnt orange": {
+      "en": "burnt orange",
+      "zh": "焦橙色"
+    },
+    "yellow": {
+      "en": "yellow",
+      "zh": "黄色"
+    },
+    "gold": {
+      "en": "gold",
+      "zh": "金色"
+    },
+    "cream": {
+      "en": "cream",
+      "zh": "奶油色"
+    },
+    "ivory": {
+      "en": "ivory",
+      "zh": "象牙色"
+    },
+    "beige": {
+      "en": "beige",
+      "zh": "米色"
+    },
+    "light yellow": {
+      "en": "light yellow",
+      "zh": "浅黄色"
+    },
+    "green": {
+      "en": "green",
+      "zh": "绿色"
+    },
+    "lime": {
+      "en": "lime",
+      "zh": "酸橙色"
+    },
+    "mint": {
+      "en": "mint",
+      "zh": "薄荷色"
+    },
+    "forest green": {
+      "en": "forest green",
+      "zh": "森林绿"
+    },
+    "olive": {
+      "en": "olive",
+      "zh": "橄榄色"
+    },
+    "teal": {
+      "en": "teal",
+      "zh": "青绿色"
+    },
+    "light green": {
+      "en": "light green",
+      "zh": "浅绿色"
+    },
+    "dark green": {
+      "en": "dark green",
+      "zh": "深绿色"
+    },
+    "blue": {
+      "en": "blue",
+      "zh": "蓝色"
+    },
+    "navy blue": {
+      "en": "navy blue",
+      "zh": "海军蓝"
+    },
+    "light blue": {
+      "en": "light blue",
+      "zh": "浅蓝色"
+    },
+    "sky blue": {
+      "en": "sky blue",
+      "zh": "天蓝色"
+    },
+    "royal blue": {
+      "en": "royal blue",
+      "zh": "宝蓝色"
+    },
+    "cyan": {
+      "en": "cyan",
+      "zh": "青色"
+    },
+    "aqua": {
+      "en": "aqua",
+      "zh": "水蓝色"
+    },
+    "turquoise": {
+      "en": "turquoise",
+      "zh": "绿松石色"
+    },
+    "dark blue": {
+      "en": "dark blue",
+      "zh": "深蓝色"
+    },
+    "pale blue": {
+      "en": "pale blue",
+      "zh": "淡蓝色"
+    },
+    "purple": {
+      "en": "purple",
+      "zh": "紫色"
+    },
+    "violet": {
+      "en": "violet",
+      "zh": "紫罗兰色"
+    },
+    "lavender": {
+      "en": "lavender",
+      "zh": "薰衣草色"
+    },
+    "plum": {
+      "en": "plum",
+      "zh": "李子色"
+    },
+    "indigo": {
+      "en": "indigo",
+      "zh": "靛蓝色"
+    },
+    "light purple": {
+      "en": "light purple",
+      "zh": "浅紫色"
+    },
+    "dark purple": {
+      "en": "dark purple",
+      "zh": "深紫色"
+    },
+    "brown": {
+      "en": "brown",
+      "zh": "棕色"
+    },
+    "tan": {
+      "en": "tan",
+      "zh": "棕褐色"
+    },
+    "chocolate": {
+      "en": "chocolate",
+      "zh": "巧克力色"
+    },
+    "coffee": {
+      "en": "coffee",
+      "zh": "咖啡色"
+    },
+    "khaki": {
+      "en": "khaki",
+      "zh": "卡其色"
+    }
   }
 }

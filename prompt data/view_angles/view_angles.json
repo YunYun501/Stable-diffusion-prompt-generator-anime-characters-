@@ -7,7 +7,11 @@
       "id": "eye_level_shot",
       "name": "eye-level shot",
       "category": "camera_height",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "eye-level shot",
+        "zh": "平视镜头"
+      }
     },
     {
       "id": "high_angle_shot",
@@ -15,7 +19,11 @@
       "category": "camera_height",
       "aliases": [
         "high shot"
-      ]
+      ],
+      "name_i18n": {
+        "en": "high-angle shot",
+        "zh": "高角度镜头"
+      }
     },
     {
       "id": "low_angle_shot",
@@ -23,7 +31,11 @@
       "category": "camera_height",
       "aliases": [
         "low shot"
-      ]
+      ],
+      "name_i18n": {
+        "en": "low-angle shot",
+        "zh": "低角度镜头"
+      }
     },
     {
       "id": "birds_eye_view",
@@ -32,7 +44,11 @@
       "aliases": [
         "overhead view",
         "top-down view"
-      ]
+      ],
+      "name_i18n": {
+        "en": "bird's-eye view",
+        "zh": "鸟瞰视角"
+      }
     },
     {
       "id": "worms_eye_view",
@@ -40,13 +56,21 @@
       "category": "camera_height",
       "aliases": [
         "extreme low angle"
-      ]
+      ],
+      "name_i18n": {
+        "en": "worm's-eye view",
+        "zh": "仰视视角"
+      }
     },
     {
       "id": "front_view",
       "name": "front view",
       "category": "view_direction",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "front view",
+        "zh": "正面视角"
+      }
     },
     {
       "id": "side_view",
@@ -54,7 +78,11 @@
       "category": "view_direction",
       "aliases": [
         "profile view"
-      ]
+      ],
+      "name_i18n": {
+        "en": "side view",
+        "zh": "侧视图"
+      }
     },
     {
       "id": "back_view",
@@ -62,7 +90,11 @@
       "category": "view_direction",
       "aliases": [
         "rear view"
-      ]
+      ],
+      "name_i18n": {
+        "en": "back view",
+        "zh": "背面视角"
+      }
     },
     {
       "id": "three_quarter_view",
@@ -70,7 +102,11 @@
       "category": "view_direction",
       "aliases": [
         "3/4 view"
-      ]
+      ],
+      "name_i18n": {
+        "en": "three-quarter view",
+        "zh": "四分之三视角"
+      }
     },
     {
       "id": "over_the_shoulder",
@@ -78,7 +114,11 @@
       "category": "view_direction",
       "aliases": [
         "OTS shot"
-      ]
+      ],
+      "name_i18n": {
+        "en": "over-the-shoulder shot",
+        "zh": "过肩镜头"
+      }
     },
     {
       "id": "dutch_angle",
@@ -86,37 +126,61 @@
       "category": "tilt_style",
       "aliases": [
         "canted shot"
-      ]
+      ],
+      "name_i18n": {
+        "en": "dutch angle",
+        "zh": "荷兰角"
+      }
     },
     {
       "id": "straight_horizon",
       "name": "straight horizon",
       "category": "tilt_style",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "straight horizon",
+        "zh": "水平构图"
+      }
     },
     {
       "id": "close_up_shot",
       "name": "close-up shot",
       "category": "framing",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "close-up shot",
+        "zh": "特写镜头"
+      }
     },
     {
       "id": "extreme_close_up",
       "name": "extreme close-up",
       "category": "framing",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "extreme close-up",
+        "zh": "大特写"
+      }
     },
     {
       "id": "medium_close_up",
       "name": "medium close-up",
       "category": "framing",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "medium close-up",
+        "zh": "中近景"
+      }
     },
     {
       "id": "medium_shot",
       "name": "medium shot",
       "category": "framing",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "medium shot",
+        "zh": "中景"
+      }
     },
     {
       "id": "medium_full_shot",
@@ -124,13 +188,21 @@
       "category": "framing",
       "aliases": [
         "knee shot"
-      ]
+      ],
+      "name_i18n": {
+        "en": "medium full shot",
+        "zh": "中全景"
+      }
     },
     {
       "id": "cowboy_shot",
       "name": "cowboy shot",
       "category": "framing",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "cowboy shot",
+        "zh": "牛仔景别"
+      }
     },
     {
       "id": "full_body_shot",
@@ -138,25 +210,41 @@
       "category": "framing",
       "aliases": [
         "full shot"
-      ]
+      ],
+      "name_i18n": {
+        "en": "full-body shot",
+        "zh": "全身镜头"
+      }
     },
     {
       "id": "wide_shot",
       "name": "wide shot",
       "category": "framing",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "wide shot",
+        "zh": "远景镜头"
+      }
     },
     {
       "id": "establishing_shot",
       "name": "establishing shot",
       "category": "framing",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "establishing shot",
+        "zh": "建立镜头"
+      }
     },
     {
       "id": "foreshortened_perspective",
       "name": "foreshortened perspective",
       "category": "lens_perspective",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "foreshortened perspective",
+        "zh": "透视缩短"
+      }
     },
     {
       "id": "dynamic_perspective",
@@ -164,7 +252,11 @@
       "category": "lens_perspective",
       "aliases": [
         "dramatic perspective"
-      ]
+      ],
+      "name_i18n": {
+        "en": "dynamic perspective",
+        "zh": "动态透视"
+      }
     },
     {
       "id": "long_lens_compression",
@@ -172,7 +264,11 @@
       "category": "lens_perspective",
       "aliases": [
         "compressed perspective"
-      ]
+      ],
+      "name_i18n": {
+        "en": "long-lens compression",
+        "zh": "长焦压缩透视"
+      }
     }
   ],
   "index_by_category": {
@@ -243,5 +339,9 @@
       "These terms are intended as camera/composition descriptors, not body pose descriptors.",
       "Can be combined with pose and gesture slots for richer prompt composition."
     ]
-  }
+  },
+  "supported_languages": [
+    "en",
+    "zh"
+  ]
 }

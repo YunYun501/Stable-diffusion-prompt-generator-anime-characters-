@@ -82,6 +82,7 @@ class GeneratorConfig:
 class PromptGenerator:
     """Main prompt generator class."""
     DEFAULT_DATA_DIRNAME = "prompt data"
+    SUPPORTED_LANGUAGES = ("en", "zh")
     
     # Define all available slots and their categories
     SLOT_DEFINITIONS = {
@@ -144,6 +145,10 @@ class PromptGenerator:
         
         # Item lookup maps (catalog -> id -> item)
         self.items_by_id: Dict[str, Dict[str, dict]] = {}
+        # Reverse lookup maps (catalog -> lower(name) -> id)
+        self.item_id_by_name: Dict[str, Dict[str, str]] = {}
+        # Color token localization map (color -> {lang: localized_text})
+        self.color_i18n: Dict[str, Dict[str, str]] = {}
         
         # Load all data
         self._load_catalogs()
@@ -173,6 +178,11 @@ class PromptGenerator:
                         self.items_by_id[name] = {
                             item["id"]: item for item in data["items"]
                         }
+                        self.item_id_by_name[name] = {}
+                        for item in data["items"]:
+                            label = item.get("name")
+                            if isinstance(label, str) and label:
+                                self.item_id_by_name[name][label.strip().lower()] = item["id"]
                     
                     # Special handling for colors
                     if name == "colors":
@@ -180,6 +190,97 @@ class PromptGenerator:
                             p["id"]: p for p in data.get("palettes", [])
                         }
                         self.individual_colors = data.get("individual_colors", [])
+                        self.color_i18n = data.get("individual_colors_i18n", {})
+
+    @classmethod
+    def normalize_language(cls, language: Optional[str]) -> str:
+        """Normalize incoming locale code to supported language."""
+        code = (language or "en").strip().lower()
+        if code.startswith("zh"):
+            return "zh"
+        return "en"
+
+    def get_item_localized_name(self, item: dict, language: str = "en") -> str:
+        """Return localized display text for an item, with safe fallback."""
+        lang = self.normalize_language(language)
+        names = item.get("name_i18n")
+        if isinstance(names, dict):
+            localized = names.get(lang) or names.get("en")
+            if isinstance(localized, str) and localized.strip():
+                return localized
+        return item.get("name", item.get("id", ""))
+
+    def get_palette_localized_name(self, palette: dict, language: str = "en") -> str:
+        """Return localized palette name with fallback."""
+        lang = self.normalize_language(language)
+        names = palette.get("name_i18n")
+        if isinstance(names, dict):
+            localized = names.get(lang) or names.get("en")
+            if isinstance(localized, str) and localized.strip():
+                return localized
+        return palette.get("name", palette.get("id", ""))
+
+    def get_palette_localized_description(self, palette: dict, language: str = "en") -> str:
+        """Return localized palette description with fallback."""
+        lang = self.normalize_language(language)
+        descriptions = palette.get("description_i18n")
+        if isinstance(descriptions, dict):
+            localized = descriptions.get(lang) or descriptions.get("en")
+            if isinstance(localized, str) and localized.strip():
+                return localized
+        return palette.get("description", "")
+
+    def localize_color_token(self, color_token: Optional[str], language: str = "en") -> Optional[str]:
+        """Convert a canonical color token to localized display/output text."""
+        if not color_token:
+            return None
+        lang = self.normalize_language(language)
+        names = self.color_i18n.get(color_token)
+        if isinstance(names, dict):
+            localized = names.get(lang) or names.get("en")
+            if isinstance(localized, str) and localized.strip():
+                return localized
+        return color_token
+
+    def get_slot_item_by_id(self, slot_name: str, item_id: Optional[str]) -> Optional[dict]:
+        """Resolve slot item dict by slot name + item id."""
+        if not item_id or slot_name not in self.SLOT_DEFINITIONS:
+            return None
+        catalog_name = self.SLOT_DEFINITIONS[slot_name]["catalog"]
+        return self.items_by_id.get(catalog_name, {}).get(item_id)
+
+    def resolve_slot_item(self, slot_name: str, value_id: Optional[str], value_name: Optional[str]) -> Optional[dict]:
+        """
+        Resolve a slot item from either canonical id or legacy display name.
+        Supports backward compatibility for old saved configs.
+        """
+        if slot_name not in self.SLOT_DEFINITIONS:
+            return None
+        catalog_name = self.SLOT_DEFINITIONS[slot_name]["catalog"]
+        items_map = self.items_by_id.get(catalog_name, {})
+
+        if value_id and value_id in items_map:
+            return items_map[value_id]
+
+        if value_name:
+            name_key = value_name.strip().lower()
+            mapped_id = self.item_id_by_name.get(catalog_name, {}).get(name_key)
+            if mapped_id and mapped_id in items_map:
+                return items_map[mapped_id]
+        return None
+
+    def resolve_slot_value_name(
+        self,
+        slot_name: str,
+        value_id: Optional[str],
+        value_name: Optional[str] = None,
+        language: str = "en",
+    ) -> Optional[str]:
+        """Resolve localized slot text for a selected value id/name."""
+        item = self.resolve_slot_item(slot_name, value_id, value_name)
+        if not item:
+            return None
+        return self.get_item_localized_name(item, language)
     
     def get_slot_options(self, slot_name: str) -> List[dict]:
         """Get all available options for a slot."""
@@ -215,6 +316,24 @@ class PromptGenerator:
         item_ids = index.get(index_key, [])
         items_map = self.items_by_id.get(catalog_name, {})
         return [items_map[id] for id in item_ids if id in items_map]
+
+    def get_slot_options_localized(self, slot_name: str, language: str = "en") -> List[dict]:
+        """Get options for a slot with localized names embedded."""
+        options = self.get_slot_options(slot_name)
+        lang = self.normalize_language(language)
+        result: List[dict] = []
+        for item in options:
+            names = item.get("name_i18n", {})
+            localized = names.get(lang) if isinstance(names, dict) else None
+            result.append(
+                {
+                    "id": item.get("id", ""),
+                    "name": item.get("name", item.get("id", "")),
+                    "name_i18n": names if isinstance(names, dict) else {"en": item.get("name", ""), "zh": item.get("name", "")},
+                    "localized_name": localized or item.get("name", item.get("id", "")),
+                }
+            )
+        return result
     
     def get_slot_option_names(self, slot_name: str) -> List[str]:
         """Get list of option names for dropdown display."""
@@ -234,6 +353,16 @@ class PromptGenerator:
             mapping[name] = bool(item.get("covers_legs", False))
         return mapping
 
+    def get_lower_body_covers_legs_by_id(self) -> Dict[str, bool]:
+        """Return a map of lower_body item id -> whether it covers legs."""
+        mapping: Dict[str, bool] = {}
+        for item in self.get_slot_options("lower_body"):
+            item_id = item.get("id")
+            if not item_id:
+                continue
+            mapping[item_id] = bool(item.get("covers_legs", False))
+        return mapping
+
     def get_pose_uses_hands_by_name(self) -> Dict[str, bool]:
         """
         Return a map of pose item name -> whether it uses hands.
@@ -245,6 +374,16 @@ class PromptGenerator:
             if not name:
                 continue
             mapping[name] = bool(item.get("uses_hands", False))
+        return mapping
+
+    def get_pose_uses_hands_by_id(self) -> Dict[str, bool]:
+        """Return a map of pose item id -> whether it uses hands."""
+        mapping: Dict[str, bool] = {}
+        for item in self.get_slot_options("pose"):
+            item_id = item.get("id")
+            if not item_id:
+                continue
+            mapping[item_id] = bool(item.get("uses_hands", False))
         return mapping
 
     def lower_body_item_covers_legs(self, item: Optional[dict]) -> bool:
@@ -259,6 +398,13 @@ class PromptGenerator:
             return False
         mapping = self.get_lower_body_covers_legs_by_name()
         return bool(mapping.get(value, False))
+
+    def lower_body_id_covers_legs(self, item_id: Optional[str]) -> bool:
+        """Check whether a lower_body item id covers legs."""
+        if not item_id:
+            return False
+        item = self.get_slot_item_by_id("lower_body", item_id)
+        return bool(item and item.get("covers_legs", False))
     
     def sample_slot(self, slot_name: str) -> Optional[dict]:
         """Randomly sample an item for a slot."""

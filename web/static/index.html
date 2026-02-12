@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -11,27 +11,35 @@
 </head>
 <body>
   <header>
-    <h1>Random Anime Character Prompt Generator</h1>
+    <h1 id="page-heading">Random Anime Character Prompt Generator</h1>
+    <div id="language-controls">
+      <label for="ui-lang-select" id="ui-lang-label">UI Language</label>
+      <select id="ui-lang-select"></select>
+      <label for="prompt-lang-select" id="prompt-lang-label">Prompt Language</label>
+      <select id="prompt-lang-select"></select>
+    </div>
   </header>
 
-  <!-- Prompt Output -->
   <section id="prompt-section">
     <div id="prompt-prefix-wrap">
-      <label for="prompt-prefix">Always Include (Stable Diffusion Prefix)</label>
+      <label for="prompt-prefix" id="prompt-prefix-label">Always Include (Stable Diffusion Prefix)</label>
       <div id="prompt-prefix-controls">
-        <label for="prompt-prefix-preset">Preset</label>
+        <label for="prompt-prefix-preset" id="prefix-preset-label">Preset</label>
         <select id="prompt-prefix-preset">
-          <option value="">(None)</option>
-          <option value="sd_quality_v1">SD quality preset (masterpiece / best quality / absurdres)</option>
+          <option value="" id="prefix-preset-none">(None)</option>
+          <option value="sd_quality_v1" id="prefix-preset-sd">SD quality preset (masterpiece / best quality / absurdres)</option>
         </select>
       </div>
       <textarea id="prompt-prefix" rows="2" placeholder="Optional text prepended to every generated prompt..."></textarea>
     </div>
+
     <label class="setting" for="prompt-colorize-toggle">
       <input type="checkbox" id="prompt-colorize-toggle" checked>
-      <span>Colorize prompt output</span>
+      <span id="colorize-label">Colorize prompt output</span>
     </label>
+
     <div id="prompt-output" data-placeholder="Generated prompt will appear here..." aria-live="polite"></div>
+
     <div id="prompt-buttons">
       <button id="btn-generate" class="btn btn-primary">Generate Prompt</button>
       <button id="btn-randomize-all" class="btn btn-secondary">Randomize All</button>
@@ -40,22 +48,24 @@
     </div>
   </section>
 
-  <!-- Settings Bar -->
   <section id="settings-bar">
     <label class="setting">
       <input type="checkbox" id="full-body-mode">
-      <span>Full-body specific outfit</span>
+      <span id="setting-full-body">Full-body specific outfit</span>
     </label>
+
     <label class="setting">
       <input type="checkbox" id="upper-body-mode">
-      <span>Upper-body mode</span>
+      <span id="setting-upper-body">Upper-body mode</span>
     </label>
+
     <label class="setting">
       <input type="checkbox" id="palette-enabled" checked>
-      <span>Use Palette Colors</span>
+      <span id="setting-palette">Use Palette Colors</span>
     </label>
+
     <div class="setting setting-palette">
-      <label for="palette-picker-btn">Palette:</label>
+      <label for="palette-picker-btn" id="palette-label">Palette:</label>
       <div id="palette-picker" class="palette-picker">
         <button id="palette-picker-btn" type="button" class="palette-picker-btn" aria-haspopup="listbox" aria-expanded="false">
           <span id="palette-picker-name">(None)</span>
@@ -74,12 +84,10 @@
 
   <hr>
 
-  <!-- Slot Sections (built dynamically by JS) -->
   <div id="sections-container"></div>
 
-  <!-- Save / Load -->
   <details id="save-load-section">
-    <summary>Save / Load Configuration</summary>
+    <summary id="save-load-summary">Save / Load Configuration</summary>
     <div id="save-load-content">
       <div id="save-row">
         <input type="text" id="config-name" placeholder="my_character">

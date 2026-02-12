@@ -1,22 +1,31 @@
 /**
- * handlers.js - Event handler wiring for all UI interactions.
+ * handlers.js - Event handler wiring for UI interactions.
  */
 
-import { state, getSlotStateForAPI, getLockedMap } from "./state.js";
+import {
+  state,
+  getSlotStateForAPI,
+  getLockedMap,
+  getCurrentValueIds,
+  resolveLegacyValueToId,
+  getPaletteLabel,
+} from "./state.js";
 import * as api from "./api.js";
 import { clearPromptOutput, generateAndDisplay, getPromptOutputText, setPromptOutput } from "./prompt.js";
+import { t } from "./i18n.js";
+
+const LOCKED_ICON = "\uD83D\uDD12";
+const UNLOCKED_ICON = "\uD83D\uDD13";
 
 /** Reference to all slot DOM components, keyed by slot name. */
 let allSlotComponents = {};
 
 /** Slots toggled OFF once when full-body specific outfit is enabled. */
 const FULL_BODY_MODE_ONE_SHOT_DISABLE_SLOTS = ["upper_body", "waist", "lower_body", "hands", "legs"];
-/** Slots auto-disabled by full-body specific outfit in the latest enable cycle. */
 const fullBodyModeAutoDisabledSlots = new Set();
 
 /** Slots toggled OFF once when upper-body mode is enabled. */
 const UPPER_BODY_MODE_ONE_SHOT_DISABLE_SLOTS = ["waist", "lower_body", "full_body", "legs", "feet"];
-/** Slots auto-disabled by upper-body mode in the latest enable cycle. */
 const upperBodyModeAutoDisabledSlots = new Set();
 
 /** Cache for deterministic swatch color conversion. */
@@ -26,8 +35,6 @@ const paletteColorCache = new Map();
 export function setSlotComponents(comps) {
   allSlotComponents = comps;
 }
-
-// Slot-level handlers
 
 export function wireSlotEvents(slotName, comps) {
   const { onoffBtn, lockBtn, randomBtn, colorRandomBtn, dropdown, colorSelect, weightInput } = comps;
@@ -48,20 +55,20 @@ export function wireSlotEvents(slotName, comps) {
   lockBtn.addEventListener("click", () => {
     const s = state.slots[slotName];
     s.locked = !s.locked;
-    lockBtn.textContent = s.locked ? "\uD83D\uDD12" : "\uD83D\uDD13";
+    lockBtn.textContent = s.locked ? LOCKED_ICON : UNLOCKED_ICON;
     lockBtn.className = "btn-lock" + (s.locked ? " locked" : "");
     comps.row.classList.toggle("locked", s.locked);
   });
 
   randomBtn.addEventListener("click", async () => {
-    const currentValues = {};
-    for (const [n, sl] of Object.entries(state.slots)) {
-      if (sl.enabled && sl.value) currentValues[n] = sl.value;
-    }
-
     const data = await api.randomizeSlots(
-      [slotName], getLockedMap(), state.paletteEnabled, state.activePaletteId,
-      state.fullBodyMode, state.upperBodyMode, currentValues
+      [slotName],
+      getLockedMap(),
+      state.paletteEnabled,
+      state.activePaletteId,
+      state.fullBodyMode,
+      state.upperBodyMode,
+      getCurrentValueIds(),
     );
     applyResults(data.results);
     generateAndDisplay();
@@ -73,8 +80,13 @@ export function wireSlotEvents(slotName, comps) {
     if (!state.paletteEnabled || !state.activePaletteId) return;
 
     const data = await api.randomizeSlots(
-      [slotName], {}, state.paletteEnabled, state.activePaletteId,
-      state.fullBodyMode, state.upperBodyMode, {}
+      [slotName],
+      {},
+      state.paletteEnabled,
+      state.activePaletteId,
+      state.fullBodyMode,
+      state.upperBodyMode,
+      {},
     );
 
     if (data.results[slotName]) {
@@ -86,7 +98,7 @@ export function wireSlotEvents(slotName, comps) {
   });
 
   dropdown.addEventListener("change", () => {
-    state.slots[slotName].value = dropdown.value || null;
+    state.slots[slotName].value_id = dropdown.value || null;
     if (slotName === "lower_body") {
       maybeDisableLegsForLowerBodyCoverage();
     } else if (slotName === "pose") {
@@ -106,20 +118,18 @@ export function wireSlotEvents(slotName, comps) {
   });
 }
 
-// Section-level handlers
-
 export function wireSectionEvents(sectionData) {
   const { randomBtn, allOnBtn, allOffBtn, slotNames } = sectionData;
 
   randomBtn.addEventListener("click", async () => {
-    const currentValues = {};
-    for (const [n, sl] of Object.entries(state.slots)) {
-      if (sl.enabled && sl.value) currentValues[n] = sl.value;
-    }
-
     const data = await api.randomizeSlots(
-      slotNames, getLockedMap(), state.paletteEnabled, state.activePaletteId,
-      state.fullBodyMode, state.upperBodyMode, currentValues
+      slotNames,
+      getLockedMap(),
+      state.paletteEnabled,
+      state.activePaletteId,
+      state.fullBodyMode,
+      state.upperBodyMode,
+      getCurrentValueIds(),
     );
     applyResults(data.results);
     generateAndDisplay();
@@ -146,8 +156,6 @@ export function wireSectionEvents(sectionData) {
   });
 }
 
-// Global handlers
-
 export function wireGlobalEvents() {
   document.getElementById("full-body-mode").checked = state.fullBodyMode;
   document.getElementById("upper-body-mode").checked = state.upperBodyMode;
@@ -158,7 +166,11 @@ export function wireGlobalEvents() {
   document.getElementById("btn-randomize-all").addEventListener("click", async () => {
     maybeRandomizePaletteForRandomizeAll();
     const data = await api.randomizeAll(
-      getLockedMap(), state.paletteEnabled, state.activePaletteId, state.fullBodyMode, state.upperBodyMode
+      getLockedMap(),
+      state.paletteEnabled,
+      state.activePaletteId,
+      state.fullBodyMode,
+      state.upperBodyMode,
     );
     applyResults(data.results);
     generateAndDisplay();
@@ -170,7 +182,7 @@ export function wireGlobalEvents() {
 
   document.getElementById("btn-reset").addEventListener("click", () => {
     for (const [name, s] of Object.entries(state.slots)) {
-      s.value = null;
+      s.value_id = null;
       s.color = null;
       s.weight = 1.0;
 
@@ -223,13 +235,11 @@ export function wireGlobalEvents() {
   });
 }
 
-// Save / Load handlers
-
 export function wireSaveLoadEvents() {
   document.getElementById("btn-save").addEventListener("click", async () => {
     const name = document.getElementById("config-name").value.trim();
     if (!name) {
-      setStatus("Please enter a config name");
+      setStatus(t("status_enter_name"));
       return;
     }
 
@@ -238,20 +248,20 @@ export function wireSaveLoadEvents() {
       data.slots[slotName] = {
         enabled: s.enabled,
         locked: s.locked,
-        value: s.value,
+        value_id: s.value_id,
         color: s.color,
         weight: s.weight,
       };
     }
     await api.saveConfig(name, data);
-    setStatus(`Saved: ${name}`);
-    refreshConfigList();
+    setStatus(t("status_saved", { name }));
+    await refreshConfigList();
   });
 
   document.getElementById("btn-load").addEventListener("click", async () => {
     const name = document.getElementById("config-select").value;
     if (!name) {
-      setStatus("Select a config first");
+      setStatus(t("status_select_config"));
       return;
     }
 
@@ -260,19 +270,25 @@ export function wireSaveLoadEvents() {
     for (const [slotName, saved] of Object.entries(slots)) {
       if (!state.slots[slotName]) continue;
 
-      Object.assign(state.slots[slotName], saved);
+      const nextValueId = saved.value_id || resolveLegacyValueToId(slotName, saved.value);
+
+      state.slots[slotName].enabled = saved.enabled ?? state.slots[slotName].enabled;
+      state.slots[slotName].locked = !!saved.locked;
+      state.slots[slotName].value_id = nextValueId || null;
+      state.slots[slotName].color = saved.color || null;
+      state.slots[slotName].weight = saved.weight ?? 1.0;
+
       const c = allSlotComponents[slotName];
       if (!c) continue;
-
-      c.dropdown.value = saved.value || "";
-      c.colorSelect.value = saved.color || "";
-      c.weightInput.value = saved.weight ?? 1.0;
-      c.lockBtn.textContent = saved.locked ? "\uD83D\uDD12" : "\uD83D\uDD13";
-      c.lockBtn.className = "btn-lock" + (saved.locked ? " locked" : "");
+      c.dropdown.value = state.slots[slotName].value_id || "";
+      c.colorSelect.value = state.slots[slotName].color || "";
+      c.weightInput.value = String(state.slots[slotName].weight ?? 1.0);
+      c.lockBtn.textContent = state.slots[slotName].locked ? LOCKED_ICON : UNLOCKED_ICON;
+      c.lockBtn.className = "btn-lock" + (state.slots[slotName].locked ? " locked" : "");
       renderSlotEnabledState(slotName, c);
     }
 
-    setStatus(`Loaded: ${name}`);
+    setStatus(t("status_loaded", { name }));
     maybeDisableLegsForLowerBodyCoverage();
     maybeDisableHandActionsForPoseUsage();
     applySlotConstraints();
@@ -285,7 +301,13 @@ export function wireSaveLoadEvents() {
 async function refreshConfigList() {
   const data = await api.fetchConfigs();
   const select = document.getElementById("config-select");
-  select.innerHTML = '<option value="">(Select config)</option>';
+  select.innerHTML = "";
+
+  const defaultOpt = document.createElement("option");
+  defaultOpt.value = "";
+  defaultOpt.textContent = t("config_select_default");
+  select.appendChild(defaultOpt);
+
   for (const name of data.configs || []) {
     const opt = document.createElement("option");
     opt.value = name;
@@ -297,21 +319,29 @@ async function refreshConfigList() {
 /** Called on init to populate the config dropdown. */
 export { refreshConfigList };
 
+export function refreshLocalizedDynamicUi() {
+  renderNativePaletteOptions();
+  renderPaletteMenu();
+  setPaletteSelection(state.activePaletteId);
+  renderPaletteLockButton();
+
+  const saveStatus = document.getElementById("save-status");
+  if (saveStatus) saveStatus.textContent = "";
+}
+
 function setStatus(msg) {
   document.getElementById("save-status").textContent = msg;
 }
 
-// Helpers
-
-/** Apply randomization results to state + DOM. */
 function applyResults(results) {
   for (const [name, res] of Object.entries(results)) {
-    state.slots[name].value = res.value;
+    const resolvedId = res.value_id || resolveLegacyValueToId(name, res.value);
+    state.slots[name].value_id = resolvedId || null;
     state.slots[name].color = res.color;
 
     const c = allSlotComponents[name];
     if (!c) continue;
-    c.dropdown.value = res.value || "";
+    c.dropdown.value = state.slots[name].value_id || "";
     c.colorSelect.value = res.color || "";
   }
   if (Object.prototype.hasOwnProperty.call(results, "lower_body")) {
@@ -325,15 +355,15 @@ function applyResults(results) {
 
 function renderSlotEnabledState(slotName, comps) {
   const s = state.slots[slotName];
-  comps.onoffBtn.textContent = s.enabled ? "On" : "Off";
+  comps.onoffBtn.textContent = s.enabled ? t("slot_on") : t("slot_off");
   comps.onoffBtn.className = "btn-onoff " + (s.enabled ? "on" : "off");
   comps.row.className = "slot-row " + (s.enabled ? "enabled" : "disabled") + (s.locked ? " locked" : "");
 }
 
 function isLowerBodyCoveringLegs() {
   const lower = state.slots.lower_body;
-  if (!lower || !lower.enabled || !lower.value) return false;
-  return !!state.lowerBodyCoversLegsByName[lower.value];
+  if (!lower || !lower.enabled || !lower.value_id) return false;
+  return !!state.lowerBodyCoversLegsById[lower.value_id];
 }
 
 function maybeDisableLegsForLowerBodyCoverage() {
@@ -350,8 +380,8 @@ function maybeDisableLegsForLowerBodyCoverage() {
 
 function isPoseUsingHands() {
   const pose = state.slots.pose;
-  if (!pose || !pose.enabled || !pose.value) return false;
-  return !!state.poseUsesHandsByName[pose.value];
+  if (!pose || !pose.enabled || !pose.value_id) return false;
+  return !!state.poseUsesHandsById[pose.value_id];
 }
 
 function maybeDisableHandActionsForPoseUsage() {
@@ -378,7 +408,7 @@ function applyFullBodyModeOneShotDisable() {
     slotState.enabled = false;
     renderSlotEnabledState(slotName, c);
   }
-  // Turn on the full_body slot
+
   const fbState = state.slots.full_body;
   const fbComps = allSlotComponents.full_body;
   if (fbState && fbComps && !fbState.enabled) {
@@ -396,7 +426,7 @@ function restoreFullBodyModeOneShotDisabledSlots() {
     renderSlotEnabledState(slotName, c);
   }
   fullBodyModeAutoDisabledSlots.clear();
-  // Turn off the full_body slot
+
   const fbState = state.slots.full_body;
   const fbComps = allSlotComponents.full_body;
   if (fbState && fbComps && fbState.enabled) {
@@ -434,8 +464,6 @@ function applySlotConstraints() {
   // No persistent force-disable constraints currently.
 }
 
-// Palette UI and behavior
-
 function initPalettePicker() {
   const pickerBtn = document.getElementById("palette-picker-btn");
   const pickerMenu = document.getElementById("palette-picker-menu");
@@ -443,9 +471,9 @@ function initPalettePicker() {
   const randomBtn = document.getElementById("btn-palette-random");
   const lockBtn = document.getElementById("btn-palette-lock");
   const nativeSelect = document.getElementById("palette-select");
-
   if (!pickerBtn || !pickerMenu || !pickerWrap || !lockBtn || !nativeSelect) return;
 
+  renderNativePaletteOptions();
   renderPaletteMenu();
   setPaletteSelection(state.activePaletteId);
   renderPaletteLockButton();
@@ -491,14 +519,32 @@ function togglePaletteMenu(open) {
   pickerBtn.setAttribute("aria-expanded", open ? "true" : "false");
 }
 
+function renderNativePaletteOptions() {
+  const nativeSelect = document.getElementById("palette-select");
+  if (!nativeSelect) return;
+
+  nativeSelect.innerHTML = "";
+  const none = document.createElement("option");
+  none.value = "";
+  none.textContent = t("palette_none");
+  nativeSelect.appendChild(none);
+
+  for (const p of state.palettes || []) {
+    const opt = document.createElement("option");
+    opt.value = p.id;
+    opt.textContent = getPaletteLabel(p.id, state.uiLocale);
+    nativeSelect.appendChild(opt);
+  }
+}
+
 function renderPaletteMenu() {
   const pickerMenu = document.getElementById("palette-picker-menu");
   if (!pickerMenu) return;
 
   pickerMenu.innerHTML = "";
-  pickerMenu.appendChild(createPaletteOptionButton("", "(None)", []));
+  pickerMenu.appendChild(createPaletteOptionButton("", t("palette_none"), []));
   for (const p of state.palettes || []) {
-    pickerMenu.appendChild(createPaletteOptionButton(p.id, p.name || p.id, p.colors || []));
+    pickerMenu.appendChild(createPaletteOptionButton(p.id, getPaletteLabel(p.id, state.uiLocale), p.colors || []));
   }
 }
 
@@ -516,7 +562,6 @@ function createPaletteOptionButton(paletteId, label, colors) {
   renderPaletteSwatches(swatches, colors, 4);
 
   btn.append(labelSpan, swatches);
-
   btn.addEventListener("click", async () => {
     await onPaletteSelected(paletteId || null, true);
     togglePaletteMenu(false);
@@ -527,7 +572,6 @@ function createPaletteOptionButton(paletteId, label, colors) {
 
 async function onPaletteSelected(paletteId, applyPaletteColors) {
   setPaletteSelection(paletteId);
-
   if (!paletteId || !applyPaletteColors || !state.paletteEnabled) return;
   await applyActivePaletteToCurrentSlots(paletteId);
 }
@@ -536,7 +580,15 @@ async function applyActivePaletteToCurrentSlots(paletteId) {
   if (!paletteId) return;
 
   const slotsForAPI = getSlotStateForAPI();
-  const data = await api.applyPalette(paletteId, slotsForAPI, state.fullBodyMode, state.upperBodyMode);
+  // Capture locale for consistency
+  const promptLocale = state.promptLocale;
+  const data = await api.applyPalette(
+    paletteId,
+    slotsForAPI,
+    state.fullBodyMode,
+    state.upperBodyMode,
+    promptLocale,
+  );
 
   for (const [name, color] of Object.entries(data.colors || {})) {
     state.slots[name].color = color;
@@ -545,7 +597,7 @@ async function applyActivePaletteToCurrentSlots(paletteId) {
   }
 
   if (data.prompt) {
-    setPromptOutput(data.prompt);
+    setPromptOutput(data.prompt, promptLocale);
   } else {
     generateAndDisplay();
   }
@@ -559,10 +611,15 @@ function setPaletteSelection(paletteId) {
     nativeSelect.value = state.activePaletteId || "";
   }
 
-  const palette = getPaletteById(state.activePaletteId);
   const nameEl = document.getElementById("palette-picker-name");
   const swatchesEl = document.getElementById("palette-picker-swatches");
-  if (nameEl) nameEl.textContent = palette ? (palette.name || palette.id) : "(None)";
+  if (nameEl) {
+    nameEl.textContent = state.activePaletteId
+      ? getPaletteLabel(state.activePaletteId, state.uiLocale)
+      : t("palette_none");
+  }
+
+  const palette = getPaletteById(state.activePaletteId);
   if (swatchesEl) renderPaletteSwatches(swatchesEl, palette?.colors || [], 5);
 
   const pickerMenu = document.getElementById("palette-picker-menu");
@@ -576,17 +633,13 @@ function setPaletteSelection(paletteId) {
 function renderPaletteLockButton() {
   const btn = document.getElementById("btn-palette-lock");
   if (!btn) return;
-  btn.textContent = state.paletteLocked ? "\uD83D\uDD12" : "\uD83D\uDD13";
+  btn.textContent = state.paletteLocked ? LOCKED_ICON : UNLOCKED_ICON;
   btn.className = "btn-lock" + (state.paletteLocked ? " locked" : "");
-  btn.title = state.paletteLocked
-    ? "Palette locked for Randomize All"
-    : "Lock palette during Randomize All";
+  btn.title = state.paletteLocked ? t("palette_locked_title") : t("palette_lock_title");
 }
 
 function maybeRandomizePaletteForRandomizeAll() {
-  if (!state.paletteEnabled) return;
-  if (state.paletteLocked) return;
-
+  if (!state.paletteEnabled || state.paletteLocked) return;
   const paletteId = pickRandomPaletteId(state.activePaletteId);
   if (!paletteId) return;
   setPaletteSelection(paletteId);

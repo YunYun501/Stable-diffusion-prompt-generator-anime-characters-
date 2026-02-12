@@ -2,7 +2,6 @@
   "_label": "中文",
   "page_title": "角色提示词生成器",
   "page_heading": "随机动漫角色提示词生成器",
-
   "prefix_label": "固定前缀 (Stable Diffusion 前缀)",
   "prefix_preset_label": "预设",
   "prefix_preset_none": "(无)",
@@ -10,12 +9,10 @@
   "prefix_placeholder": "可选文本，将添加到每次生成的提示词前面...",
   "colorize_label": "彩色显示提示词",
   "prompt_placeholder": "生成的提示词将显示在这里...",
-
   "btn_generate": "生成提示词",
   "btn_randomize_all": "全部随机",
   "btn_copy": "复制",
   "btn_reset": "重置",
-
   "setting_full_body": "全身服装模式",
   "setting_upper_body": "上半身模式",
   "setting_palette": "使用调色板颜色",
@@ -23,14 +20,12 @@
   "palette_none": "(无)",
   "palette_lock_title": "全部随机时锁定调色板",
   "palette_locked_title": "调色板已锁定",
-
   "save_load_summary": "保存 / 加载配置",
   "config_name_placeholder": "我的角色",
   "btn_save": "保存",
   "config_select_default": "(选择配置)",
   "btn_load": "加载",
   "btn_refresh": "刷新",
-
   "slot_on": "开",
   "slot_off": "关",
   "slot_toggle_title": "切换开关",
@@ -40,15 +35,12 @@
   "slot_no_color": "(无颜色)",
   "slot_color_random_title": "随机颜色",
   "slot_weight_title": "提示词权重",
-
   "section_random": "随机",
   "section_all_on": "全部开启",
   "section_all_off": "全部关闭",
-
   "section_appearance": "外貌",
   "section_body": "身体 / 表情 / 姿势",
   "section_clothing": "服装 & 背景",
-
   "slot_label_hair_style": "发型",
   "slot_label_hair_length": "发长",
   "slot_label_hair_color": "发色",
@@ -76,11 +68,15 @@
   "slot_label_feet": "鞋履",
   "slot_label_accessory": "配饰",
   "slot_label_background": "背景",
-
   "status_saved": "已保存: {name}",
   "status_loaded": "已加载: {name}",
   "status_enter_name": "请输入配置名称",
   "status_select_config": "请先选择配置",
-
-  "lang_selector_label": "语言"
+  "lang_selector_label": "语言",
+  "ui_lang_selector_label": "界面语言",
+  "prompt_lang_selector_label": "输出语言",
+  "lang_option_en": "英文",
+  "lang_option_zh": "中文",
+  "btn_palette_random": "随机调色板",
+  "btn_palette_random_title": "随机选择调色板"
 }

@@ -53,21 +53,23 @@ export function randomizeAll(locked, paletteEnabled, paletteId, fullBodyMode, up
 }
 
 /** Generate prompt string from slot state. */
-export function generatePrompt(slots, fullBodyMode, upperBodyMode) {
+export function generatePrompt(slots, fullBodyMode, upperBodyMode, outputLanguage) {
   return post("/api/generate-prompt", {
     slots,
     full_body_mode: fullBodyMode,
     upper_body_mode: upperBodyMode,
+    output_language: outputLanguage,
   });
 }
 
 /** Apply palette colors and get new prompt. */
-export function applyPalette(paletteId, slots, fullBodyMode, upperBodyMode) {
+export function applyPalette(paletteId, slots, fullBodyMode, upperBodyMode, outputLanguage) {
   return post("/api/apply-palette", {
     palette_id: paletteId,
     slots,
     full_body_mode: fullBodyMode,
     upper_body_mode: upperBodyMode,
+    output_language: outputLanguage,
   });
 }
 

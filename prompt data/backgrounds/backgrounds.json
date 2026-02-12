@@ -3,219 +3,1917 @@
   "title": "Anime Scene Backgrounds and Settings",
   "generated_utc": "2026-02-11T12:00:00Z",
   "items": [
-    {"id": "white_background", "name": "white background", "category": "simple", "aliases": []},
-    {"id": "black_background", "name": "black background", "category": "simple", "aliases": []},
-    {"id": "grey_background", "name": "grey background", "category": "simple", "aliases": ["gray background"]},
-    {"id": "simple_background", "name": "simple background", "category": "simple", "aliases": []},
-    {"id": "gradient_background", "name": "gradient background", "category": "simple", "aliases": []},
-    {"id": "blue_background", "name": "blue background", "category": "simple", "aliases": []},
-    {"id": "pink_background", "name": "pink background", "category": "simple", "aliases": []},
-    {"id": "red_background", "name": "red background", "category": "simple", "aliases": []},
-    {"id": "purple_background", "name": "purple background", "category": "simple", "aliases": []},
-    {"id": "yellow_background", "name": "yellow background", "category": "simple", "aliases": []},
-    {"id": "bokeh", "name": "bokeh", "category": "simple", "aliases": ["bokeh background"]},
-    {"id": "blurry_background", "name": "blurry background", "category": "simple", "aliases": []},
-    {"id": "depth_of_field", "name": "depth of field", "category": "simple", "aliases": []},
-    {"id": "sparkle_background", "name": "sparkle background", "category": "simple", "aliases": ["glitter background"]},
-    {"id": "starry_background", "name": "starry background", "category": "simple", "aliases": []},
-    {"id": "floral_background", "name": "floral background", "category": "simple", "aliases": []},
-    {"id": "heart_background", "name": "heart background", "category": "simple", "aliases": []},
-    {"id": "abstract_background", "name": "abstract background", "category": "simple", "aliases": []},
-    {"id": "bedroom", "name": "bedroom", "category": "indoor", "aliases": []},
-    {"id": "living_room", "name": "living room", "category": "indoor", "aliases": []},
-    {"id": "kitchen", "name": "kitchen", "category": "indoor", "aliases": []},
-    {"id": "bathroom", "name": "bathroom", "category": "indoor", "aliases": []},
-    {"id": "japanese_room", "name": "traditional japanese room", "category": "indoor", "aliases": ["tatami room", "washitsu"]},
-    {"id": "modern_apartment", "name": "modern apartment", "category": "indoor", "aliases": []},
-    {"id": "cozy_room", "name": "cozy room", "category": "indoor", "aliases": []},
-    {"id": "messy_room", "name": "messy room", "category": "indoor", "aliases": []},
-    {"id": "cafe", "name": "cafe", "category": "indoor", "aliases": ["coffee shop"]},
-    {"id": "restaurant", "name": "restaurant", "category": "indoor", "aliases": []},
-    {"id": "bar", "name": "bar", "category": "indoor", "aliases": []},
-    {"id": "library", "name": "library", "category": "indoor", "aliases": []},
-    {"id": "bookstore", "name": "bookstore", "category": "indoor", "aliases": []},
-    {"id": "shop", "name": "shop", "category": "indoor", "aliases": ["store"]},
-    {"id": "mall", "name": "shopping mall", "category": "indoor", "aliases": ["mall"]},
-    {"id": "office", "name": "office", "category": "indoor", "aliases": []},
-    {"id": "hospital", "name": "hospital", "category": "indoor", "aliases": []},
-    {"id": "stage", "name": "stage", "category": "indoor", "aliases": []},
-    {"id": "concert_hall", "name": "concert hall", "category": "indoor", "aliases": []},
-    {"id": "theater", "name": "theater", "category": "indoor", "aliases": []},
-    {"id": "arcade", "name": "arcade", "category": "indoor", "aliases": ["game center"]},
-    {"id": "karaoke_room", "name": "karaoke room", "category": "indoor", "aliases": []},
-    {"id": "gym", "name": "gym", "category": "indoor", "aliases": []},
-    {"id": "dojo", "name": "dojo", "category": "indoor", "aliases": []},
-    {"id": "onsen", "name": "onsen", "category": "indoor", "aliases": ["hot spring bath"]},
-    {"id": "bath", "name": "bath", "category": "indoor", "aliases": ["bathhouse"]},
-    {"id": "shrine_interior", "name": "shrine interior", "category": "indoor", "aliases": []},
-    {"id": "temple_interior", "name": "temple interior", "category": "indoor", "aliases": []},
-    {"id": "church_interior", "name": "church interior", "category": "indoor", "aliases": []},
-    {"id": "train_interior", "name": "train interior", "category": "indoor", "aliases": []},
-    {"id": "city_street", "name": "city street", "category": "outdoor_urban", "aliases": ["urban street"]},
-    {"id": "tokyo_street", "name": "tokyo street", "category": "outdoor_urban", "aliases": []},
-    {"id": "japanese_street", "name": "japanese street", "category": "outdoor_urban", "aliases": []},
-    {"id": "alleyway", "name": "alleyway", "category": "outdoor_urban", "aliases": ["alley", "back alley"]},
-    {"id": "rooftop", "name": "rooftop", "category": "outdoor_urban", "aliases": ["building rooftop"]},
-    {"id": "balcony", "name": "balcony", "category": "outdoor_urban", "aliases": []},
-    {"id": "bridge", "name": "bridge", "category": "outdoor_urban", "aliases": []},
-    {"id": "overpass", "name": "overpass", "category": "outdoor_urban", "aliases": []},
-    {"id": "train_station", "name": "train station", "category": "outdoor_urban", "aliases": []},
-    {"id": "bus_stop", "name": "bus stop", "category": "outdoor_urban", "aliases": []},
-    {"id": "crosswalk", "name": "crosswalk", "category": "outdoor_urban", "aliases": []},
-    {"id": "shopping_district", "name": "shopping district", "category": "outdoor_urban", "aliases": []},
-    {"id": "market", "name": "market", "category": "outdoor_urban", "aliases": []},
-    {"id": "park", "name": "park", "category": "outdoor_urban", "aliases": ["city park"]},
-    {"id": "playground", "name": "playground", "category": "outdoor_urban", "aliases": []},
-    {"id": "fountain", "name": "fountain", "category": "outdoor_urban", "aliases": []},
-    {"id": "parking_lot", "name": "parking lot", "category": "outdoor_urban", "aliases": []},
-    {"id": "night_city", "name": "night city", "category": "outdoor_urban", "aliases": ["city at night"]},
-    {"id": "neon_city", "name": "neon city", "category": "outdoor_urban", "aliases": ["neon lights"]},
-    {"id": "cyberpunk_city", "name": "cyberpunk city", "category": "outdoor_urban", "aliases": []},
-    {"id": "shrine", "name": "shrine", "category": "outdoor_urban", "aliases": ["shinto shrine"]},
-    {"id": "temple", "name": "temple", "category": "outdoor_urban", "aliases": []},
-    {"id": "forest", "name": "forest", "category": "outdoor_nature", "aliases": ["woods"]},
-    {"id": "bamboo_forest", "name": "bamboo forest", "category": "outdoor_nature", "aliases": []},
-    {"id": "cherry_blossom_trees", "name": "cherry blossom trees", "category": "outdoor_nature", "aliases": ["sakura trees"]},
-    {"id": "flower_field", "name": "flower field", "category": "outdoor_nature", "aliases": []},
-    {"id": "sunflower_field", "name": "sunflower field", "category": "outdoor_nature", "aliases": []},
-    {"id": "lavender_field", "name": "lavender field", "category": "outdoor_nature", "aliases": []},
-    {"id": "meadow", "name": "meadow", "category": "outdoor_nature", "aliases": ["field", "grassland"]},
-    {"id": "garden", "name": "garden", "category": "outdoor_nature", "aliases": []},
-    {"id": "japanese_garden", "name": "japanese garden", "category": "outdoor_nature", "aliases": []},
-    {"id": "rose_garden", "name": "rose garden", "category": "outdoor_nature", "aliases": []},
-    {"id": "beach", "name": "beach", "category": "outdoor_nature", "aliases": ["seaside"]},
-    {"id": "ocean", "name": "ocean", "category": "outdoor_nature", "aliases": ["sea"]},
-    {"id": "lake", "name": "lake", "category": "outdoor_nature", "aliases": []},
-    {"id": "river", "name": "river", "category": "outdoor_nature", "aliases": []},
-    {"id": "waterfall", "name": "waterfall", "category": "outdoor_nature", "aliases": []},
-    {"id": "mountain", "name": "mountain", "category": "outdoor_nature", "aliases": []},
-    {"id": "hilltop", "name": "hilltop", "category": "outdoor_nature", "aliases": []},
-    {"id": "cliff", "name": "cliff", "category": "outdoor_nature", "aliases": []},
-    {"id": "countryside", "name": "countryside", "category": "outdoor_nature", "aliases": ["rural"]},
-    {"id": "rice_field", "name": "rice field", "category": "outdoor_nature", "aliases": ["rice paddy"]},
-    {"id": "desert", "name": "desert", "category": "outdoor_nature", "aliases": []},
-    {"id": "snow_field", "name": "snow field", "category": "outdoor_nature", "aliases": ["snowy landscape"]},
-    {"id": "sunset", "name": "sunset", "category": "outdoor_nature", "aliases": []},
-    {"id": "sunrise", "name": "sunrise", "category": "outdoor_nature", "aliases": []},
-    {"id": "golden_hour", "name": "golden hour", "category": "outdoor_nature", "aliases": []},
-    {"id": "night_sky", "name": "night sky", "category": "outdoor_nature", "aliases": []},
-    {"id": "starry_night", "name": "starry night", "category": "outdoor_nature", "aliases": []},
-    {"id": "moonlit", "name": "moonlit", "category": "outdoor_nature", "aliases": ["moonlight"]},
-    {"id": "cloudy_sky", "name": "cloudy sky", "category": "outdoor_nature", "aliases": []},
-    {"id": "dramatic_sky", "name": "dramatic sky", "category": "outdoor_nature", "aliases": []},
-    {"id": "rain", "name": "rain", "category": "outdoor_nature", "aliases": ["rainy"]},
-    {"id": "castle", "name": "castle", "category": "fantasy", "aliases": []},
-    {"id": "throne_room", "name": "throne room", "category": "fantasy", "aliases": []},
-    {"id": "palace", "name": "palace", "category": "fantasy", "aliases": []},
-    {"id": "ballroom", "name": "ballroom", "category": "fantasy", "aliases": []},
-    {"id": "dungeon", "name": "dungeon", "category": "fantasy", "aliases": []},
-    {"id": "cave", "name": "cave", "category": "fantasy", "aliases": []},
-    {"id": "crystal_cave", "name": "crystal cave", "category": "fantasy", "aliases": []},
-    {"id": "ancient_ruins", "name": "ancient ruins", "category": "fantasy", "aliases": ["ruins"]},
-    {"id": "temple_ruins", "name": "temple ruins", "category": "fantasy", "aliases": []},
-    {"id": "magical_forest", "name": "magical forest", "category": "fantasy", "aliases": ["enchanted forest"]},
-    {"id": "floating_island", "name": "floating island", "category": "fantasy", "aliases": ["sky island"]},
-    {"id": "clouds", "name": "clouds", "category": "fantasy", "aliases": ["in the clouds"]},
-    {"id": "heaven", "name": "heaven", "category": "fantasy", "aliases": ["celestial"]},
-    {"id": "hell", "name": "hell", "category": "fantasy", "aliases": ["inferno"]},
-    {"id": "underwater", "name": "underwater", "category": "fantasy", "aliases": ["ocean floor"]},
-    {"id": "space", "name": "space", "category": "fantasy", "aliases": []},
-    {"id": "galaxy", "name": "galaxy", "category": "fantasy", "aliases": []},
-    {"id": "nebula", "name": "nebula", "category": "fantasy", "aliases": []},
-    {"id": "alien_planet", "name": "alien planet", "category": "fantasy", "aliases": []},
-    {"id": "wizard_tower", "name": "wizard tower", "category": "fantasy", "aliases": ["mage tower"]},
-    {"id": "fantasy_town", "name": "fantasy town", "category": "fantasy", "aliases": []},
-    {"id": "medieval_village", "name": "medieval village", "category": "fantasy", "aliases": []},
-    {"id": "steampunk_city", "name": "steampunk city", "category": "fantasy", "aliases": []},
-    {"id": "classroom", "name": "classroom", "category": "school", "aliases": []},
-    {"id": "empty_classroom", "name": "empty classroom", "category": "school", "aliases": []},
-    {"id": "school_hallway", "name": "school hallway", "category": "school", "aliases": ["school corridor"]},
-    {"id": "school_rooftop", "name": "school rooftop", "category": "school", "aliases": []},
-    {"id": "school_gym", "name": "school gym", "category": "school", "aliases": ["gymnasium"]},
-    {"id": "school_pool", "name": "school pool", "category": "school", "aliases": ["swimming pool"]},
-    {"id": "school_cafeteria", "name": "school cafeteria", "category": "school", "aliases": ["lunch room"]},
-    {"id": "school_library", "name": "school library", "category": "school", "aliases": []},
-    {"id": "club_room", "name": "club room", "category": "school", "aliases": []},
-    {"id": "locker_room", "name": "locker room", "category": "school", "aliases": []},
-    {"id": "school_gate", "name": "school gate", "category": "school", "aliases": ["school entrance"]},
-    {"id": "schoolyard", "name": "schoolyard", "category": "school", "aliases": ["school grounds"]},
-    {"id": "track_field", "name": "track field", "category": "school", "aliases": ["sports field"]},
-    {"id": "music_room", "name": "music room", "category": "school", "aliases": []},
-    {"id": "science_lab", "name": "science lab", "category": "school", "aliases": []},
-    {"id": "art_room", "name": "art room", "category": "school", "aliases": []},
-    {"id": "cherry_blossoms", "name": "cherry blossoms", "category": "special", "aliases": ["sakura"]},
-    {"id": "spring", "name": "spring", "category": "special", "aliases": []},
-    {"id": "summer", "name": "summer", "category": "special", "aliases": []},
-    {"id": "autumn", "name": "autumn", "category": "special", "aliases": ["fall", "autumn leaves"]},
-    {"id": "winter", "name": "winter", "category": "special", "aliases": ["snowy"]},
-    {"id": "festival", "name": "festival", "category": "special", "aliases": ["matsuri"]},
-    {"id": "fireworks", "name": "fireworks", "category": "special", "aliases": ["fireworks festival"]},
-    {"id": "christmas", "name": "christmas", "category": "special", "aliases": ["christmas lights"]},
-    {"id": "christmas_tree", "name": "christmas tree", "category": "special", "aliases": []},
-    {"id": "halloween", "name": "halloween", "category": "special", "aliases": ["spooky"]},
-    {"id": "new_year", "name": "new year", "category": "special", "aliases": []},
-    {"id": "valentines_day", "name": "valentines day", "category": "special", "aliases": ["valentine"]},
-    {"id": "summer_festival", "name": "summer festival", "category": "special", "aliases": []},
-    {"id": "beach_vacation", "name": "beach vacation", "category": "special", "aliases": []},
-    {"id": "morning", "name": "morning", "category": "special", "aliases": []},
-    {"id": "afternoon", "name": "afternoon", "category": "special", "aliases": []},
-    {"id": "evening", "name": "evening", "category": "special", "aliases": ["dusk", "twilight"]},
-    {"id": "night", "name": "night", "category": "special", "aliases": ["nighttime"]},
-    {"id": "midnight", "name": "midnight", "category": "special", "aliases": []}
+    {
+      "id": "white_background",
+      "name": "white background",
+      "category": "simple",
+      "aliases": [],
+      "name_i18n": {
+        "en": "white background",
+        "zh": "白色背景"
+      }
+    },
+    {
+      "id": "black_background",
+      "name": "black background",
+      "category": "simple",
+      "aliases": [],
+      "name_i18n": {
+        "en": "black background",
+        "zh": "黑色背景"
+      }
+    },
+    {
+      "id": "grey_background",
+      "name": "grey background",
+      "category": "simple",
+      "aliases": [
+        "gray background"
+      ],
+      "name_i18n": {
+        "en": "grey background",
+        "zh": "灰色背景"
+      }
+    },
+    {
+      "id": "simple_background",
+      "name": "simple background",
+      "category": "simple",
+      "aliases": [],
+      "name_i18n": {
+        "en": "simple background",
+        "zh": "简单背景"
+      }
+    },
+    {
+      "id": "gradient_background",
+      "name": "gradient background",
+      "category": "simple",
+      "aliases": [],
+      "name_i18n": {
+        "en": "gradient background",
+        "zh": "渐变背景"
+      }
+    },
+    {
+      "id": "blue_background",
+      "name": "blue background",
+      "category": "simple",
+      "aliases": [],
+      "name_i18n": {
+        "en": "blue background",
+        "zh": "蓝色背景"
+      }
+    },
+    {
+      "id": "pink_background",
+      "name": "pink background",
+      "category": "simple",
+      "aliases": [],
+      "name_i18n": {
+        "en": "pink background",
+        "zh": "粉色背景"
+      }
+    },
+    {
+      "id": "red_background",
+      "name": "red background",
+      "category": "simple",
+      "aliases": [],
+      "name_i18n": {
+        "en": "red background",
+        "zh": "红色背景"
+      }
+    },
+    {
+      "id": "purple_background",
+      "name": "purple background",
+      "category": "simple",
+      "aliases": [],
+      "name_i18n": {
+        "en": "purple background",
+        "zh": "紫色背景"
+      }
+    },
+    {
+      "id": "yellow_background",
+      "name": "yellow background",
+      "category": "simple",
+      "aliases": [],
+      "name_i18n": {
+        "en": "yellow background",
+        "zh": "黄色背景"
+      }
+    },
+    {
+      "id": "bokeh",
+      "name": "bokeh",
+      "category": "simple",
+      "aliases": [
+        "bokeh background"
+      ],
+      "name_i18n": {
+        "en": "bokeh",
+        "zh": "虚化"
+      }
+    },
+    {
+      "id": "blurry_background",
+      "name": "blurry background",
+      "category": "simple",
+      "aliases": [],
+      "name_i18n": {
+        "en": "blurry background",
+        "zh": "模糊背景"
+      }
+    },
+    {
+      "id": "depth_of_field",
+      "name": "depth of field",
+      "category": "simple",
+      "aliases": [],
+      "name_i18n": {
+        "en": "depth of field",
+        "zh": "景深"
+      }
+    },
+    {
+      "id": "sparkle_background",
+      "name": "sparkle background",
+      "category": "simple",
+      "aliases": [
+        "glitter background"
+      ],
+      "name_i18n": {
+        "en": "sparkle background",
+        "zh": "闪光背景"
+      }
+    },
+    {
+      "id": "starry_background",
+      "name": "starry background",
+      "category": "simple",
+      "aliases": [],
+      "name_i18n": {
+        "en": "starry background",
+        "zh": "星空背景"
+      }
+    },
+    {
+      "id": "floral_background",
+      "name": "floral background",
+      "category": "simple",
+      "aliases": [],
+      "name_i18n": {
+        "en": "floral background",
+        "zh": "花卉背景"
+      }
+    },
+    {
+      "id": "heart_background",
+      "name": "heart background",
+      "category": "simple",
+      "aliases": [],
+      "name_i18n": {
+        "en": "heart background",
+        "zh": "爱心背景"
+      }
+    },
+    {
+      "id": "abstract_background",
+      "name": "abstract background",
+      "category": "simple",
+      "aliases": [],
+      "name_i18n": {
+        "en": "abstract background",
+        "zh": "抽象背景"
+      }
+    },
+    {
+      "id": "bedroom",
+      "name": "bedroom",
+      "category": "indoor",
+      "aliases": [],
+      "name_i18n": {
+        "en": "bedroom",
+        "zh": "卧室"
+      }
+    },
+    {
+      "id": "living_room",
+      "name": "living room",
+      "category": "indoor",
+      "aliases": [],
+      "name_i18n": {
+        "en": "living room",
+        "zh": "客厅"
+      }
+    },
+    {
+      "id": "kitchen",
+      "name": "kitchen",
+      "category": "indoor",
+      "aliases": [],
+      "name_i18n": {
+        "en": "kitchen",
+        "zh": "厨房"
+      }
+    },
+    {
+      "id": "bathroom",
+      "name": "bathroom",
+      "category": "indoor",
+      "aliases": [],
+      "name_i18n": {
+        "en": "bathroom",
+        "zh": "浴室"
+      }
+    },
+    {
+      "id": "japanese_room",
+      "name": "traditional japanese room",
+      "category": "indoor",
+      "aliases": [
+        "tatami room",
+        "washitsu"
+      ],
+      "name_i18n": {
+        "en": "traditional japanese room",
+        "zh": "和室"
+      }
+    },
+    {
+      "id": "modern_apartment",
+      "name": "modern apartment",
+      "category": "indoor",
+      "aliases": [],
+      "name_i18n": {
+        "en": "modern apartment",
+        "zh": "现代公寓"
+      }
+    },
+    {
+      "id": "cozy_room",
+      "name": "cozy room",
+      "category": "indoor",
+      "aliases": [],
+      "name_i18n": {
+        "en": "cozy room",
+        "zh": "温馨房间"
+      }
+    },
+    {
+      "id": "messy_room",
+      "name": "messy room",
+      "category": "indoor",
+      "aliases": [],
+      "name_i18n": {
+        "en": "messy room",
+        "zh": "凌乱房间"
+      }
+    },
+    {
+      "id": "cafe",
+      "name": "cafe",
+      "category": "indoor",
+      "aliases": [
+        "coffee shop"
+      ],
+      "name_i18n": {
+        "en": "cafe",
+        "zh": "咖啡厅"
+      }
+    },
+    {
+      "id": "restaurant",
+      "name": "restaurant",
+      "category": "indoor",
+      "aliases": [],
+      "name_i18n": {
+        "en": "restaurant",
+        "zh": "餐厅"
+      }
+    },
+    {
+      "id": "bar",
+      "name": "bar",
+      "category": "indoor",
+      "aliases": [],
+      "name_i18n": {
+        "en": "bar",
+        "zh": "酒吧"
+      }
+    },
+    {
+      "id": "library",
+      "name": "library",
+      "category": "indoor",
+      "aliases": [],
+      "name_i18n": {
+        "en": "library",
+        "zh": "图书馆"
+      }
+    },
+    {
+      "id": "bookstore",
+      "name": "bookstore",
+      "category": "indoor",
+      "aliases": [],
+      "name_i18n": {
+        "en": "bookstore",
+        "zh": "书店"
+      }
+    },
+    {
+      "id": "shop",
+      "name": "shop",
+      "category": "indoor",
+      "aliases": [
+        "store"
+      ],
+      "name_i18n": {
+        "en": "shop",
+        "zh": "商店"
+      }
+    },
+    {
+      "id": "mall",
+      "name": "shopping mall",
+      "category": "indoor",
+      "aliases": [
+        "mall"
+      ],
+      "name_i18n": {
+        "en": "shopping mall",
+        "zh": "购物中心"
+      }
+    },
+    {
+      "id": "office",
+      "name": "office",
+      "category": "indoor",
+      "aliases": [],
+      "name_i18n": {
+        "en": "office",
+        "zh": "办公室"
+      }
+    },
+    {
+      "id": "hospital",
+      "name": "hospital",
+      "category": "indoor",
+      "aliases": [],
+      "name_i18n": {
+        "en": "hospital",
+        "zh": "医院"
+      }
+    },
+    {
+      "id": "stage",
+      "name": "stage",
+      "category": "indoor",
+      "aliases": [],
+      "name_i18n": {
+        "en": "stage",
+        "zh": "舞台"
+      }
+    },
+    {
+      "id": "concert_hall",
+      "name": "concert hall",
+      "category": "indoor",
+      "aliases": [],
+      "name_i18n": {
+        "en": "concert hall",
+        "zh": "音乐厅"
+      }
+    },
+    {
+      "id": "theater",
+      "name": "theater",
+      "category": "indoor",
+      "aliases": [],
+      "name_i18n": {
+        "en": "theater",
+        "zh": "剧院"
+      }
+    },
+    {
+      "id": "arcade",
+      "name": "arcade",
+      "category": "indoor",
+      "aliases": [
+        "game center"
+      ],
+      "name_i18n": {
+        "en": "arcade",
+        "zh": "游戏厅"
+      }
+    },
+    {
+      "id": "karaoke_room",
+      "name": "karaoke room",
+      "category": "indoor",
+      "aliases": [],
+      "name_i18n": {
+        "en": "karaoke room",
+        "zh": "KTV"
+      }
+    },
+    {
+      "id": "gym",
+      "name": "gym",
+      "category": "indoor",
+      "aliases": [],
+      "name_i18n": {
+        "en": "gym",
+        "zh": "健身房"
+      }
+    },
+    {
+      "id": "dojo",
+      "name": "dojo",
+      "category": "indoor",
+      "aliases": [],
+      "name_i18n": {
+        "en": "dojo",
+        "zh": "道场"
+      }
+    },
+    {
+      "id": "onsen",
+      "name": "onsen",
+      "category": "indoor",
+      "aliases": [
+        "hot spring bath"
+      ],
+      "name_i18n": {
+        "en": "onsen",
+        "zh": "温泉"
+      }
+    },
+    {
+      "id": "bath",
+      "name": "bath",
+      "category": "indoor",
+      "aliases": [
+        "bathhouse"
+      ],
+      "name_i18n": {
+        "en": "bath",
+        "zh": "浴池"
+      }
+    },
+    {
+      "id": "shrine_interior",
+      "name": "shrine interior",
+      "category": "indoor",
+      "aliases": [],
+      "name_i18n": {
+        "en": "shrine interior",
+        "zh": "神社内部"
+      }
+    },
+    {
+      "id": "temple_interior",
+      "name": "temple interior",
+      "category": "indoor",
+      "aliases": [],
+      "name_i18n": {
+        "en": "temple interior",
+        "zh": "寺庙内部"
+      }
+    },
+    {
+      "id": "church_interior",
+      "name": "church interior",
+      "category": "indoor",
+      "aliases": [],
+      "name_i18n": {
+        "en": "church interior",
+        "zh": "教堂内部"
+      }
+    },
+    {
+      "id": "train_interior",
+      "name": "train interior",
+      "category": "indoor",
+      "aliases": [],
+      "name_i18n": {
+        "en": "train interior",
+        "zh": "车厢内部"
+      }
+    },
+    {
+      "id": "city_street",
+      "name": "city street",
+      "category": "outdoor_urban",
+      "aliases": [
+        "urban street"
+      ],
+      "name_i18n": {
+        "en": "city street",
+        "zh": "城市街道"
+      }
+    },
+    {
+      "id": "tokyo_street",
+      "name": "tokyo street",
+      "category": "outdoor_urban",
+      "aliases": [],
+      "name_i18n": {
+        "en": "tokyo street",
+        "zh": "东京街道"
+      }
+    },
+    {
+      "id": "japanese_street",
+      "name": "japanese street",
+      "category": "outdoor_urban",
+      "aliases": [],
+      "name_i18n": {
+        "en": "japanese street",
+        "zh": "日本街道"
+      }
+    },
+    {
+      "id": "alleyway",
+      "name": "alleyway",
+      "category": "outdoor_urban",
+      "aliases": [
+        "alley",
+        "back alley"
+      ],
+      "name_i18n": {
+        "en": "alleyway",
+        "zh": "小巷"
+      }
+    },
+    {
+      "id": "rooftop",
+      "name": "rooftop",
+      "category": "outdoor_urban",
+      "aliases": [
+        "building rooftop"
+      ],
+      "name_i18n": {
+        "en": "rooftop",
+        "zh": "屋顶"
+      }
+    },
+    {
+      "id": "balcony",
+      "name": "balcony",
+      "category": "outdoor_urban",
+      "aliases": [],
+      "name_i18n": {
+        "en": "balcony",
+        "zh": "阳台"
+      }
+    },
+    {
+      "id": "bridge",
+      "name": "bridge",
+      "category": "outdoor_urban",
+      "aliases": [],
+      "name_i18n": {
+        "en": "bridge",
+        "zh": "桥"
+      }
+    },
+    {
+      "id": "overpass",
+      "name": "overpass",
+      "category": "outdoor_urban",
+      "aliases": [],
+      "name_i18n": {
+        "en": "overpass",
+        "zh": "天桥"
+      }
+    },
+    {
+      "id": "train_station",
+      "name": "train station",
+      "category": "outdoor_urban",
+      "aliases": [],
+      "name_i18n": {
+        "en": "train station",
+        "zh": "火车站"
+      }
+    },
+    {
+      "id": "bus_stop",
+      "name": "bus stop",
+      "category": "outdoor_urban",
+      "aliases": [],
+      "name_i18n": {
+        "en": "bus stop",
+        "zh": "公交站"
+      }
+    },
+    {
+      "id": "crosswalk",
+      "name": "crosswalk",
+      "category": "outdoor_urban",
+      "aliases": [],
+      "name_i18n": {
+        "en": "crosswalk",
+        "zh": "人行横道"
+      }
+    },
+    {
+      "id": "shopping_district",
+      "name": "shopping district",
+      "category": "outdoor_urban",
+      "aliases": [],
+      "name_i18n": {
+        "en": "shopping district",
+        "zh": "商业街"
+      }
+    },
+    {
+      "id": "market",
+      "name": "market",
+      "category": "outdoor_urban",
+      "aliases": [],
+      "name_i18n": {
+        "en": "market",
+        "zh": "市场"
+      }
+    },
+    {
+      "id": "park",
+      "name": "park",
+      "category": "outdoor_urban",
+      "aliases": [
+        "city park"
+      ],
+      "name_i18n": {
+        "en": "park",
+        "zh": "公园"
+      }
+    },
+    {
+      "id": "playground",
+      "name": "playground",
+      "category": "outdoor_urban",
+      "aliases": [],
+      "name_i18n": {
+        "en": "playground",
+        "zh": "游乐场"
+      }
+    },
+    {
+      "id": "fountain",
+      "name": "fountain",
+      "category": "outdoor_urban",
+      "aliases": [],
+      "name_i18n": {
+        "en": "fountain",
+        "zh": "喷泉"
+      }
+    },
+    {
+      "id": "parking_lot",
+      "name": "parking lot",
+      "category": "outdoor_urban",
+      "aliases": [],
+      "name_i18n": {
+        "en": "parking lot",
+        "zh": "停车场"
+      }
+    },
+    {
+      "id": "night_city",
+      "name": "night city",
+      "category": "outdoor_urban",
+      "aliases": [
+        "city at night"
+      ],
+      "name_i18n": {
+        "en": "night city",
+        "zh": "夜间城市"
+      }
+    },
+    {
+      "id": "neon_city",
+      "name": "neon city",
+      "category": "outdoor_urban",
+      "aliases": [
+        "neon lights"
+      ],
+      "name_i18n": {
+        "en": "neon city",
+        "zh": "霓虹城市"
+      }
+    },
+    {
+      "id": "cyberpunk_city",
+      "name": "cyberpunk city",
+      "category": "outdoor_urban",
+      "aliases": [],
+      "name_i18n": {
+        "en": "cyberpunk city",
+        "zh": "赛博朋克城市"
+      }
+    },
+    {
+      "id": "shrine",
+      "name": "shrine",
+      "category": "outdoor_urban",
+      "aliases": [
+        "shinto shrine"
+      ],
+      "name_i18n": {
+        "en": "shrine",
+        "zh": "神社"
+      }
+    },
+    {
+      "id": "temple",
+      "name": "temple",
+      "category": "outdoor_urban",
+      "aliases": [],
+      "name_i18n": {
+        "en": "temple",
+        "zh": "寺庙"
+      }
+    },
+    {
+      "id": "forest",
+      "name": "forest",
+      "category": "outdoor_nature",
+      "aliases": [
+        "woods"
+      ],
+      "name_i18n": {
+        "en": "forest",
+        "zh": "森林"
+      }
+    },
+    {
+      "id": "bamboo_forest",
+      "name": "bamboo forest",
+      "category": "outdoor_nature",
+      "aliases": [],
+      "name_i18n": {
+        "en": "bamboo forest",
+        "zh": "竹林"
+      }
+    },
+    {
+      "id": "cherry_blossom_trees",
+      "name": "cherry blossom trees",
+      "category": "outdoor_nature",
+      "aliases": [
+        "sakura trees"
+      ],
+      "name_i18n": {
+        "en": "cherry blossom trees",
+        "zh": "樱花树"
+      }
+    },
+    {
+      "id": "flower_field",
+      "name": "flower field",
+      "category": "outdoor_nature",
+      "aliases": [],
+      "name_i18n": {
+        "en": "flower field",
+        "zh": "花田"
+      }
+    },
+    {
+      "id": "sunflower_field",
+      "name": "sunflower field",
+      "category": "outdoor_nature",
+      "aliases": [],
+      "name_i18n": {
+        "en": "sunflower field",
+        "zh": "向日葵田"
+      }
+    },
+    {
+      "id": "lavender_field",
+      "name": "lavender field",
+      "category": "outdoor_nature",
+      "aliases": [],
+      "name_i18n": {
+        "en": "lavender field",
+        "zh": "薰衣草田"
+      }
+    },
+    {
+      "id": "meadow",
+      "name": "meadow",
+      "category": "outdoor_nature",
+      "aliases": [
+        "field",
+        "grassland"
+      ],
+      "name_i18n": {
+        "en": "meadow",
+        "zh": "草地"
+      }
+    },
+    {
+      "id": "garden",
+      "name": "garden",
+      "category": "outdoor_nature",
+      "aliases": [],
+      "name_i18n": {
+        "en": "garden",
+        "zh": "花园"
+      }
+    },
+    {
+      "id": "japanese_garden",
+      "name": "japanese garden",
+      "category": "outdoor_nature",
+      "aliases": [],
+      "name_i18n": {
+        "en": "japanese garden",
+        "zh": "日式庭园"
+      }
+    },
+    {
+      "id": "rose_garden",
+      "name": "rose garden",
+      "category": "outdoor_nature",
+      "aliases": [],
+      "name_i18n": {
+        "en": "rose garden",
+        "zh": "玫瑰园"
+      }
+    },
+    {
+      "id": "beach",
+      "name": "beach",
+      "category": "outdoor_nature",
+      "aliases": [
+        "seaside"
+      ],
+      "name_i18n": {
+        "en": "beach",
+        "zh": "海滩"
+      }
+    },
+    {
+      "id": "ocean",
+      "name": "ocean",
+      "category": "outdoor_nature",
+      "aliases": [
+        "sea"
+      ],
+      "name_i18n": {
+        "en": "ocean",
+        "zh": "海洋"
+      }
+    },
+    {
+      "id": "lake",
+      "name": "lake",
+      "category": "outdoor_nature",
+      "aliases": [],
+      "name_i18n": {
+        "en": "lake",
+        "zh": "湖泊"
+      }
+    },
+    {
+      "id": "river",
+      "name": "river",
+      "category": "outdoor_nature",
+      "aliases": [],
+      "name_i18n": {
+        "en": "river",
+        "zh": "河流"
+      }
+    },
+    {
+      "id": "waterfall",
+      "name": "waterfall",
+      "category": "outdoor_nature",
+      "aliases": [],
+      "name_i18n": {
+        "en": "waterfall",
+        "zh": "瀑布"
+      }
+    },
+    {
+      "id": "mountain",
+      "name": "mountain",
+      "category": "outdoor_nature",
+      "aliases": [],
+      "name_i18n": {
+        "en": "mountain",
+        "zh": "山"
+      }
+    },
+    {
+      "id": "hilltop",
+      "name": "hilltop",
+      "category": "outdoor_nature",
+      "aliases": [],
+      "name_i18n": {
+        "en": "hilltop",
+        "zh": "山顶"
+      }
+    },
+    {
+      "id": "cliff",
+      "name": "cliff",
+      "category": "outdoor_nature",
+      "aliases": [],
+      "name_i18n": {
+        "en": "cliff",
+        "zh": "悬崖"
+      }
+    },
+    {
+      "id": "countryside",
+      "name": "countryside",
+      "category": "outdoor_nature",
+      "aliases": [
+        "rural"
+      ],
+      "name_i18n": {
+        "en": "countryside",
+        "zh": "乡村"
+      }
+    },
+    {
+      "id": "rice_field",
+      "name": "rice field",
+      "category": "outdoor_nature",
+      "aliases": [
+        "rice paddy"
+      ],
+      "name_i18n": {
+        "en": "rice field",
+        "zh": "稻田"
+      }
+    },
+    {
+      "id": "desert",
+      "name": "desert",
+      "category": "outdoor_nature",
+      "aliases": [],
+      "name_i18n": {
+        "en": "desert",
+        "zh": "沙漠"
+      }
+    },
+    {
+      "id": "snow_field",
+      "name": "snow field",
+      "category": "outdoor_nature",
+      "aliases": [
+        "snowy landscape"
+      ],
+      "name_i18n": {
+        "en": "snow field",
+        "zh": "雪原"
+      }
+    },
+    {
+      "id": "sunset",
+      "name": "sunset",
+      "category": "outdoor_nature",
+      "aliases": [],
+      "name_i18n": {
+        "en": "sunset",
+        "zh": "日落"
+      }
+    },
+    {
+      "id": "sunrise",
+      "name": "sunrise",
+      "category": "outdoor_nature",
+      "aliases": [],
+      "name_i18n": {
+        "en": "sunrise",
+        "zh": "日出"
+      }
+    },
+    {
+      "id": "golden_hour",
+      "name": "golden hour",
+      "category": "outdoor_nature",
+      "aliases": [],
+      "name_i18n": {
+        "en": "golden hour",
+        "zh": "黄金时分"
+      }
+    },
+    {
+      "id": "night_sky",
+      "name": "night sky",
+      "category": "outdoor_nature",
+      "aliases": [],
+      "name_i18n": {
+        "en": "night sky",
+        "zh": "夜空"
+      }
+    },
+    {
+      "id": "starry_night",
+      "name": "starry night",
+      "category": "outdoor_nature",
+      "aliases": [],
+      "name_i18n": {
+        "en": "starry night",
+        "zh": "星空"
+      }
+    },
+    {
+      "id": "moonlit",
+      "name": "moonlit",
+      "category": "outdoor_nature",
+      "aliases": [
+        "moonlight"
+      ],
+      "name_i18n": {
+        "en": "moonlit",
+        "zh": "月光下"
+      }
+    },
+    {
+      "id": "cloudy_sky",
+      "name": "cloudy sky",
+      "category": "outdoor_nature",
+      "aliases": [],
+      "name_i18n": {
+        "en": "cloudy sky",
+        "zh": "多云天空"
+      }
+    },
+    {
+      "id": "dramatic_sky",
+      "name": "dramatic sky",
+      "category": "outdoor_nature",
+      "aliases": [],
+      "name_i18n": {
+        "en": "dramatic sky",
+        "zh": "戏剧性天空"
+      }
+    },
+    {
+      "id": "rain",
+      "name": "rain",
+      "category": "outdoor_nature",
+      "aliases": [
+        "rainy"
+      ],
+      "name_i18n": {
+        "en": "rain",
+        "zh": "雨"
+      }
+    },
+    {
+      "id": "castle",
+      "name": "castle",
+      "category": "fantasy",
+      "aliases": [],
+      "name_i18n": {
+        "en": "castle",
+        "zh": "城堡"
+      }
+    },
+    {
+      "id": "throne_room",
+      "name": "throne room",
+      "category": "fantasy",
+      "aliases": [],
+      "name_i18n": {
+        "en": "throne room",
+        "zh": "王座室"
+      }
+    },
+    {
+      "id": "palace",
+      "name": "palace",
+      "category": "fantasy",
+      "aliases": [],
+      "name_i18n": {
+        "en": "palace",
+        "zh": "宫殿"
+      }
+    },
+    {
+      "id": "ballroom",
+      "name": "ballroom",
+      "category": "fantasy",
+      "aliases": [],
+      "name_i18n": {
+        "en": "ballroom",
+        "zh": "舞厅"
+      }
+    },
+    {
+      "id": "dungeon",
+      "name": "dungeon",
+      "category": "fantasy",
+      "aliases": [],
+      "name_i18n": {
+        "en": "dungeon",
+        "zh": "地牢"
+      }
+    },
+    {
+      "id": "cave",
+      "name": "cave",
+      "category": "fantasy",
+      "aliases": [],
+      "name_i18n": {
+        "en": "cave",
+        "zh": "洞穴"
+      }
+    },
+    {
+      "id": "crystal_cave",
+      "name": "crystal cave",
+      "category": "fantasy",
+      "aliases": [],
+      "name_i18n": {
+        "en": "crystal cave",
+        "zh": "水晶洞穴"
+      }
+    },
+    {
+      "id": "ancient_ruins",
+      "name": "ancient ruins",
+      "category": "fantasy",
+      "aliases": [
+        "ruins"
+      ],
+      "name_i18n": {
+        "en": "ancient ruins",
+        "zh": "古代遗迹"
+      }
+    },
+    {
+      "id": "temple_ruins",
+      "name": "temple ruins",
+      "category": "fantasy",
+      "aliases": [],
+      "name_i18n": {
+        "en": "temple ruins",
+        "zh": "寺庙废墟"
+      }
+    },
+    {
+      "id": "magical_forest",
+      "name": "magical forest",
+      "category": "fantasy",
+      "aliases": [
+        "enchanted forest"
+      ],
+      "name_i18n": {
+        "en": "magical forest",
+        "zh": "魔法森林"
+      }
+    },
+    {
+      "id": "floating_island",
+      "name": "floating island",
+      "category": "fantasy",
+      "aliases": [
+        "sky island"
+      ],
+      "name_i18n": {
+        "en": "floating island",
+        "zh": "浮空岛"
+      }
+    },
+    {
+      "id": "clouds",
+      "name": "clouds",
+      "category": "fantasy",
+      "aliases": [
+        "in the clouds"
+      ],
+      "name_i18n": {
+        "en": "clouds",
+        "zh": "云"
+      }
+    },
+    {
+      "id": "heaven",
+      "name": "heaven",
+      "category": "fantasy",
+      "aliases": [
+        "celestial"
+      ],
+      "name_i18n": {
+        "en": "heaven",
+        "zh": "天堂"
+      }
+    },
+    {
+      "id": "hell",
+      "name": "hell",
+      "category": "fantasy",
+      "aliases": [
+        "inferno"
+      ],
+      "name_i18n": {
+        "en": "hell",
+        "zh": "地狱"
+      }
+    },
+    {
+      "id": "underwater",
+      "name": "underwater",
+      "category": "fantasy",
+      "aliases": [
+        "ocean floor"
+      ],
+      "name_i18n": {
+        "en": "underwater",
+        "zh": "水下"
+      }
+    },
+    {
+      "id": "space",
+      "name": "space",
+      "category": "fantasy",
+      "aliases": [],
+      "name_i18n": {
+        "en": "space",
+        "zh": "太空"
+      }
+    },
+    {
+      "id": "galaxy",
+      "name": "galaxy",
+      "category": "fantasy",
+      "aliases": [],
+      "name_i18n": {
+        "en": "galaxy",
+        "zh": "银河"
+      }
+    },
+    {
+      "id": "nebula",
+      "name": "nebula",
+      "category": "fantasy",
+      "aliases": [],
+      "name_i18n": {
+        "en": "nebula",
+        "zh": "星云"
+      }
+    },
+    {
+      "id": "alien_planet",
+      "name": "alien planet",
+      "category": "fantasy",
+      "aliases": [],
+      "name_i18n": {
+        "en": "alien planet",
+        "zh": "外星球"
+      }
+    },
+    {
+      "id": "wizard_tower",
+      "name": "wizard tower",
+      "category": "fantasy",
+      "aliases": [
+        "mage tower"
+      ],
+      "name_i18n": {
+        "en": "wizard tower",
+        "zh": "魔法塔"
+      }
+    },
+    {
+      "id": "fantasy_town",
+      "name": "fantasy town",
+      "category": "fantasy",
+      "aliases": [],
+      "name_i18n": {
+        "en": "fantasy town",
+        "zh": "奇幻小镇"
+      }
+    },
+    {
+      "id": "medieval_village",
+      "name": "medieval village",
+      "category": "fantasy",
+      "aliases": [],
+      "name_i18n": {
+        "en": "medieval village",
+        "zh": "中世纪村庄"
+      }
+    },
+    {
+      "id": "steampunk_city",
+      "name": "steampunk city",
+      "category": "fantasy",
+      "aliases": [],
+      "name_i18n": {
+        "en": "steampunk city",
+        "zh": "蒸汽朋克城市"
+      }
+    },
+    {
+      "id": "classroom",
+      "name": "classroom",
+      "category": "school",
+      "aliases": [],
+      "name_i18n": {
+        "en": "classroom",
+        "zh": "教室"
+      }
+    },
+    {
+      "id": "empty_classroom",
+      "name": "empty classroom",
+      "category": "school",
+      "aliases": [],
+      "name_i18n": {
+        "en": "empty classroom",
+        "zh": "空教室"
+      }
+    },
+    {
+      "id": "school_hallway",
+      "name": "school hallway",
+      "category": "school",
+      "aliases": [
+        "school corridor"
+      ],
+      "name_i18n": {
+        "en": "school hallway",
+        "zh": "学校走廊"
+      }
+    },
+    {
+      "id": "school_rooftop",
+      "name": "school rooftop",
+      "category": "school",
+      "aliases": [],
+      "name_i18n": {
+        "en": "school rooftop",
+        "zh": "学校屋顶"
+      }
+    },
+    {
+      "id": "school_gym",
+      "name": "school gym",
+      "category": "school",
+      "aliases": [
+        "gymnasium"
+      ],
+      "name_i18n": {
+        "en": "school gym",
+        "zh": "学校体育馆"
+      }
+    },
+    {
+      "id": "school_pool",
+      "name": "school pool",
+      "category": "school",
+      "aliases": [
+        "swimming pool"
+      ],
+      "name_i18n": {
+        "en": "school pool",
+        "zh": "学校泳池"
+      }
+    },
+    {
+      "id": "school_cafeteria",
+      "name": "school cafeteria",
+      "category": "school",
+      "aliases": [
+        "lunch room"
+      ],
+      "name_i18n": {
+        "en": "school cafeteria",
+        "zh": "学校食堂"
+      }
+    },
+    {
+      "id": "school_library",
+      "name": "school library",
+      "category": "school",
+      "aliases": [],
+      "name_i18n": {
+        "en": "school library",
+        "zh": "学校图书馆"
+      }
+    },
+    {
+      "id": "club_room",
+      "name": "club room",
+      "category": "school",
+      "aliases": [],
+      "name_i18n": {
+        "en": "club room",
+        "zh": "社团活动室"
+      }
+    },
+    {
+      "id": "locker_room",
+      "name": "locker room",
+      "category": "school",
+      "aliases": [],
+      "name_i18n": {
+        "en": "locker room",
+        "zh": "更衣室"
+      }
+    },
+    {
+      "id": "school_gate",
+      "name": "school gate",
+      "category": "school",
+      "aliases": [
+        "school entrance"
+      ],
+      "name_i18n": {
+        "en": "school gate",
+        "zh": "校门"
+      }
+    },
+    {
+      "id": "schoolyard",
+      "name": "schoolyard",
+      "category": "school",
+      "aliases": [
+        "school grounds"
+      ],
+      "name_i18n": {
+        "en": "schoolyard",
+        "zh": "校园"
+      }
+    },
+    {
+      "id": "track_field",
+      "name": "track field",
+      "category": "school",
+      "aliases": [
+        "sports field"
+      ],
+      "name_i18n": {
+        "en": "track field",
+        "zh": "田径场"
+      }
+    },
+    {
+      "id": "music_room",
+      "name": "music room",
+      "category": "school",
+      "aliases": [],
+      "name_i18n": {
+        "en": "music room",
+        "zh": "音乐室"
+      }
+    },
+    {
+      "id": "science_lab",
+      "name": "science lab",
+      "category": "school",
+      "aliases": [],
+      "name_i18n": {
+        "en": "science lab",
+        "zh": "科学实验室"
+      }
+    },
+    {
+      "id": "art_room",
+      "name": "art room",
+      "category": "school",
+      "aliases": [],
+      "name_i18n": {
+        "en": "art room",
+        "zh": "美术室"
+      }
+    },
+    {
+      "id": "cherry_blossoms",
+      "name": "cherry blossoms",
+      "category": "special",
+      "aliases": [
+        "sakura"
+      ],
+      "name_i18n": {
+        "en": "cherry blossoms",
+        "zh": "樱花"
+      }
+    },
+    {
+      "id": "spring",
+      "name": "spring",
+      "category": "special",
+      "aliases": [],
+      "name_i18n": {
+        "en": "spring",
+        "zh": "春天"
+      }
+    },
+    {
+      "id": "summer",
+      "name": "summer",
+      "category": "special",
+      "aliases": [],
+      "name_i18n": {
+        "en": "summer",
+        "zh": "夏天"
+      }
+    },
+    {
+      "id": "autumn",
+      "name": "autumn",
+      "category": "special",
+      "aliases": [
+        "fall",
+        "autumn leaves"
+      ],
+      "name_i18n": {
+        "en": "autumn",
+        "zh": "秋天"
+      }
+    },
+    {
+      "id": "winter",
+      "name": "winter",
+      "category": "special",
+      "aliases": [
+        "snowy"
+      ],
+      "name_i18n": {
+        "en": "winter",
+        "zh": "冬天"
+      }
+    },
+    {
+      "id": "festival",
+      "name": "festival",
+      "category": "special",
+      "aliases": [
+        "matsuri"
+      ],
+      "name_i18n": {
+        "en": "festival",
+        "zh": "祭典"
+      }
+    },
+    {
+      "id": "fireworks",
+      "name": "fireworks",
+      "category": "special",
+      "aliases": [
+        "fireworks festival"
+      ],
+      "name_i18n": {
+        "en": "fireworks",
+        "zh": "烟花"
+      }
+    },
+    {
+      "id": "christmas",
+      "name": "christmas",
+      "category": "special",
+      "aliases": [
+        "christmas lights"
+      ],
+      "name_i18n": {
+        "en": "christmas",
+        "zh": "圣诞节"
+      }
+    },
+    {
+      "id": "christmas_tree",
+      "name": "christmas tree",
+      "category": "special",
+      "aliases": [],
+      "name_i18n": {
+        "en": "christmas tree",
+        "zh": "圣诞树"
+      }
+    },
+    {
+      "id": "halloween",
+      "name": "halloween",
+      "category": "special",
+      "aliases": [
+        "spooky"
+      ],
+      "name_i18n": {
+        "en": "halloween",
+        "zh": "万圣节"
+      }
+    },
+    {
+      "id": "new_year",
+      "name": "new year",
+      "category": "special",
+      "aliases": [],
+      "name_i18n": {
+        "en": "new year",
+        "zh": "新年"
+      }
+    },
+    {
+      "id": "valentines_day",
+      "name": "valentines day",
+      "category": "special",
+      "aliases": [
+        "valentine"
+      ],
+      "name_i18n": {
+        "en": "valentines day",
+        "zh": "情人节"
+      }
+    },
+    {
+      "id": "summer_festival",
+      "name": "summer festival",
+      "category": "special",
+      "aliases": [],
+      "name_i18n": {
+        "en": "summer festival",
+        "zh": "夏日祭"
+      }
+    },
+    {
+      "id": "beach_vacation",
+      "name": "beach vacation",
+      "category": "special",
+      "aliases": [],
+      "name_i18n": {
+        "en": "beach vacation",
+        "zh": "海滩度假"
+      }
+    },
+    {
+      "id": "morning",
+      "name": "morning",
+      "category": "special",
+      "aliases": [],
+      "name_i18n": {
+        "en": "morning",
+        "zh": "早晨"
+      }
+    },
+    {
+      "id": "afternoon",
+      "name": "afternoon",
+      "category": "special",
+      "aliases": [],
+      "name_i18n": {
+        "en": "afternoon",
+        "zh": "下午"
+      }
+    },
+    {
+      "id": "evening",
+      "name": "evening",
+      "category": "special",
+      "aliases": [
+        "dusk",
+        "twilight"
+      ],
+      "name_i18n": {
+        "en": "evening",
+        "zh": "傍晚"
+      }
+    },
+    {
+      "id": "night",
+      "name": "night",
+      "category": "special",
+      "aliases": [
+        "nighttime"
+      ],
+      "name_i18n": {
+        "en": "night",
+        "zh": "夜晚"
+      }
+    },
+    {
+      "id": "midnight",
+      "name": "midnight",
+      "category": "special",
+      "aliases": [],
+      "name_i18n": {
+        "en": "midnight",
+        "zh": "午夜"
+      }
+    }
   ],
   "index_by_category": {
     "simple": [
-      "white_background", "black_background", "grey_background", "simple_background", "gradient_background",
-      "blue_background", "pink_background", "red_background", "purple_background", "yellow_background",
-      "bokeh", "blurry_background", "depth_of_field", "sparkle_background", "starry_background",
-      "floral_background", "heart_background", "abstract_background"
+      "white_background",
+      "black_background",
+      "grey_background",
+      "simple_background",
+      "gradient_background",
+      "blue_background",
+      "pink_background",
+      "red_background",
+      "purple_background",
+      "yellow_background",
+      "bokeh",
+      "blurry_background",
+      "depth_of_field",
+      "sparkle_background",
+      "starry_background",
+      "floral_background",
+      "heart_background",
+      "abstract_background"
     ],
     "indoor": [
-      "bedroom", "living_room", "kitchen", "bathroom", "japanese_room", "modern_apartment", "cozy_room", "messy_room",
-      "cafe", "restaurant", "bar", "library", "bookstore", "shop", "mall", "office", "hospital",
-      "stage", "concert_hall", "theater", "arcade", "karaoke_room", "gym", "dojo", "onsen", "bath",
-      "shrine_interior", "temple_interior", "church_interior", "train_interior"
+      "bedroom",
+      "living_room",
+      "kitchen",
+      "bathroom",
+      "japanese_room",
+      "modern_apartment",
+      "cozy_room",
+      "messy_room",
+      "cafe",
+      "restaurant",
+      "bar",
+      "library",
+      "bookstore",
+      "shop",
+      "mall",
+      "office",
+      "hospital",
+      "stage",
+      "concert_hall",
+      "theater",
+      "arcade",
+      "karaoke_room",
+      "gym",
+      "dojo",
+      "onsen",
+      "bath",
+      "shrine_interior",
+      "temple_interior",
+      "church_interior",
+      "train_interior"
     ],
     "outdoor_urban": [
-      "city_street", "tokyo_street", "japanese_street", "alleyway", "rooftop", "balcony",
-      "bridge", "overpass", "train_station", "bus_stop", "crosswalk",
-      "shopping_district", "market", "park", "playground", "fountain", "parking_lot",
-      "night_city", "neon_city", "cyberpunk_city", "shrine", "temple"
+      "city_street",
+      "tokyo_street",
+      "japanese_street",
+      "alleyway",
+      "rooftop",
+      "balcony",
+      "bridge",
+      "overpass",
+      "train_station",
+      "bus_stop",
+      "crosswalk",
+      "shopping_district",
+      "market",
+      "park",
+      "playground",
+      "fountain",
+      "parking_lot",
+      "night_city",
+      "neon_city",
+      "cyberpunk_city",
+      "shrine",
+      "temple"
     ],
     "outdoor_nature": [
-      "forest", "bamboo_forest", "cherry_blossom_trees", "flower_field", "sunflower_field", "lavender_field",
-      "meadow", "garden", "japanese_garden", "rose_garden",
-      "beach", "ocean", "lake", "river", "waterfall",
-      "mountain", "hilltop", "cliff", "countryside", "rice_field", "desert", "snow_field",
-      "sunset", "sunrise", "golden_hour", "night_sky", "starry_night", "moonlit", "cloudy_sky", "dramatic_sky", "rain"
+      "forest",
+      "bamboo_forest",
+      "cherry_blossom_trees",
+      "flower_field",
+      "sunflower_field",
+      "lavender_field",
+      "meadow",
+      "garden",
+      "japanese_garden",
+      "rose_garden",
+      "beach",
+      "ocean",
+      "lake",
+      "river",
+      "waterfall",
+      "mountain",
+      "hilltop",
+      "cliff",
+      "countryside",
+      "rice_field",
+      "desert",
+      "snow_field",
+      "sunset",
+      "sunrise",
+      "golden_hour",
+      "night_sky",
+      "starry_night",
+      "moonlit",
+      "cloudy_sky",
+      "dramatic_sky",
+      "rain"
     ],
     "fantasy": [
-      "castle", "throne_room", "palace", "ballroom", "dungeon", "cave", "crystal_cave",
-      "ancient_ruins", "temple_ruins", "magical_forest", "floating_island",
-      "clouds", "heaven", "hell", "underwater", "space", "galaxy", "nebula", "alien_planet",
-      "wizard_tower", "fantasy_town", "medieval_village", "steampunk_city"
+      "castle",
+      "throne_room",
+      "palace",
+      "ballroom",
+      "dungeon",
+      "cave",
+      "crystal_cave",
+      "ancient_ruins",
+      "temple_ruins",
+      "magical_forest",
+      "floating_island",
+      "clouds",
+      "heaven",
+      "hell",
+      "underwater",
+      "space",
+      "galaxy",
+      "nebula",
+      "alien_planet",
+      "wizard_tower",
+      "fantasy_town",
+      "medieval_village",
+      "steampunk_city"
     ],
     "school": [
-      "classroom", "empty_classroom", "school_hallway", "school_rooftop",
-      "school_gym", "school_pool", "school_cafeteria", "school_library",
-      "club_room", "locker_room", "school_gate", "schoolyard", "track_field",
-      "music_room", "science_lab", "art_room"
+      "classroom",
+      "empty_classroom",
+      "school_hallway",
+      "school_rooftop",
+      "school_gym",
+      "school_pool",
+      "school_cafeteria",
+      "school_library",
+      "club_room",
+      "locker_room",
+      "school_gate",
+      "schoolyard",
+      "track_field",
+      "music_room",
+      "science_lab",
+      "art_room"
     ],
     "special": [
-      "cherry_blossoms", "spring", "summer", "autumn", "winter",
-      "festival", "fireworks", "christmas", "christmas_tree", "halloween", "new_year", "valentines_day",
-      "summer_festival", "beach_vacation",
-      "morning", "afternoon", "evening", "night", "midnight"
+      "cherry_blossoms",
+      "spring",
+      "summer",
+      "autumn",
+      "winter",
+      "festival",
+      "fireworks",
+      "christmas",
+      "christmas_tree",
+      "halloween",
+      "new_year",
+      "valentines_day",
+      "summer_festival",
+      "beach_vacation",
+      "morning",
+      "afternoon",
+      "evening",
+      "night",
+      "midnight"
     ]
   },
   "categories": [
-    {"id": "simple", "name": "Simple Backgrounds", "description": "Plain or minimal backgrounds"},
-    {"id": "indoor", "name": "Indoor Settings", "description": "Interior locations"},
-    {"id": "outdoor_urban", "name": "Urban Outdoor", "description": "City and town environments"},
-    {"id": "outdoor_nature", "name": "Nature Outdoor", "description": "Natural environments"},
-    {"id": "fantasy", "name": "Fantasy Settings", "description": "Magical and fantastical locations"},
-    {"id": "school", "name": "School Settings", "description": "School-related locations"},
-    {"id": "special", "name": "Special/Seasonal", "description": "Holiday, event, or unique settings"}
+    {
+      "id": "simple",
+      "name": "Simple Backgrounds",
+      "description": "Plain or minimal backgrounds"
+    },
+    {
+      "id": "indoor",
+      "name": "Indoor Settings",
+      "description": "Interior locations"
+    },
+    {
+      "id": "outdoor_urban",
+      "name": "Urban Outdoor",
+      "description": "City and town environments"
+    },
+    {
+      "id": "outdoor_nature",
+      "name": "Nature Outdoor",
+      "description": "Natural environments"
+    },
+    {
+      "id": "fantasy",
+      "name": "Fantasy Settings",
+      "description": "Magical and fantastical locations"
+    },
+    {
+      "id": "school",
+      "name": "School Settings",
+      "description": "School-related locations"
+    },
+    {
+      "id": "special",
+      "name": "Special/Seasonal",
+      "description": "Holiday, event, or unique settings"
+    }
   ],
   "meta": {
     "notes": [
@@ -223,5 +1921,9 @@
       "School settings are very common in anime.",
       "Seasonal and time-of-day modifiers can be combined with other backgrounds."
     ]
-  }
+  },
+  "supported_languages": [
+    "en",
+    "zh"
+  ]
 }

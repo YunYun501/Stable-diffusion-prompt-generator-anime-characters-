@@ -9,7 +9,11 @@
       "category": "body_type",
       "aliases": [
         "slender"
-      ]
+      ],
+      "name_i18n": {
+        "en": "slim",
+        "zh": "苗条"
+      }
     },
     {
       "id": "petite",
@@ -17,7 +21,11 @@
       "category": "body_type",
       "aliases": [
         "small frame"
-      ]
+      ],
+      "name_i18n": {
+        "en": "petite",
+        "zh": "娇小"
+      }
     },
     {
       "id": "athletic",
@@ -26,19 +34,31 @@
       "aliases": [
         "fit",
         "toned"
-      ]
+      ],
+      "name_i18n": {
+        "en": "athletic",
+        "zh": "健美"
+      }
     },
     {
       "id": "curvy",
       "name": "curvy",
       "category": "body_type",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "curvy",
+        "zh": "丰满"
+      }
     },
     {
       "id": "hourglass_figure",
       "name": "hourglass figure",
       "category": "body_type",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "hourglass figure",
+        "zh": "沙漏身材"
+      }
     },
     {
       "id": "muscular",
@@ -46,7 +66,11 @@
       "category": "body_type",
       "aliases": [
         "toned muscles"
-      ]
+      ],
+      "name_i18n": {
+        "en": "muscular",
+        "zh": "肌肉发达"
+      }
     },
     {
       "id": "plump",
@@ -54,7 +78,11 @@
       "category": "body_type",
       "aliases": [
         "chubby"
-      ]
+      ],
+      "name_i18n": {
+        "en": "plump",
+        "zh": "圆润"
+      }
     },
     {
       "id": "delicate",
@@ -62,7 +90,11 @@
       "category": "body_type",
       "aliases": [
         "fragile"
-      ]
+      ],
+      "name_i18n": {
+        "en": "delicate",
+        "zh": "纤细"
+      }
     },
     {
       "id": "graceful",
@@ -70,7 +102,11 @@
       "category": "body_type",
       "aliases": [
         "elegant"
-      ]
+      ],
+      "name_i18n": {
+        "en": "graceful",
+        "zh": "优雅"
+      }
     },
     {
       "id": "lithe",
@@ -78,31 +114,51 @@
       "category": "body_type",
       "aliases": [
         "nimble"
-      ]
+      ],
+      "name_i18n": {
+        "en": "lithe",
+        "zh": "柔韧"
+      }
     },
     {
       "id": "tall",
       "name": "tall",
       "category": "height",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "tall",
+        "zh": "高个子"
+      }
     },
     {
       "id": "short",
       "name": "short",
       "category": "height",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "short",
+        "zh": "矮个子"
+      }
     },
     {
       "id": "average_height",
       "name": "average height",
       "category": "height",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "average height",
+        "zh": "中等身高"
+      }
     },
     {
       "id": "very_tall",
       "name": "very tall",
       "category": "height",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "very tall",
+        "zh": "非常高"
+      }
     },
     {
       "id": "very_short",
@@ -110,13 +166,21 @@
       "category": "height",
       "aliases": [
         "tiny"
-      ]
+      ],
+      "name_i18n": {
+        "en": "very short",
+        "zh": "非常矮"
+      }
     },
     {
       "id": "pale_skin",
       "name": "pale skin",
       "category": "skin",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "pale skin",
+        "zh": "苍白皮肤"
+      }
     },
     {
       "id": "fair_skin",
@@ -124,13 +188,21 @@
       "category": "skin",
       "aliases": [
         "light skin"
-      ]
+      ],
+      "name_i18n": {
+        "en": "fair skin",
+        "zh": "白皙皮肤"
+      }
     },
     {
       "id": "white_skin",
       "name": "white skin",
       "category": "skin",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "white skin",
+        "zh": "白色皮肤"
+      }
     },
     {
       "id": "tan_skin",
@@ -138,43 +210,71 @@
       "category": "skin",
       "aliases": [
         "tanned"
-      ]
+      ],
+      "name_i18n": {
+        "en": "tan skin",
+        "zh": "小麦色皮肤"
+      }
     },
     {
       "id": "dark_skin",
       "name": "dark skin",
       "category": "skin",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "dark skin",
+        "zh": "深色皮肤"
+      }
     },
     {
       "id": "brown_skin",
       "name": "brown skin",
       "category": "skin",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "brown skin",
+        "zh": "棕色皮肤"
+      }
     },
     {
       "id": "olive_skin",
       "name": "olive skin",
       "category": "skin",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "olive skin",
+        "zh": "橄榄色皮肤"
+      }
     },
     {
       "id": "sun_kissed_skin",
       "name": "sun-kissed skin",
       "category": "skin",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "sun-kissed skin",
+        "zh": "阳光晒后肤色"
+      }
     },
     {
       "id": "porcelain_skin",
       "name": "porcelain skin",
       "category": "skin",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "porcelain skin",
+        "zh": "瓷器般皮肤"
+      }
     },
     {
       "id": "freckles",
       "name": "freckles",
       "category": "skin",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "freckles",
+        "zh": "雀斑"
+      }
     },
     {
       "id": "mole",
@@ -182,13 +282,21 @@
       "category": "skin",
       "aliases": [
         "beauty mark"
-      ]
+      ],
+      "name_i18n": {
+        "en": "mole",
+        "zh": "痣"
+      }
     },
     {
       "id": "facial_mole",
       "name": "facial mole",
       "category": "skin",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "facial mole",
+        "zh": "面部痣"
+      }
     },
     {
       "id": "blush",
@@ -197,37 +305,61 @@
       "aliases": [
         "blushing",
         "flushed cheeks"
-      ]
+      ],
+      "name_i18n": {
+        "en": "blush",
+        "zh": "红晕"
+      }
     },
     {
       "id": "young",
       "name": "young",
       "category": "age_appearance",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "young",
+        "zh": "年轻"
+      }
     },
     {
       "id": "youthful",
       "name": "youthful",
       "category": "age_appearance",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "youthful",
+        "zh": "青春"
+      }
     },
     {
       "id": "mature",
       "name": "mature",
       "category": "age_appearance",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "mature",
+        "zh": "成熟"
+      }
     },
     {
       "id": "adult",
       "name": "adult",
       "category": "age_appearance",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "adult",
+        "zh": "成年"
+      }
     },
     {
       "id": "teenage_appearance",
       "name": "teenage appearance",
       "category": "age_appearance",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "teenage appearance",
+        "zh": "少女外观"
+      }
     },
     {
       "id": "elf_ears",
@@ -236,13 +368,21 @@
       "aliases": [
         "pointed ears",
         "elven ears"
-      ]
+      ],
+      "name_i18n": {
+        "en": "elf ears",
+        "zh": "精灵耳"
+      }
     },
     {
       "id": "animal_ears",
       "name": "animal ears",
       "category": "special_features",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "animal ears",
+        "zh": "兽耳"
+      }
     },
     {
       "id": "cat_ears",
@@ -250,7 +390,11 @@
       "category": "special_features",
       "aliases": [
         "nekomimi"
-      ]
+      ],
+      "name_i18n": {
+        "en": "cat ears",
+        "zh": "猫耳"
+      }
     },
     {
       "id": "fox_ears",
@@ -258,13 +402,21 @@
       "category": "special_features",
       "aliases": [
         "kitsune ears"
-      ]
+      ],
+      "name_i18n": {
+        "en": "fox ears",
+        "zh": "狐耳"
+      }
     },
     {
       "id": "wolf_ears",
       "name": "wolf ears",
       "category": "special_features",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "wolf ears",
+        "zh": "狼耳"
+      }
     },
     {
       "id": "rabbit_ears",
@@ -272,7 +424,11 @@
       "category": "special_features",
       "aliases": [
         "bunny ears"
-      ]
+      ],
+      "name_i18n": {
+        "en": "rabbit ears",
+        "zh": "兔耳"
+      }
     },
     {
       "id": "dog_ears",
@@ -280,55 +436,91 @@
       "category": "special_features",
       "aliases": [
         "inumimi"
-      ]
+      ],
+      "name_i18n": {
+        "en": "dog ears",
+        "zh": "犬耳"
+      }
     },
     {
       "id": "horns",
       "name": "horns",
       "category": "special_features",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "horns",
+        "zh": "角"
+      }
     },
     {
       "id": "demon_horns",
       "name": "demon horns",
       "category": "special_features",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "demon horns",
+        "zh": "恶魔角"
+      }
     },
     {
       "id": "small_horns",
       "name": "small horns",
       "category": "special_features",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "small horns",
+        "zh": "小角"
+      }
     },
     {
       "id": "curved_horns",
       "name": "curved horns",
       "category": "special_features",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "curved horns",
+        "zh": "弯角"
+      }
     },
     {
       "id": "oni_horns",
       "name": "oni horns",
       "category": "special_features",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "oni horns",
+        "zh": "鬼角"
+      }
     },
     {
       "id": "dragon_horns",
       "name": "dragon horns",
       "category": "special_features",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "dragon horns",
+        "zh": "龙角"
+      }
     },
     {
       "id": "tail",
       "name": "tail",
       "category": "special_features",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "tail",
+        "zh": "尾巴"
+      }
     },
     {
       "id": "cat_tail",
       "name": "cat tail",
       "category": "special_features",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "cat tail",
+        "zh": "猫尾"
+      }
     },
     {
       "id": "fox_tail",
@@ -336,37 +528,61 @@
       "category": "special_features",
       "aliases": [
         "kitsune tail"
-      ]
+      ],
+      "name_i18n": {
+        "en": "fox tail",
+        "zh": "狐尾"
+      }
     },
     {
       "id": "multiple_tails",
       "name": "multiple tails",
       "category": "special_features",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "multiple tails",
+        "zh": "多尾"
+      }
     },
     {
       "id": "fluffy_tail",
       "name": "fluffy tail",
       "category": "special_features",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "fluffy tail",
+        "zh": "蓬松尾巴"
+      }
     },
     {
       "id": "demon_tail",
       "name": "demon tail",
       "category": "special_features",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "demon tail",
+        "zh": "恶魔尾巴"
+      }
     },
     {
       "id": "dragon_tail",
       "name": "dragon tail",
       "category": "special_features",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "dragon tail",
+        "zh": "龙尾"
+      }
     },
     {
       "id": "wings",
       "name": "wings",
       "category": "special_features",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "wings",
+        "zh": "翅膀"
+      }
     },
     {
       "id": "angel_wings",
@@ -374,7 +590,11 @@
       "category": "special_features",
       "aliases": [
         "white wings"
-      ]
+      ],
+      "name_i18n": {
+        "en": "angel wings",
+        "zh": "天使翅膀"
+      }
     },
     {
       "id": "demon_wings",
@@ -382,55 +602,91 @@
       "category": "special_features",
       "aliases": [
         "bat wings"
-      ]
+      ],
+      "name_i18n": {
+        "en": "demon wings",
+        "zh": "恶魔翅膀"
+      }
     },
     {
       "id": "fairy_wings",
       "name": "fairy wings",
       "category": "special_features",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "fairy wings",
+        "zh": "精灵翅膀"
+      }
     },
     {
       "id": "feathered_wings",
       "name": "feathered wings",
       "category": "special_features",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "feathered wings",
+        "zh": "羽翼"
+      }
     },
     {
       "id": "black_wings",
       "name": "black wings",
       "category": "special_features",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "black wings",
+        "zh": "黑翅膀"
+      }
     },
     {
       "id": "butterfly_wings",
       "name": "butterfly wings",
       "category": "special_features",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "butterfly wings",
+        "zh": "蝴蝶翅膀"
+      }
     },
     {
       "id": "mechanical_wings",
       "name": "mechanical wings",
       "category": "special_features",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "mechanical wings",
+        "zh": "机械翅膀"
+      }
     },
     {
       "id": "halo",
       "name": "halo",
       "category": "special_features",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "halo",
+        "zh": "光环"
+      }
     },
     {
       "id": "floating_halo",
       "name": "floating halo",
       "category": "special_features",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "floating halo",
+        "zh": "浮空光环"
+      }
     },
     {
       "id": "fangs",
       "name": "fangs",
       "category": "special_features",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "fangs",
+        "zh": "獠牙"
+      }
     },
     {
       "id": "small_fangs",
@@ -438,61 +694,101 @@
       "category": "special_features",
       "aliases": [
         "cute fangs"
-      ]
+      ],
+      "name_i18n": {
+        "en": "small fangs",
+        "zh": "小獠牙"
+      }
     },
     {
       "id": "vampire_fangs",
       "name": "vampire fangs",
       "category": "special_features",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "vampire fangs",
+        "zh": "吸血鬼獠牙"
+      }
     },
     {
       "id": "tattoo",
       "name": "tattoo",
       "category": "special_features",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "tattoo",
+        "zh": "纹身"
+      }
     },
     {
       "id": "facial_tattoo",
       "name": "facial tattoo",
       "category": "special_features",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "facial tattoo",
+        "zh": "面部纹身"
+      }
     },
     {
       "id": "arm_tattoo",
       "name": "arm tattoo",
       "category": "special_features",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "arm tattoo",
+        "zh": "手臂纹身"
+      }
     },
     {
       "id": "back_tattoo",
       "name": "back tattoo",
       "category": "special_features",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "back tattoo",
+        "zh": "背部纹身"
+      }
     },
     {
       "id": "tribal_tattoo",
       "name": "tribal tattoo",
       "category": "special_features",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "tribal tattoo",
+        "zh": "部落纹身"
+      }
     },
     {
       "id": "scar",
       "name": "scar",
       "category": "special_features",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "scar",
+        "zh": "伤疤"
+      }
     },
     {
       "id": "facial_scar",
       "name": "facial scar",
       "category": "special_features",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "facial scar",
+        "zh": "面部伤疤"
+      }
     },
     {
       "id": "third_eye",
       "name": "third eye",
       "category": "special_features",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "third eye",
+        "zh": "第三只眼"
+      }
     },
     {
       "id": "forehead_jewel",
@@ -500,7 +796,11 @@
       "category": "special_features",
       "aliases": [
         "bindi"
-      ]
+      ],
+      "name_i18n": {
+        "en": "forehead jewel",
+        "zh": "额头宝石"
+      }
     },
     {
       "id": "scales",
@@ -508,7 +808,11 @@
       "category": "special_features",
       "aliases": [
         "dragon scales"
-      ]
+      ],
+      "name_i18n": {
+        "en": "scales",
+        "zh": "鳞片"
+      }
     },
     {
       "id": "pointed_teeth",
@@ -516,31 +820,51 @@
       "category": "special_features",
       "aliases": [
         "sharp teeth"
-      ]
+      ],
+      "name_i18n": {
+        "en": "pointed teeth",
+        "zh": "尖牙"
+      }
     },
     {
       "id": "wide_hips",
       "name": "wide hips",
       "category": "body_type",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "wide hips",
+        "zh": "宽臀"
+      }
     },
     {
       "id": "thick_thighs",
       "name": "thick thighs",
       "category": "body_type",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "thick thighs",
+        "zh": "粗腿"
+      }
     },
     {
       "id": "narrow_waist",
       "name": "narrow waist",
       "category": "body_type",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "narrow waist",
+        "zh": "细腰"
+      }
     },
     {
       "id": "long_legs",
       "name": "long legs",
       "category": "body_type",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "long legs",
+        "zh": "长腿"
+      }
     },
     {
       "id": "abs",
@@ -548,193 +872,321 @@
       "category": "body_type",
       "aliases": [
         "toned abs"
-      ]
+      ],
+      "name_i18n": {
+        "en": "abs",
+        "zh": "腹肌"
+      }
     },
     {
       "id": "skinny",
       "name": "skinny",
       "category": "body_type",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "skinny",
+        "zh": "消瘦"
+      }
     },
     {
       "id": "voluptuous",
       "name": "voluptuous",
       "category": "body_type",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "voluptuous",
+        "zh": "性感丰满"
+      }
     },
     {
       "id": "flat_chest",
       "name": "flat chest",
       "category": "body_type",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "flat chest",
+        "zh": "平胸"
+      }
     },
     {
       "id": "broad_shoulders",
       "name": "broad shoulders",
       "category": "body_type",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "broad shoulders",
+        "zh": "宽肩"
+      }
     },
     {
       "id": "willowy",
       "name": "willowy",
       "category": "body_type",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "willowy",
+        "zh": "修长"
+      }
     },
     {
       "id": "stocky",
       "name": "stocky",
       "category": "body_type",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "stocky",
+        "zh": "矮壮"
+      }
     },
     {
       "id": "lanky",
       "name": "lanky",
       "category": "body_type",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "lanky",
+        "zh": "瘦高"
+      }
     },
     {
       "id": "soft_body",
       "name": "soft body",
       "category": "body_type",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "soft body",
+        "zh": "柔软体型"
+      }
     },
     {
       "id": "towering",
       "name": "towering",
       "category": "height",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "towering",
+        "zh": "高大"
+      }
     },
     {
       "id": "statuesque",
       "name": "statuesque",
       "category": "height",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "statuesque",
+        "zh": "雕塑般高挑"
+      }
     },
     {
       "id": "compact",
       "name": "compact",
       "category": "height",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "compact",
+        "zh": "小巧"
+      }
     },
     {
       "id": "diminutive",
       "name": "diminutive",
       "category": "height",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "diminutive",
+        "zh": "小个子"
+      }
     },
     {
       "id": "medium_height",
       "name": "medium height",
       "category": "height",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "medium height",
+        "zh": "中等身高"
+      }
     },
     {
       "id": "model_height",
       "name": "model height",
       "category": "height",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "model height",
+        "zh": "模特身高"
+      }
     },
     {
       "id": "imposing_height",
       "name": "imposing height",
       "category": "height",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "imposing height",
+        "zh": "威严的身高"
+      }
     },
     {
       "id": "caramel_skin",
       "name": "caramel skin",
       "category": "skin",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "caramel skin",
+        "zh": "焦糖色皮肤"
+      }
     },
     {
       "id": "ivory_skin",
       "name": "ivory skin",
       "category": "skin",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "ivory skin",
+        "zh": "象牙色皮肤"
+      }
     },
     {
       "id": "rosy_skin",
       "name": "rosy skin",
       "category": "skin",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "rosy skin",
+        "zh": "红润皮肤"
+      }
     },
     {
       "id": "mole_under_eye",
       "name": "mole under eye",
       "category": "skin",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "mole under eye",
+        "zh": "眼下痣"
+      }
     },
     {
       "id": "beauty_mark",
       "name": "beauty mark",
       "category": "skin",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "beauty mark",
+        "zh": "美人痣"
+      }
     },
     {
       "id": "body_freckles",
       "name": "body freckles",
       "category": "skin",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "body freckles",
+        "zh": "身体雀斑"
+      }
     },
     {
       "id": "tan_lines",
       "name": "tan lines",
       "category": "skin",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "tan lines",
+        "zh": "晒痕"
+      }
     },
     {
       "id": "smooth_skin",
       "name": "smooth skin",
       "category": "skin",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "smooth skin",
+        "zh": "光滑皮肤"
+      }
     },
     {
       "id": "shiny_skin",
       "name": "shiny skin",
       "category": "skin",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "shiny skin",
+        "zh": "光泽皮肤"
+      }
     },
     {
       "id": "dimples",
       "name": "dimples",
       "category": "skin",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "dimples",
+        "zh": "酒窝"
+      }
     },
     {
       "id": "collarbone",
       "name": "collarbone",
       "category": "skin",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "collarbone",
+        "zh": "锁骨"
+      }
     },
     {
       "id": "middle_aged",
       "name": "middle-aged",
       "category": "age_appearance",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "middle-aged",
+        "zh": "中年"
+      }
     },
     {
       "id": "ojou_sama",
       "name": "ojou-sama",
       "category": "age_appearance",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "ojou-sama",
+        "zh": "大小姐"
+      }
     },
     {
       "id": "onee_san",
       "name": "onee-san",
       "category": "age_appearance",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "onee-san",
+        "zh": "姐姐"
+      }
     },
     {
       "id": "baby_face",
       "name": "baby face",
       "category": "age_appearance",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "baby face",
+        "zh": "娃娃脸"
+      }
     },
     {
       "id": "child",
       "name": "child",
       "category": "age_appearance",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "child",
+        "zh": "小孩"
+      }
     }
   ],
   "index_by_category": {
@@ -895,5 +1347,9 @@
       "Body types are anime-appropriate descriptors.",
       "Skin tones cover a diverse range."
     ]
-  }
+  },
+  "supported_languages": [
+    "en",
+    "zh"
+  ]
 }

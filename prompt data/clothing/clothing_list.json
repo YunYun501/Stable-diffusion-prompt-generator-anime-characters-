@@ -61,49 +61,81 @@
       "body_part": "head",
       "aliases": [
         "beanies"
-      ]
+      ],
+      "name_i18n": {
+        "en": "beanie",
+        "zh": "毛线帽"
+      }
     },
     {
       "id": "berets",
       "name": "berets",
       "body_part": "head",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "berets",
+        "zh": "贝雷帽"
+      }
     },
     {
       "id": "bunny_ears_headband",
       "name": "bunny ears headband",
       "body_part": "head",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "bunny ears headband",
+        "zh": "兔耳发箍"
+      }
     },
     {
       "id": "capes",
       "name": "capes",
       "body_part": "head",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "capes",
+        "zh": "斗篷"
+      }
     },
     {
       "id": "caps",
       "name": "caps",
       "body_part": "head",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "caps",
+        "zh": "帽子"
+      }
     },
     {
       "id": "cat_ears",
       "name": "cat ears",
       "body_part": "head",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "cat ears",
+        "zh": "猫耳"
+      }
     },
     {
       "id": "cat_ears_headband",
       "name": "cat ears headband",
       "body_part": "head",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "cat ears headband",
+        "zh": "猫耳发箍"
+      }
     },
     {
       "id": "hair_accessory",
       "name": "hair accessory",
       "body_part": "head",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "hair accessory",
+        "zh": "发饰"
+      }
     },
     {
       "id": "clips",
@@ -111,31 +143,51 @@
       "body_part": "head",
       "aliases": [
         "clips"
-      ]
+      ],
+      "name_i18n": {
+        "en": "hair clip",
+        "zh": "发夹"
+      }
     },
     {
       "id": "head_bow",
       "name": "head bow",
       "body_part": "head",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "head bow",
+        "zh": "头部蝴蝶结"
+      }
     },
     {
       "id": "maid_headband",
       "name": "maid headband",
       "body_part": "head",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "maid headband",
+        "zh": "女仆头箍"
+      }
     },
     {
       "id": "nurse_cap",
       "name": "nurse cap",
       "body_part": "head",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "nurse cap",
+        "zh": "护士帽"
+      }
     },
     {
       "id": "police_cap",
       "name": "police cap",
       "body_part": "head",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "police cap",
+        "zh": "警帽"
+      }
     },
     {
       "id": "santa_hat",
@@ -143,25 +195,41 @@
       "body_part": "head",
       "aliases": [
         "Christmas Santa"
-      ]
+      ],
+      "name_i18n": {
+        "en": "santa hat",
+        "zh": "圣诞帽"
+      }
     },
     {
       "id": "straw_hats",
       "name": "straw hats",
       "body_part": "head",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "straw hats",
+        "zh": "草帽"
+      }
     },
     {
       "id": "tiara",
       "name": "tiara",
       "body_part": "head",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "tiara",
+        "zh": "头冠"
+      }
     },
     {
       "id": "tiaras",
       "name": "tiaras",
       "body_part": "head",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "tiaras",
+        "zh": "王冠"
+      }
     },
     {
       "id": "witch_hat",
@@ -169,13 +237,21 @@
       "body_part": "head",
       "aliases": [
         "Halloween Witch"
-      ]
+      ],
+      "name_i18n": {
+        "en": "witch hat",
+        "zh": "女巫帽"
+      }
     },
     {
       "id": "bowtie",
       "name": "bowtie",
       "body_part": "neck",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "bowtie",
+        "zh": "蝴蝶结领带"
+      }
     },
     {
       "id": "chokers",
@@ -183,19 +259,31 @@
       "body_part": "neck",
       "aliases": [
         "chokers"
-      ]
+      ],
+      "name_i18n": {
+        "en": "choker",
+        "zh": "颈圈"
+      }
     },
     {
       "id": "neck_ribbon",
       "name": "neck ribbon",
       "body_part": "neck",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "neck ribbon",
+        "zh": "颈部丝带"
+      }
     },
     {
       "id": "necktie",
       "name": "necktie",
       "body_part": "neck",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "necktie",
+        "zh": "领带"
+      }
     },
     {
       "id": "scarf",
@@ -203,55 +291,91 @@
       "body_part": "neck",
       "aliases": [
         "scarves"
-      ]
+      ],
+      "name_i18n": {
+        "en": "scarf",
+        "zh": "围巾"
+      }
     },
     {
       "id": "animal_print_top",
       "name": "animal-print top",
       "body_part": "upper_body",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "animal-print top",
+        "zh": "动物纹上衣"
+      }
     },
     {
       "id": "bikini_top",
       "name": "bikini top",
       "body_part": "upper_body",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "bikini top",
+        "zh": "比基尼上衣"
+      }
     },
     {
       "id": "blouse",
       "name": "blouse",
       "body_part": "upper_body",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "blouse",
+        "zh": "衬衫"
+      }
     },
     {
       "id": "breastplate",
       "name": "breastplate",
       "body_part": "upper_body",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "breastplate",
+        "zh": "胸甲"
+      }
     },
     {
       "id": "cheerleader_top",
       "name": "cheerleader top",
       "body_part": "upper_body",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "cheerleader top",
+        "zh": "啦啦队上衣"
+      }
     },
     {
       "id": "club_uniform_top",
       "name": "club uniform top",
       "body_part": "upper_body",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "club uniform top",
+        "zh": "社团制服上衣"
+      }
     },
     {
       "id": "combat_vests",
       "name": "combat vests",
       "body_part": "upper_body",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "combat vests",
+        "zh": "战术背心"
+      }
     },
     {
       "id": "corset",
       "name": "corset",
       "body_part": "upper_body",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "corset",
+        "zh": "束腰"
+      }
     },
     {
       "id": "female_samurai_armor",
@@ -260,13 +384,21 @@
       "aliases": [],
       "alt_body_parts": [
         "full_body"
-      ]
+      ],
+      "name_i18n": {
+        "en": "Female Samurai Armor",
+        "zh": "女武士铠甲"
+      }
     },
     {
       "id": "full_plate_armor",
       "name": "Full Plate Armor",
       "body_part": "upper_body",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "Full Plate Armor",
+        "zh": "全身板甲"
+      }
     },
     {
       "id": "gi_jacket",
@@ -279,13 +411,21 @@
         "Martial Arts Gi",
         "Mori Girl",
         "Usagi (Bunny)"
-      ]
+      ],
+      "name_i18n": {
+        "en": "gi jacket",
+        "zh": "道服上衣"
+      }
     },
     {
       "id": "gothic_armor",
       "name": "Gothic Armor",
       "body_part": "upper_body",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "Gothic Armor",
+        "zh": "哥特式铠甲"
+      }
     },
     {
       "id": "gym_shirt",
@@ -293,7 +433,11 @@
       "body_part": "upper_body",
       "aliases": [
         "Gym Uniforms"
-      ]
+      ],
+      "name_i18n": {
+        "en": "gym shirt",
+        "zh": "运动衫"
+      }
     },
     {
       "id": "high_collared_blouse",
@@ -301,19 +445,31 @@
       "body_part": "upper_body",
       "aliases": [
         "High-collared Blouses"
-      ]
+      ],
+      "name_i18n": {
+        "en": "high-collared blouse",
+        "zh": "高领衬衫"
+      }
     },
     {
       "id": "hoodie",
       "name": "hoodie",
       "body_part": "upper_body",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "hoodie",
+        "zh": "连帽衫"
+      }
     },
     {
       "id": "knit_sweaters",
       "name": "knit sweaters",
       "body_part": "upper_body",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "knit sweaters",
+        "zh": "针织毛衣"
+      }
     },
     {
       "id": "layered_tops",
@@ -321,49 +477,81 @@
       "body_part": "upper_body",
       "aliases": [
         "layered tops"
-      ]
+      ],
+      "name_i18n": {
+        "en": "layered top",
+        "zh": "叠穿上衣"
+      }
     },
     {
       "id": "light_leather_armor",
       "name": "Light Leather Armor",
       "body_part": "upper_body",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "Light Leather Armor",
+        "zh": "轻皮甲"
+      }
     },
     {
       "id": "magical_barrier_armor",
       "name": "Magical Barrier Armor",
       "body_part": "upper_body",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "Magical Barrier Armor",
+        "zh": "魔法屏障铠甲"
+      }
     },
     {
       "id": "male_fantasy_armor",
       "name": "Male Fantasy Armor",
       "body_part": "upper_body",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "Male Fantasy Armor",
+        "zh": "奇幻铠甲"
+      }
     },
     {
       "id": "modern_armored",
       "name": "Modern Armored",
       "body_part": "upper_body",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "Modern Armored",
+        "zh": "现代护甲"
+      }
     },
     {
       "id": "oversized_sweater",
       "name": "oversized sweater",
       "body_part": "upper_body",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "oversized sweater",
+        "zh": "大号毛衣"
+      }
     },
     {
       "id": "powered_armor",
       "name": "Powered Armor",
       "body_part": "upper_body",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "Powered Armor",
+        "zh": "动力装甲"
+      }
     },
     {
       "id": "sailor_collar",
       "name": "sailor collar",
       "body_part": "upper_body",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "sailor collar",
+        "zh": "水手领"
+      }
     },
     {
       "id": "sailor_uniform_top",
@@ -372,7 +560,11 @@
       "aliases": [
         "Classic Sailor Suit",
         "Sailor uniform"
-      ]
+      ],
+      "name_i18n": {
+        "en": "sailor uniform top",
+        "zh": "水手服上衣"
+      }
     },
     {
       "id": "scrub_top",
@@ -380,7 +572,11 @@
       "body_part": "upper_body",
       "aliases": [
         "Surgeon Scrubs"
-      ]
+      ],
+      "name_i18n": {
+        "en": "scrub top",
+        "zh": "医用上衣"
+      }
     },
     {
       "id": "nurse_top",
@@ -388,7 +584,11 @@
       "body_part": "upper_body",
       "aliases": [
         "nurse uniform top"
-      ]
+      ],
+      "name_i18n": {
+        "en": "nurse top",
+        "zh": "护士上衣"
+      }
     },
     {
       "id": "police_top",
@@ -396,7 +596,11 @@
       "body_part": "upper_body",
       "aliases": [
         "police uniform top"
-      ]
+      ],
+      "name_i18n": {
+        "en": "police top",
+        "zh": "警服上衣"
+      }
     },
     {
       "id": "office_lady_blouse",
@@ -404,7 +608,11 @@
       "body_part": "upper_body",
       "aliases": [
         "secretary blouse"
-      ]
+      ],
+      "name_i18n": {
+        "en": "office lady blouse",
+        "zh": "OL衬衫"
+      }
     },
     {
       "id": "waitress_top",
@@ -412,7 +620,11 @@
       "body_part": "upper_body",
       "aliases": [
         "waitstaff top"
-      ]
+      ],
+      "name_i18n": {
+        "en": "waitress top",
+        "zh": "女服务员上衣"
+      }
     },
     {
       "id": "idol_stage_top",
@@ -420,13 +632,21 @@
       "body_part": "upper_body",
       "aliases": [
         "idol uniform top"
-      ]
+      ],
+      "name_i18n": {
+        "en": "idol stage top",
+        "zh": "偶像舞台上衣"
+      }
     },
     {
       "id": "sports_bra",
       "name": "sports bra",
       "body_part": "upper_body",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "sports bra",
+        "zh": "运动内衣"
+      }
     },
     {
       "id": "sports_jersey",
@@ -434,19 +654,31 @@
       "body_part": "upper_body",
       "aliases": [
         "Sports Jerseys"
-      ]
+      ],
+      "name_i18n": {
+        "en": "sports jersey",
+        "zh": "运动球衣"
+      }
     },
     {
       "id": "tank_tops",
       "name": "tank tops",
       "body_part": "upper_body",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "tank tops",
+        "zh": "背心"
+      }
     },
     {
       "id": "t_shirt",
       "name": "tees",
       "body_part": "upper_body",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "tees",
+        "zh": "T恤"
+      }
     },
     {
       "id": "vest",
@@ -454,270 +686,430 @@
       "body_part": "upper_body",
       "aliases": [
         "Vest and Skirt Combo"
-      ]
+      ],
+      "name_i18n": {
+        "en": "vest",
+        "zh": "马甲"
+      }
     },
     {
       "id": "vests",
       "name": "vests",
       "body_part": "upper_body",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "vests",
+        "zh": "马甲"
+      }
     },
     {
       "id": "white_kosode",
       "name": "kosode",
       "body_part": "upper_body",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "kosode",
+        "zh": "小袖"
+      }
     },
     {
       "id": "apron",
       "name": "apron",
       "body_part": "waist",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "apron",
+        "zh": "围裙"
+      }
     },
     {
       "id": "belts",
       "name": "belts",
       "body_part": "waist",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "belts",
+        "zh": "腰带"
+      }
     },
     {
       "id": "holsters",
       "name": "holsters",
       "body_part": "waist",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "holsters",
+        "zh": "枪套"
+      }
     },
     {
       "id": "leather_belt",
       "name": "leather belt",
       "body_part": "waist",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "leather belt",
+        "zh": "皮带"
+      }
     },
     {
       "id": "thigh_strap_harness",
       "name": "thigh strap harness",
       "body_part": "waist",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "thigh strap harness",
+        "zh": "大腿绑带"
+      }
     },
     {
       "id": "utility_belts",
       "name": "utility belts",
       "body_part": "waist",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "utility belts",
+        "zh": "工具腰带"
+      }
     },
     {
       "id": "andon_hakama",
       "name": "Andon Hakama",
       "body_part": "lower_body",
       "aliases": [],
-      "covers_legs": true
+      "covers_legs": true,
+      "name_i18n": {
+        "en": "Andon Hakama",
+        "zh": "行灯袴"
+      }
     },
     {
       "id": "armor_skirt",
       "name": "armor skirt",
       "body_part": "lower_body",
       "aliases": [],
-      "covers_legs": false
+      "covers_legs": false,
+      "name_i18n": {
+        "en": "armor skirt",
+        "zh": "甲裙"
+      }
     },
     {
       "id": "bikini_bottoms",
       "name": "bikini bottoms",
       "body_part": "lower_body",
       "aliases": [],
-      "covers_legs": false
+      "covers_legs": false,
+      "name_i18n": {
+        "en": "bikini bottoms",
+        "zh": "比基尼下装"
+      }
     },
     {
       "id": "bloomers",
       "name": "bloomers",
       "body_part": "lower_body",
       "aliases": [],
-      "covers_legs": false
+      "covers_legs": false,
+      "name_i18n": {
+        "en": "bloomers",
+        "zh": "灯笼裤"
+      }
     },
     {
       "id": "business_suit_trousers",
       "name": "business suit trousers",
       "body_part": "lower_body",
       "aliases": [],
-      "covers_legs": true
+      "covers_legs": true,
+      "name_i18n": {
+        "en": "business suit trousers",
+        "zh": "西装裤"
+      }
     },
     {
       "id": "camo_pants",
       "name": "camo pants",
       "body_part": "lower_body",
       "aliases": [],
-      "covers_legs": true
+      "covers_legs": true,
+      "name_i18n": {
+        "en": "camo pants",
+        "zh": "迷彩裤"
+      }
     },
     {
       "id": "cheerleader_skirt",
       "name": "cheerleader skirt",
       "body_part": "lower_body",
       "aliases": [],
-      "covers_legs": false
+      "covers_legs": false,
+      "name_i18n": {
+        "en": "cheerleader skirt",
+        "zh": "啦啦队裙"
+      }
     },
     {
       "id": "club_uniform_bottom",
       "name": "club uniform bottom",
       "body_part": "lower_body",
       "aliases": [],
-      "covers_legs": false
+      "covers_legs": false,
+      "name_i18n": {
+        "en": "club uniform bottom",
+        "zh": "社团制服下装"
+      }
     },
     {
       "id": "gi_pants",
       "name": "gi pants",
       "body_part": "lower_body",
       "aliases": [],
-      "covers_legs": true
+      "covers_legs": true,
+      "name_i18n": {
+        "en": "gi pants",
+        "zh": "道服裤"
+      }
     },
     {
       "id": "gym_shorts",
       "name": "gym shorts",
       "body_part": "lower_body",
       "aliases": [],
-      "covers_legs": false
+      "covers_legs": false,
+      "name_i18n": {
+        "en": "gym shorts",
+        "zh": "运动短裤"
+      }
     },
     {
       "id": "jeans",
       "name": "jeans",
       "body_part": "lower_body",
       "aliases": [],
-      "covers_legs": true
+      "covers_legs": true,
+      "name_i18n": {
+        "en": "jeans",
+        "zh": "牛仔裤"
+      }
     },
     {
       "id": "martial_arts_hakama",
       "name": "Martial Arts Hakama",
       "body_part": "lower_body",
       "aliases": [],
-      "covers_legs": true
+      "covers_legs": true,
+      "name_i18n": {
+        "en": "Martial Arts Hakama",
+        "zh": "武道袴"
+      }
     },
     {
       "id": "mini_skirt",
       "name": "mini skirt",
       "body_part": "lower_body",
       "aliases": [],
-      "covers_legs": false
+      "covers_legs": false,
+      "name_i18n": {
+        "en": "mini skirt",
+        "zh": "迷你裙"
+      }
     },
     {
       "id": "officer_skirt",
       "name": "officer skirt",
       "body_part": "lower_body",
       "aliases": [],
-      "covers_legs": false
+      "covers_legs": false,
+      "name_i18n": {
+        "en": "officer skirt",
+        "zh": "军官裙"
+      }
     },
     {
       "id": "pants",
       "name": "pants",
       "body_part": "lower_body",
       "aliases": [],
-      "covers_legs": true
+      "covers_legs": true,
+      "name_i18n": {
+        "en": "pants",
+        "zh": "长裤"
+      }
     },
     {
       "id": "petticoat",
       "name": "petticoat",
       "body_part": "lower_body",
       "aliases": [],
-      "covers_legs": false
+      "covers_legs": false,
+      "name_i18n": {
+        "en": "petticoat",
+        "zh": "衬裙"
+      }
     },
     {
       "id": "pleated_skirt",
       "name": "pleated skirt",
       "body_part": "lower_body",
       "aliases": [],
-      "covers_legs": false
+      "covers_legs": false,
+      "name_i18n": {
+        "en": "pleated skirt",
+        "zh": "百褶裙"
+      }
     },
     {
       "id": "police_skirt",
       "name": "police skirt",
       "body_part": "lower_body",
       "aliases": [],
-      "covers_legs": false
+      "covers_legs": false,
+      "name_i18n": {
+        "en": "police skirt",
+        "zh": "警服裙"
+      }
     },
     {
       "id": "red_hakama",
       "name": "hakama",
       "body_part": "lower_body",
       "aliases": [],
-      "covers_legs": true
+      "covers_legs": true,
+      "name_i18n": {
+        "en": "hakama",
+        "zh": "袴"
+      }
     },
     {
       "id": "sailor_uniform_skirt",
       "name": "sailor uniform skirt",
       "body_part": "lower_body",
       "aliases": [],
-      "covers_legs": false
+      "covers_legs": false,
+      "name_i18n": {
+        "en": "sailor uniform skirt",
+        "zh": "水手服裙"
+      }
     },
     {
       "id": "scrub_pants",
       "name": "scrub pants",
       "body_part": "lower_body",
       "aliases": [],
-      "covers_legs": true
+      "covers_legs": true,
+      "name_i18n": {
+        "en": "scrub pants",
+        "zh": "医用裤"
+      }
     },
     {
       "id": "shorts",
       "name": "shorts",
       "body_part": "lower_body",
       "aliases": [],
-      "covers_legs": false
+      "covers_legs": false,
+      "name_i18n": {
+        "en": "shorts",
+        "zh": "短裤"
+      }
     },
     {
       "id": "skirt_armor",
       "name": "skirt armor",
       "body_part": "lower_body",
       "aliases": [],
-      "covers_legs": false
+      "covers_legs": false,
+      "name_i18n": {
+        "en": "skirt armor",
+        "zh": "裙甲"
+      }
     },
     {
       "id": "tennis_skirt",
       "name": "tennis skirt",
       "body_part": "lower_body",
       "aliases": [],
-      "covers_legs": false
+      "covers_legs": false,
+      "name_i18n": {
+        "en": "tennis skirt",
+        "zh": "网球裙"
+      }
     },
     {
       "id": "top_skirt",
       "name": "top + skirt",
       "body_part": "lower_body",
       "aliases": [],
-      "covers_legs": false
+      "covers_legs": false,
+      "name_i18n": {
+        "en": "top + skirt",
+        "zh": "上衣+裙子"
+      }
     },
     {
       "id": "tracksuit_pants",
       "name": "tracksuit pants",
       "body_part": "lower_body",
       "aliases": [],
-      "covers_legs": true
+      "covers_legs": true,
+      "name_i18n": {
+        "en": "tracksuit pants",
+        "zh": "运动裤"
+      }
     },
     {
       "id": "tutu_skirt",
       "name": "tutu skirt",
       "body_part": "lower_body",
       "aliases": [],
-      "covers_legs": false
+      "covers_legs": false,
+      "name_i18n": {
+        "en": "tutu skirt",
+        "zh": "芭蕾短裙"
+      }
     },
     {
       "id": "umanori_hakama",
       "name": "Umanori Hakama",
       "body_part": "lower_body",
       "aliases": [],
-      "covers_legs": true
+      "covers_legs": true,
+      "name_i18n": {
+        "en": "Umanori Hakama",
+        "zh": "马乘袴"
+      }
     },
     {
       "id": "uniform_skirt",
       "name": "uniform skirt",
       "body_part": "lower_body",
       "aliases": [],
-      "covers_legs": false
+      "covers_legs": false,
+      "name_i18n": {
+        "en": "uniform skirt",
+        "zh": "制服裙"
+      }
     },
     {
       "id": "battle_suit_bodysuit",
       "name": "Battle suit / bodysuit",
       "body_part": "full_body",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "Battle suit / bodysuit",
+        "zh": "战斗服/紧身衣"
+      }
     },
     {
       "id": "bunny_leotard",
       "name": "bunny leotard",
       "body_part": "full_body",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "bunny leotard",
+        "zh": "兔女郎紧身衣"
+      }
     },
     {
       "id": "eva_suit",
@@ -726,13 +1118,21 @@
       "aliases": [
         "EVA Suits",
         "Medieval European"
-      ]
+      ],
+      "name_i18n": {
+        "en": "eva suit",
+        "zh": "EVA战斗服"
+      }
     },
     {
       "id": "flight_suit",
       "name": "flight suit",
       "body_part": "full_body",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "flight suit",
+        "zh": "飞行服"
+      }
     },
     {
       "id": "interface_suit",
@@ -740,13 +1140,21 @@
       "body_part": "full_body",
       "aliases": [
         "Interface Suits"
-      ]
+      ],
+      "name_i18n": {
+        "en": "interface suit",
+        "zh": "接口服"
+      }
     },
     {
       "id": "jumpsuit",
       "name": "jumpsuit",
       "body_part": "full_body",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "jumpsuit",
+        "zh": "连体服"
+      }
     },
     {
       "id": "kigurumi_onesie",
@@ -754,19 +1162,31 @@
       "body_part": "full_body",
       "aliases": [
         "Kigurumi (Onesies)"
-      ]
+      ],
+      "name_i18n": {
+        "en": "kigurumi onesie",
+        "zh": "卡通连体睡衣"
+      }
     },
     {
       "id": "mecha_pilot_suit",
       "name": "Mecha pilot suit",
       "body_part": "full_body",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "Mecha pilot suit",
+        "zh": "机甲驾驶服"
+      }
     },
     {
       "id": "one_piece_swimsuit",
       "name": "one-piece swimsuit",
       "body_part": "full_body",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "one-piece swimsuit",
+        "zh": "连体泳衣"
+      }
     },
     {
       "id": "pilot_suit",
@@ -775,13 +1195,21 @@
       "aliases": [
         "Mecha Pilot",
         "Spaceship Pilot"
-      ]
+      ],
+      "name_i18n": {
+        "en": "pilot suit",
+        "zh": "飞行员服"
+      }
     },
     {
       "id": "power_armor_exosuit",
       "name": "Power armor / exosuit",
       "body_part": "full_body",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "Power armor / exosuit",
+        "zh": "动力装甲/外骨骼"
+      }
     },
     {
       "id": "power_suit",
@@ -789,13 +1217,21 @@
       "body_part": "full_body",
       "aliases": [
         "Power Suit"
-      ]
+      ],
+      "name_i18n": {
+        "en": "power suit",
+        "zh": "动力套装"
+      }
     },
     {
       "id": "school_swimsuit",
       "name": "school swimsuit",
       "body_part": "full_body",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "school swimsuit",
+        "zh": "学校泳衣"
+      }
     },
     {
       "id": "swimsuit",
@@ -804,13 +1240,21 @@
       "aliases": [
         "Swim Team",
         "Swimwear"
-      ]
+      ],
+      "name_i18n": {
+        "en": "swimsuit",
+        "zh": "泳衣"
+      }
     },
     {
       "id": "tactical_bodysuit",
       "name": "tactical bodysuit",
       "body_part": "full_body",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "tactical bodysuit",
+        "zh": "战术紧身衣"
+      }
     },
     {
       "id": "business_suit_jacket",
@@ -819,37 +1263,61 @@
       "aliases": [
         "Nano-suits",
         "Stealth Suits"
-      ]
+      ],
+      "name_i18n": {
+        "en": "business suit jacket",
+        "zh": "西装外套"
+      }
     },
     {
       "id": "camo_jacket",
       "name": "camo jacket",
       "body_part": "outerwear",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "camo jacket",
+        "zh": "迷彩夹克"
+      }
     },
     {
       "id": "cape",
       "name": "cape",
       "body_part": "outerwear",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "cape",
+        "zh": "斗篷"
+      }
     },
     {
       "id": "cardigan",
       "name": "cardigan",
       "body_part": "outerwear",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "cardigan",
+        "zh": "开衫"
+      }
     },
     {
       "id": "cardigans",
       "name": "cardigans",
       "body_part": "outerwear",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "cardigans",
+        "zh": "开衫"
+      }
     },
     {
       "id": "coats",
       "name": "coats",
       "body_part": "outerwear",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "coats",
+        "zh": "大衣"
+      }
     },
     {
       "id": "lab_coat",
@@ -857,19 +1325,31 @@
       "body_part": "outerwear",
       "aliases": [
         "Doctor Coat"
-      ]
+      ],
+      "name_i18n": {
+        "en": "lab coat",
+        "zh": "实验室外套"
+      }
     },
     {
       "id": "leather_jacket",
       "name": "leather jacket",
       "body_part": "outerwear",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "leather jacket",
+        "zh": "皮夹克"
+      }
     },
     {
       "id": "officer_uniform_jacket",
       "name": "officer uniform jacket",
       "body_part": "outerwear",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "officer uniform jacket",
+        "zh": "军官制服外套"
+      }
     },
     {
       "id": "police_uniform_jacket",
@@ -877,13 +1357,21 @@
       "body_part": "outerwear",
       "aliases": [
         "Police Uniform"
-      ]
+      ],
+      "name_i18n": {
+        "en": "police uniform jacket",
+        "zh": "警服外套"
+      }
     },
     {
       "id": "puffer_coats",
       "name": "puffer coats",
       "body_part": "outerwear",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "puffer coats",
+        "zh": "羽绒服"
+      }
     },
     {
       "id": "school_blazer",
@@ -892,7 +1380,11 @@
       "aliases": [
         "Blazer uniform",
         "Western-style Blazer"
-      ]
+      ],
+      "name_i18n": {
+        "en": "school blazer",
+        "zh": "校服西装"
+      }
     },
     {
       "id": "tracksuit_jacket",
@@ -900,61 +1392,101 @@
       "body_part": "outerwear",
       "aliases": [
         "Track Suits"
-      ]
+      ],
+      "name_i18n": {
+        "en": "tracksuit jacket",
+        "zh": "运动夹克"
+      }
     },
     {
       "id": "transparent_raincoats",
       "name": "transparent raincoats",
       "body_part": "outerwear",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "transparent raincoats",
+        "zh": "透明雨衣"
+      }
     },
     {
       "id": "winter_coats",
       "name": "Winter Coats",
       "body_part": "outerwear",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "Winter Coats",
+        "zh": "冬季大衣"
+      }
     },
     {
       "id": "fingerless_gloves",
       "name": "fingerless gloves",
       "body_part": "hands",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "fingerless gloves",
+        "zh": "露指手套"
+      }
     },
     {
       "id": "gloves",
       "name": "Gloves",
       "body_part": "hands",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "Gloves",
+        "zh": "手套"
+      }
     },
     {
       "id": "lace_gloves",
       "name": "lace gloves",
       "body_part": "hands",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "lace gloves",
+        "zh": "蕾丝手套"
+      }
     },
     {
       "id": "mittens",
       "name": "mittens",
       "body_part": "hands",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "mittens",
+        "zh": "连指手套"
+      }
     },
     {
       "id": "wrist_cuffs",
       "name": "wrist cuffs",
       "body_part": "hands",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "wrist cuffs",
+        "zh": "腕套"
+      }
     },
     {
       "id": "ankle_socks",
       "name": "ankle socks",
       "body_part": "legs",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "ankle socks",
+        "zh": "短袜"
+      }
     },
     {
       "id": "fishnet_stockings",
       "name": "fishnet stockings",
       "body_part": "legs",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "fishnet stockings",
+        "zh": "网眼丝袜"
+      }
     },
     {
       "id": "fishnet_tights",
@@ -962,7 +1494,11 @@
       "body_part": "legs",
       "aliases": [
         "fishnets"
-      ]
+      ],
+      "name_i18n": {
+        "en": "fishnet tights",
+        "zh": "网眼连裤袜"
+      }
     },
     {
       "id": "knee_highs",
@@ -970,19 +1506,31 @@
       "body_part": "legs",
       "aliases": [
         "knee-highs"
-      ]
+      ],
+      "name_i18n": {
+        "en": "knee-high socks",
+        "zh": "及膝袜"
+      }
     },
     {
       "id": "knee_high_socks",
       "name": "knee-high socks",
       "body_part": "legs",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "knee-high socks",
+        "zh": "及膝长袜"
+      }
     },
     {
       "id": "leggings",
       "name": "leggings",
       "body_part": "legs",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "leggings",
+        "zh": "打底裤"
+      }
     },
     {
       "id": "stockings",
@@ -990,13 +1538,21 @@
       "body_part": "legs",
       "aliases": [
         "Stockings"
-      ]
+      ],
+      "name_i18n": {
+        "en": "stockings",
+        "zh": "长筒袜"
+      }
     },
     {
       "id": "thigh_high_socks",
       "name": "thigh-high socks",
       "body_part": "legs",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "thigh-high socks",
+        "zh": "过膝袜"
+      }
     },
     {
       "id": "thigh_highs",
@@ -1004,87 +1560,143 @@
       "body_part": "legs",
       "aliases": [
         "thigh-highs"
-      ]
+      ],
+      "name_i18n": {
+        "en": "thigh-high stockings",
+        "zh": "大腿袜"
+      }
     },
     {
       "id": "boots",
       "name": "boots",
       "body_part": "feet",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "boots",
+        "zh": "靴子"
+      }
     },
     {
       "id": "geta",
       "name": "geta",
       "body_part": "feet",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "geta",
+        "zh": "木屐"
+      }
     },
     {
       "id": "heels",
       "name": "Heels",
       "body_part": "feet",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "Heels",
+        "zh": "高跟鞋"
+      }
     },
     {
       "id": "loafers",
       "name": "loafers",
       "body_part": "feet",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "loafers",
+        "zh": "乐福鞋"
+      }
     },
     {
       "id": "platform_boots",
       "name": "platform boots",
       "body_part": "feet",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "platform boots",
+        "zh": "厚底靴"
+      }
     },
     {
       "id": "rain_boots",
       "name": "rain boots",
       "body_part": "feet",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "rain boots",
+        "zh": "雨靴"
+      }
     },
     {
       "id": "sandals",
       "name": "sandals",
       "body_part": "feet",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "sandals",
+        "zh": "凉鞋"
+      }
     },
     {
       "id": "sneakers",
       "name": "sneakers",
       "body_part": "feet",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "sneakers",
+        "zh": "运动鞋"
+      }
     },
     {
       "id": "stage_boots",
       "name": "stage boots",
       "body_part": "feet",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "stage boots",
+        "zh": "舞台靴"
+      }
     },
     {
       "id": "stage_heels",
       "name": "stage heels",
       "body_part": "feet",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "stage heels",
+        "zh": "舞台高跟鞋"
+      }
     },
     {
       "id": "zori_sandals",
       "name": "zori sandals",
       "body_part": "feet",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "zori sandals",
+        "zh": "草履"
+      }
     },
     {
       "id": "backpack",
       "name": "backpack",
       "body_part": "accessory",
       "description": "casual carry bag worn on both shoulders",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "backpack",
+        "zh": "背包"
+      }
     },
     {
       "id": "mini_backpack",
       "name": "mini backpack",
       "body_part": "accessory",
       "description": "small fashion backpack for cute streetwear looks",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "mini backpack",
+        "zh": "迷你背包"
+      }
     },
     {
       "id": "school_bag",
@@ -1093,42 +1705,66 @@
       "description": "student bag often paired with uniform styles",
       "aliases": [
         "randoseru"
-      ]
+      ],
+      "name_i18n": {
+        "en": "school bag",
+        "zh": "书包"
+      }
     },
     {
       "id": "crossbody_bag",
       "name": "crossbody bag",
       "body_part": "accessory",
       "description": "compact bag hanging diagonally across the torso",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "crossbody bag",
+        "zh": "斜挎包"
+      }
     },
     {
       "id": "messenger_bag",
       "name": "messenger bag",
       "body_part": "accessory",
       "description": "rectangular shoulder bag with long strap",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "messenger bag",
+        "zh": "邮差包"
+      }
     },
     {
       "id": "shoulder_bag",
       "name": "shoulder bag",
       "body_part": "accessory",
       "description": "everyday handbag carried on one shoulder",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "shoulder bag",
+        "zh": "肩包"
+      }
     },
     {
       "id": "tote_bag",
       "name": "tote bag",
       "body_part": "accessory",
       "description": "soft carryall bag with open top handles",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "tote bag",
+        "zh": "手提袋"
+      }
     },
     {
       "id": "leather_satchel",
       "name": "leather satchel",
       "body_part": "accessory",
       "description": "structured satchel suited for classic outfits",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "leather satchel",
+        "zh": "皮质书包"
+      }
     },
     {
       "id": "clutch_bag",
@@ -1137,56 +1773,88 @@
       "description": "small hand-held evening bag",
       "aliases": [
         "clutch"
-      ]
+      ],
+      "name_i18n": {
+        "en": "clutch bag",
+        "zh": "手拿包"
+      }
     },
     {
       "id": "purse",
       "name": "purse",
       "body_part": "accessory",
       "description": "compact purse accessory for stylish looks",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "purse",
+        "zh": "手提包"
+      }
     },
     {
       "id": "coin_pouch",
       "name": "coin pouch",
       "body_part": "accessory",
       "description": "small pouch attached to belt or bag",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "coin pouch",
+        "zh": "零钱袋"
+      }
     },
     {
       "id": "keychain_charm",
       "name": "keychain charm",
       "body_part": "accessory",
       "description": "decorative charm hanging from bag or belt",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "keychain charm",
+        "zh": "钥匙链挂件"
+      }
     },
     {
       "id": "phone_charm",
       "name": "phone charm",
       "body_part": "accessory",
       "description": "cute dangling strap attached to smartphone",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "phone charm",
+        "zh": "手机挂件"
+      }
     },
     {
       "id": "umbrella",
       "name": "umbrella",
       "body_part": "accessory",
       "description": "standard umbrella prop for rain scenes",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "umbrella",
+        "zh": "雨伞"
+      }
     },
     {
       "id": "parasol",
       "name": "parasol",
       "body_part": "accessory",
       "description": "sun parasol for elegant outdoor styling",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "parasol",
+        "zh": "阳伞"
+      }
     },
     {
       "id": "lace_parasol",
       "name": "lace parasol",
       "body_part": "accessory",
       "description": "decorative lace parasol with romantic aesthetic",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "lace parasol",
+        "zh": "蕾丝阳伞"
+      }
     },
     {
       "id": "folding_fan",
@@ -1195,28 +1863,44 @@
       "description": "traditional folding fan for festival and kimono looks",
       "aliases": [
         "sensu fan"
-      ]
+      ],
+      "name_i18n": {
+        "en": "folding fan",
+        "zh": "折扇"
+      }
     },
     {
       "id": "uchiwa_fan",
       "name": "uchiwa fan",
       "body_part": "accessory",
       "description": "round flat summer festival fan",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "uchiwa fan",
+        "zh": "团扇"
+      }
     },
     {
       "id": "pom_poms",
       "name": "pom-poms",
       "body_part": "accessory",
       "description": "cheer props held in both hands",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "pom-poms",
+        "zh": "啦啦球"
+      }
     },
     {
       "id": "glow_stick",
       "name": "glow stick",
       "body_part": "accessory",
       "description": "concert light stick for idol or stage themes",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "glow stick",
+        "zh": "荧光棒"
+      }
     },
     {
       "id": "idol_microphone",
@@ -1225,112 +1909,176 @@
       "description": "stage microphone prop for performance scenes",
       "aliases": [
         "handheld microphone"
-      ]
+      ],
+      "name_i18n": {
+        "en": "idol microphone",
+        "zh": "偶像麦克风"
+      }
     },
     {
       "id": "plush_bunny",
       "name": "plush bunny",
       "body_part": "accessory",
       "description": "soft bunny plush toy carried as a prop",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "plush bunny",
+        "zh": "毛绒兔子"
+      }
     },
     {
       "id": "teddy_bear_plush",
       "name": "teddy bear plush",
       "body_part": "accessory",
       "description": "classic stuffed teddy bear accessory",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "teddy bear plush",
+        "zh": "泰迪熊玩偶"
+      }
     },
     {
       "id": "cat_plush",
       "name": "cat plush",
       "body_part": "accessory",
       "description": "cute cat plushie for playful character vibes",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "cat plush",
+        "zh": "猫咪玩偶"
+      }
     },
     {
       "id": "spellbook",
       "name": "spellbook",
       "body_part": "accessory",
       "description": "arcane magic book prop for caster characters",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "spellbook",
+        "zh": "魔法书"
+      }
     },
     {
       "id": "grimoire",
       "name": "grimoire",
       "body_part": "accessory",
       "description": "ornate ancient tome with mystical motifs",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "grimoire",
+        "zh": "魔导书"
+      }
     },
     {
       "id": "sketchbook",
       "name": "sketchbook",
       "body_part": "accessory",
       "description": "artist notebook accessory for creative themes",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "sketchbook",
+        "zh": "写生簿"
+      }
     },
     {
       "id": "camera",
       "name": "camera",
       "body_part": "accessory",
       "description": "compact camera carried around the neck or hand",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "camera",
+        "zh": "相机"
+      }
     },
     {
       "id": "instant_camera",
       "name": "instant camera",
       "body_part": "accessory",
       "description": "retro instant camera for casual street shots",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "instant camera",
+        "zh": "拍立得"
+      }
     },
     {
       "id": "smartphone",
       "name": "smartphone",
       "body_part": "accessory",
       "description": "modern phone prop for daily life scenes",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "smartphone",
+        "zh": "智能手机"
+      }
     },
     {
       "id": "headphones",
       "name": "headphones",
       "body_part": "accessory",
       "description": "over-ear headphones as a music-themed accessory",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "headphones",
+        "zh": "耳机"
+      }
     },
     {
       "id": "cat_ear_headphones",
       "name": "cat-ear headphones",
       "body_part": "accessory",
       "description": "stylized headphones with cat-ear design",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "cat-ear headphones",
+        "zh": "猫耳耳机"
+      }
     },
     {
       "id": "sunglasses",
       "name": "sunglasses",
       "body_part": "accessory",
       "description": "cool fashion eyewear for outdoor scenes",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "sunglasses",
+        "zh": "太阳镜"
+      }
     },
     {
       "id": "visor_glasses",
       "name": "visor glasses",
       "body_part": "accessory",
       "description": "futuristic tinted visor-style eyewear",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "visor glasses",
+        "zh": "遮阳镜"
+      }
     },
     {
       "id": "eyepatch",
       "name": "eyepatch",
       "body_part": "accessory",
       "description": "single-eye patch for chuunibyou or pirate styling",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "eyepatch",
+        "zh": "眼罩"
+      }
     },
     {
       "id": "festival_mask",
       "name": "festival mask",
       "body_part": "accessory",
       "description": "decorative mask used in festival scenes",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "festival mask",
+        "zh": "祭典面具"
+      }
     },
     {
       "id": "fox_mask",
@@ -1339,98 +2087,154 @@
       "description": "kitsune-style mask for shrine or festival aesthetics",
       "aliases": [
         "kitsune mask"
-      ]
+      ],
+      "name_i18n": {
+        "en": "fox mask",
+        "zh": "狐狸面具"
+      }
     },
     {
       "id": "brooch",
       "name": "brooch",
       "body_part": "accessory",
       "description": "pin-on ornament attached to chest or collar",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "brooch",
+        "zh": "胸针"
+      }
     },
     {
       "id": "corsage",
       "name": "corsage",
       "body_part": "accessory",
       "description": "flower accessory pinned to outfit or wrist",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "corsage",
+        "zh": "胸花"
+      }
     },
     {
       "id": "charm_bracelet",
       "name": "charm bracelet",
       "body_part": "accessory",
       "description": "bracelet with dangling decorative charms",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "charm bracelet",
+        "zh": "吊坠手链"
+      }
     },
     {
       "id": "bangles",
       "name": "bangles",
       "body_part": "accessory",
       "description": "stacked rigid bracelets for ornate styling",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "bangles",
+        "zh": "手镯"
+      }
     },
     {
       "id": "wristwatch",
       "name": "wristwatch",
       "body_part": "accessory",
       "description": "everyday watch accessory",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "wristwatch",
+        "zh": "手表"
+      }
     },
     {
       "id": "pocket_watch",
       "name": "pocket watch",
       "body_part": "accessory",
       "description": "vintage chain watch for elegant or steampunk looks",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "pocket watch",
+        "zh": "怀表"
+      }
     },
     {
       "id": "ring_set",
       "name": "ring set",
       "body_part": "accessory",
       "description": "multiple decorative rings worn across fingers",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "ring set",
+        "zh": "戒指套装"
+      }
     },
     {
       "id": "hoop_earrings",
       "name": "hoop earrings",
       "body_part": "accessory",
       "description": "circular earrings with a bold silhouette",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "hoop earrings",
+        "zh": "圈形耳环"
+      }
     },
     {
       "id": "jeweled_earrings",
       "name": "jeweled earrings",
       "body_part": "accessory",
       "description": "sparkling gem earrings for formal outfits",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "jeweled earrings",
+        "zh": "宝石耳环"
+      }
     },
     {
       "id": "ear_cuff",
       "name": "ear cuff",
       "body_part": "accessory",
       "description": "clip-on ear ornament without piercings",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "ear cuff",
+        "zh": "耳骨夹"
+      }
     },
     {
       "id": "magic_wand",
       "name": "magic wand",
       "body_part": "accessory",
       "description": "wand prop for magical girl and fantasy themes",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "magic wand",
+        "zh": "魔杖"
+      }
     },
     {
       "id": "ceremonial_staff",
       "name": "ceremonial staff",
       "body_part": "accessory",
       "description": "ornamental staff carried by priestess or mage characters",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "ceremonial staff",
+        "zh": "仪式法杖"
+      }
     },
     {
       "id": "ornate_scepter",
       "name": "ornate scepter",
       "body_part": "accessory",
       "description": "royal scepter accessory for princess themes",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "ornate scepter",
+        "zh": "华丽权杖"
+      }
     },
     {
       "id": "sword_sheath",
@@ -1439,51 +2243,83 @@
       "description": "decorative scabbard accessory at hip or back",
       "aliases": [
         "scabbard"
-      ]
+      ],
+      "name_i18n": {
+        "en": "sword sheath",
+        "zh": "剑鞘"
+      }
     },
     {
       "id": "lucky_omamori",
       "name": "lucky omamori",
       "body_part": "accessory",
       "description": "small Japanese amulet charm for shrine motifs",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "lucky omamori",
+        "zh": "幸运御守"
+      }
     },
     {
       "id": "ribbon_charm",
       "name": "ribbon charm",
       "body_part": "accessory",
       "description": "decorative ribbon accessory tied to clothing or bag",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "ribbon charm",
+        "zh": "丝带挂件"
+      }
     },
     {
       "id": "datejime",
       "name": "datejime",
       "body_part": "waist",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "datejime",
+        "zh": "伊达缔"
+      }
     },
     {
       "id": "fauld",
       "name": "fauld",
       "body_part": "waist",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "fauld",
+        "zh": "裙甲"
+      }
     },
     {
       "id": "garter_belt",
       "name": "garter belt",
       "body_part": "waist",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "garter belt",
+        "zh": "吊袜带"
+      }
     },
     {
       "id": "holster_belt",
       "name": "holster belt",
       "body_part": "waist",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "holster belt",
+        "zh": "枪套腰带"
+      }
     },
     {
       "id": "koshihimo",
       "name": "koshihimo",
       "body_part": "waist",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "koshihimo",
+        "zh": "腰纽"
+      }
     },
     {
       "id": "kusazuri",
@@ -1491,7 +2327,11 @@
       "body_part": "waist",
       "aliases": [
         "kusazuri (skirt armor)"
-      ]
+      ],
+      "name_i18n": {
+        "en": "kusazuri",
+        "zh": "草摺"
+      }
     },
     {
       "id": "obi",
@@ -1499,7 +2339,11 @@
       "body_part": "waist",
       "aliases": [
         "obi belt"
-      ]
+      ],
+      "name_i18n": {
+        "en": "obi",
+        "zh": "腰带（和服）"
+      }
     },
     {
       "id": "obi_ita_obi_stiffener",
@@ -1507,19 +2351,31 @@
       "body_part": "waist",
       "aliases": [
         "obiita"
-      ]
+      ],
+      "name_i18n": {
+        "en": "obi-ita (obi stiffener)",
+        "zh": "帯板"
+      }
     },
     {
       "id": "obiage",
       "name": "obiage",
       "body_part": "waist",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "obiage",
+        "zh": "帯扬"
+      }
     },
     {
       "id": "obijime",
       "name": "obijime",
       "body_part": "waist",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "obijime",
+        "zh": "帯缔"
+      }
     },
     {
       "id": "obimakura_obi_pillow",
@@ -1527,7 +2383,11 @@
       "body_part": "waist",
       "aliases": [
         "obimakura"
-      ]
+      ],
+      "name_i18n": {
+        "en": "obimakura (obi pillow)",
+        "zh": "帯枕"
+      }
     },
     {
       "id": "tassets",
@@ -1535,43 +2395,71 @@
       "body_part": "waist",
       "aliases": [
         "tasset"
-      ]
+      ],
+      "name_i18n": {
+        "en": "tassets",
+        "zh": "腿裙甲"
+      }
     },
     {
       "id": "utility_belt",
       "name": "utility belt",
       "body_part": "waist",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "utility belt",
+        "zh": "工具腰带"
+      }
     },
     {
       "id": "waist_cincher",
       "name": "waist cincher",
       "body_part": "waist",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "waist cincher",
+        "zh": "束腰带"
+      }
     },
     {
       "id": "ascot",
       "name": "ascot",
       "body_part": "neck",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "ascot",
+        "zh": "领巾"
+      }
     },
     {
       "id": "bolo_tie",
       "name": "bolo tie",
       "body_part": "neck",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "bolo tie",
+        "zh": "波洛领带"
+      }
     },
     {
       "id": "bow_tie",
       "name": "bow tie",
       "body_part": "neck",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "bow tie",
+        "zh": "领结"
+      }
     },
     {
       "id": "gorget",
       "name": "gorget",
       "body_part": "neck",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "gorget",
+        "zh": "护喉甲"
+      }
     },
     {
       "id": "haneri_kimono_collar",
@@ -1579,19 +2467,31 @@
       "body_part": "neck",
       "aliases": [
         "haneri"
-      ]
+      ],
+      "name_i18n": {
+        "en": "haneri (kimono collar)",
+        "zh": "半襟（和服领）"
+      }
     },
     {
       "id": "neckerchief",
       "name": "neckerchief",
       "body_part": "neck",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "neckerchief",
+        "zh": "颈巾"
+      }
     },
     {
       "id": "ruff_collar",
       "name": "ruff collar",
       "body_part": "neck",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "ruff collar",
+        "zh": "拉夫领"
+      }
     },
     {
       "id": "tomoeri_extra_collar",
@@ -1599,13 +2499,21 @@
       "body_part": "neck",
       "aliases": [
         "tomoeri"
-      ]
+      ],
+      "name_i18n": {
+        "en": "tomoeri (extra collar)",
+        "zh": "友襟（额外领）"
+      }
     },
     {
       "id": "arm_warmers",
       "name": "arm warmers",
       "body_part": "hands",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "arm warmers",
+        "zh": "臂套"
+      }
     },
     {
       "id": "gauntlets",
@@ -1613,7 +2521,11 @@
       "body_part": "hands",
       "aliases": [
         "gauntlet"
-      ]
+      ],
+      "name_i18n": {
+        "en": "gauntlets",
+        "zh": "臂铠"
+      }
     },
     {
       "id": "kote_samurai_arm_guards",
@@ -1621,7 +2533,11 @@
       "body_part": "hands",
       "aliases": [
         "kote"
-      ]
+      ],
+      "name_i18n": {
+        "en": "kote (samurai arm guards)",
+        "zh": "籠手（武士臂甲）"
+      }
     },
     {
       "id": "vambrace",
@@ -1630,7 +2546,11 @@
       "aliases": [
         "vambraces",
         "bracer"
-      ]
+      ],
+      "name_i18n": {
+        "en": "vambrace",
+        "zh": "前臂甲"
+      }
     },
     {
       "id": "cuisses",
@@ -1638,7 +2558,11 @@
       "body_part": "legs",
       "aliases": [
         "thigh armor"
-      ]
+      ],
+      "name_i18n": {
+        "en": "cuisses",
+        "zh": "腿甲"
+      }
     },
     {
       "id": "greaves",
@@ -1646,13 +2570,21 @@
       "body_part": "legs",
       "aliases": [
         "greave"
-      ]
+      ],
+      "name_i18n": {
+        "en": "greaves",
+        "zh": "胫甲"
+      }
     },
     {
       "id": "loose_socks",
       "name": "loose socks",
       "body_part": "legs",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "loose socks",
+        "zh": "松垮袜"
+      }
     },
     {
       "id": "suneate",
@@ -1660,7 +2592,11 @@
       "body_part": "legs",
       "aliases": [
         "suneate (shin guards)"
-      ]
+      ],
+      "name_i18n": {
+        "en": "suneate",
+        "zh": "臑当"
+      }
     },
     {
       "id": "tabi_socks",
@@ -1668,13 +2604,21 @@
       "body_part": "legs",
       "aliases": [
         "tabi"
-      ]
+      ],
+      "name_i18n": {
+        "en": "tabi socks",
+        "zh": "足袋"
+      }
     },
     {
       "id": "ankle_boots",
       "name": "ankle boots",
       "body_part": "feet",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "ankle boots",
+        "zh": "短靴"
+      }
     },
     {
       "id": "ballet_flats",
@@ -1682,7 +2626,11 @@
       "body_part": "feet",
       "aliases": [
         "flats"
-      ]
+      ],
+      "name_i18n": {
+        "en": "ballet flats",
+        "zh": "芭蕾平底鞋"
+      }
     },
     {
       "id": "jikatabi_boots",
@@ -1690,13 +2638,21 @@
       "body_part": "feet",
       "aliases": [
         "jika-tabi"
-      ]
+      ],
+      "name_i18n": {
+        "en": "jikatabi boots",
+        "zh": "地下足袋"
+      }
     },
     {
       "id": "knee_high_boots",
       "name": "knee-high boots",
       "body_part": "feet",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "knee-high boots",
+        "zh": "及膝靴"
+      }
     },
     {
       "id": "mary_janes",
@@ -1704,7 +2660,11 @@
       "body_part": "feet",
       "aliases": [
         "Mary Jane shoes"
-      ]
+      ],
+      "name_i18n": {
+        "en": "Mary Janes",
+        "zh": "玛丽珍鞋"
+      }
     },
     {
       "id": "okobo_geta",
@@ -1712,7 +2672,11 @@
       "body_part": "feet",
       "aliases": [
         "okobo"
-      ]
+      ],
+      "name_i18n": {
+        "en": "okobo geta",
+        "zh": "おこぼ木屐"
+      }
     },
     {
       "id": "penny_loafers",
@@ -1720,7 +2684,11 @@
       "body_part": "feet",
       "aliases": [
         "penny loafer"
-      ]
+      ],
+      "name_i18n": {
+        "en": "penny loafers",
+        "zh": "便士乐福鞋"
+      }
     },
     {
       "id": "sabatons",
@@ -1728,7 +2696,11 @@
       "body_part": "feet",
       "aliases": [
         "sabatons (armored shoes)"
-      ]
+      ],
+      "name_i18n": {
+        "en": "sabatons",
+        "zh": "铁鞋甲"
+      }
     },
     {
       "id": "setta_sandals",
@@ -1736,13 +2708,21 @@
       "body_part": "feet",
       "aliases": [
         "setta"
-      ]
+      ],
+      "name_i18n": {
+        "en": "setta sandals",
+        "zh": "雪驮"
+      }
     },
     {
       "id": "thigh_high_boots",
       "name": "thigh-high boots",
       "body_part": "feet",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "thigh-high boots",
+        "zh": "过膝长靴"
+      }
     },
     {
       "id": "waraji_sandals",
@@ -1750,19 +2730,31 @@
       "body_part": "feet",
       "aliases": [
         "waraji"
-      ]
+      ],
+      "name_i18n": {
+        "en": "waraji sandals",
+        "zh": "草鞋"
+      }
     },
     {
       "id": "barrette",
       "name": "barrette",
       "body_part": "head",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "barrette",
+        "zh": "发卡"
+      }
     },
     {
       "id": "bobby_pins",
       "name": "bobby pins",
       "body_part": "head",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "bobby pins",
+        "zh": "发夹"
+      }
     },
     {
       "id": "bonnet",
@@ -1770,13 +2762,21 @@
       "body_part": "head",
       "aliases": [
         "lolita bonnet"
-      ]
+      ],
+      "name_i18n": {
+        "en": "bonnet",
+        "zh": "软帽"
+      }
     },
     {
       "id": "flower_crown",
       "name": "flower crown",
       "body_part": "head",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "flower crown",
+        "zh": "花冠"
+      }
     },
     {
       "id": "headbow",
@@ -1785,7 +2785,11 @@
       "aliases": [
         "KC",
         "katyusha headbow"
-      ]
+      ],
+      "name_i18n": {
+        "en": "headbow",
+        "zh": "头部蝴蝶结"
+      }
     },
     {
       "id": "headdress",
@@ -1793,7 +2797,11 @@
       "body_part": "head",
       "aliases": [
         "lolita headdress"
-      ]
+      ],
+      "name_i18n": {
+        "en": "headdress",
+        "zh": "头饰"
+      }
     },
     {
       "id": "helmet",
@@ -1801,7 +2809,11 @@
       "body_part": "head",
       "aliases": [
         "helm"
-      ]
+      ],
+      "name_i18n": {
+        "en": "helmet",
+        "zh": "头盔"
+      }
     },
     {
       "id": "kabuto_samurai_helmet",
@@ -1809,7 +2821,11 @@
       "body_part": "head",
       "aliases": [
         "kabuto"
-      ]
+      ],
+      "name_i18n": {
+        "en": "kabuto (samurai helmet)",
+        "zh": "�的（武士头盔）"
+      }
     },
     {
       "id": "kanzashi_hairpin",
@@ -1817,7 +2833,11 @@
       "body_part": "head",
       "aliases": [
         "kanzashi"
-      ]
+      ],
+      "name_i18n": {
+        "en": "kanzashi hairpin",
+        "zh": "簪子"
+      }
     },
     {
       "id": "katyusha_headband",
@@ -1826,13 +2846,21 @@
       "aliases": [
         "KC headband",
         "katyusha (KC)"
-      ]
+      ],
+      "name_i18n": {
+        "en": "katyusha headband",
+        "zh": "卡秋莎发箍"
+      }
     },
     {
       "id": "lace_headband",
       "name": "lace headband",
       "body_part": "head",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "lace headband",
+        "zh": "蕾丝发箍"
+      }
     },
     {
       "id": "mail_coif",
@@ -1840,7 +2868,11 @@
       "body_part": "head",
       "aliases": [
         "coif"
-      ]
+      ],
+      "name_i18n": {
+        "en": "mail coif",
+        "zh": "锁子甲头套"
+      }
     },
     {
       "id": "mengu_armored_mask",
@@ -1849,31 +2881,51 @@
       "aliases": [
         "mengu",
         "samurai mask"
-      ]
+      ],
+      "name_i18n": {
+        "en": "mengu (armored mask)",
+        "zh": "面具（铠甲面罩）"
+      }
     },
     {
       "id": "scrunchie",
       "name": "scrunchie",
       "body_part": "head",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "scrunchie",
+        "zh": "发圈"
+      }
     },
     {
       "id": "veil",
       "name": "veil",
       "body_part": "head",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "veil",
+        "zh": "面纱"
+      }
     },
     {
       "id": "bolero",
       "name": "bolero",
       "body_part": "outerwear",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "bolero",
+        "zh": "波莱罗短外套"
+      }
     },
     {
       "id": "capelet",
       "name": "capelet",
       "body_part": "outerwear",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "capelet",
+        "zh": "短斗篷"
+      }
     },
     {
       "id": "hanten",
@@ -1881,7 +2933,11 @@
       "body_part": "outerwear",
       "aliases": [
         "padded short coat"
-      ]
+      ],
+      "name_i18n": {
+        "en": "hanten",
+        "zh": "半缠"
+      }
     },
     {
       "id": "haori",
@@ -1889,7 +2945,11 @@
       "body_part": "outerwear",
       "aliases": [
         "kimono jacket"
-      ]
+      ],
+      "name_i18n": {
+        "en": "haori",
+        "zh": "羽织"
+      }
     },
     {
       "id": "happi_coat",
@@ -1897,43 +2957,71 @@
       "body_part": "outerwear",
       "aliases": [
         "festival coat"
-      ]
+      ],
+      "name_i18n": {
+        "en": "happi coat",
+        "zh": "法被"
+      }
     },
     {
       "id": "poncho",
       "name": "poncho",
       "body_part": "outerwear",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "poncho",
+        "zh": "斗篷"
+      }
     },
     {
       "id": "samue_jacket",
       "name": "samue jacket",
       "body_part": "outerwear",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "samue jacket",
+        "zh": "作务衣上衣"
+      }
     },
     {
       "id": "shawl",
       "name": "shawl",
       "body_part": "outerwear",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "shawl",
+        "zh": "披肩"
+      }
     },
     {
       "id": "shrug",
       "name": "shrug",
       "body_part": "outerwear",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "shrug",
+        "zh": "耸肩短外套"
+      }
     },
     {
       "id": "stole",
       "name": "stole",
       "body_part": "outerwear",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "stole",
+        "zh": "披肩"
+      }
     },
     {
       "id": "trench_coat",
       "name": "trench coat",
       "body_part": "outerwear",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "trench coat",
+        "zh": "风衣"
+      }
     },
     {
       "id": "uchikake",
@@ -1941,223 +3029,371 @@
       "body_part": "outerwear",
       "aliases": [
         "over-kimono"
-      ]
+      ],
+      "name_i18n": {
+        "en": "uchikake",
+        "zh": "打掛"
+      }
     },
     {
       "id": "lace_choker",
       "name": "lace choker",
       "body_part": "neck",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "lace choker",
+        "zh": "蕾丝颈圈"
+      }
     },
     {
       "id": "pearl_necklace",
       "name": "pearl necklace",
       "body_part": "neck",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "pearl necklace",
+        "zh": "珍珠项链"
+      }
     },
     {
       "id": "pendant_necklace",
       "name": "pendant necklace",
       "body_part": "neck",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "pendant necklace",
+        "zh": "吊坠项链"
+      }
     },
     {
       "id": "ribbon_choker",
       "name": "ribbon choker",
       "body_part": "neck",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "ribbon choker",
+        "zh": "丝带颈圈"
+      }
     },
     {
       "id": "frilled_collar",
       "name": "frilled collar",
       "body_part": "neck",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "frilled collar",
+        "zh": "褶边领"
+      }
     },
     {
       "id": "corsage_neckpiece",
       "name": "corsage neckpiece",
       "body_part": "neck",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "corsage neckpiece",
+        "zh": "胸花颈饰"
+      }
     },
     {
       "id": "gemstone_choker",
       "name": "gemstone choker",
       "body_part": "neck",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "gemstone choker",
+        "zh": "宝石颈圈"
+      }
     },
     {
       "id": "opera_gloves",
       "name": "opera gloves",
       "body_part": "hands",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "opera gloves",
+        "zh": "歌剧手套"
+      }
     },
     {
       "id": "elbow_length_gloves",
       "name": "elbow-length gloves",
       "body_part": "hands",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "elbow-length gloves",
+        "zh": "肘长手套"
+      }
     },
     {
       "id": "satin_gloves",
       "name": "satin gloves",
       "body_part": "hands",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "satin gloves",
+        "zh": "缎面手套"
+      }
     },
     {
       "id": "leather_gloves",
       "name": "leather gloves",
       "body_part": "hands",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "leather gloves",
+        "zh": "皮手套"
+      }
     },
     {
       "id": "knitted_gloves",
       "name": "knitted gloves",
       "body_part": "hands",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "knitted gloves",
+        "zh": "针织手套"
+      }
     },
     {
       "id": "arm_sleeves",
       "name": "arm sleeves",
       "body_part": "hands",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "arm sleeves",
+        "zh": "袖套"
+      }
     },
     {
       "id": "detached_sleeves",
       "name": "detached sleeves",
       "body_part": "hands",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "detached sleeves",
+        "zh": "分离袖"
+      }
     },
     {
       "id": "frilled_wrist_cuffs",
       "name": "frilled wrist cuffs",
       "body_part": "hands",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "frilled wrist cuffs",
+        "zh": "褶边腕套"
+      }
     },
     {
       "id": "lace_wrist_cuffs",
       "name": "lace wrist cuffs",
       "body_part": "hands",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "lace wrist cuffs",
+        "zh": "蕾丝腕套"
+      }
     },
     {
       "id": "paw_gloves",
       "name": "paw gloves",
       "body_part": "hands",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "paw gloves",
+        "zh": "猫爪手套"
+      }
     },
     {
       "id": "silk_gloves",
       "name": "silk gloves",
       "body_part": "hands",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "silk gloves",
+        "zh": "丝绸手套"
+      }
     },
     {
       "id": "pantyhose",
       "name": "pantyhose",
       "body_part": "legs",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "pantyhose",
+        "zh": "连裤袜"
+      }
     },
     {
       "id": "opaque_tights",
       "name": "opaque tights",
       "body_part": "legs",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "opaque tights",
+        "zh": "不透明连裤袜"
+      }
     },
     {
       "id": "patterned_tights",
       "name": "patterned tights",
       "body_part": "legs",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "patterned tights",
+        "zh": "花纹连裤袜"
+      }
     },
     {
       "id": "leg_warmers",
       "name": "leg warmers",
       "body_part": "legs",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "leg warmers",
+        "zh": "腿套"
+      }
     },
     {
       "id": "garter_stockings",
       "name": "garter stockings",
       "body_part": "legs",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "garter stockings",
+        "zh": "吊带长筒袜"
+      }
     },
     {
       "id": "striped_thigh_high_socks",
       "name": "striped thigh-high socks",
       "body_part": "legs",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "striped thigh-high socks",
+        "zh": "条纹过膝袜"
+      }
     },
     {
       "id": "crown",
       "name": "crown",
       "body_part": "head",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "crown",
+        "zh": "王冠"
+      }
     },
     {
       "id": "hair_ribbon",
       "name": "hair ribbon",
       "body_part": "head",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "hair ribbon",
+        "zh": "发带"
+      }
     },
     {
       "id": "headband",
       "name": "headband",
       "body_part": "head",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "headband",
+        "zh": "头带"
+      }
     },
     {
       "id": "hair_flower",
       "name": "hair flower",
       "body_part": "head",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "hair flower",
+        "zh": "发花"
+      }
     },
     {
       "id": "mini_top_hat",
       "name": "mini top hat",
       "body_part": "head",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "mini top hat",
+        "zh": "迷你礼帽"
+      }
     },
     {
       "id": "sun_hat",
       "name": "sun hat",
       "body_part": "head",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "sun hat",
+        "zh": "遮阳帽"
+      }
     },
     {
       "id": "mob_cap",
       "name": "mob cap",
       "body_part": "head",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "mob cap",
+        "zh": "蕾丝软帽"
+      }
     },
     {
       "id": "baseball_cap",
       "name": "baseball cap",
       "body_part": "head",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "baseball cap",
+        "zh": "棒球帽"
+      }
     },
     {
       "id": "bucket_hat",
       "name": "bucket hat",
       "body_part": "head",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "bucket hat",
+        "zh": "渔夫帽"
+      }
     },
     {
       "id": "cowboy_hat",
       "name": "cowboy hat",
       "body_part": "head",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "cowboy hat",
+        "zh": "牛仔帽"
+      }
     },
     {
       "id": "military_hat",
       "name": "military hat",
       "body_part": "head",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "military hat",
+        "zh": "军帽"
+      }
     },
     {
       "id": "sailor_hat",
       "name": "sailor hat",
       "body_part": "head",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "sailor hat",
+        "zh": "水手帽"
+      }
     },
     {
       "id": "rice_hat",
@@ -2165,13 +3401,21 @@
       "body_part": "head",
       "aliases": [
         "kasa"
-      ]
+      ],
+      "name_i18n": {
+        "en": "rice hat",
+        "zh": "斗笠"
+      }
     },
     {
       "id": "nightcap",
       "name": "nightcap",
       "body_part": "head",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "nightcap",
+        "zh": "睡帽"
+      }
     },
     {
       "id": "hair_pins",
@@ -2179,31 +3423,51 @@
       "body_part": "head",
       "aliases": [
         "kanzashi"
-      ]
+      ],
+      "name_i18n": {
+        "en": "hair pins",
+        "zh": "发针"
+      }
     },
     {
       "id": "necklace",
       "name": "necklace",
       "body_part": "neck",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "necklace",
+        "zh": "项链"
+      }
     },
     {
       "id": "pendant",
       "name": "pendant",
       "body_part": "neck",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "pendant",
+        "zh": "吊坠"
+      }
     },
     {
       "id": "collar",
       "name": "collar",
       "body_part": "neck",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "collar",
+        "zh": "衣领"
+      }
     },
     {
       "id": "chain_necklace",
       "name": "chain necklace",
       "body_part": "neck",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "chain necklace",
+        "zh": "链条项链"
+      }
     },
     {
       "id": "neck_bell",
@@ -2211,31 +3475,51 @@
       "body_part": "neck",
       "aliases": [
         "bell collar"
-      ]
+      ],
+      "name_i18n": {
+        "en": "neck bell",
+        "zh": "颈铃"
+      }
     },
     {
       "id": "feather_boa",
       "name": "feather boa",
       "body_part": "neck",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "feather boa",
+        "zh": "羽毛围巾"
+      }
     },
     {
       "id": "locket",
       "name": "locket",
       "body_part": "neck",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "locket",
+        "zh": "盒式吊坠"
+      }
     },
     {
       "id": "dog_collar",
       "name": "dog collar",
       "body_part": "neck",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "dog collar",
+        "zh": "犬式项圈"
+      }
     },
     {
       "id": "spiked_collar",
       "name": "spiked collar",
       "body_part": "neck",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "spiked collar",
+        "zh": "带刺项圈"
+      }
     },
     {
       "id": "flower_necklace",
@@ -2243,31 +3527,51 @@
       "body_part": "neck",
       "aliases": [
         "lei"
-      ]
+      ],
+      "name_i18n": {
+        "en": "flower necklace",
+        "zh": "花朵项链"
+      }
     },
     {
       "id": "goggles_around_neck",
       "name": "goggles around neck",
       "body_part": "neck",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "goggles around neck",
+        "zh": "挂在脖子上的护目镜"
+      }
     },
     {
       "id": "headphones_around_neck",
       "name": "headphones around neck",
       "body_part": "neck",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "headphones around neck",
+        "zh": "挂在脖子上的耳机"
+      }
     },
     {
       "id": "waist_sash",
       "name": "waist sash",
       "body_part": "waist",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "waist sash",
+        "zh": "腰带饰带"
+      }
     },
     {
       "id": "suspenders",
       "name": "suspenders",
       "body_part": "waist",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "suspenders",
+        "zh": "背带"
+      }
     },
     {
       "id": "fanny_pack",
@@ -2275,13 +3579,21 @@
       "body_part": "waist",
       "aliases": [
         "waist bag"
-      ]
+      ],
+      "name_i18n": {
+        "en": "fanny pack",
+        "zh": "腰包"
+      }
     },
     {
       "id": "chain_belt",
       "name": "chain belt",
       "body_part": "waist",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "chain belt",
+        "zh": "链条腰带"
+      }
     },
     {
       "id": "corset_belt",
@@ -2289,25 +3601,41 @@
       "body_part": "waist",
       "aliases": [
         "waist cincher"
-      ]
+      ],
+      "name_i18n": {
+        "en": "corset belt",
+        "zh": "束腰腰带"
+      }
     },
     {
       "id": "rope_belt",
       "name": "rope belt",
       "body_part": "waist",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "rope belt",
+        "zh": "绳索腰带"
+      }
     },
     {
       "id": "ribbon_belt",
       "name": "ribbon belt",
       "body_part": "waist",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "ribbon belt",
+        "zh": "丝带腰带"
+      }
     },
     {
       "id": "sash",
       "name": "sash",
       "body_part": "waist",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "sash",
+        "zh": "腰带"
+      }
     },
     {
       "id": "hip_chain",
@@ -2315,19 +3643,31 @@
       "body_part": "waist",
       "aliases": [
         "belly chain"
-      ]
+      ],
+      "name_i18n": {
+        "en": "hip chain",
+        "zh": "腰链"
+      }
     },
     {
       "id": "waist_pouch",
       "name": "waist pouch",
       "body_part": "waist",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "waist pouch",
+        "zh": "腰袋"
+      }
     },
     {
       "id": "waist_cape",
       "name": "waist cape",
       "body_part": "waist",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "waist cape",
+        "zh": "腰斗篷"
+      }
     },
     {
       "id": "ammunition_belt",
@@ -2335,181 +3675,301 @@
       "body_part": "waist",
       "aliases": [
         "ammo belt"
-      ]
+      ],
+      "name_i18n": {
+        "en": "ammunition belt",
+        "zh": "弹药腰带"
+      }
     },
     {
       "id": "cloak",
       "name": "cloak",
       "body_part": "outerwear",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "cloak",
+        "zh": "披风"
+      }
     },
     {
       "id": "denim_jacket",
       "name": "denim jacket",
       "body_part": "outerwear",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "denim jacket",
+        "zh": "牛仔夹克"
+      }
     },
     {
       "id": "bomber_jacket",
       "name": "bomber jacket",
       "body_part": "outerwear",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "bomber jacket",
+        "zh": "飞行夹克"
+      }
     },
     {
       "id": "fur_coat",
       "name": "fur coat",
       "body_part": "outerwear",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "fur coat",
+        "zh": "皮草大衣"
+      }
     },
     {
       "id": "duster_coat",
       "name": "duster coat",
       "body_part": "outerwear",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "duster coat",
+        "zh": "长风衣"
+      }
     },
     {
       "id": "overcoat",
       "name": "overcoat",
       "body_part": "outerwear",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "overcoat",
+        "zh": "大衣"
+      }
     },
     {
       "id": "fur_trimmed_coat",
       "name": "fur-trimmed coat",
       "body_part": "outerwear",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "fur-trimmed coat",
+        "zh": "毛边大衣"
+      }
     },
     {
       "id": "military_jacket",
       "name": "military jacket",
       "body_part": "outerwear",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "military jacket",
+        "zh": "军装夹克"
+      }
     },
     {
       "id": "cropped_jacket",
       "name": "cropped jacket",
       "body_part": "outerwear",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "cropped jacket",
+        "zh": "短款夹克"
+      }
     },
     {
       "id": "hoodie_jacket",
       "name": "hoodie jacket",
       "body_part": "outerwear",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "hoodie jacket",
+        "zh": "连帽夹克"
+      }
     },
     {
       "id": "elbow_gloves",
       "name": "elbow gloves",
       "body_part": "hands",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "elbow gloves",
+        "zh": "肘部手套"
+      }
     },
     {
       "id": "half_gloves",
       "name": "half gloves",
       "body_part": "hands",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "half gloves",
+        "zh": "半指手套"
+      }
     },
     {
       "id": "fur_trimmed_gloves",
       "name": "fur-trimmed gloves",
       "body_part": "hands",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "fur-trimmed gloves",
+        "zh": "毛边手套"
+      }
     },
     {
       "id": "frilled_gloves",
       "name": "frilled gloves",
       "body_part": "hands",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "frilled gloves",
+        "zh": "褶边手套"
+      }
     },
     {
       "id": "latex_gloves",
       "name": "latex gloves",
       "body_part": "hands",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "latex gloves",
+        "zh": "乳胶手套"
+      }
     },
     {
       "id": "single_glove",
       "name": "single glove",
       "body_part": "hands",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "single glove",
+        "zh": "单只手套"
+      }
     },
     {
       "id": "bridal_gauntlets",
       "name": "bridal gauntlets",
       "body_part": "hands",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "bridal gauntlets",
+        "zh": "新娘手套"
+      }
     },
     {
       "id": "wristband",
       "name": "wristband",
       "body_part": "hands",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "wristband",
+        "zh": "腕带"
+      }
     },
     {
       "id": "bracelet",
       "name": "bracelet",
       "body_part": "hands",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "bracelet",
+        "zh": "手镯"
+      }
     },
     {
       "id": "striped_thigh_highs",
       "name": "striped thigh-highs",
       "body_part": "legs",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "striped thigh-highs",
+        "zh": "条纹大腿袜"
+      }
     },
     {
       "id": "torn_stockings",
       "name": "torn stockings",
       "body_part": "legs",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "torn stockings",
+        "zh": "破损丝袜"
+      }
     },
     {
       "id": "lace_stockings",
       "name": "lace stockings",
       "body_part": "legs",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "lace stockings",
+        "zh": "蕾丝长筒袜"
+      }
     },
     {
       "id": "striped_stockings",
       "name": "striped stockings",
       "body_part": "legs",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "striped stockings",
+        "zh": "条纹长筒袜"
+      }
     },
     {
       "id": "garter_straps",
       "name": "garter straps",
       "body_part": "legs",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "garter straps",
+        "zh": "吊袜带"
+      }
     },
     {
       "id": "bandaged_leg",
       "name": "bandaged leg",
       "body_part": "legs",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "bandaged leg",
+        "zh": "绷带腿"
+      }
     },
     {
       "id": "over_knee_socks",
       "name": "over-knee socks",
       "body_part": "legs",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "over-knee socks",
+        "zh": "过膝长袜"
+      }
     },
     {
       "id": "slippers",
       "name": "slippers",
       "body_part": "feet",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "slippers",
+        "zh": "拖鞋"
+      }
     },
     {
       "id": "pumps",
       "name": "pumps",
       "body_part": "feet",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "pumps",
+        "zh": "高跟鞋"
+      }
     },
     {
       "id": "combat_boots",
       "name": "combat boots",
       "body_part": "feet",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "combat boots",
+        "zh": "战斗靴"
+      }
     },
     {
       "id": "wedge_heels",
@@ -2517,25 +3977,41 @@
       "body_part": "feet",
       "aliases": [
         "wedges"
-      ]
+      ],
+      "name_i18n": {
+        "en": "wedge heels",
+        "zh": "坡跟鞋"
+      }
     },
     {
       "id": "lace_up_boots",
       "name": "lace-up boots",
       "body_part": "feet",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "lace-up boots",
+        "zh": "系带靴"
+      }
     },
     {
       "id": "flip_flops",
       "name": "flip flops",
       "body_part": "feet",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "flip flops",
+        "zh": "人字拖"
+      }
     },
     {
       "id": "high_heels",
       "name": "high heels",
       "body_part": "feet",
-      "aliases": []
+      "aliases": [],
+      "name_i18n": {
+        "en": "high heels",
+        "zh": "高跟鞋"
+      }
     }
   ],
   "index_by_body_part": {
@@ -2930,5 +4406,9 @@
       "bandaged_leg",
       "over_knee_socks"
     ]
-  }
+  },
+  "supported_languages": [
+    "en",
+    "zh"
+  ]
 }

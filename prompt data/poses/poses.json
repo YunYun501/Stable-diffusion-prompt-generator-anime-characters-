@@ -8,42 +8,66 @@
       "name": "standing",
       "category": "standing",
       "aliases": [],
-      "uses_hands": false
+      "uses_hands": false,
+      "name_i18n": {
+        "en": "standing",
+        "zh": "站立"
+      }
     },
     {
       "id": "standing_straight",
       "name": "standing straight",
       "category": "standing",
       "aliases": [],
-      "uses_hands": false
+      "uses_hands": false,
+      "name_i18n": {
+        "en": "standing straight",
+        "zh": "直立站姿"
+      }
     },
     {
       "id": "casual_standing",
       "name": "casual standing",
       "category": "standing",
       "aliases": [],
-      "uses_hands": false
+      "uses_hands": false,
+      "name_i18n": {
+        "en": "casual standing",
+        "zh": "随意站姿"
+      }
     },
     {
       "id": "contrapposto",
       "name": "contrapposto",
       "category": "standing",
       "aliases": [],
-      "uses_hands": false
+      "uses_hands": false,
+      "name_i18n": {
+        "en": "contrapposto",
+        "zh": "对立式站姿"
+      }
     },
     {
       "id": "hand_on_hip",
       "name": "hand on hip",
       "category": "standing",
       "aliases": [],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "hand on hip",
+        "zh": "手叉腰"
+      }
     },
     {
       "id": "hands_on_hips",
       "name": "hands on hips",
       "category": "standing",
       "aliases": [],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "hands on hips",
+        "zh": "双手叉腰"
+      }
     },
     {
       "id": "arms_crossed",
@@ -52,56 +76,88 @@
       "aliases": [
         "crossed arms"
       ],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "arms crossed",
+        "zh": "抱臂"
+      }
     },
     {
       "id": "arms_behind_back",
       "name": "arms behind back",
       "category": "standing",
       "aliases": [],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "arms behind back",
+        "zh": "双手背后"
+      }
     },
     {
       "id": "hands_behind_head",
       "name": "hands behind head",
       "category": "standing",
       "aliases": [],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "hands behind head",
+        "zh": "双手抱头"
+      }
     },
     {
       "id": "leaning_forward",
       "name": "leaning forward",
       "category": "standing",
       "aliases": [],
-      "uses_hands": false
+      "uses_hands": false,
+      "name_i18n": {
+        "en": "leaning forward",
+        "zh": "前倾"
+      }
     },
     {
       "id": "leaning_back",
       "name": "leaning back",
       "category": "standing",
       "aliases": [],
-      "uses_hands": false
+      "uses_hands": false,
+      "name_i18n": {
+        "en": "leaning back",
+        "zh": "后仰"
+      }
     },
     {
       "id": "leaning_against_wall",
       "name": "leaning against wall",
       "category": "standing",
       "aliases": [],
-      "uses_hands": false
+      "uses_hands": false,
+      "name_i18n": {
+        "en": "leaning against wall",
+        "zh": "靠墙"
+      }
     },
     {
       "id": "looking_back",
       "name": "looking back",
       "category": "standing",
       "aliases": [],
-      "uses_hands": false
+      "uses_hands": false,
+      "name_i18n": {
+        "en": "looking back",
+        "zh": "回头看"
+      }
     },
     {
       "id": "looking_over_shoulder",
       "name": "looking over shoulder",
       "category": "standing",
       "aliases": [],
-      "uses_hands": false
+      "uses_hands": false,
+      "name_i18n": {
+        "en": "looking over shoulder",
+        "zh": "回眸"
+      }
     },
     {
       "id": "from_behind",
@@ -110,7 +166,11 @@
       "aliases": [
         "back view"
       ],
-      "uses_hands": false
+      "uses_hands": false,
+      "name_i18n": {
+        "en": "from behind",
+        "zh": "背面视角"
+      }
     },
     {
       "id": "from_side",
@@ -120,70 +180,110 @@
         "side view",
         "profile"
       ],
-      "uses_hands": false
+      "uses_hands": false,
+      "name_i18n": {
+        "en": "from side",
+        "zh": "侧面视角"
+      }
     },
     {
       "id": "turned_away",
       "name": "turned away",
       "category": "standing",
       "aliases": [],
-      "uses_hands": false
+      "uses_hands": false,
+      "name_i18n": {
+        "en": "turned away",
+        "zh": "转身"
+      }
     },
     {
       "id": "model_pose",
       "name": "model pose",
       "category": "standing",
       "aliases": [],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "model pose",
+        "zh": "模特姿势"
+      }
     },
     {
       "id": "idol_pose",
       "name": "idol pose",
       "category": "standing",
       "aliases": [],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "idol pose",
+        "zh": "偶像姿势"
+      }
     },
     {
       "id": "sitting",
       "name": "sitting",
       "category": "sitting",
       "aliases": [],
-      "uses_hands": false
+      "uses_hands": false,
+      "name_i18n": {
+        "en": "sitting",
+        "zh": "坐姿"
+      }
     },
     {
       "id": "sitting_on_chair",
       "name": "sitting on chair",
       "category": "sitting",
       "aliases": [],
-      "uses_hands": false
+      "uses_hands": false,
+      "name_i18n": {
+        "en": "sitting on chair",
+        "zh": "坐在椅子上"
+      }
     },
     {
       "id": "sitting_on_floor",
       "name": "sitting on floor",
       "category": "sitting",
       "aliases": [],
-      "uses_hands": false
+      "uses_hands": false,
+      "name_i18n": {
+        "en": "sitting on floor",
+        "zh": "坐在地上"
+      }
     },
     {
       "id": "sitting_on_bed",
       "name": "sitting on bed",
       "category": "sitting",
       "aliases": [],
-      "uses_hands": false
+      "uses_hands": false,
+      "name_i18n": {
+        "en": "sitting on bed",
+        "zh": "坐在床上"
+      }
     },
     {
       "id": "sitting_on_bench",
       "name": "sitting on bench",
       "category": "sitting",
       "aliases": [],
-      "uses_hands": false
+      "uses_hands": false,
+      "name_i18n": {
+        "en": "sitting on bench",
+        "zh": "坐在长椅上"
+      }
     },
     {
       "id": "sitting_on_desk",
       "name": "sitting on desk",
       "category": "sitting",
       "aliases": [],
-      "uses_hands": false
+      "uses_hands": false,
+      "name_i18n": {
+        "en": "sitting on desk",
+        "zh": "坐在桌上"
+      }
     },
     {
       "id": "seiza",
@@ -192,7 +292,11 @@
       "aliases": [
         "formal sitting"
       ],
-      "uses_hands": false
+      "uses_hands": false,
+      "name_i18n": {
+        "en": "seiza",
+        "zh": "正坐"
+      }
     },
     {
       "id": "wariza",
@@ -201,7 +305,11 @@
       "aliases": [
         "w-sitting"
       ],
-      "uses_hands": false
+      "uses_hands": false,
+      "name_i18n": {
+        "en": "wariza",
+        "zh": "鸭子坐"
+      }
     },
     {
       "id": "crossed_legs",
@@ -210,7 +318,11 @@
       "aliases": [
         "legs crossed"
       ],
-      "uses_hands": false
+      "uses_hands": false,
+      "name_i18n": {
+        "en": "crossed legs",
+        "zh": "翘腿"
+      }
     },
     {
       "id": "indian_style",
@@ -219,7 +331,11 @@
       "aliases": [
         "cross-legged"
       ],
-      "uses_hands": false
+      "uses_hands": false,
+      "name_i18n": {
+        "en": "indian style",
+        "zh": "盘腿"
+      }
     },
     {
       "id": "hugging_knees",
@@ -228,105 +344,165 @@
       "aliases": [
         "knees to chest"
       ],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "hugging knees",
+        "zh": "抱膝"
+      }
     },
     {
       "id": "knees_up",
       "name": "knees up",
       "category": "sitting",
       "aliases": [],
-      "uses_hands": false
+      "uses_hands": false,
+      "name_i18n": {
+        "en": "knees up",
+        "zh": "屈膝"
+      }
     },
     {
       "id": "legs_together",
       "name": "legs together",
       "category": "sitting",
       "aliases": [],
-      "uses_hands": false
+      "uses_hands": false,
+      "name_i18n": {
+        "en": "legs together",
+        "zh": "并腿"
+      }
     },
     {
       "id": "lounging",
       "name": "lounging",
       "category": "sitting",
       "aliases": [],
-      "uses_hands": false
+      "uses_hands": false,
+      "name_i18n": {
+        "en": "lounging",
+        "zh": "慵懒躺"
+      }
     },
     {
       "id": "straddling",
       "name": "straddling",
       "category": "sitting",
       "aliases": [],
-      "uses_hands": false
+      "uses_hands": false,
+      "name_i18n": {
+        "en": "straddling",
+        "zh": "跨坐"
+      }
     },
     {
       "id": "running",
       "name": "running",
       "category": "action",
       "aliases": [],
-      "uses_hands": false
+      "uses_hands": false,
+      "name_i18n": {
+        "en": "running",
+        "zh": "跑步"
+      }
     },
     {
       "id": "walking",
       "name": "walking",
       "category": "action",
       "aliases": [],
-      "uses_hands": false
+      "uses_hands": false,
+      "name_i18n": {
+        "en": "walking",
+        "zh": "走路"
+      }
     },
     {
       "id": "jumping",
       "name": "jumping",
       "category": "action",
       "aliases": [],
-      "uses_hands": false
+      "uses_hands": false,
+      "name_i18n": {
+        "en": "jumping",
+        "zh": "跳跃"
+      }
     },
     {
       "id": "falling",
       "name": "falling",
       "category": "action",
       "aliases": [],
-      "uses_hands": false
+      "uses_hands": false,
+      "name_i18n": {
+        "en": "falling",
+        "zh": "坠落"
+      }
     },
     {
       "id": "floating",
       "name": "floating",
       "category": "action",
       "aliases": [],
-      "uses_hands": false
+      "uses_hands": false,
+      "name_i18n": {
+        "en": "floating",
+        "zh": "漂浮"
+      }
     },
     {
       "id": "flying",
       "name": "flying",
       "category": "action",
       "aliases": [],
-      "uses_hands": false
+      "uses_hands": false,
+      "name_i18n": {
+        "en": "flying",
+        "zh": "飞行"
+      }
     },
     {
       "id": "levitating",
       "name": "levitating",
       "category": "action",
       "aliases": [],
-      "uses_hands": false
+      "uses_hands": false,
+      "name_i18n": {
+        "en": "levitating",
+        "zh": "悬浮"
+      }
     },
     {
       "id": "mid_air",
       "name": "mid-air",
       "category": "action",
       "aliases": [],
-      "uses_hands": false
+      "uses_hands": false,
+      "name_i18n": {
+        "en": "mid-air",
+        "zh": "半空中"
+      }
     },
     {
       "id": "kicking",
       "name": "kicking",
       "category": "action",
       "aliases": [],
-      "uses_hands": false
+      "uses_hands": false,
+      "name_i18n": {
+        "en": "kicking",
+        "zh": "踢腿"
+      }
     },
     {
       "id": "punching",
       "name": "punching",
       "category": "action",
       "aliases": [],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "punching",
+        "zh": "出拳"
+      }
     },
     {
       "id": "fighting_stance",
@@ -335,42 +511,66 @@
       "aliases": [
         "battle stance"
       ],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "fighting stance",
+        "zh": "战斗姿态"
+      }
     },
     {
       "id": "combat_pose",
       "name": "combat pose",
       "category": "action",
       "aliases": [],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "combat pose",
+        "zh": "战斗姿势"
+      }
     },
     {
       "id": "sword_fighting",
       "name": "sword fighting",
       "category": "action",
       "aliases": [],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "sword fighting",
+        "zh": "剑斗"
+      }
     },
     {
       "id": "drawing_sword",
       "name": "drawing sword",
       "category": "action",
       "aliases": [],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "drawing sword",
+        "zh": "拔剑"
+      }
     },
     {
       "id": "holding_weapon",
       "name": "holding weapon",
       "category": "action",
       "aliases": [],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "holding weapon",
+        "zh": "持武器"
+      }
     },
     {
       "id": "aiming",
       "name": "aiming",
       "category": "action",
       "aliases": [],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "aiming",
+        "zh": "瞄准"
+      }
     },
     {
       "id": "casting_spell",
@@ -379,14 +579,22 @@
       "aliases": [
         "magic pose"
       ],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "casting spell",
+        "zh": "施法"
+      }
     },
     {
       "id": "dancing",
       "name": "dancing",
       "category": "action",
       "aliases": [],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "dancing",
+        "zh": "跳舞"
+      }
     },
     {
       "id": "spinning",
@@ -395,28 +603,44 @@
       "aliases": [
         "twirling"
       ],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "spinning",
+        "zh": "旋转"
+      }
     },
     {
       "id": "stretching",
       "name": "stretching",
       "category": "action",
       "aliases": [],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "stretching",
+        "zh": "伸展"
+      }
     },
     {
       "id": "reaching_out",
       "name": "reaching out",
       "category": "action",
       "aliases": [],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "reaching out",
+        "zh": "伸手"
+      }
     },
     {
       "id": "lying_down",
       "name": "lying down",
       "category": "lying",
       "aliases": [],
-      "uses_hands": false
+      "uses_hands": false,
+      "name_i18n": {
+        "en": "lying down",
+        "zh": "躺下"
+      }
     },
     {
       "id": "lying_on_back",
@@ -425,7 +649,11 @@
       "aliases": [
         "on back"
       ],
-      "uses_hands": false
+      "uses_hands": false,
+      "name_i18n": {
+        "en": "lying on back",
+        "zh": "仰卧"
+      }
     },
     {
       "id": "lying_on_side",
@@ -434,7 +662,11 @@
       "aliases": [
         "on side"
       ],
-      "uses_hands": false
+      "uses_hands": false,
+      "name_i18n": {
+        "en": "lying on side",
+        "zh": "侧卧"
+      }
     },
     {
       "id": "lying_on_stomach",
@@ -444,42 +676,66 @@
         "prone",
         "on stomach"
       ],
-      "uses_hands": false
+      "uses_hands": false,
+      "name_i18n": {
+        "en": "lying on stomach",
+        "zh": "趴卧"
+      }
     },
     {
       "id": "reclining",
       "name": "reclining",
       "category": "lying",
       "aliases": [],
-      "uses_hands": false
+      "uses_hands": false,
+      "name_i18n": {
+        "en": "reclining",
+        "zh": "斜躺"
+      }
     },
     {
       "id": "sprawled",
       "name": "sprawled",
       "category": "lying",
       "aliases": [],
-      "uses_hands": false
+      "uses_hands": false,
+      "name_i18n": {
+        "en": "sprawled",
+        "zh": "摊开躺"
+      }
     },
     {
       "id": "curled_up",
       "name": "curled up",
       "category": "lying",
       "aliases": [],
-      "uses_hands": false
+      "uses_hands": false,
+      "name_i18n": {
+        "en": "curled up",
+        "zh": "蜷缩"
+      }
     },
     {
       "id": "propped_on_elbow",
       "name": "propped on elbow",
       "category": "lying",
       "aliases": [],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "propped on elbow",
+        "zh": "肘撑"
+      }
     },
     {
       "id": "sleeping",
       "name": "sleeping",
       "category": "lying",
       "aliases": [],
-      "uses_hands": false
+      "uses_hands": false,
+      "name_i18n": {
+        "en": "sleeping",
+        "zh": "睡觉"
+      }
     },
     {
       "id": "peace_sign",
@@ -489,7 +745,11 @@
         "v sign",
         "victory sign"
       ],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "peace sign",
+        "zh": "比耶"
+      }
     },
     {
       "id": "double_peace_sign",
@@ -498,7 +758,11 @@
       "aliases": [
         "double v"
       ],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "double peace sign",
+        "zh": "双比耶"
+      }
     },
     {
       "id": "waving",
@@ -507,56 +771,88 @@
       "aliases": [
         "waving hand"
       ],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "waving",
+        "zh": "挥手"
+      }
     },
     {
       "id": "pointing",
       "name": "pointing",
       "category": "gesture",
       "aliases": [],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "pointing",
+        "zh": "指向"
+      }
     },
     {
       "id": "pointing_at_viewer",
       "name": "pointing at viewer",
       "category": "gesture",
       "aliases": [],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "pointing at viewer",
+        "zh": "指向观众"
+      }
     },
     {
       "id": "pointing_up",
       "name": "pointing up",
       "category": "gesture",
       "aliases": [],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "pointing up",
+        "zh": "指向上方"
+      }
     },
     {
       "id": "thumbs_up",
       "name": "thumbs up",
       "category": "gesture",
       "aliases": [],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "thumbs up",
+        "zh": "竖大拇指"
+      }
     },
     {
       "id": "ok_sign",
       "name": "ok sign",
       "category": "gesture",
       "aliases": [],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "ok sign",
+        "zh": "OK手势"
+      }
     },
     {
       "id": "salute",
       "name": "salute",
       "category": "gesture",
       "aliases": [],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "salute",
+        "zh": "敬礼"
+      }
     },
     {
       "id": "military_salute",
       "name": "military salute",
       "category": "gesture",
       "aliases": [],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "military salute",
+        "zh": "军礼"
+      }
     },
     {
       "id": "finger_to_lips",
@@ -566,14 +862,22 @@
         "shushing",
         "silence gesture"
       ],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "finger to lips",
+        "zh": "手指放嘴唇"
+      }
     },
     {
       "id": "hand_on_cheek",
       "name": "hand on cheek",
       "category": "gesture",
       "aliases": [],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "hand on cheek",
+        "zh": "手放脸颊"
+      }
     },
     {
       "id": "hand_on_chin",
@@ -582,7 +886,11 @@
       "aliases": [
         "chin rest"
       ],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "hand on chin",
+        "zh": "手托下巴"
+      }
     },
     {
       "id": "hand_over_mouth",
@@ -591,21 +899,33 @@
       "aliases": [
         "covering mouth"
       ],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "hand over mouth",
+        "zh": "捂嘴"
+      }
     },
     {
       "id": "hands_on_face",
       "name": "hands on face",
       "category": "gesture",
       "aliases": [],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "hands on face",
+        "zh": "双手捧脸"
+      }
     },
     {
       "id": "hands_together",
       "name": "hands together",
       "category": "gesture",
       "aliases": [],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "hands together",
+        "zh": "双手合十"
+      }
     },
     {
       "id": "prayer_hands",
@@ -614,7 +934,11 @@
       "aliases": [
         "clasped hands"
       ],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "prayer hands",
+        "zh": "祈祷手势"
+      }
     },
     {
       "id": "fist_raised",
@@ -623,21 +947,33 @@
       "aliases": [
         "fist pump"
       ],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "fist raised",
+        "zh": "举拳"
+      }
     },
     {
       "id": "clenched_fist",
       "name": "clenched fist",
       "category": "gesture",
       "aliases": [],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "clenched fist",
+        "zh": "握拳"
+      }
     },
     {
       "id": "hair_flip",
       "name": "hair flip",
       "category": "gesture",
       "aliases": [],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "hair flip",
+        "zh": "甩发"
+      }
     },
     {
       "id": "playing_with_hair",
@@ -646,14 +982,22 @@
       "aliases": [
         "twirling hair"
       ],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "playing with hair",
+        "zh": "玩头发"
+      }
     },
     {
       "id": "adjusting_hair",
       "name": "adjusting hair",
       "category": "gesture",
       "aliases": [],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "adjusting hair",
+        "zh": "整理头发"
+      }
     },
     {
       "id": "adjusting_glasses",
@@ -662,14 +1006,22 @@
       "aliases": [
         "pushing up glasses"
       ],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "adjusting glasses",
+        "zh": "扶眼镜"
+      }
     },
     {
       "id": "blowing_kiss",
       "name": "blowing kiss",
       "category": "gesture",
       "aliases": [],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "blowing kiss",
+        "zh": "飞吻"
+      }
     },
     {
       "id": "heart_hands",
@@ -678,7 +1030,11 @@
       "aliases": [
         "finger heart"
       ],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "heart hands",
+        "zh": "比心"
+      }
     },
     {
       "id": "cat_pose",
@@ -688,7 +1044,11 @@
         "paw pose",
         "nyaa pose"
       ],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "cat pose",
+        "zh": "猫姿势"
+      }
     },
     {
       "id": "jojo_pose",
@@ -697,7 +1057,11 @@
       "aliases": [
         "dramatic pose"
       ],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "jojo pose",
+        "zh": "JOJO立"
+      }
     },
     {
       "id": "magical_girl_pose",
@@ -706,7 +1070,11 @@
       "aliases": [
         "transformation pose"
       ],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "magical girl pose",
+        "zh": "魔法少女姿势"
+      }
     },
     {
       "id": "idol_stage_pose",
@@ -715,28 +1083,44 @@
       "aliases": [
         "concert pose"
       ],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "idol stage pose",
+        "zh": "偶像舞台姿势"
+      }
     },
     {
       "id": "victory_pose",
       "name": "victory pose",
       "category": "special",
       "aliases": [],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "victory pose",
+        "zh": "胜利姿势"
+      }
     },
     {
       "id": "shy_pose",
       "name": "shy pose",
       "category": "special",
       "aliases": [],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "shy pose",
+        "zh": "害羞姿势"
+      }
     },
     {
       "id": "embarrassed_pose",
       "name": "embarrassed pose",
       "category": "special",
       "aliases": [],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "embarrassed pose",
+        "zh": "尴尬姿势"
+      }
     },
     {
       "id": "tsundere_pose",
@@ -745,7 +1129,11 @@
       "aliases": [
         "looking away"
       ],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "tsundere pose",
+        "zh": "傲娇姿势"
+      }
     },
     {
       "id": "thinking_pose",
@@ -754,7 +1142,11 @@
       "aliases": [
         "contemplating"
       ],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "thinking pose",
+        "zh": "思考姿势"
+      }
     },
     {
       "id": "bowing",
@@ -763,21 +1155,33 @@
       "aliases": [
         "bow"
       ],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "bowing",
+        "zh": "鞠躬"
+      }
     },
     {
       "id": "curtsy",
       "name": "curtsy",
       "category": "special",
       "aliases": [],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "curtsy",
+        "zh": "屈膝礼"
+      }
     },
     {
       "id": "greeting",
       "name": "greeting",
       "category": "special",
       "aliases": [],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "greeting",
+        "zh": "问候"
+      }
     },
     {
       "id": "selfie_pose",
@@ -786,14 +1190,22 @@
       "aliases": [
         "taking selfie"
       ],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "selfie pose",
+        "zh": "自拍姿势"
+      }
     },
     {
       "id": "holding_phone",
       "name": "holding phone",
       "category": "special",
       "aliases": [],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "holding phone",
+        "zh": "拿手机"
+      }
     },
     {
       "id": "reading",
@@ -802,49 +1214,77 @@
       "aliases": [
         "reading book"
       ],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "reading",
+        "zh": "阅读"
+      }
     },
     {
       "id": "writing",
       "name": "writing",
       "category": "special",
       "aliases": [],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "writing",
+        "zh": "书写"
+      }
     },
     {
       "id": "eating",
       "name": "eating",
       "category": "special",
       "aliases": [],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "eating",
+        "zh": "吃东西"
+      }
     },
     {
       "id": "drinking",
       "name": "drinking",
       "category": "special",
       "aliases": [],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "drinking",
+        "zh": "喝东西"
+      }
     },
     {
       "id": "holding_cup",
       "name": "holding cup",
       "category": "special",
       "aliases": [],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "holding cup",
+        "zh": "拿杯子"
+      }
     },
     {
       "id": "singing",
       "name": "singing",
       "category": "special",
       "aliases": [],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "singing",
+        "zh": "唱歌"
+      }
     },
     {
       "id": "playing_instrument",
       "name": "playing instrument",
       "category": "special",
       "aliases": [],
-      "uses_hands": true
+      "uses_hands": true,
+      "name_i18n": {
+        "en": "playing instrument",
+        "zh": "演奏乐器"
+      }
     }
   ],
   "index_by_category": {
@@ -1009,5 +1449,9 @@
       "Gestures can be combined with body poses.",
       "Special poses include common anime tropes."
     ]
-  }
+  },
+  "supported_languages": [
+    "en",
+    "zh"
+  ]
 }

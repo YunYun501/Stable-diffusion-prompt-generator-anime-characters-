@@ -2,7 +2,7 @@
  * prompt.js - Prompt generation and display helpers.
  */
 
-import { state, getSlotStateForAPI } from "./state.js";
+import { state, getColorLabel, getSlotOptionLabel, getSlotStateForAPI } from "./state.js";
 import * as api from "./api.js";
 
 const PREFIX_PRESET_VALUE = "sd_quality_v1";
@@ -14,12 +14,13 @@ const PROMPT_SLOT_ORDER = [
   "expression",
   "full_body", "head", "neck", "upper_body", "waist", "lower_body",
   "outerwear", "hands", "legs", "feet", "accessory",
-  "pose", "gesture",
+  "view_angle", "pose", "gesture",
   "background",
 ];
 
 const outputColorCache = new Map();
 let lastGeneratedPromptCore = "";
+let lastGeneratedLocale = "en";
 let generateRequestSeq = 0;
 
 function getPromptPrefix() {
@@ -30,7 +31,6 @@ function getPromptPrefix() {
 export function combinePrompt(prefix, generatedPrompt) {
   const p = (prefix || "").trim();
   const g = (generatedPrompt || "").trim();
-
   if (!p) return g;
   if (!g) return p;
   if (p.endsWith(", ")) return p + g;
@@ -46,31 +46,42 @@ function shouldColorizePromptOutput() {
 
 function buildGeneratedPartColorMap() {
   const map = new Map();
+  // Use the locale that was used to generate the prompt, not the current state
+  const locale = lastGeneratedLocale;
 
   const fullBody = state.slots.full_body;
-  const fullBodyValue = fullBody && fullBody.enabled && fullBody.value ? fullBody.value : null;
+  const fullBodyValueId = fullBody && fullBody.enabled && fullBody.value_id ? fullBody.value_id : null;
 
   let lowerBodyCoversLegs = false;
   const lowerBody = state.slots.lower_body;
-  if (lowerBody && lowerBody.enabled && lowerBody.value) {
-    lowerBodyCoversLegs = !!state.lowerBodyCoversLegsByName[lowerBody.value];
+  if (lowerBody && lowerBody.enabled && lowerBody.value_id) {
+    lowerBodyCoversLegs = !!state.lowerBodyCoversLegsById[lowerBody.value_id];
   }
-  if (state.fullBodyMode && fullBodyValue) {
+  if (state.fullBodyMode && fullBodyValueId) {
     lowerBodyCoversLegs = false;
   }
 
   for (const slotName of PROMPT_SLOT_ORDER) {
     const slot = state.slots[slotName];
-    if (!slot || !slot.enabled || !slot.value) continue;
+    if (!slot || !slot.enabled || !slot.value_id) continue;
 
-    if (state.fullBodyMode && fullBodyValue && (slotName === "upper_body" || slotName === "lower_body")) {
+    if (state.fullBodyMode && fullBodyValueId && (slotName === "upper_body" || slotName === "lower_body")) {
       continue;
     }
     if (slotName === "legs" && lowerBodyCoversLegs) {
       continue;
     }
 
-    let part = slot.color ? `${slot.color} ${slot.value}` : slot.value;
+    const valueLabel = getSlotOptionLabel(slotName, slot.value_id, locale);
+    if (!valueLabel) continue;
+
+    let part;
+    if (slot.color) {
+      part = `${getColorLabel(slot.color, locale)} ${valueLabel}`;
+    } else {
+      part = valueLabel;
+    }
+
     const weight = Number(slot.weight);
     if (Number.isFinite(weight) && Math.abs(weight - 1.0) > 1e-9) {
       part = `(${part}:${weight.toFixed(1)})`;
@@ -80,7 +91,6 @@ function buildGeneratedPartColorMap() {
       map.set(part, slot.color);
     }
   }
-
   return map;
 }
 
@@ -132,7 +142,6 @@ function renderPromptOutput(generatedPromptCore) {
       outputEl.appendChild(document.createTextNode(", "));
     }
   }
-
   if (!generated) return;
 
   const colorMap = buildGeneratedPartColorMap();
@@ -146,15 +155,15 @@ function renderPromptOutput(generatedPromptCore) {
       outputEl.appendChild(document.createTextNode(", "));
     }
 
-    const color = colorMap.get(token);
-    if (!color) {
+    const colorToken = colorMap.get(token);
+    if (!colorToken) {
       outputEl.appendChild(document.createTextNode(token));
       return;
     }
 
     const span = document.createElement("span");
     span.className = "prompt-colored-part";
-    span.style.color = colorTokenToCss(color);
+    span.style.color = colorTokenToCss(colorToken);
     span.textContent = token;
     outputEl.appendChild(span);
   });
@@ -164,8 +173,11 @@ export function getPromptOutputText() {
   return combinePrompt(getPromptPrefix(), lastGeneratedPromptCore);
 }
 
-export function setPromptOutput(generatedPrompt) {
+export function setPromptOutput(generatedPrompt, locale) {
   lastGeneratedPromptCore = (generatedPrompt || "").trim();
+  if (locale) {
+    lastGeneratedLocale = locale;
+  }
   renderPromptOutput(lastGeneratedPromptCore);
 }
 
@@ -178,9 +190,16 @@ export function clearPromptOutput() {
 export async function generateAndDisplay() {
   const requestSeq = ++generateRequestSeq;
   const slotsForAPI = getSlotStateForAPI();
-  const data = await api.generatePrompt(slotsForAPI, state.fullBodyMode, state.upperBodyMode);
+  // Capture locale at call time for consistency
+  const promptLocale = state.promptLocale;
+  const data = await api.generatePrompt(
+    slotsForAPI,
+    state.fullBodyMode,
+    state.upperBodyMode,
+    promptLocale,
+  );
   if (requestSeq !== generateRequestSeq) return;
-  setPromptOutput(data.prompt || "");
+  setPromptOutput(data.prompt || "", promptLocale);
 }
 
 export function wirePromptPrefixPreset() {

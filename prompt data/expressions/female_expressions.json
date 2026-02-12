@@ -6,462 +6,830 @@
     {
       "id": "neutral_baseline__neutral_blank",
       "name": "Neutral / blank",
-      "emotion_family": "neutral_baseline"
+      "emotion_family": "neutral_baseline",
+      "name_i18n": {
+        "en": "Neutral / blank",
+        "zh": "中性/无表情"
+      }
     },
     {
       "id": "neutral_baseline__soft_neutral_gentle_smile",
       "name": "Soft neutral (gentle smile)",
-      "emotion_family": "neutral_baseline"
+      "emotion_family": "neutral_baseline",
+      "name_i18n": {
+        "en": "Soft neutral (gentle smile)",
+        "zh": "柔和中性（微笑）"
+      }
     },
     {
       "id": "neutral_baseline__resting_serious_composed",
       "name": "Resting serious / composed",
-      "emotion_family": "neutral_baseline"
+      "emotion_family": "neutral_baseline",
+      "name_i18n": {
+        "en": "Resting serious / composed",
+        "zh": "安静严肃/沉稳"
+      }
     },
     {
       "id": "neutral_baseline__curious_attentive",
       "name": "Curious / attentive",
-      "emotion_family": "neutral_baseline"
+      "emotion_family": "neutral_baseline",
+      "name_i18n": {
+        "en": "Curious / attentive",
+        "zh": "好奇/专注"
+      }
     },
     {
       "id": "neutral_baseline__deadpan_unimpressed",
       "name": "\"...\" deadpan / unimpressed",
-      "emotion_family": "neutral_baseline"
+      "emotion_family": "neutral_baseline",
+      "name_i18n": {
+        "en": "\"...\" deadpan / unimpressed",
+        "zh": "面无表情/无感"
+      }
     },
     {
       "id": "neutral_baseline__thinking_pondering",
       "name": "Thinking / pondering",
-      "emotion_family": "neutral_baseline"
+      "emotion_family": "neutral_baseline",
+      "name_i18n": {
+        "en": "Thinking / pondering",
+        "zh": "思考/沉思"
+      }
     },
     {
       "id": "happiness_positive__smile_closed-mouth",
       "name": "Smile (closed-mouth)",
-      "emotion_family": "happiness_positive"
+      "emotion_family": "happiness_positive",
+      "name_i18n": {
+        "en": "Smile (closed-mouth)",
+        "zh": "微笑（闭嘴）"
+      }
     },
     {
       "id": "happiness_positive__big_smile_open-mouth",
       "name": "Big smile (open-mouth)",
-      "emotion_family": "happiness_positive"
+      "emotion_family": "happiness_positive",
+      "name_i18n": {
+        "en": "Big smile (open-mouth)",
+        "zh": "大笑（张嘴）"
+      }
     },
     {
       "id": "happiness_positive__laughing_eyes_closed",
       "name": "Laughing (eyes closed)",
-      "emotion_family": "happiness_positive"
+      "emotion_family": "happiness_positive",
+      "name_i18n": {
+        "en": "Laughing (eyes closed)",
+        "zh": "大笑（闭眼）"
+      }
     },
     {
       "id": "happiness_positive__grin_mischievous",
       "name": "Grin (mischievous)",
-      "emotion_family": "happiness_positive"
+      "emotion_family": "happiness_positive",
+      "name_i18n": {
+        "en": "Grin (mischievous)",
+        "zh": "坏笑"
+      }
     },
     {
       "id": "happiness_positive__cheerful_energetic",
       "name": "Cheerful / energetic",
-      "emotion_family": "happiness_positive"
+      "emotion_family": "happiness_positive",
+      "name_i18n": {
+        "en": "Cheerful / energetic",
+        "zh": "开朗/活力"
+      }
     },
     {
       "id": "happiness_positive__proud_satisfied",
       "name": "Proud / satisfied",
-      "emotion_family": "happiness_positive"
+      "emotion_family": "happiness_positive",
+      "name_i18n": {
+        "en": "Proud / satisfied",
+        "zh": "自豪/满足"
+      }
     },
     {
       "id": "happiness_positive__relieved_soft_exhale",
       "name": "Relieved (soft exhale)",
-      "emotion_family": "happiness_positive"
+      "emotion_family": "happiness_positive",
+      "name_i18n": {
+        "en": "Relieved (soft exhale)",
+        "zh": "安心（轻叹）"
+      }
     },
     {
       "id": "affection_romance__loving_warm_smile",
       "name": "Loving / warm smile",
-      "emotion_family": "affection_romance"
+      "emotion_family": "affection_romance",
+      "name_i18n": {
+        "en": "Loving / warm smile",
+        "zh": "爱意/温暖微笑"
+      }
     },
     {
       "id": "affection_romance__shy_love_averted_gaze",
       "name": "Shy love (averted gaze)",
-      "emotion_family": "affection_romance"
+      "emotion_family": "affection_romance",
+      "name_i18n": {
+        "en": "Shy love (averted gaze)",
+        "zh": "害羞的爱意（转移视线）"
+      }
     },
     {
       "id": "affection_romance__heart-eyes_sparkly_eyes",
       "name": "Heart-eyes / sparkly eyes",
-      "emotion_family": "affection_romance"
+      "emotion_family": "affection_romance",
+      "name_i18n": {
+        "en": "Heart-eyes / sparkly eyes",
+        "zh": "爱心眼/闪闪发光的眼睛"
+      }
     },
     {
       "id": "affection_romance__dreamy_enamored",
       "name": "Dreamy / enamored",
-      "emotion_family": "affection_romance"
+      "emotion_family": "affection_romance",
+      "name_i18n": {
+        "en": "Dreamy / enamored",
+        "zh": "梦幻/倾心"
+      }
     },
     {
       "id": "affection_romance__kiss_face_pout-kiss",
       "name": "Kiss face / pout-kiss",
-      "emotion_family": "affection_romance"
+      "emotion_family": "affection_romance",
+      "name_i18n": {
+        "en": "Kiss face / pout-kiss",
+        "zh": "亲吻脸/嘟嘴亲"
+      }
     },
     {
       "id": "affection_romance__doki_doki_flustered_love",
       "name": "\"Doki doki\" flustered love",
-      "emotion_family": "affection_romance"
+      "emotion_family": "affection_romance",
+      "name_i18n": {
+        "en": "\"Doki doki\" flustered love",
+        "zh": "心跳加速的羞涩爱意"
+      }
     },
     {
       "id": "playful_teasing_smug__smug_half-lidded_eyes",
       "name": "Smug (half-lidded eyes)",
-      "emotion_family": "playful_teasing_smug"
+      "emotion_family": "playful_teasing_smug",
+      "name_i18n": {
+        "en": "Smug (half-lidded eyes)",
+        "zh": "得意（半睁眼）"
+      }
     },
     {
       "id": "playful_teasing_smug__smirk",
       "name": "Smirk",
-      "emotion_family": "playful_teasing_smug"
+      "emotion_family": "playful_teasing_smug",
+      "name_i18n": {
+        "en": "Smirk",
+        "zh": "假笑"
+      }
     },
     {
       "id": "playful_teasing_smug__teasing_grin_tongue_slightly_out",
       "name": "Teasing grin (tongue slightly out)",
-      "emotion_family": "playful_teasing_smug"
+      "emotion_family": "playful_teasing_smug",
+      "name_i18n": {
+        "en": "Teasing grin (tongue slightly out)",
+        "zh": "调戏笑（微吐舌）"
+      }
     },
     {
       "id": "playful_teasing_smug__ara_ara_amused",
       "name": "\"Ara ara\" amused",
-      "emotion_family": "playful_teasing_smug"
+      "emotion_family": "playful_teasing_smug",
+      "name_i18n": {
+        "en": "\"Ara ara\" amused",
+        "zh": "ara ara 嘲笑"
+      }
     },
     {
       "id": "playful_teasing_smug__mischief_prank_mode",
       "name": "Mischief / prank mode",
-      "emotion_family": "playful_teasing_smug"
+      "emotion_family": "playful_teasing_smug",
+      "name_i18n": {
+        "en": "Mischief / prank mode",
+        "zh": "恶作剧模式"
+      }
     },
     {
       "id": "playful_teasing_smug__confident_cocky",
       "name": "Confident / cocky",
-      "emotion_family": "playful_teasing_smug"
+      "emotion_family": "playful_teasing_smug",
+      "name_i18n": {
+        "en": "Confident / cocky",
+        "zh": "自信/嚣张"
+      }
     },
     {
       "id": "embarrassment_shyness__blushing_light",
       "name": "Blushing (light)",
-      "emotion_family": "embarrassment_shyness"
+      "emotion_family": "embarrassment_shyness",
+      "name_i18n": {
+        "en": "Blushing (light)",
+        "zh": "微微脸红"
+      }
     },
     {
       "id": "embarrassment_shyness__blushing_heavy_full_face",
       "name": "Blushing (heavy / full face)",
-      "emotion_family": "embarrassment_shyness"
+      "emotion_family": "embarrassment_shyness",
+      "name_i18n": {
+        "en": "Blushing (heavy / full face)",
+        "zh": "满脸通红"
+      }
     },
     {
       "id": "embarrassment_shyness__embarrassed_smile",
       "name": "Embarrassed smile",
-      "emotion_family": "embarrassment_shyness"
+      "emotion_family": "embarrassment_shyness",
+      "name_i18n": {
+        "en": "Embarrassed smile",
+        "zh": "害羞的微笑"
+      }
     },
     {
       "id": "embarrassment_shyness__flustered_sweat_blush",
       "name": "Flustered (sweat + blush)",
-      "emotion_family": "embarrassment_shyness"
+      "emotion_family": "embarrassment_shyness",
+      "name_i18n": {
+        "en": "Flustered (sweat + blush)",
+        "zh": "慌张（冒汗+脸红）"
+      }
     },
     {
       "id": "embarrassment_shyness__shy_eyes_down_hidden",
       "name": "Shy (eyes down / hidden)",
-      "emotion_family": "embarrassment_shyness"
+      "emotion_family": "embarrassment_shyness",
+      "name_i18n": {
+        "en": "Shy (eyes down / hidden)",
+        "zh": "害羞（低头/遮脸）"
+      }
     },
     {
       "id": "embarrassment_shyness__panic-embarrassed_stammer_face",
       "name": "Panic-embarrassed (stammer face)",
-      "emotion_family": "embarrassment_shyness"
+      "emotion_family": "embarrassment_shyness",
+      "name_i18n": {
+        "en": "Panic-embarrassed (stammer face)",
+        "zh": "窘迫慌张（结巴脸）"
+      }
     },
     {
       "id": "surprise_shock__surprised_wide_eyes_small_mouth",
       "name": "Surprised (wide eyes, small mouth)",
-      "emotion_family": "surprise_shock"
+      "emotion_family": "surprise_shock",
+      "name_i18n": {
+        "en": "Surprised (wide eyes, small mouth)",
+        "zh": "惊讶（瞪眼，小嘴）"
+      }
     },
     {
       "id": "surprise_shock__shocked_wide_eyes_open_mouth",
       "name": "Shocked (wide eyes, open mouth)",
-      "emotion_family": "surprise_shock"
+      "emotion_family": "surprise_shock",
+      "name_i18n": {
+        "en": "Shocked (wide eyes, open mouth)",
+        "zh": "震惊（瞪眼，张嘴）"
+      }
     },
     {
       "id": "surprise_shock__startled_sweat_drop",
       "name": "Startled (sweat drop)",
-      "emotion_family": "surprise_shock"
+      "emotion_family": "surprise_shock",
+      "name_i18n": {
+        "en": "Startled (sweat drop)",
+        "zh": "吓一跳（冒汗）"
+      }
     },
     {
       "id": "surprise_shock__jaw-drop_stunned",
       "name": "Jaw-drop / stunned",
-      "emotion_family": "surprise_shock"
+      "emotion_family": "surprise_shock",
+      "name_i18n": {
+        "en": "Jaw-drop / stunned",
+        "zh": "目瞪口呆"
+      }
     },
     {
       "id": "surprise_shock__frozen_shock_blank_wide_stare",
       "name": "\"Frozen shock\" (blank wide stare)",
-      "emotion_family": "surprise_shock"
+      "emotion_family": "surprise_shock",
+      "name_i18n": {
+        "en": "\"Frozen shock\" (blank wide stare)",
+        "zh": "呆住（空洞大眼）"
+      }
     },
     {
       "id": "anger_irritation__annoyed_irritated",
       "name": "Annoyed / irritated",
-      "emotion_family": "anger_irritation"
+      "emotion_family": "anger_irritation",
+      "name_i18n": {
+        "en": "Annoyed / irritated",
+        "zh": "烦躁/恼怒"
+      }
     },
     {
       "id": "anger_irritation__angry_brows_down_mouth_tense",
       "name": "Angry (brows down, mouth tense)",
-      "emotion_family": "anger_irritation"
+      "emotion_family": "anger_irritation",
+      "name_i18n": {
+        "en": "Angry (brows down, mouth tense)",
+        "zh": "愤怒（皱眉，嘴紧绷）"
+      }
     },
     {
       "id": "anger_irritation__shouting_angry",
       "name": "Shouting angry",
-      "emotion_family": "anger_irritation"
+      "emotion_family": "anger_irritation",
+      "name_i18n": {
+        "en": "Shouting angry",
+        "zh": "怒吼"
+      }
     },
     {
       "id": "anger_irritation__furious_rage",
       "name": "Furious / rage",
-      "emotion_family": "anger_irritation"
+      "emotion_family": "anger_irritation",
+      "name_i18n": {
+        "en": "Furious / rage",
+        "zh": "暴怒/狂怒"
+      }
     },
     {
       "id": "anger_irritation__vein_pop_comedic_anger",
       "name": "\"Vein pop\" comedic anger",
-      "emotion_family": "anger_irritation"
+      "emotion_family": "anger_irritation",
+      "name_i18n": {
+        "en": "\"Vein pop\" comedic anger",
+        "zh": "青筋暴起（搞笑怒）"
+      }
     },
     {
       "id": "anger_irritation__tsundere_angry-blush",
       "name": "Tsundere angry-blush",
-      "emotion_family": "anger_irritation"
+      "emotion_family": "anger_irritation",
+      "name_i18n": {
+        "en": "Tsundere angry-blush",
+        "zh": "傲娇（怒+脸红）"
+      }
     },
     {
       "id": "anger_irritation__disgusted_irritation_ew_face",
       "name": "Disgusted irritation (ew face)",
-      "emotion_family": "anger_irritation"
+      "emotion_family": "anger_irritation",
+      "name_i18n": {
+        "en": "Disgusted irritation (ew face)",
+        "zh": "厌恶恼怒"
+      }
     },
     {
       "id": "sadness_hurt__sad_downturned_mouth",
       "name": "Sad (downturned mouth)",
-      "emotion_family": "sadness_hurt"
+      "emotion_family": "sadness_hurt",
+      "name_i18n": {
+        "en": "Sad (downturned mouth)",
+        "zh": "悲伤（嘴角下垂）"
+      }
     },
     {
       "id": "sadness_hurt__about_to_cry_watery_eyes",
       "name": "About to cry (watery eyes)",
-      "emotion_family": "sadness_hurt"
+      "emotion_family": "sadness_hurt",
+      "name_i18n": {
+        "en": "About to cry (watery eyes)",
+        "zh": "快哭了（含泪）"
+      }
     },
     {
       "id": "sadness_hurt__crying_tears_streaming",
       "name": "Crying (tears streaming)",
-      "emotion_family": "sadness_hurt"
+      "emotion_family": "sadness_hurt",
+      "name_i18n": {
+        "en": "Crying (tears streaming)",
+        "zh": "哭泣（泪流满面）"
+      }
     },
     {
       "id": "sadness_hurt__silent_tears",
       "name": "Silent tears",
-      "emotion_family": "sadness_hurt"
+      "emotion_family": "sadness_hurt",
+      "name_i18n": {
+        "en": "Silent tears",
+        "zh": "无声流泪"
+      }
     },
     {
       "id": "sadness_hurt__sobbing_ugly_cry_wailing",
       "name": "Sobbing (ugly cry / wailing)",
-      "emotion_family": "sadness_hurt"
+      "emotion_family": "sadness_hurt",
+      "name_i18n": {
+        "en": "Sobbing (ugly cry / wailing)",
+        "zh": "大哭/嚎啕大哭"
+      }
     },
     {
       "id": "sadness_hurt__depressed_gloomy_shadowed_face",
       "name": "Depressed / gloomy shadowed face",
-      "emotion_family": "sadness_hurt"
+      "emotion_family": "sadness_hurt",
+      "name_i18n": {
+        "en": "Depressed / gloomy shadowed face",
+        "zh": "抑郁/阴暗面容"
+      }
     },
     {
       "id": "sadness_hurt__heartbroken",
       "name": "Heartbroken",
-      "emotion_family": "sadness_hurt"
+      "emotion_family": "sadness_hurt",
+      "name_i18n": {
+        "en": "Heartbroken",
+        "zh": "心碎"
+      }
     },
     {
       "id": "fear_anxiety_panic__nervous_sweat_forced_smile",
       "name": "Nervous (sweat, forced smile)",
-      "emotion_family": "fear_anxiety_panic"
+      "emotion_family": "fear_anxiety_panic",
+      "name_i18n": {
+        "en": "Nervous (sweat, forced smile)",
+        "zh": "紧张（冒汗，强颜欢笑）"
+      }
     },
     {
       "id": "fear_anxiety_panic__worried_anxious",
       "name": "Worried / anxious",
-      "emotion_family": "fear_anxiety_panic"
+      "emotion_family": "fear_anxiety_panic",
+      "name_i18n": {
+        "en": "Worried / anxious",
+        "zh": "担忧/焦虑"
+      }
     },
     {
       "id": "fear_anxiety_panic__scared_trembling_eyes",
       "name": "Scared (trembling eyes)",
-      "emotion_family": "fear_anxiety_panic"
+      "emotion_family": "fear_anxiety_panic",
+      "name_i18n": {
+        "en": "Scared (trembling eyes)",
+        "zh": "害怕（颤抖的眼睛）"
+      }
     },
     {
       "id": "fear_anxiety_panic__terrified_small_pupils_open_mouth",
       "name": "Terrified (small pupils, open mouth)",
-      "emotion_family": "fear_anxiety_panic"
+      "emotion_family": "fear_anxiety_panic",
+      "name_i18n": {
+        "en": "Terrified (small pupils, open mouth)",
+        "zh": "恐惧（瞳孔缩小，张嘴）"
+      }
     },
     {
       "id": "fear_anxiety_panic__panic_tears_sweat",
       "name": "Panic (tears + sweat)",
-      "emotion_family": "fear_anxiety_panic"
+      "emotion_family": "fear_anxiety_panic",
+      "name_i18n": {
+        "en": "Panic (tears + sweat)",
+        "zh": "恐慌（泪水+汗水）"
+      }
     },
     {
       "id": "fear_anxiety_panic__dread_shadowed_eyes",
       "name": "\"Dread\" (shadowed eyes)",
-      "emotion_family": "fear_anxiety_panic"
+      "emotion_family": "fear_anxiety_panic",
+      "name_i18n": {
+        "en": "\"Dread\" (shadowed eyes)",
+        "zh": "恐惧（阴影眼）"
+      }
     },
     {
       "id": "disgust_contempt__disgusted_ew",
       "name": "Disgusted (ew)",
-      "emotion_family": "disgust_contempt"
+      "emotion_family": "disgust_contempt",
+      "name_i18n": {
+        "en": "Disgusted (ew)",
+        "zh": "厌恶"
+      }
     },
     {
       "id": "disgust_contempt__grossed_out_tongue_out",
       "name": "Grossed out (tongue out)",
-      "emotion_family": "disgust_contempt"
+      "emotion_family": "disgust_contempt",
+      "name_i18n": {
+        "en": "Grossed out (tongue out)",
+        "zh": "恶心（伸舌）"
+      }
     },
     {
       "id": "disgust_contempt__contempt_looking_down_on_someone",
       "name": "Contempt / looking down on someone",
-      "emotion_family": "disgust_contempt"
+      "emotion_family": "disgust_contempt",
+      "name_i18n": {
+        "en": "Contempt / looking down on someone",
+        "zh": "轻蔑/俯视"
+      }
     },
     {
       "id": "disgust_contempt__cringe_second-hand_embarrassment",
       "name": "Cringe / second-hand embarrassment",
-      "emotion_family": "disgust_contempt"
+      "emotion_family": "disgust_contempt",
+      "name_i18n": {
+        "en": "Cringe / second-hand embarrassment",
+        "zh": "尴尬/替人感到难为情"
+      }
     },
     {
       "id": "determination_resolve__determined_focused_eyes",
       "name": "Determined (focused eyes)",
-      "emotion_family": "determination_resolve"
+      "emotion_family": "determination_resolve",
+      "name_i18n": {
+        "en": "Determined (focused eyes)",
+        "zh": "坚定（专注的眼神）"
+      }
     },
     {
       "id": "determination_resolve__serious_ready",
       "name": "Serious / ready",
-      "emotion_family": "determination_resolve"
+      "emotion_family": "determination_resolve",
+      "name_i18n": {
+        "en": "Serious / ready",
+        "zh": "严肃/准备就绪"
+      }
     },
     {
       "id": "determination_resolve__stoic_cold",
       "name": "Stoic / cold",
-      "emotion_family": "determination_resolve"
+      "emotion_family": "determination_resolve",
+      "name_i18n": {
+        "en": "Stoic / cold",
+        "zh": "冷静/冷漠"
+      }
     },
     {
       "id": "determination_resolve__battle_face_grit_teeth",
       "name": "\"Battle face\" (grit teeth)",
-      "emotion_family": "determination_resolve"
+      "emotion_family": "determination_resolve",
+      "name_i18n": {
+        "en": "\"Battle face\" (grit teeth)",
+        "zh": "战斗表情（咬牙）"
+      }
     },
     {
       "id": "determination_resolve__confident_resolve",
       "name": "Confident resolve",
-      "emotion_family": "determination_resolve"
+      "emotion_family": "determination_resolve",
+      "name_i18n": {
+        "en": "Confident resolve",
+        "zh": "自信的决心"
+      }
     },
     {
       "id": "confusion_skepticism__confused_tilt_question_mark_vibe",
       "name": "Confused (tilt / question mark vibe)",
-      "emotion_family": "confusion_skepticism"
+      "emotion_family": "confusion_skepticism",
+      "name_i18n": {
+        "en": "Confused (tilt / question mark vibe)",
+        "zh": "困惑（歪头/问号脸）"
+      }
     },
     {
       "id": "confusion_skepticism__doubtful_skeptical",
       "name": "Doubtful / skeptical",
-      "emotion_family": "confusion_skepticism"
+      "emotion_family": "confusion_skepticism",
+      "name_i18n": {
+        "en": "Doubtful / skeptical",
+        "zh": "怀疑/质疑"
+      }
     },
     {
       "id": "confusion_skepticism__side-eye_suspicious",
       "name": "Side-eye / suspicious",
-      "emotion_family": "confusion_skepticism"
+      "emotion_family": "confusion_skepticism",
+      "name_i18n": {
+        "en": "Side-eye / suspicious",
+        "zh": "侧目/怀疑的眼神"
+      }
     },
     {
       "id": "confusion_skepticism__judging_stare",
       "name": "Judging stare",
-      "emotion_family": "confusion_skepticism"
+      "emotion_family": "confusion_skepticism",
+      "name_i18n": {
+        "en": "Judging stare",
+        "zh": "审视的目光"
+      }
     },
     {
       "id": "confusion_skepticism__huh_baffled",
       "name": "\"Huh?\" baffled",
-      "emotion_family": "confusion_skepticism"
+      "emotion_family": "confusion_skepticism",
+      "name_i18n": {
+        "en": "\"Huh?\" baffled",
+        "zh": "哈？/懵了"
+      }
     },
     {
       "id": "tired_sleepy_bored__sleepy_half-lidded",
       "name": "Sleepy (half-lidded)",
-      "emotion_family": "tired_sleepy_bored"
+      "emotion_family": "tired_sleepy_bored",
+      "name_i18n": {
+        "en": "Sleepy (half-lidded)",
+        "zh": "困倦（半睁眼）"
+      }
     },
     {
       "id": "tired_sleepy_bored__yawning",
       "name": "Yawning",
-      "emotion_family": "tired_sleepy_bored"
+      "emotion_family": "tired_sleepy_bored",
+      "name_i18n": {
+        "en": "Yawning",
+        "zh": "打哈欠"
+      }
     },
     {
       "id": "tired_sleepy_bored__exhausted_dead_eyes",
       "name": "Exhausted (dead eyes)",
-      "emotion_family": "tired_sleepy_bored"
+      "emotion_family": "tired_sleepy_bored",
+      "name_i18n": {
+        "en": "Exhausted (dead eyes)",
+        "zh": "筋疲力尽（死鱼眼）"
+      }
     },
     {
       "id": "tired_sleepy_bored__bored_uninterested",
       "name": "Bored / uninterested",
-      "emotion_family": "tired_sleepy_bored"
+      "emotion_family": "tired_sleepy_bored",
+      "name_i18n": {
+        "en": "Bored / uninterested",
+        "zh": "无聊/兴趣缺缺"
+      }
     },
     {
       "id": "tired_sleepy_bored__drowsy_smile",
       "name": "Drowsy smile",
-      "emotion_family": "tired_sleepy_bored"
+      "emotion_family": "tired_sleepy_bored",
+      "name_i18n": {
+        "en": "Drowsy smile",
+        "zh": "困倦微笑"
+      }
     },
     {
       "id": "pain_strain_sickness__pain_wince",
       "name": "Pain (wince)",
-      "emotion_family": "pain_strain_sickness"
+      "emotion_family": "pain_strain_sickness",
+      "name_i18n": {
+        "en": "Pain (wince)",
+        "zh": "痛苦（皱眉）"
+      }
     },
     {
       "id": "pain_strain_sickness__injured_tears_grit",
       "name": "Injured (tears + grit)",
-      "emotion_family": "pain_strain_sickness"
+      "emotion_family": "pain_strain_sickness",
+      "name_i18n": {
+        "en": "Injured (tears + grit)",
+        "zh": "受伤（含泪咬牙）"
+      }
     },
     {
       "id": "pain_strain_sickness__dizzy_swirly_eyes",
       "name": "Dizzy (swirly eyes)",
-      "emotion_family": "pain_strain_sickness"
+      "emotion_family": "pain_strain_sickness",
+      "name_i18n": {
+        "en": "Dizzy (swirly eyes)",
+        "zh": "头晕（螺旋眼）"
+      }
     },
     {
       "id": "pain_strain_sickness__nauseated_sick",
       "name": "Nauseated / sick",
-      "emotion_family": "pain_strain_sickness"
+      "emotion_family": "pain_strain_sickness",
+      "name_i18n": {
+        "en": "Nauseated / sick",
+        "zh": "恶心/不舒服"
+      }
     },
     {
       "id": "pain_strain_sickness__overheated_flustered_panting",
       "name": "Overheated / flustered (panting)",
-      "emotion_family": "pain_strain_sickness"
+      "emotion_family": "pain_strain_sickness",
+      "name_i18n": {
+        "en": "Overheated / flustered (panting)",
+        "zh": "过热/喘息"
+      }
     },
     {
       "id": "extreme_anime_stylized__chibi_happy_simple_dot_eyes",
       "name": "Chibi happy (simple dot eyes)",
-      "emotion_family": "extreme_anime_stylized"
+      "emotion_family": "extreme_anime_stylized",
+      "name_i18n": {
+        "en": "Chibi happy (simple dot eyes)",
+        "zh": "Q版开心（点点眼）"
+      }
     },
     {
       "id": "extreme_anime_stylized__chibi_rage",
       "name": "Chibi rage",
-      "emotion_family": "extreme_anime_stylized"
+      "emotion_family": "extreme_anime_stylized",
+      "name_i18n": {
+        "en": "Chibi rage",
+        "zh": "Q版暴怒"
+      }
     },
     {
       "id": "extreme_anime_stylized__chibi_panic",
       "name": "Chibi panic",
-      "emotion_family": "extreme_anime_stylized"
+      "emotion_family": "extreme_anime_stylized",
+      "name_i18n": {
+        "en": "Chibi panic",
+        "zh": "Q版慌张"
+      }
     },
     {
       "id": "extreme_anime_stylized__shadow_face_intimidation_despair",
       "name": "\"Shadow face\" intimidation / despair",
-      "emotion_family": "extreme_anime_stylized"
+      "emotion_family": "extreme_anime_stylized",
+      "name_i18n": {
+        "en": "\"Shadow face\" intimidation / despair",
+        "zh": "阴影脸/威压/绝望"
+      }
     },
     {
       "id": "extreme_anime_stylized__sparkle_eyes_admiration",
       "name": "\"Sparkle eyes\" admiration",
-      "emotion_family": "extreme_anime_stylized"
+      "emotion_family": "extreme_anime_stylized",
+      "name_i18n": {
+        "en": "\"Sparkle eyes\" admiration",
+        "zh": "星星眼/崇拜"
+      }
     },
     {
       "id": "extreme_anime_stylized__dead_eyes_no_shine",
       "name": "\"Dead eyes\" (no shine)",
-      "emotion_family": "extreme_anime_stylized"
+      "emotion_family": "extreme_anime_stylized",
+      "name_i18n": {
+        "en": "\"Dead eyes\" (no shine)",
+        "zh": "死鱼眼（无高光）"
+      }
     },
     {
       "id": "extreme_anime_stylized__crying_waterfall_comedic",
       "name": "\"Crying waterfall\" comedic",
-      "emotion_family": "extreme_anime_stylized"
+      "emotion_family": "extreme_anime_stylized",
+      "name_i18n": {
+        "en": "\"Crying waterfall\" comedic",
+        "zh": "瀑布泪（搞笑）"
+      }
     },
     {
       "id": "extreme_anime_stylized__sweat_drop_awkward",
       "name": "Sweat drop (awkward)",
-      "emotion_family": "extreme_anime_stylized"
+      "emotion_family": "extreme_anime_stylized",
+      "name_i18n": {
+        "en": "Sweat drop (awkward)",
+        "zh": "冒汗（尴尬）"
+      }
     },
     {
       "id": "extreme_anime_stylized__nosebleed_pervy_shock_trope",
       "name": "Nosebleed (pervy shock trope)",
-      "emotion_family": "extreme_anime_stylized"
+      "emotion_family": "extreme_anime_stylized",
+      "name_i18n": {
+        "en": "Nosebleed (pervy shock trope)",
+        "zh": "流鼻血（经典梗）"
+      }
     },
     {
       "id": "extreme_anime_stylized__cat_mouth_playful",
       "name": "\"Cat mouth\" playful",
-      "emotion_family": "extreme_anime_stylized"
+      "emotion_family": "extreme_anime_stylized",
+      "name_i18n": {
+        "en": "\"Cat mouth\" playful",
+        "zh": "猫嘴/俏皮"
+      }
     },
     {
       "id": "extreme_anime_stylized__3_smug-cat_face_style",
       "name": "\">:3\" smug-cat face style",
-      "emotion_family": "extreme_anime_stylized"
+      "emotion_family": "extreme_anime_stylized",
+      "name_i18n": {
+        "en": "\">:3\" smug-cat face style",
+        "zh": ">:3 得意猫脸"
+      }
     },
     {
       "id": "extreme_anime_stylized__moe_panic_tiny_mouth_big_eyes",
       "name": "\"Moe panic\" (tiny mouth, big eyes)",
-      "emotion_family": "extreme_anime_stylized"
+      "emotion_family": "extreme_anime_stylized",
+      "name_i18n": {
+        "en": "\"Moe panic\" (tiny mouth, big eyes)",
+        "zh": "萌系慌张（小嘴大眼）"
+      }
     }
   ],
   "index_by_emotion_family": {
@@ -655,5 +1023,9 @@
       "Each item is a single facial expression label intended for tagging and random sampling.",
       "Use index_by_emotion_family to sample IDs by emotion slot, then map ID -> item via items[]."
     ]
-  }
+  },
+  "supported_languages": [
+    "en",
+    "zh"
+  ]
 }

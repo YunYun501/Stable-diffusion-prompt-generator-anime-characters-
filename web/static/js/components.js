@@ -1,16 +1,60 @@
 /**
- * components.js — DOM builder functions for slot rows and sections.
+ * components.js - DOM builder functions for slot rows and sections.
  */
 
-import { state } from "./state.js";
+import { state, localizeFromI18nMap } from "./state.js";
+import { t } from "./i18n.js";
 
-const SLOT_LABEL_OVERRIDES = {
-  gesture: "hand actions",
-};
+const LOCKED_ICON = "\uD83D\uDD12";
+const UNLOCKED_ICON = "\uD83D\uDD13";
+
+function getSlotLabel(slotName) {
+  return t(`slot_label_${slotName}`);
+}
+
+function populateSlotDropdown(slotName, dropdown, selectedValueId) {
+  dropdown.innerHTML = "";
+
+  const noneOpt = document.createElement("option");
+  noneOpt.value = "";
+  noneOpt.textContent = t("slot_none");
+  dropdown.appendChild(noneOpt);
+
+  const slotDef = state.slotDefs[slotName];
+  for (const opt of (slotDef?.options || [])) {
+    const el = document.createElement("option");
+    el.value = opt.id;
+    // Use option's name_i18n directly instead of doing a lookup
+    el.textContent = localizeFromI18nMap(opt.name_i18n, state.uiLocale, opt.name || opt.id || "");
+    dropdown.appendChild(el);
+  }
+
+  dropdown.value = selectedValueId || "";
+}
+
+function populateColorDropdown(colorSelect, selectedColor) {
+  colorSelect.innerHTML = "";
+
+  const noColorOpt = document.createElement("option");
+  noColorOpt.value = "";
+  noColorOpt.textContent = t("slot_no_color");
+  colorSelect.appendChild(noColorOpt);
+
+  for (const colorToken of state.individualColors) {
+    const opt = document.createElement("option");
+    opt.value = colorToken;
+    // Use i18n map directly for better locale handling
+    const i18nMap = state.individualColorsI18n[colorToken];
+    opt.textContent = localizeFromI18nMap(i18nMap, state.uiLocale, colorToken);
+    colorSelect.appendChild(opt);
+  }
+
+  colorSelect.value = selectedColor || "";
+}
 
 /**
  * Create a single slot row element.
- * Returns { row, dropdown, colorSelect, weightInput, onoffBtn, lockBtn, randomBtn, colorRandomBtn }
+ * Returns row refs used by handlers.
  */
 export function createSlotRow(slotName, slotDef) {
   const slotState = state.slots[slotName] || { enabled: true, locked: false };
@@ -18,122 +62,101 @@ export function createSlotRow(slotName, slotDef) {
   row.className = "slot-row " + (slotState.enabled ? "enabled" : "disabled") + (slotState.locked ? " locked" : "");
   row.dataset.slot = slotName;
 
-  // On/Off button
   const onoffBtn = document.createElement("button");
   onoffBtn.className = "btn-onoff " + (slotState.enabled ? "on" : "off");
-  onoffBtn.textContent = slotState.enabled ? "On" : "Off";
-  onoffBtn.title = "Toggle slot on/off";
+  onoffBtn.textContent = slotState.enabled ? t("slot_on") : t("slot_off");
+  onoffBtn.title = t("slot_toggle_title");
 
-  // Lock button
   const lockBtn = document.createElement("button");
-  lockBtn.className = "btn-lock";
-  lockBtn.textContent = "\uD83D\uDD13";
-  lockBtn.title = "Lock (skip during randomize)";
+  lockBtn.className = "btn-lock" + (slotState.locked ? " locked" : "");
+  lockBtn.textContent = slotState.locked ? LOCKED_ICON : UNLOCKED_ICON;
+  lockBtn.title = t("slot_lock_title");
 
-  // Label
   const label = document.createElement("span");
   label.className = "slot-label";
-  label.textContent = SLOT_LABEL_OVERRIDES[slotName] || slotName.replace(/_/g, " ");
+  label.textContent = getSlotLabel(slotName);
 
-  // Dropdown
   const dropdown = document.createElement("select");
   dropdown.className = "slot-dropdown";
-  const noneOpt = document.createElement("option");
-  noneOpt.value = "";
-  noneOpt.textContent = "(None)";
-  dropdown.appendChild(noneOpt);
-  for (const optName of (slotDef.options || [])) {
-    const opt = document.createElement("option");
-    opt.value = optName;
-    opt.textContent = optName;
-    dropdown.appendChild(opt);
-  }
+  populateSlotDropdown(slotName, dropdown, slotState.value_id);
 
-  // Random button
   const randomBtn = document.createElement("button");
   randomBtn.className = "btn-slot-random";
   randomBtn.textContent = "\uD83C\uDFB2";
-  randomBtn.title = "Randomize this slot";
+  randomBtn.title = t("slot_randomize_title");
 
-  // Color dropdown (hidden if no color support)
   const colorSelect = document.createElement("select");
   colorSelect.className = "slot-color" + (slotDef.has_color ? "" : " hidden");
-  const noColorOpt = document.createElement("option");
-  noColorOpt.value = "";
-  noColorOpt.textContent = "(No Color)";
-  colorSelect.appendChild(noColorOpt);
-  for (const c of state.individualColors) {
-    const opt = document.createElement("option");
-    opt.value = c;
-    opt.textContent = c;
-    colorSelect.appendChild(opt);
-  }
+  populateColorDropdown(colorSelect, slotState.color);
 
-  // Color random button
   const colorRandomBtn = document.createElement("button");
   colorRandomBtn.className = "btn-color-random" + (slotDef.has_color ? "" : " hidden");
   colorRandomBtn.textContent = "\uD83C\uDFA8";
-  colorRandomBtn.title = "Randomize color";
+  colorRandomBtn.title = t("slot_color_random_title");
 
-  // Weight input
   const weightInput = document.createElement("input");
   weightInput.type = "number";
   weightInput.className = "slot-weight";
-  weightInput.value = "1.0";
+  weightInput.value = String(slotState.weight ?? 1.0);
   weightInput.min = "0.1";
   weightInput.max = "2.0";
   weightInput.step = "0.1";
-  weightInput.title = "Prompt weight";
+  weightInput.title = t("slot_weight_title");
 
-  // Assemble
   row.append(onoffBtn, lockBtn, label, dropdown, randomBtn, colorSelect, colorRandomBtn, weightInput);
 
-  return { row, dropdown, colorSelect, weightInput, onoffBtn, lockBtn, randomBtn, colorRandomBtn };
+  return {
+    row,
+    label,
+    dropdown,
+    colorSelect,
+    weightInput,
+    onoffBtn,
+    lockBtn,
+    randomBtn,
+    colorRandomBtn,
+  };
 }
-
 
 /**
  * Create a section panel with header, section buttons, and slot rows.
- * Returns { element, slotComponents: {[slotName]: componentRefs} }
+ * Returns section refs used by handlers.
  */
 export function createSection(sectionKey, sectionDef) {
   const section = document.createElement("div");
   section.className = "section";
   section.dataset.section = sectionKey;
 
-  // Header
   const header = document.createElement("div");
   header.className = "section-header";
 
   const title = document.createElement("span");
   title.className = "section-title";
-  title.textContent = `${sectionDef.icon} ${sectionDef.label}`;
+  title.textContent = `${sectionDef.icon} ${t(sectionDef.label_key || `section_${sectionKey}`)}`;
 
   const buttons = document.createElement("div");
   buttons.className = "section-buttons";
 
   const randomBtn = document.createElement("button");
   randomBtn.className = "btn btn-sm section-random";
-  randomBtn.textContent = "Random";
+  randomBtn.textContent = t("section_random");
 
   const allOnBtn = document.createElement("button");
   allOnBtn.className = "btn btn-sm section-all-on";
-  allOnBtn.textContent = "All On";
+  allOnBtn.textContent = t("section_all_on");
 
   const allOffBtn = document.createElement("button");
   allOffBtn.className = "btn btn-sm section-all-off";
-  allOffBtn.textContent = "All Off";
+  allOffBtn.textContent = t("section_all_off");
 
   buttons.append(randomBtn, allOnBtn, allOffBtn);
   header.append(title, buttons);
   section.appendChild(header);
 
-  // Slot rows
   const slotComponents = {};
   const slotNames = sectionDef.slots || [];
 
   if (sectionDef.columns) {
-    // Multi-column layout (clothing)
     const columnsDiv = document.createElement("div");
     columnsDiv.className = "section-columns";
     for (const colSlots of sectionDef.columns) {
@@ -150,7 +173,6 @@ export function createSection(sectionKey, sectionDef) {
     }
     section.appendChild(columnsDiv);
   } else {
-    // Single column
     const slotsDiv = document.createElement("div");
     slotsDiv.style.display = "flex";
     slotsDiv.style.flexDirection = "column";

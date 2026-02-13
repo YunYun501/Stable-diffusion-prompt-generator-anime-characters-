@@ -282,6 +282,7 @@ function closeAllCustomDropdowns() {
 
 /** Update group toggle UI state for all groups in a panel. */
 function updateGroupToggleUI(panel, disabledGroups, soloGroup) {
+  if (!panel) return;
   for (const section of panel.querySelectorAll(".dropdown-group")) {
     const gKey = section.dataset.groupKey;
     const toggle = section.querySelector(".btn-group-toggle");
@@ -584,6 +585,8 @@ export function wireSaveLoadEvents() {
       state.slots[slotName].color = saved.color || null;
       state.slots[slotName].weight = saved.weight ?? 1.0;
       state.slots[slotName].disabledGroups = saved.disabledGroups || [];
+      state.slots[slotName].soloGroup = null;  // Reset solo state on load
+      state.slots[slotName].preSoloDisabledGroups = null;
 
       const c = allSlotComponents[slotName];
       if (!c) continue;

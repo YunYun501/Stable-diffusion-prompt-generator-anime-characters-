@@ -11,7 +11,11 @@
       "Bash(xcopy:*)",
       "Bash(powershell -Command:*)",
       "Bash(node --check:*)",
-      "Bash(node -e:*)"
+      "Bash(node -e:*)",
+      "Bash(dir:*)"
+    ],
+    "additionalDirectories": [
+      "C:\\Local\\Comfy UI\\custom_nodes\\auto_prompt"
     ]
   }
 }

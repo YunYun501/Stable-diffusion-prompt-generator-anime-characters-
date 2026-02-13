@@ -1,11 +1,11 @@
 {
-  "name": "Default_Saber",
-  "created_at": "2026-02-13T02:00:12.107380",
+  "name": "Saber_hanfu",
+  "created_at": "2026-02-13T02:43:39.178402",
   "slots": {
     "hair_style": {
       "enabled": true,
       "locked": false,
-      "value_id": "pixie_cut",
+      "value_id": "single_braid",
       "color": null,
       "weight": 1,
       "disabledGroups": []
@@ -29,7 +29,7 @@
     "hair_texture": {
       "enabled": true,
       "locked": false,
-      "value_id": "spiky_hair",
+      "value_id": "damp_hair",
       "color": null,
       "weight": 1,
       "disabledGroups": []
@@ -45,7 +45,7 @@
     "eye_expression_quality": {
       "enabled": true,
       "locked": false,
-      "value_id": "soft_eyes",
+      "value_id": "detailed_eyes",
       "color": null,
       "weight": 1,
       "disabledGroups": []
@@ -53,7 +53,7 @@
     "eye_shape": {
       "enabled": true,
       "locked": false,
-      "value_id": "small_eyes",
+      "value_id": "big_eyes",
       "color": null,
       "weight": 1,
       "disabledGroups": []
@@ -61,7 +61,7 @@
     "eye_pupil_state": {
       "enabled": true,
       "locked": false,
-      "value_id": "star_shaped_pupils",
+      "value_id": "heart_shaped_pupils",
       "color": null,
       "weight": 1,
       "disabledGroups": []
@@ -69,7 +69,7 @@
     "eye_state": {
       "enabled": true,
       "locked": false,
-      "value_id": "one_eye_closed",
+      "value_id": "crying_eyes",
       "color": null,
       "weight": 1,
       "disabledGroups": []
@@ -101,7 +101,7 @@
     "skin": {
       "enabled": false,
       "locked": false,
-      "value_id": "mole_under_eye",
+      "value_id": "beauty_mark",
       "color": null,
       "weight": 1,
       "disabledGroups": []
@@ -117,7 +117,7 @@
     "special_features": {
       "enabled": false,
       "locked": false,
-      "value_id": "horns",
+      "value_id": "feathered_wings",
       "color": null,
       "weight": 1,
       "disabledGroups": []
@@ -125,7 +125,7 @@
     "expression": {
       "enabled": true,
       "locked": false,
-      "value_id": "extreme_anime_stylized__chibi_rage",
+      "value_id": "playful_teasing_smug__smirk",
       "color": null,
       "weight": 1,
       "disabledGroups": []
@@ -133,47 +133,47 @@
     "head": {
       "enabled": true,
       "locked": false,
-      "value_id": "flower_crown",
-      "color": "hot pink",
+      "value_id": "veil",
+      "color": "pink",
       "weight": 1,
       "disabledGroups": []
     },
     "neck": {
       "enabled": true,
       "locked": false,
-      "value_id": "tomoeri_extra_collar",
-      "color": "white",
+      "value_id": "bow_tie",
+      "color": "purple",
       "weight": 1,
       "disabledGroups": []
     },
     "upper_body": {
       "enabled": true,
       "locked": false,
-      "value_id": "vests",
-      "color": "white",
+      "value_id": "waitress_top",
+      "color": "pink",
       "weight": 1,
       "disabledGroups": []
     },
     "waist": {
       "enabled": false,
       "locked": false,
-      "value_id": "chain_belt",
-      "color": "white",
+      "value_id": "obiage",
+      "color": "magenta",
       "weight": 1,
       "disabledGroups": []
     },
     "lower_body": {
       "enabled": false,
       "locked": false,
-      "value_id": "police_skirt",
-      "color": "hot pink",
+      "value_id": "bikini_bottoms",
+      "color": "light pink",
       "weight": 1,
       "disabledGroups": []
     },
     "full_body": {
       "enabled": false,
       "locked": false,
-      "value_id": "jumpsuit",
+      "value_id": "one_piece_swimsuit",
       "color": "white",
       "weight": 1,
       "disabledGroups": []
@@ -181,47 +181,47 @@
     "outerwear": {
       "enabled": true,
       "locked": false,
-      "value_id": "business_suit_jacket",
-      "color": "magenta",
+      "value_id": "stole",
+      "color": "light grey",
       "weight": 1,
       "disabledGroups": []
     },
     "hands": {
       "enabled": false,
       "locked": false,
-      "value_id": "kote_samurai_arm_guards",
-      "color": "hot pink",
+      "value_id": "paw_gloves",
+      "color": "pink",
       "weight": 1,
       "disabledGroups": []
     },
     "legs": {
       "enabled": false,
       "locked": false,
-      "value_id": "over_knee_socks",
-      "color": "hot pink",
+      "value_id": "garter_stockings",
+      "color": "magenta",
       "weight": 1,
       "disabledGroups": []
     },
     "feet": {
       "enabled": false,
       "locked": false,
-      "value_id": "wedge_heels",
-      "color": "light pink",
+      "value_id": "ankle_boots",
+      "color": "magenta",
       "weight": 1,
       "disabledGroups": []
     },
     "accessory": {
       "enabled": true,
       "locked": false,
-      "value_id": "wristwatch",
-      "color": "pink",
+      "value_id": "sword_sheath",
+      "color": "light purple",
       "weight": 1,
       "disabledGroups": []
     },
     "pose": {
       "enabled": true,
       "locked": false,
-      "value_id": "sitting_on_bench",
+      "value_id": "shy_pose",
       "color": null,
       "weight": 1,
       "disabledGroups": []
@@ -229,7 +229,7 @@
     "gesture": {
       "enabled": false,
       "locked": false,
-      "value_id": "salute",
+      "value_id": "writing",
       "color": null,
       "weight": 1,
       "disabledGroups": []
@@ -237,15 +237,15 @@
     "view_angle": {
       "enabled": true,
       "locked": false,
-      "value_id": "side_view",
+      "value_id": "dutch_angle",
       "color": null,
       "weight": 1,
       "disabledGroups": []
     },
     "background": {
-      "enabled": true,
+      "enabled": false,
       "locked": false,
-      "value_id": "throne_room",
+      "value_id": "bathroom",
       "color": null,
       "weight": 1,
       "disabledGroups": []

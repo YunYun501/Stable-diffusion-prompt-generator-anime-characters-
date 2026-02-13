@@ -12,7 +12,17 @@
       "Bash(powershell -Command:*)",
       "Bash(node --check:*)",
       "Bash(node -e:*)",
-      "Bash(dir:*)"
+      "Bash(dir:*)",
+      "WebFetch(domain:github.com)",
+      "Bash(\"C:\\\\Users\\\\felix\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python311\\\\python.exe\" tools/scrape_civitai.py:*)",
+      "Bash(git restore:*)",
+      "Bash(\"C:\\\\Users\\\\felix\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python311\\\\python.exe\" \"C:\\\\Local\\\\Github\\\\Random-character-prompt-for-SD-\\\\tools\\\\tag_frequency.py\")",
+      "Bash(\"C:\\\\Users\\\\felix\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python311\\\\python.exe\" \"C:\\\\Local\\\\Github\\\\Random-character-prompt-for-SD-\\\\tools\\\\word_frequency.py\")",
+      "Bash(curl -sL \"https://raw.githubusercontent.com/mirabarukaso/character_select_stand_alone_app/refs/heads/main/data/danbooru_zh_cn.csv\" -o \"C:\\\\Local\\\\Github\\\\Random-character-prompt-for-SD-\\\\All tags\\\\Original_all_tags.csv\")",
+      "Bash(\"C:\\\\Users\\\\felix\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python311\\\\python.exe\" \"C:\\\\Local\\\\Github\\\\Random-character-prompt-for-SD-\\\\tools\\\\word_frequency.py\" --help)",
+      "Bash(git rm:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
     ],
     "additionalDirectories": [
       "C:\\Local\\Comfy UI\\custom_nodes\\auto_prompt"
